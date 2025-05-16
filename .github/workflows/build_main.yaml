@@ -19,6 +19,7 @@ jobs:
       contents: write
       pages: write
       pull-requests: write
+      packages: read
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
     container: ghcr.io/eodash/eodash_catalog:0.1.11
