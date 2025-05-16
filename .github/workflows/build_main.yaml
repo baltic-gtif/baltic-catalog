@@ -22,8 +22,6 @@ jobs:
       packages: read
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
-    container:
-      image: ghcr.io/eodash/eodash_catalog:0.1.11
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -32,7 +30,9 @@ jobs:
           SH_INSTANCE_ID: ${{ secrets.SH_INSTANCE_ID }}
           SH_CLIENT_ID: ${{ secrets.SH_CLIENT_ID }}
           SH_CLIENT_SECRET: ${{ secrets.SH_CLIENT_SECRET }}
-        run: eodash_catalog
+        run: |
+          docker pull ghcr.io/eodash/eodash_catalog:latest
+          docker run --rm -v "$PWD:/opt/eodash_catalog" ghcr.io/eodash/eodash_catalog:latest eodash_catalog
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
         with:
