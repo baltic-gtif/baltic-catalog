@@ -22,7 +22,11 @@ jobs:
       packages: read
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
-    container: ghcr.io/eodash/eodash_catalog:0.1.11
+    container:
+      image: ghcr.io/eodash/eodash_catalog:0.1.11
+      credentials:
+        username: ${{ github.actor }}
+        password: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
