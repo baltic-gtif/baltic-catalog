@@ -21,6 +21,8 @@ jobs:
       contents: write
       pages: write
       pull-requests: write
+    container:
+      image: eodash/eodash_catalog:0.1.11
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -35,12 +37,10 @@ jobs:
         # with:
         #   since_last_remote_commit: true 
       - name: List all changed files
-        uses: eodash/eodash_catalog:0.1.11
         env:
           ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
         run: python .github/update_catalog_last_changes_pr.py
       - name: Build
-        uses: eodash/eodash_catalog:0.1.11
         env:
           SH_INSTANCE_ID: ${{ secrets.SH_INSTANCE_ID }}
           SH_CLIENT_ID: ${{ secrets.SH_CLIENT_ID }}
