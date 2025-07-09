@@ -2,5 +2,26 @@
   "Name": "box_test",
   "Title": "box_test",
   "Description": "",
-  "Resources": []
+  "Resources": [
+    {
+      "Name": "GeoJSON source",
+      "Style": "",
+      "Bbox": [],
+      "TimeEntries": [
+        {
+          "Time": "2025",
+          "Assets": [
+            {
+              "Identifier": "",
+              "File": "/assets/box.geojson"
+            }
+          ]
+        }
+      ],
+      "Attribution": ""
+    }
+  ],
+  "DataSource": {},
+  "CollectionGroup": "",
+  "EodashIdentifier": ""
 }
