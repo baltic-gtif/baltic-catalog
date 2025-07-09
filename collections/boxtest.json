@@ -18,7 +18,7 @@
           "Assets": [
             {
               "Identifier": "",
-              "File": "https://raw.githubusercontent.com/wankoelias/baltic-catalog/refs/heads/wankoelias/test/assets/box.geojson"
+              "File": "https://raw.githubusercontent.com/osmlab/changewithin/96a0d560ba757d2a8f34faa7d1e0b374928ca989/dc.geojson"
             }
           ]
         }
