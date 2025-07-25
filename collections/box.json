@@ -2,5 +2,27 @@
   "Name": "box",
   "Title": "box",
   "Description": "",
-  "Resources": []
+  "Resources": [
+    {
+      "Name": "GeoJSON source",
+      "Style": "",
+      "Bbox": [
+        3.058252427184442,
+        34.03399124886224,
+        32.33009708737859,
+        60.24758348187194
+      ],
+      "TimeEntries": [
+        {
+          "Time": "2025",
+          "Assets": [
+            {
+              "Identifier": "box1",
+              "File": "https://obs.eu-nl.otc.t-systems.com/baltic-gtif/box.geojson?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=UILHYPJOOCRS4UQ4A2HF%2F20250725%2Feu-nl%2Fs3%2Faws4_request&X-Amz-Date=20250725T081303Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=686d43cda83ba48e5fa005fe706f3180279cdb9826eb1d5a5c86ce05ca68f2d7"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
