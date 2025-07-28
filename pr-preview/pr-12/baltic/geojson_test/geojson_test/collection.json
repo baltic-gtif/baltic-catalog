@@ -21,7 +21,7 @@
     },
     {
       "rel": "style",
-      "href": "https://raw.githubusercontent.com/baltic-gtif/baltic-catalog/refs/heads/main//raw.githubusercontent.com/eurodatacube/eodash-assets/089822e83912ea644cf99a80d7760f783ae8804e/collections/GFC_Garissa_FloodExtent/style.json",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/089822e83912ea644cf99a80d7760f783ae8804e/collections/GFC_Garissa_FloodExtent/style.json",
       "type": "text/vector-styles",
       "asset:keys": [
         "test"
