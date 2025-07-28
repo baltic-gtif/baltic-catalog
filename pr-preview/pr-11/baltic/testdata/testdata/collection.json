@@ -1,0 +1,60 @@
+{
+  "type": "Collection",
+  "id": "testdata",
+  "stac_version": "1.1.0",
+  "description": "description",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Baltic GTIF Catalog"
+    },
+    {
+      "rel": "item",
+      "href": "./testdata/2025/2025-01-01T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-01-01T00:00:00Z",
+      "assets": [
+        "https://gist.githubusercontent.com/wavded/1200773/raw/e122cf709898c09758aecfef349964a8d73a83f3/sample.json"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/089822e83912ea644cf99a80d7760f783ae8804e/collections/GFC_Garissa_FloodExtent/style.json",
+      "type": "text/vector-styles",
+      "asset:keys": [
+        "2025"
+      ]
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "testdata"
+    }
+  ],
+  "endpointtype": "GeoJSON source",
+  "title": "testdata",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          77.06505295007568,
+          -32.151281498203474,
+          153.85779122541607,
+          19.043877352023436
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-01-01T00:00:00Z",
+          "2025-01-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}
