@@ -5,7 +5,7 @@
   "Resources": [
     {
       "Name": "GeoJSON source",
-      "Style": "raw.githubusercontent.com/eurodatacube/eodash-assets/089822e83912ea644cf99a80d7760f783ae8804e/collections/GFC_Garissa_FloodExtent/style.json",
+      "Style": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/089822e83912ea644cf99a80d7760f783ae8804e/collections/GFC_Garissa_FloodExtent/style.json",
       "Bbox": [
         -256.45631067961153,
         -56.752437850804,
