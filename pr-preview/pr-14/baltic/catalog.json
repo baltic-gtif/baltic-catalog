@@ -12,11 +12,11 @@
     },
     {
       "rel": "child",
-      "href": "./crops_lodging_parcels/collection.json",
+      "href": "./Crops Lodging - parcels/collection.json",
       "type": "application/json",
       "title": "Crops Lodging - parcels",
       "code": "ld_lt_07_wms",
-      "id": "crops_lodging_parcels",
+      "id": "Crops Lodging - parcels",
       "themes": [
         "Crops Lodging"
       ],

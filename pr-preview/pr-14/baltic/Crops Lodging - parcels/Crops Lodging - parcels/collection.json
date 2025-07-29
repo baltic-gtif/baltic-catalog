@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "crops_lodging_parcels",
+  "id": "Crops Lodging - parcels",
   "stac_version": "1.1.0",
   "description": "",
   "links": [
@@ -11,21 +11,31 @@
       "title": "Baltic GTIF Catalog"
     },
     {
+      "rel": "item",
+      "href": "./Crops Lodging - parcels/2024/2024-06-25T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2024-06-25T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./Crops Lodging - parcels/2024/2024-07-15T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2024-07-15T00:00:00Z"
+    },
+    {
       "rel": "wms",
       "href": "https://server1.landimage.info/geoserver/wms",
-      "type": "image/jpeg",
-      "title": "crops_lodging_parcels",
+      "type": "image/png",
+      "title": "Crops Lodging - parcels",
       "wms:layers": [
         "GTIFBaltic:LIT_2024_crops_lodging_07"
       ],
       "role": [
         "data"
-      ]
-    },
-    {
-      "rel": "item",
-      "href": "./crops_lodging_parcels/1970/5f3113a4-31ad-4fc5-9e04-de8cd74b3f41.json",
-      "type": "application/geo+json"
+      ],
+      "wms:tilesize": 256,
+      "wms:version": "1.1.1",
+      "proj:epsg": 3857
     },
     {
       "rel": "parent",
@@ -38,24 +48,25 @@
     "Crops Lodging"
   ],
   "subcode": "ld_lt_07_wms",
-  "endpointtype": "WMS",
+  "proj:epsg": 3857,
+  "endpointtype": "WMS_OverwriteTimes",
   "title": "Crops Lodging - parcels",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -180.0,
-          -90.0,
-          180.0,
-          90.0
+          22.64524,
+          54.94676,
+          23.02416,
+          55.30585
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "1970-01-01T00:00:00Z",
-          "2025-07-29T12:18:00.054265Z"
+          "2024-06-25T00:00:00Z",
+          "2024-07-15T00:00:00Z"
         ]
       ]
     }

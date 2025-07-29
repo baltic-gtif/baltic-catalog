@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "crops_lodging_parcels",
+  "id": "Crops Lodging - parcels",
   "stac_version": "1.1.0",
   "description": "",
   "links": [
@@ -12,12 +12,12 @@
     },
     {
       "rel": "child",
-      "href": "./crops_lodging_parcels/collection.json",
+      "href": "./Crops Lodging - parcels/collection.json",
       "type": "application/json",
       "title": "Crops Lodging - parcels",
-      "endpointtype": "WMS",
+      "endpointtype": "WMS_OverwriteTimes",
       "code": "ld_lt_07_wms",
-      "id": "crops_lodging_parcels",
+      "id": "Crops Lodging - parcels",
       "themes": [
         "Crops Lodging"
       ],
@@ -26,7 +26,7 @@
     {
       "rel": "service",
       "href": "https://corsproxy.io/?url=https://server1.landimage.info/geoserver/wms?version=1.1.0&SERVICE=WFS&request=GetFeature&typeName=GTIFBaltic:LIT_2024_crops_lodging_07&srsName=EPSG:3857&outputFormat=application/json&bbox={{point.0}},{{point.1}},{{point.0}},{{point.1}},EPSG:3857",
-      "type": "application/geo+json",
+      "type": "application/json",
       "id": "",
       "method": "GET"
     },
@@ -69,18 +69,18 @@
     "spatial": {
       "bbox": [
         [
-          -180.0,
-          -90.0,
-          180.0,
-          90.0
+          22.64524,
+          54.94676,
+          23.02416,
+          55.30585
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "1970-01-01T00:00:00Z",
-          "2025-07-29T12:18:00.054265Z"
+          "2024-06-25T00:00:00Z",
+          "2024-07-15T00:00:00Z"
         ]
       ]
     }
