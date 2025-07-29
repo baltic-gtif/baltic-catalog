@@ -1,0 +1,64 @@
+{
+  "type": "Collection",
+  "id": "crops_lodging_parcels",
+  "stac_version": "1.1.0",
+  "description": "",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Baltic GTIF Catalog"
+    },
+    {
+      "rel": "wms",
+      "href": "https://services.sentinel-hub.com/ogc/wms/",
+      "type": "image/png",
+      "title": "crops_lodging_parcels",
+      "wms:layers": [
+        "GTIFBaltic:LIT_2024_crops_lodging_07"
+      ],
+      "role": [
+        "data"
+      ]
+    },
+    {
+      "rel": "item",
+      "href": "./crops_lodging_parcels/1970/de9680e6-883e-434f-9934-e51b93d7faa7.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Crops Lodging - parcels"
+    }
+  ],
+  "themes": [
+    "Crops Lodging"
+  ],
+  "subcode": "ld_lt_07_wms",
+  "endpointtype": "Sentinel Hub WMS",
+  "title": "Crops Lodging - parcels",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "1970-01-01T00:00:00Z",
+          "2025-07-29T11:37:06.801360Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

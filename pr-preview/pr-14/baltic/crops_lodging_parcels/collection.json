@@ -1,0 +1,97 @@
+{
+  "type": "Collection",
+  "id": "crops_lodging_parcels",
+  "stac_version": "1.1.0",
+  "description": "",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Baltic GTIF Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./crops_lodging_parcels/collection.json",
+      "type": "application/json",
+      "title": "Crops Lodging - parcels",
+      "endpointtype": "Sentinel Hub WMS",
+      "code": "ld_lt_07_wms",
+      "id": "crops_lodging_parcels",
+      "themes": [
+        "Crops Lodging"
+      ],
+      "subcode": "ld_lt_07_wms"
+    },
+    {
+      "rel": "service",
+      "href": "https://corsproxy.io/?url=https://server1.landimage.info/geoserver/wms?version=1.1.0&SERVICE=WFS&request=GetFeature&typeName=GTIFBaltic:LIT_2024_crops_lodging_07&srsName=EPSG:3857&outputFormat=application/json&bbox={{point.0}},{{point.1}},{{point.0}},{{point.1}},EPSG:3857",
+      "type": "application/geo+json",
+      "id": "",
+      "method": "GET"
+    },
+    {
+      "rel": "xyz",
+      "href": "//tiles.maps.eox.at/wmts/1.0.0/s2cloudless-2023_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "EOxCloudless 2023",
+      "roles": [
+        "baselayer"
+      ],
+      "id": "cloudless-2023"
+    },
+    {
+      "rel": "xyz",
+      "href": "//tiles.maps.eox.at/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "image/png",
+      "title": "Overlay labels",
+      "roles": [
+        "overlay",
+        "visible"
+      ],
+      "id": "overlay_bright"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Baltic GTIF Catalog"
+    }
+  ],
+  "themes": [
+    "Crops Lodging"
+  ],
+  "subcode": "ld_lt_07_wms",
+  "eodash:jsonform": "https://raw.githubusercontent.com/baltic-gtif/baltic-catalog/refs/heads/main/assets/inputform_lodging.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/baltic-gtif/baltic-catalog/refs/heads/main/assets/vegachart_lodging.json",
+  "title": "Crops Lodging - parcels",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "1970-01-01T00:00:00Z",
+          "2025-07-29T11:37:06.801360Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "summaries": {
+    "subcode": [
+      "ld_lt_07_wms"
+    ],
+    "themes": [
+      "Crops Lodging"
+    ]
+  }
+}
