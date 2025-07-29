@@ -24,7 +24,7 @@
     },
     {
       "rel": "item",
-      "href": "./crops_lodging_parcels/1970/442b5763-0121-4f9d-8595-589fba924c86.json",
+      "href": "./crops_lodging_parcels/1970/d2bf6135-a02b-4450-89ae-38b8e35e105c.json",
       "type": "application/geo+json"
     },
     {
@@ -55,7 +55,7 @@
       "interval": [
         [
           "1970-01-01T00:00:00Z",
-          "2025-07-29T12:07:09.164082Z"
+          "2025-07-29T12:16:29.361787Z"
         ]
       ]
     }
