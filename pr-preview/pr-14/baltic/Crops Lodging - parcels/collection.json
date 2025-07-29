@@ -62,8 +62,8 @@
     "Crops Lodging"
   ],
   "subcode": "ld_lt_07_wms",
-  "eodash:jsonform": "https://raw.githubusercontent.com/baltic-gtif/baltic-catalog/refs/heads/main/assets/inputform_lodging.json",
-  "eodash:vegadefinition": "https://raw.githubusercontent.com/baltic-gtif/baltic-catalog/refs/heads/main/assets/vegachart_lodging.json",
+  "eodash:jsonform": "https://raw.githubusercontent.com/wankoelias/baltic-catalog/refs/heads/wankoelias/test-getfeatureinfo-process/assets/inputform_lodging.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/wankoelias/baltic-catalog/refs/heads/wankoelias/test-getfeatureinfo-process/assets/vegachart_lodging.json",
   "title": "Crops Lodging - parcels",
   "extent": {
     "spatial": {
