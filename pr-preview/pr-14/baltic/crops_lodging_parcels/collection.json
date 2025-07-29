@@ -15,7 +15,7 @@
       "href": "./crops_lodging_parcels/collection.json",
       "type": "application/json",
       "title": "Crops Lodging - parcels",
-      "endpointtype": "Sentinel Hub WMS",
+      "endpointtype": "WMS",
       "code": "ld_lt_07_wms",
       "id": "crops_lodging_parcels",
       "themes": [
@@ -80,7 +80,7 @@
       "interval": [
         [
           "1970-01-01T00:00:00Z",
-          "2025-07-29T11:48:36.558160Z"
+          "2025-07-29T11:49:29.702292Z"
         ]
       ]
     }

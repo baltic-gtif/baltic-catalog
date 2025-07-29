@@ -12,8 +12,8 @@
     },
     {
       "rel": "wms",
-      "href": "https://services.sentinel-hub.com/ogc/wms/",
-      "type": "image/png",
+      "href": "https://server1.landimage.info/geoserver/wms",
+      "type": "image/jpeg",
       "title": "crops_lodging_parcels",
       "wms:layers": [
         "GTIFBaltic:LIT_2024_crops_lodging_07"
@@ -24,7 +24,7 @@
     },
     {
       "rel": "item",
-      "href": "./crops_lodging_parcels/1970/8ad4ccf7-da98-493f-8887-37313ca4f132.json",
+      "href": "./crops_lodging_parcels/1970/3c57d9f9-8178-49bc-a0e6-09516e910887.json",
       "type": "application/geo+json"
     },
     {
@@ -38,7 +38,7 @@
     "Crops Lodging"
   ],
   "subcode": "ld_lt_07_wms",
-  "endpointtype": "Sentinel Hub WMS",
+  "endpointtype": "WMS",
   "title": "Crops Lodging - parcels",
   "extent": {
     "spatial": {
@@ -55,7 +55,7 @@
       "interval": [
         [
           "1970-01-01T00:00:00Z",
-          "2025-07-29T11:48:36.558160Z"
+          "2025-07-29T11:49:29.702292Z"
         ]
       ]
     }
