@@ -77,7 +77,6 @@
       "title": "Baltic GTIF Catalog"
     }
   ],
-  "thumbnail": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/sm_at.png",
   "subcode": "sm_at_09_high_medium_low",
   "eodash:mapProjection": {
     "name": "EPSG:3035",
@@ -114,14 +113,5 @@
     "themes": [
       "Flooding"
     ]
-  },
-  "assets": {
-    "thumbnail": {
-      "href": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/sm_at.png",
-      "type": "image/png",
-      "roles": [
-        "thumbnail"
-      ]
-    }
   }
 }
