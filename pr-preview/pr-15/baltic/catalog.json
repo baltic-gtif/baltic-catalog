@@ -12,6 +12,18 @@
     },
     {
       "rel": "child",
+      "href": "./Soil Moisture high - parcels/collection.json",
+      "type": "application/json",
+      "title": "Soil Moisture high - parcels",
+      "code": "sm_at_09_parcels_wms_high",
+      "id": "Soil Moisture high - parcels",
+      "themes": [
+        "Flooding"
+      ],
+      "subcode": "sm_at_09_parcels_wms_high"
+    },
+    {
+      "rel": "child",
       "href": "./Soil Moisture 09 Austria/collection.json",
       "type": "application/json",
       "title": "Soil Moisture 09 Austria",
@@ -20,9 +32,6 @@
       "subcode": "sm_at_09_high_medium_low",
       "themes": [
         "Flooding"
-      ],
-      "thumbnail": [
-        "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//assets/sm_at.png"
       ],
       "eodash:mapProjection": {
         "name": "EPSG:3035",
