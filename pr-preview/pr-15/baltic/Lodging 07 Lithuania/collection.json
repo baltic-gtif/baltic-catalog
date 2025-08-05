@@ -76,7 +76,6 @@
       "title": "Baltic GTIF Catalog"
     }
   ],
-  "thumbnail": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/ld_lt.png",
   "subcode": "ld_lt_07",
   "eodash:mapProjection": {
     "name": "EPSG:3035",
@@ -108,20 +107,14 @@
   "license": "other",
   "summaries": {
     "subcode": [
-      "ld_lt_07_wms",
-      "ld_06_lt_raster"
+      "ld_06_lt_raster",
+      "ld_lt_07_wms"
     ],
     "themes": [
       "Crops Lodging"
+    ],
+    "thumbnail": [
+      "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/ld_lt.png"
     ]
-  },
-  "assets": {
-    "thumbnail": {
-      "href": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/ld_lt.png",
-      "type": "image/png",
-      "roles": [
-        "thumbnail"
-      ]
-    }
   }
 }

@@ -51,6 +51,7 @@
       "title": "Baltic GTIF Catalog"
     }
   ],
+  "thumbnail": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/ld_lt.png",
   "themes": [
     "Crops Lodging"
   ],
@@ -83,6 +84,18 @@
     ],
     "themes": [
       "Crops Lodging"
+    ],
+    "thumbnail": [
+      "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/ld_lt.png"
     ]
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/ld_lt.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
   }
 }

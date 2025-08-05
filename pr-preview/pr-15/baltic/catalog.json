@@ -20,7 +20,10 @@
       "themes": [
         "Crops Lodging"
       ],
-      "subcode": "ld_lt_07_wms"
+      "subcode": "ld_lt_07_wms",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/ld_lt.png"
+      ]
     },
     {
       "rel": "child",
@@ -64,6 +67,9 @@
       "subcode": "ld_lt_07",
       "themes": [
         "Crops Lodging"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/ld_lt.png"
       ],
       "eodash:mapProjection": {
         "name": "EPSG:3035",
