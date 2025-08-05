@@ -12,6 +12,21 @@
     },
     {
       "rel": "child",
+      "href": "./Crops Lodging - parcels/collection.json",
+      "type": "application/json",
+      "title": "Crops Lodging - parcels",
+      "code": "ld_lt_07_wms",
+      "id": "Crops Lodging - parcels",
+      "themes": [
+        "Crops Lodging"
+      ],
+      "subcode": "ld_lt_07_wms",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/ld_lt.png"
+      ]
+    },
+    {
+      "rel": "child",
       "href": "./Soil Moisture high - parcels/collection.json",
       "type": "application/json",
       "title": "Soil Moisture high - parcels",
