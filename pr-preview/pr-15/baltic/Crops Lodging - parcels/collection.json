@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "Lodging 07 Lithuania",
+  "id": "Crops Lodging - parcels",
   "stac_version": "1.1.0",
-  "description": "## Crop lodging\n\nCrop lodging (i.e. intense bending or even dumping to the ground) is\ncaused by impacts of severe summer storms, grazing of wild animals or\nother mechanical forces damaging the structure of plants and changing\ntheir direction from vertical to horizontal. Most often crop lodging is\ncausing partial or complete loss of harvest. Crop lodging of cereals\n(wheat, rye, barley, oats) were detected in Lithuania during the period\nfrom June 25 till July 15, 2024, i.e. before the harvesting season when\nmost of lodging events take place, using Sentinel-1 polarimetry SAR data\npre-processed with SAGRIS production system (http://www.sagris.eu).\nVector map of cereal fields shows percentage of area impacted by crop\nlodging.\n",
+  "description": "",
   "links": [
     {
       "rel": "root",
@@ -24,22 +24,11 @@
       "subcode": "ld_lt_07_wms"
     },
     {
-      "rel": "child",
-      "href": "./Crops Lodging/collection.json",
+      "rel": "service",
+      "href": "https://corsproxy.io/?url=https://server1.landimage.info/geoserver/wms?version=1.1.0&SERVICE=WFS&request=GetFeature&typeName=GTIFBaltic:LIT_2024_crops_lodging_07&srsName=EPSG:3857&outputFormat=application/json&bbox={{point.0}},{{point.1}},{{point.0}},{{point.1}},EPSG:3857",
       "type": "application/json",
-      "title": "Crops Lodging",
-      "endpointtype": "COG source",
-      "code": "ld_06_lt_raster",
-      "id": "Crops Lodging",
-      "themes": [
-        "Crops Lodging"
-      ],
-      "subcode": "ld_06_lt_raster",
-      "collection_group": "Crops",
-      "eodash:mapProjection": {
-        "name": "EPSG:3035",
-        "def": "+proj=laea +lat_0=52 +lon_0=10 +x_0=4321000 +y_0=3210000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs +type=crs"
-      }
+      "id": "",
+      "method": "GET"
     },
     {
       "rel": "xyz",
@@ -70,12 +59,13 @@
     }
   ],
   "thumbnail": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/ld_lt.png",
-  "subcode": "ld_lt_07",
-  "eodash:mapProjection": {
-    "name": "EPSG:3035",
-    "def": "+proj=laea +lat_0=52 +lon_0=10 +x_0=4321000 +y_0=3210000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs +type=crs"
-  },
-  "title": "Lodging 07 Lithuania",
+  "themes": [
+    "Crops Lodging"
+  ],
+  "subcode": "ld_lt_07_wms",
+  "eodash:jsonform": "https://raw.githubusercontent.com/wankoelias/baltic-catalog/refs/heads/wankoelias/test-getfeatureinfo-process/assets/inputform_lodging.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/wankoelias/baltic-catalog/refs/heads/wankoelias/test-getfeatureinfo-process/assets/vegachart_lodging.json",
+  "title": "Crops Lodging - parcels",
   "extent": {
     "spatial": {
       "bbox": [
@@ -99,8 +89,7 @@
   "license": "other",
   "summaries": {
     "subcode": [
-      "ld_lt_07_wms",
-      "ld_06_lt_raster"
+      "ld_lt_07_wms"
     ],
     "themes": [
       "Crops Lodging"
