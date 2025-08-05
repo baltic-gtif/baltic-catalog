@@ -52,7 +52,10 @@
       "themes": [
         "Flooding"
       ],
-      "subcode": "sm_at_09_parcels_wms_high"
+      "subcode": "sm_at_09_parcels_wms_high",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/sm_at.png"
+      ]
     },
     {
       "rel": "child",
@@ -83,6 +86,9 @@
       "subcode": "sm_at_09_high_medium_low",
       "themes": [
         "Flooding"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/sm_at.png"
       ],
       "eodash:mapProjection": {
         "name": "EPSG:3035",
