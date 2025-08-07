@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "Soil Moisture high - parcels",
+  "id": "Soil Moisture low - parcels",
   "stac_version": "1.1.0",
   "description": "",
   "links": [
@@ -12,16 +12,16 @@
     },
     {
       "rel": "child",
-      "href": "./Soil Moisture high - parcels/collection.json",
+      "href": "./Soil Moisture low - parcels/collection.json",
       "type": "application/json",
-      "title": "Soil Moisture high - parcels",
+      "title": "Soil Moisture low - parcels",
       "endpointtype": "WMS_OverwriteTimes",
-      "code": "sm_at_09_parcels_wms_high",
-      "id": "Soil Moisture high - parcels",
+      "code": "sm_at_09_parcels_wms_low",
+      "id": "Soil Moisture low - parcels",
       "themes": [
         "Flooding"
       ],
-      "subcode": "sm_at_09_parcels_wms_high"
+      "subcode": "sm_at_09_parcels_wms_low"
     },
     {
       "rel": "xyz",
@@ -72,11 +72,10 @@
       "title": "Baltic GTIF Catalog"
     }
   ],
-  "thumbnail": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/sm_lt.png",
   "themes": [
     "Flooding"
   ],
-  "subcode": "sm_lt_04_parcels_wms_high",
+  "subcode": "sm_lt_04_parcels_wms_low",
   "eox:colorlegend": "legends/waterlogging.json",
   "tags": [
     "example tag"
@@ -93,7 +92,7 @@
   "insituSources": [
     "Other insitu data"
   ],
-  "title": "Soil Moisture high - parcels",
+  "title": "Soil Moisture low - parcels",
   "extent": {
     "spatial": {
       "bbox": [
@@ -117,7 +116,7 @@
   "license": "other",
   "summaries": {
     "subcode": [
-      "sm_lt_04_parcels_wms_high"
+      "sm_lt_04_parcels_wms_low"
     ],
     "themes": [
       "Flooding"
@@ -127,18 +126,6 @@
     ],
     "sensor": [
       "Sensorname"
-    ],
-    "thumbnail": [
-      "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/sm_lt.png"
     ]
-  },
-  "assets": {
-    "thumbnail": {
-      "href": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/sm_lt.png",
-      "type": "image/png",
-      "roles": [
-        "thumbnail"
-      ]
-    }
   }
 }
