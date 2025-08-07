@@ -56,22 +56,7 @@
     "Flooding"
   ],
   "subcode": "sm_at_09_parcels_wms_high",
-  "eox:colorlegend": {
-    "title": "Waterlogging",
-    "domain": [
-      0,
-      200
-    ],
-    "range": [
-      "#ffffff",
-      "#08316d"
-    ],
-    "scaleType": "continuous",
-    "tickValues": [
-      0,
-      200
-    ]
-  },
+  "eox:colorlegend": "legends/waterlogging.json",
   "title": "Soil Moisture high - parcels",
   "extent": {
     "spatial": {
