@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "Soil Moisture high - parcels",
+  "id": "Soil Moisture medium - parcels",
   "stac_version": "1.1.0",
   "description": "",
   "links": [
@@ -12,16 +12,16 @@
     },
     {
       "rel": "child",
-      "href": "./Soil Moisture high - parcels/collection.json",
+      "href": "./Soil Moisture medium - parcels/collection.json",
       "type": "application/json",
-      "title": "Soil Moisture high - parcels",
+      "title": "Soil Moisture medium - parcels",
       "endpointtype": "WMS_OverwriteTimes",
-      "code": "sm_at_09_parcels_wms_high",
-      "id": "Soil Moisture high - parcels",
+      "code": "sm_at_09_parcels_wms_medium",
+      "id": "Soil Moisture medium - parcels",
       "themes": [
         "Flooding"
       ],
-      "subcode": "sm_at_09_parcels_wms_high"
+      "subcode": "sm_at_09_parcels_wms_medium"
     },
     {
       "rel": "xyz",
@@ -72,11 +72,10 @@
       "title": "Baltic GTIF Catalog"
     }
   ],
-  "thumbnail": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/sm_lt.png",
   "themes": [
     "Flooding"
   ],
-  "subcode": "sm_lt_04_parcels_wms_high",
+  "subcode": "sm_lt_04_parcels_wms_medium",
   "eox:colorlegend": {
     "title": "Waterlogging",
     "domain": [
@@ -108,7 +107,7 @@
   "insituSources": [
     "Other insitu data"
   ],
-  "title": "Soil Moisture high - parcels",
+  "title": "Soil Moisture medium - parcels",
   "extent": {
     "spatial": {
       "bbox": [
@@ -132,7 +131,7 @@
   "license": "other",
   "summaries": {
     "subcode": [
-      "sm_lt_04_parcels_wms_high"
+      "sm_lt_04_parcels_wms_medium"
     ],
     "themes": [
       "Flooding"
@@ -142,18 +141,6 @@
     ],
     "sensor": [
       "Sensorname"
-    ],
-    "thumbnail": [
-      "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/sm_lt.png"
     ]
-  },
-  "assets": {
-    "thumbnail": {
-      "href": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/sm_lt.png",
-      "type": "image/png",
-      "roles": [
-        "thumbnail"
-      ]
-    }
   }
 }
