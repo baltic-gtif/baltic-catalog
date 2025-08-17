@@ -20,6 +20,14 @@
       ]
     },
     {
+      "rel": "style",
+      "href": "https://api.npoint.io/a9b7df0f3018aa2d6fab",
+      "type": "text/vector-styles",
+      "asset:keys": [
+        "parcels 2024-07"
+      ]
+    },
+    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
