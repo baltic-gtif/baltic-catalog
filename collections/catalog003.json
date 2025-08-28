@@ -18,7 +18,7 @@
           "Assets": [
             {
               "Identifier": "test_cog___003",
-              "File": "https://spatradev001.blob.core.windows.net/estarfmdownscalingresults/baltic_gtif___EE_Essen_large_sen3_estarfm___estarfm_downscaling___201811131011/LST_europe.tif"
+              "File": "https://spatradev001.blob.core.windows.net/estarfmdownscalingresults/baltic_gtif___EE_Essen_large_sen3_estarfm___estarfm_downscaling___201811131011/LST_europe_4326.tif"
             }
           ]
         }
