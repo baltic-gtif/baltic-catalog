@@ -1,0 +1,29 @@
+{
+  "Name": "second_test_catalog",
+  "Title": "second_test_collection",
+  "Description": "second_test_description",
+  "Resources": [
+    {
+      "Name": "COG source",
+      "Style": "https://spatradev001.blob.core.windows.net/estarfmdownscalingresults/baltic_gtif___EE_Essen_large_sen3_estarfm___estarfm_downscaling___201811131011/LST_style.json",
+      "Bbox": [
+        -180,
+        -90,
+        180,
+        90
+      ],
+      "TimeEntries": [
+        {
+          "Time": "2018",
+          "Assets": [
+            {
+              "Identifier": "second_test_cog",
+              "File": "https://spatradev001.blob.core.windows.net/estarfmdownscalingresults/baltic_gtif___EE_Essen_large_sen3_estarfm___estarfm_downscaling___201811131011/LST.tif"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "DataSource": {}
+}
