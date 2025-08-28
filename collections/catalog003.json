@@ -8,7 +8,7 @@
   "Resources": [
     {
       "Name": "COG source",
-      "Style": "https://spatradev001.blob.core.windows.net/estarfmdownscalingresults/baltic_gtif___EE_Essen_large_sen3_estarfm___estarfm_downscaling___201811131011/LST_style.json",
+      "Style": "https://api.npoint.io/94d6c5c498a0ac16563fn",
       "Bbox": [-10.0, 34.0003764, 36.0043653, 70.0],
       "TimeEntries": [
         {
