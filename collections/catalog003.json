@@ -1,3 +1,28 @@
 {
-  "Name": "catalog__003"
+  "Name": "catalog__003",
+  "Title": "collection___003",
+  "Description": "despcritopn___003",
+  "Resources": [
+    {
+      "Name": "COG source",
+      "Style": "https://obs.eu-nl.otc.t-systems.com/baltic-gtif/LST_style.json?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=UILHYPJOOCRS4UQ4A2HF%2F20250828%2Feu-nl%2Fs3%2Faws4_request&X-Amz-Date=20250828T162153Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=97088b3485c4bccdf7f1bf2e116c1e96ca12c9d8811bd3caf060d1a8a1f8abb2https://obs.eu-nl.otc.t-systems.com/baltic-gtif/LST_style.json?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=UILHYPJOOCRS4UQ4A2HF%2F20250828%2Feu-nl%2Fs3%2Faws4_request&X-Amz-Date=20250828T162153Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=97088b3485c4bccdf7f1bf2e116c1e96ca12c9d8811bd3caf060d1a8a1f8abb2",
+      "Bbox": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "TimeEntries": [
+        {
+          "Time": "2019",
+          "Assets": [
+            {
+              "Identifier": "test_cog___003",
+              "File": "https://obs.eu-nl.otc.t-systems.com/baltic-gtif/LST_europe.tif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=UILHYPJOOCRS4UQ4A2HF%2F20250828%2Feu-nl%2Fs3%2Faws4_request&X-Amz-Date=20250828T162118Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=10ead6601a71f511f5a54754b4a0bab0cf3a234f0a39279a80b32deb33aeeaec"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
