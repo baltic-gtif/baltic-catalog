@@ -1,0 +1,60 @@
+{
+  "type": "Collection",
+  "id": "second_test_catalog",
+  "stac_version": "1.1.0",
+  "description": "second_test_description",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Baltic GTIF Catalog"
+    },
+    {
+      "rel": "item",
+      "href": "./second_test_catalog/2018/2018-01-01T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2018-01-01T00:00:00Z",
+      "assets": [
+        "https://spatradev001.blob.core.windows.net/estarfmdownscalingresults/baltic_gtif___EE_Essen_large_sen3_estarfm___estarfm_downscaling___201811131011/LST.tif"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://spatradev001.blob.core.windows.net/estarfmdownscalingresults/baltic_gtif___EE_Essen_large_sen3_estarfm___estarfm_downscaling___201811131011/LST_style.json",
+      "type": "text/cog-styles",
+      "asset:keys": [
+        "second_test_cog"
+      ]
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "second_test_collection"
+    }
+  ],
+  "endpointtype": "COG source",
+  "title": "second_test_collection",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180,
+          -90,
+          180,
+          90
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2018-01-01T00:00:00Z",
+          "2018-01-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}
