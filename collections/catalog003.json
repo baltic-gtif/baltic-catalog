@@ -7,17 +7,17 @@
       "Name": "COG source",
       "Style": "https://spatradev001.blob.core.windows.net/estarfmdownscalingresults/baltic_gtif___EE_Essen_large_sen3_estarfm___estarfm_downscaling___201811131011/LST_style.json",
       "Bbox": [
-        "",
-        "",
-        "",
-        ""
+        -20.269685624094684,
+        31.00180170236014,
+        46.121120819060664,
+        70.60865658073674
       ],
       "TimeEntries": [
         {
           "Time": "2019",
           "Assets": [
             {
-              "Identifier": "test_cog___0031",
+              "Identifier": "test_cog___003",
               "File": "https://spatradev001.blob.core.windows.net/estarfmdownscalingresults/baltic_gtif___EE_Essen_large_sen3_estarfm___estarfm_downscaling___201811131011/LST_europe.tif"
             }
           ]
