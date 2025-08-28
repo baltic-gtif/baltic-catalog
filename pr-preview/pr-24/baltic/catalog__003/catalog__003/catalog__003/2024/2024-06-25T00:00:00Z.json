@@ -8,33 +8,33 @@
     "coordinates": [
       [
         [
-          22.64524,
-          54.94676
+          -10.0,
+          34.0003764
         ],
         [
-          23.02416,
-          54.94676
+          36.0043653,
+          34.0003764
         ],
         [
-          23.02416,
-          55.30585
+          36.0043653,
+          70.0
         ],
         [
-          22.64524,
-          55.30585
+          -10.0,
+          70.0
         ],
         [
-          22.64524,
-          54.94676
+          -10.0,
+          34.0003764
         ]
       ]
     ]
   },
   "bbox": [
-    22.64524,
-    54.94676,
-    23.02416,
-    55.30585
+    -10.0,
+    34.0003764,
+    36.0043653,
+    70.0
   ],
   "properties": {
     "datetime": "2024-06-25T00:00:00Z"
@@ -69,14 +69,14 @@
   ],
   "assets": {
     "test_cog___003": {
-      "href": "https://obs.eu-nl.otc.t-systems.com/gtif-data-geomatrix-lodging/output/LIT_2024_06_CROPS_lodging_5201873_3657058_cog.tif",
+      "href": "https://spatradev001.blob.core.windows.net/estarfmdownscalingresults/baltic_gtif___EE_Essen_large_sen3_estarfm___estarfm_downscaling___201811131011/LST_europe.tif",
       "type": "image/tiff",
-      "proj:epsg": 3035,
+      "proj:epsg": 4326,
       "roles": [
         "data"
       ]
     }
   },
   "collection": "catalog__003",
-  "proj:epsg": 3035
+  "proj:epsg": 4326
 }
