@@ -5,16 +5,16 @@
   "Resources": [
     {
       "Name": "COG source",
-      "Style": "",
+      "Style": "https://spatradev001.blob.core.windows.net/estarfmdownscalingresults/baltic_gtif___EE_Essen_large_sen3_estarfm___estarfm_downscaling___201811131011/LST_style.json",
       "Bbox": [
-        "",
-        "",
-        "",
-        ""
+        -180,
+        -90,
+        180,
+        90
       ],
       "TimeEntries": [
         {
-          "Time": "2018-11-13T10:11:00Z",
+          "Time": "2018",
           "Assets": [
             {
               "Identifier": "second_test_cog",
