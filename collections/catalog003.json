@@ -1,0 +1,27 @@
+{
+  "Name": "catalog__003",
+  "Title": "collection___003",
+  "Description": "despcritopn___003",
+  "MapProjection": {
+      "name": "EPSG:4326",
+  },
+  "Resources": [
+    {
+      "Name": "COG source",
+      "Style": "https://api.npoint.io/94d6c5c498a0ac16563fn",
+      "Bbox": [-10.0, 34.0003764, 36.0043653, 70.0],
+      "TimeEntries": [
+        {
+          "Time": "2024-06-25",
+          "Assets": [
+            {
+              "Identifier": "test_cog___003",
+              "File": "https://spatradev001.blob.core.windows.net/estarfmdownscalingresults/baltic_gtif___EE_Essen_large_sen3_estarfm___estarfm_downscaling___201811131011/LST_europe.tif"
+            }
+          ]
+        }
+      ],
+      "DataProjection": 4326
+    }
+  ]
+}
