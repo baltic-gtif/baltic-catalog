@@ -1,3 +1,6 @@
 {
-  "Name": "first_test"
+  "Name": "first_test",
+  "Title": "first_collection_title",
+  "Description": "first_collection_description",
+  "Resources": []
 }
