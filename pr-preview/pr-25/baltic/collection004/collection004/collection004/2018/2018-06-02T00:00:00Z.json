@@ -1,0 +1,72 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "2018-06-02T00:00:00Z",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -38.099999999999966,
+          -10.115625000000009
+        ],
+        [
+          84.9,
+          -10.115625000000009
+        ],
+        [
+          84.9,
+          73.28437499999998
+        ],
+        [
+          -38.099999999999966,
+          73.28437499999998
+        ],
+        [
+          -38.099999999999966,
+          -10.115625000000009
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -38.099999999999966,
+    -10.115625000000009,
+    84.9,
+    73.28437499999998
+  ],
+  "properties": {
+    "datetime": "2018-06-02T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Baltic GTIF Catalog"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "collection004_title"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "collection004_title"
+    }
+  ],
+  "assets": {
+    "test_cog004": {
+      "href": "https://spatradev001.blob.core.windows.net/estarfmdownscalingresults/baltic_gtif___EE_Essen_large_sen3_estarfm___estarfm_downscaling___201806020954/LST.tif",
+      "type": "image/tiff",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "collection004"
+}
