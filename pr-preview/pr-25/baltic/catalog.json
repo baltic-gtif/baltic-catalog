@@ -19,12 +19,12 @@
     },
     {
       "rel": "child",
-      "href": "./Lodging 07 Lithuania/collection.json",
+      "href": "./lst_ee/collection.json",
       "type": "application/json",
-      "title": "Lodging 07 Lithuania",
-      "code": "ld_lt_07",
-      "id": "Lodging 07 Lithuania",
-      "subcode": "ld_lt_07"
+      "title": "lst_ee",
+      "code": "lst_ee",
+      "id": "lst_ee",
+      "subcode": "lst_ee"
     },
     {
       "rel": "self",
