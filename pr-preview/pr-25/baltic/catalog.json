@@ -18,6 +18,15 @@
       "id": "collection004"
     },
     {
+      "rel": "child",
+      "href": "./Lodging 07 Lithuania/collection.json",
+      "type": "application/json",
+      "title": "Lodging 07 Lithuania",
+      "code": "ld_lt_07",
+      "id": "Lodging 07 Lithuania",
+      "subcode": "ld_lt_07"
+    },
+    {
       "rel": "self",
       "href": "https://baltic-gtif.github.io/baltic-gtif/baltic-catalog/catalog.json",
       "type": "application/json"

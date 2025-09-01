@@ -1,0 +1,60 @@
+{
+  "type": "Collection",
+  "id": "collection004",
+  "stac_version": "1.1.0",
+  "description": "....",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Baltic GTIF Catalog"
+    },
+    {
+      "rel": "item",
+      "href": "./collection004/2018/2018-06-02T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2018-06-02T00:00:00Z",
+      "assets": [
+        "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/LST_europe.tif"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/LST_gray_style.json",
+      "type": "text/cog-styles",
+      "asset:keys": [
+        "test_cog004"
+      ]
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Lodging 07 Lithuania"
+    }
+  ],
+  "endpointtype": "COG source",
+  "title": "collection004_title",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -38.099999999999966,
+          -10.115625000000009,
+          84.9,
+          73.28437499999998
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2018-06-02T00:00:00Z",
+          "2018-06-02T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

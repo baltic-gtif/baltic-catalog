@@ -1,0 +1,72 @@
+{
+  "type": "Collection",
+  "id": "Lodging 07 Lithuania",
+  "stac_version": "1.1.0",
+  "description": "## Crop lodging\n\nCrop lodging (i.e. intense bending or even dumping to the ground) is\ncaused by impacts of severe summer storms, grazing of wild animals or\nother mechanical forces damaging the structure of plants and changing\ntheir direction from vertical to horizontal. Most often crop lodging is\ncausing partial or complete loss of harvest. Crop lodging of cereals\n(wheat, rye, barley, oats) were detected in Lithuania during the period\nfrom June 25 till July 15, 2024, i.e. before the harvesting season when\nmost of lodging events take place, using Sentinel-1 polarimetry SAR data\npre-processed with SAGRIS production system (http://www.sagris.eu).\nVector map of cereal fields shows percentage of area impacted by crop\nlodging.\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Baltic GTIF Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./collection004/collection.json",
+      "type": "application/json",
+      "title": "collection004_title",
+      "endpointtype": "COG source",
+      "id": "collection004"
+    },
+    {
+      "rel": "xyz",
+      "href": "//tiles.maps.eox.at/wmts/1.0.0/s2cloudless-2023_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "EOxCloudless 2023",
+      "roles": [
+        "baselayer"
+      ],
+      "id": "cloudless-2023"
+    },
+    {
+      "rel": "xyz",
+      "href": "//tiles.maps.eox.at/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "image/png",
+      "title": "Overlay labels",
+      "roles": [
+        "overlay",
+        "visible"
+      ],
+      "id": "overlay_bright"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Baltic GTIF Catalog"
+    }
+  ],
+  "subcode": "ld_lt_07",
+  "title": "Lodging 07 Lithuania",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -38.099999999999966,
+          -10.115625000000009,
+          84.9,
+          73.28437499999998
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2018-06-02T00:00:00Z",
+          "2018-06-02T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}
