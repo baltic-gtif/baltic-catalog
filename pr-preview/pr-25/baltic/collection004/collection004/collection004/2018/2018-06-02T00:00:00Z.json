@@ -42,7 +42,7 @@
   "links": [
     {
       "rel": "style",
-      "href": "https://spatradev001.blob.core.windows.net/estarfmdownscalingresults/baltic_gtif___EE_Essen_large_sen3_estarfm___estarfm_downscaling___201806020954/LST_gray_style.json",
+      "href": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/LST_gray_style.json",
       "type": "text/cog-styles",
       "asset:keys": [
         "test_cog004"
@@ -69,7 +69,7 @@
   ],
   "assets": {
     "test_cog004": {
-      "href": "https://spatradev001.blob.core.windows.net/estarfmdownscalingresults/baltic_gtif___EE_Essen_large_sen3_estarfm___estarfm_downscaling___201806020954/LST.tif",
+      "href": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/LST_europe.tif",
       "type": "image/tiff",
       "roles": [
         "data"
