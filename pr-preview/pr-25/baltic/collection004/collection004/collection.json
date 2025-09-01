@@ -20,6 +20,14 @@
       ]
     },
     {
+      "rel": "style",
+      "href": "https://spatradev001.blob.core.windows.net/estarfmdownscalingresults/baltic_gtif___EE_Essen_large_sen3_estarfm___estarfm_downscaling___201806020954/LST_gray_style.json",
+      "type": "text/cog-styles",
+      "asset:keys": [
+        "test_cog004"
+      ]
+    },
+    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
