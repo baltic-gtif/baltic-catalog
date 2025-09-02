@@ -18,6 +18,13 @@
       "id": "soic_lithuania"
     },
     {
+      "rel": "child",
+      "href": "./soic_lithuania_grass/collection.json",
+      "type": "application/json",
+      "title": "SOIC Lithuania Grassland Types",
+      "id": "soic_lithuania_grass"
+    },
+    {
       "rel": "self",
       "href": "https://baltic-gtif.github.io/baltic-gtif/baltic-catalog/catalog.json",
       "type": "application/json"
