@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "soic_lithuania",
+  "id": "soc_lithuania",
   "stac_version": "1.1.0",
   "description": "",
   "links": [
@@ -12,11 +12,11 @@
     },
     {
       "rel": "child",
-      "href": "./soic_lithuania/collection.json",
+      "href": "./soc_lithuania/collection.json",
       "type": "application/json",
-      "title": "SOIC Lithuania",
+      "title": "SOC Lithuania",
       "endpointtype": "FlatGeobuf source",
-      "id": "soic_lithuania"
+      "id": "soc_lithuania"
     },
     {
       "rel": "xyz",
@@ -46,7 +46,7 @@
       "title": "Baltic GTIF Catalog"
     }
   ],
-  "title": "SOIC Lithuania",
+  "title": "SOC Lithuania",
   "extent": {
     "spatial": {
       "bbox": [

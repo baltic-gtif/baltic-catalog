@@ -12,10 +12,10 @@
     },
     {
       "rel": "child",
-      "href": "./soic_lithuania/collection.json",
+      "href": "./soc_lithuania/collection.json",
       "type": "application/json",
-      "title": "SOIC Lithuania",
-      "id": "soic_lithuania"
+      "title": "SOC Lithuania",
+      "id": "soc_lithuania"
     },
     {
       "rel": "child",
