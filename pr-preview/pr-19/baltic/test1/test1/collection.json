@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "_test",
+  "id": "test1",
   "stac_version": "1.1.0",
   "description": "",
   "links": [
@@ -12,7 +12,7 @@
     },
     {
       "rel": "item",
-      "href": "./_test/2024/2024-01-01T00:00:00Z.json",
+      "href": "./test1/2024/2024-01-01T00:00:00Z.json",
       "type": "application/geo+json",
       "datetime": "2024-01-01T00:00:00Z",
       "assets": [
@@ -31,11 +31,11 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "_test"
+      "title": "test1"
     }
   ],
   "endpointtype": "FlatGeobuf source",
-  "title": "_test",
+  "title": "test1",
   "extent": {
     "spatial": {
       "bbox": [

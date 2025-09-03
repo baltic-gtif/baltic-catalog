@@ -12,10 +12,10 @@
     },
     {
       "rel": "child",
-      "href": "./_test/collection.json",
+      "href": "./test1/collection.json",
       "type": "application/json",
-      "title": "_test",
-      "id": "_test"
+      "title": "test1",
+      "id": "test1"
     },
     {
       "rel": "child",
