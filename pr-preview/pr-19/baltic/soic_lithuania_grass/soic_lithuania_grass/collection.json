@@ -31,11 +31,11 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "SOIC Lithuania Grassland Types"
+      "title": "Lithuania High species rich permanent grassland - Intensity of management"
     }
   ],
   "endpointtype": "FlatGeobuf source",
-  "title": "SOIC Lithuania Grassland Types",
+  "title": "Lithuania High species rich permanent grassland - Intensity of management",
   "extent": {
     "spatial": {
       "bbox": [
