@@ -51,7 +51,7 @@
       "Management of natural meadows, wetlands and habitats of EC importance"
     ],
     "scaleType": "categorical",
-    "markType": "rectangle"
+    "markType": "circle"
   },
   "endpointtype": "FlatGeobuf source",
   "title": "Species-Rich Grassland Management Lithuania",
