@@ -58,13 +58,13 @@
       "rel": "collection",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "Lithuania High species rich permanent grassland - Intensity of management"
+      "title": "Lithuania \nHigh species rich permanent grassland\nIntensity of management"
     },
     {
       "rel": "parent",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "Lithuania High species rich permanent grassland - Intensity of management"
+      "title": "Lithuania \nHigh species rich permanent grassland\nIntensity of management"
     }
   ],
   "assets": {
