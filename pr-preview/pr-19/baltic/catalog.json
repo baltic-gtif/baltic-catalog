@@ -12,6 +12,13 @@
     },
     {
       "rel": "child",
+      "href": "./_test/collection.json",
+      "type": "application/json",
+      "title": "_test",
+      "id": "_test"
+    },
+    {
+      "rel": "child",
       "href": "./soc_lithuania/collection.json",
       "type": "application/json",
       "title": "SOC Lithuania",
