@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./soc_lithuania_grass/collection.json",
       "type": "application/json",
-      "title": "Lithuania \nHigh species rich permanent grassland\nIntensity of management",
+      "title": "Species-Rich Grassland Management Lithuania",
       "endpointtype": "FlatGeobuf source",
       "id": "soc_lithuania_grass"
     },
@@ -65,7 +65,7 @@
     "scaleType": "categorical",
     "markType": "rectangle"
   },
-  "title": "Lithuania \nHigh species rich permanent grassland\nIntensity of management",
+  "title": "Species-Rich Grassland Management Lithuania",
   "extent": {
     "spatial": {
       "bbox": [
