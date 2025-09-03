@@ -19,10 +19,10 @@
     },
     {
       "rel": "child",
-      "href": "./soic_lithuania_grass/collection.json",
+      "href": "./soc_lithuania_grass/collection.json",
       "type": "application/json",
       "title": "Lithuania High species rich permanent grassland - Intensity of management",
-      "id": "soic_lithuania_grass"
+      "id": "soc_lithuania_grass"
     },
     {
       "rel": "self",

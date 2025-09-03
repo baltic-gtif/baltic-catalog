@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "soic_lithuania_grass",
+  "id": "soc_lithuania_grass",
   "stac_version": "1.1.0",
   "description": "",
   "links": [
@@ -12,11 +12,11 @@
     },
     {
       "rel": "child",
-      "href": "./soic_lithuania_grass/collection.json",
+      "href": "./soc_lithuania_grass/collection.json",
       "type": "application/json",
       "title": "Lithuania High species rich permanent grassland - Intensity of management",
       "endpointtype": "FlatGeobuf source",
-      "id": "soic_lithuania_grass"
+      "id": "soc_lithuania_grass"
     },
     {
       "rel": "xyz",
