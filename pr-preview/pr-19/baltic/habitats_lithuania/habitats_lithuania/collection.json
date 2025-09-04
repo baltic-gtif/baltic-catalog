@@ -21,32 +21,40 @@
     },
     {
       "rel": "style",
-      "href": "https://api.npoint.io/92c327adb4e47d9bf6c9",
+      "href": "https://api.npoint.io/36fe8ea4407000e46ffb",
       "type": "text/vector-styles",
       "asset:keys": [
-        "ha01"
+        "002"
       ]
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Habitats Lithuania"
+      "title": "Habitatis - Lithuania"
     }
   ],
   "eox:colorlegend": {
-    "title": "Permanent Grassland Type",
+    "title": "Habitats",
     "range": [
-      "#000000"
+      "#156064",
+      "#00C49A",
+      "#F3C969",
+      "#75485E",
+      "#755C1B"
     ],
     "domain": [
-      "test"
+      "MNP",
+      "EPG",
+      "EPT",
+      "SPT",
+      "EBB"
     ],
     "scaleType": "categorical",
     "markType": "rect"
   },
   "endpointtype": "FlatGeobuf source",
-  "title": "Habitats Lithuania",
+  "title": "Habitatis - Lithuania",
   "extent": {
     "spatial": {
       "bbox": [

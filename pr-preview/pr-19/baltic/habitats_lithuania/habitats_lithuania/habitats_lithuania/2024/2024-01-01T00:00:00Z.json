@@ -42,10 +42,10 @@
   "links": [
     {
       "rel": "style",
-      "href": "https://api.npoint.io/92c327adb4e47d9bf6c9",
+      "href": "https://api.npoint.io/36fe8ea4407000e46ffb",
       "type": "text/vector-styles",
       "asset:keys": [
-        "ha01"
+        "002"
       ]
     },
     {
@@ -58,17 +58,17 @@
       "rel": "collection",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "Habitats Lithuania"
+      "title": "Habitatis - Lithuania"
     },
     {
       "rel": "parent",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "Habitats Lithuania"
+      "title": "Habitatis - Lithuania"
     }
   ],
   "assets": {
-    "ha01": {
+    "002": {
       "href": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/lt_habitats.fgb",
       "type": "application/vnd.flatgeobuf",
       "roles": [
