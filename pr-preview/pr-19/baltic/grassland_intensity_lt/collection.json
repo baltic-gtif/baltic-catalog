@@ -19,6 +19,14 @@
       "id": "grassland_lithuania"
     },
     {
+      "rel": "child",
+      "href": "./habitats_lithuania/collection.json",
+      "type": "application/json",
+      "title": "Habitats Lithuania",
+      "endpointtype": "FlatGeobuf source",
+      "id": "habitats_lithuania"
+    },
+    {
       "rel": "xyz",
       "href": "//tiles.maps.eox.at/wmts/1.0.0/s2cloudless-2023_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "image/jpeg",

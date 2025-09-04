@@ -1,0 +1,60 @@
+{
+  "type": "Collection",
+  "id": "habitats_lithuania",
+  "stac_version": "1.1.0",
+  "description": "",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Baltic GTIF Catalog"
+    },
+    {
+      "rel": "item",
+      "href": "./habitats_lithuania/2024/2024-01-01T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2024-01-01T00:00:00Z",
+      "assets": [
+        "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/lt_habitats.fgb"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://api.npoint.io/92c327adb4e47d9bf6c9",
+      "type": "text/vector-styles",
+      "asset:keys": [
+        "03"
+      ]
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Species-Rich Grassland Management Lithuania"
+    }
+  ],
+  "endpointtype": "FlatGeobuf source",
+  "title": "Habitats Lithuania",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          21.3124,
+          55.2919,
+          21.6973,
+          55.4418
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-01-01T00:00:00Z",
+          "2024-01-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}
