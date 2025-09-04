@@ -24,7 +24,10 @@
       "type": "application/json",
       "title": "Habitatis - Lithuania",
       "endpointtype": "FlatGeobuf source",
-      "id": "habitats_lithuania"
+      "id": "habitats_lithuania",
+      "roles": [
+        "disable"
+      ]
     },
     {
       "rel": "xyz",
@@ -54,7 +57,6 @@
       "title": "Baltic GTIF Catalog"
     }
   ],
-  "thumbnail": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main/thumbnails/dummy.png",
   "subcode": "grassland_intensity_lt",
   "title": "Species-Rich Grassland Management Lithuania",
   "extent": {
@@ -77,14 +79,5 @@
       ]
     }
   },
-  "license": "other",
-  "assets": {
-    "thumbnail": {
-      "href": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main/thumbnails/dummy.png",
-      "type": "image/png",
-      "roles": [
-        "thumbnail"
-      ]
-    }
-  }
+  "license": "other"
 }
