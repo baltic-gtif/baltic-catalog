@@ -5,9 +5,9 @@
   "Resources": [
     {
       "Name": "marinedatastore",
-      "EndPoint": "https://wmts.marine.copernicus.eu/teroWmts/OCEANCOLOUR_GLO_BGC_L4_NRT_009_102/cmems_obs-oc_glo_bgc-reflectance_nrt_l4-olci-300m_P1M_202211",
+      "EndPoint": "https://wmts.marine.copernicus.eu/teroWmts/OCEANCOLOUR_GLO_BGC_L3_NRT_009_101/cmems_obs-oc_glo_bgc-reflectance_nrt_l3-olci-300m_P1D_202211",
       "Type": "WMTSCapabilities",
-      "LayerId": "OCEANCOLOUR_GLO_BGC_L4_NRT_009_102/cmems_obs-oc_glo_bgc-reflectance_nrt_l4-olci-300m_P1M_202211/RRS400",
+      "LayerId": "OCEANCOLOUR_GLO_BGC_L3_NRT_009_101/cmems_obs-oc_glo_bgc-reflectance_nrt_l3-olci-300m_P1D_202211/RRS400",
       "Variable": "",
       "Dimensions": {}
     }
