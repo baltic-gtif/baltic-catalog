@@ -54,6 +54,7 @@
       "title": "Baltic GTIF Catalog"
     }
   ],
+  "thumbnail": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main/thumbnails/dummy.png",
   "subcode": "003",
   "title": "Species-Rich Grassland Management Lithuania",
   "extent": {
@@ -76,5 +77,14 @@
       ]
     }
   },
-  "license": "other"
+  "license": "other",
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main/thumbnails/dummy.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
 }
