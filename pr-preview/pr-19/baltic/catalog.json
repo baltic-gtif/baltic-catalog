@@ -35,7 +35,7 @@
       "rel": "child",
       "href": "./grassland_intensity_lt/collection.json",
       "type": "application/json",
-      "title": "-> Species-Rich Grassland Management Lithuania",
+      "title": "Species-Rich Grassland Management Lithuania",
       "code": "003",
       "id": "grassland_intensity_lt",
       "subcode": "003"
