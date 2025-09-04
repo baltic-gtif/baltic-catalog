@@ -46,6 +46,17 @@
       "title": "Baltic GTIF Catalog"
     }
   ],
+  "eox:colorlegend": {
+    "title": "Permanent Grassland Type",
+    "range": [
+      "#000000"
+    ],
+    "domain": [
+      "test"
+    ],
+    "scaleType": "categorical",
+    "markType": "rect"
+  },
   "title": "Habitats Lithuania",
   "extent": {
     "spatial": {
