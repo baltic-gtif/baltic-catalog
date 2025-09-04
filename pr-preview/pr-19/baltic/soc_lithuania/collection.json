@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./soc_lithuania/collection.json",
       "type": "application/json",
-      "title": "",
+      "title": "_soc_lithuania",
       "endpointtype": "FlatGeobuf source",
       "id": "soc_lithuania"
     },
@@ -46,7 +46,7 @@
       "title": "Baltic GTIF Catalog"
     }
   ],
-  "title": "",
+  "title": "_soc_lithuania",
   "extent": {
     "spatial": {
       "bbox": [

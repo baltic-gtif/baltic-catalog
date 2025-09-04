@@ -31,11 +31,11 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": ""
+      "title": "_soc_lithuania"
     }
   ],
   "endpointtype": "FlatGeobuf source",
-  "title": "",
+  "title": "_soc_lithuania",
   "extent": {
     "spatial": {
       "bbox": [

@@ -58,13 +58,13 @@
       "rel": "collection",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "Species-Rich Grassland Management Lithuania"
+      "title": "_grassland_lithuania"
     },
     {
       "rel": "parent",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "Species-Rich Grassland Management Lithuania"
+      "title": "_grassland_lithuania"
     }
   ],
   "assets": {
