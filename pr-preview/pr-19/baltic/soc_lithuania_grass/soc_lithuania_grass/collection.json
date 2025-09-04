@@ -51,8 +51,7 @@
       "EBB"
     ],
     "scaleType": "categorical",
-    "markType": "line",
-    "cle-swatch-size": 30
+    "markType": "rect"
   },
   "endpointtype": "FlatGeobuf source",
   "title": "Species-Rich Grassland Management Lithuania",
