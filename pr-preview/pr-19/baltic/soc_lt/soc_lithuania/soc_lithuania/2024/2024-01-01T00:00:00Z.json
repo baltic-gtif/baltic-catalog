@@ -42,10 +42,10 @@
   "links": [
     {
       "rel": "style",
-      "href": "https://api.npoint.io/36fe8ea4407000e46ffb",
+      "href": "https://api.npoint.io/a9b7df0f3018aa2d6fab",
       "type": "text/vector-styles",
       "asset:keys": [
-        "02"
+        "parcels 2024-07"
       ]
     },
     {
@@ -58,17 +58,17 @@
       "rel": "collection",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "Species-Rich Grassland Management Lithuania"
+      "title": "SOC Lithuania"
     },
     {
       "rel": "parent",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "Species-Rich Grassland Management Lithuania"
+      "title": "SOC Lithuania"
     }
   ],
   "assets": {
-    "02": {
+    "parcels 2024-07": {
       "href": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/Laukai_20240701_IND_EURO_perparc_2024nov27_oldfilednames_dots_4326.fgb",
       "type": "application/vnd.flatgeobuf",
       "roles": [
@@ -76,5 +76,5 @@
       ]
     }
   },
-  "collection": "lithuania_grassland"
+  "collection": "soc_lithuania"
 }

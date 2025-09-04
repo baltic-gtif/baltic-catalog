@@ -12,11 +12,11 @@
     },
     {
       "rel": "child",
-      "href": "./lithuania_grassland/collection.json",
+      "href": "./grassland_lithuania/collection.json",
       "type": "application/json",
       "title": "Species-Rich Grassland Management Lithuania",
       "endpointtype": "FlatGeobuf source",
-      "id": "lithuania_grassland"
+      "id": "grassland_lithuania"
     },
     {
       "rel": "xyz",
