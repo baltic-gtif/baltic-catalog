@@ -2,5 +2,27 @@
   "Name": "test",
   "Title": "test",
   "Description": "test",
-  "Resources": []
+  "Resources": [
+    {
+      "Name": "FlatGeobuf source",
+      "Style": "",
+      "TimeEntries": [
+        {
+          "Time": "2024",
+          "Assets": [
+            {
+              "Identifier": "001",
+              "File": "test.fgb"
+            }
+          ]
+        }
+      ],
+      "Bbox": [
+        -29.787234042553195,
+        -6.340435920877667,
+        32.7659574468085,
+        54.51062790890956
+      ]
+    }
+  ]
 }
