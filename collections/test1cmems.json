@@ -1,3 +1,15 @@
 {
-  "Name": "test1cmems"
+  "Name": "test1cmems",
+  "Title": "CMEMS test",
+  "Description": "dfiajfjo",
+  "Resources": [
+    {
+      "Name": "marinedatastore",
+      "EndPoint": "https://wmts.marine.copernicus.eu/teroWmts/OCEANCOLOUR_GLO_BGC_L3_NRT_009_101/cmems_obs-oc_glo_bgc-reflectance_nrt_l3-olci-300m_P1D_202211",
+      "Type": "WMTSCapabilities",
+      "LayerId": "OCEANCOLOUR_GLO_BGC_L3_NRT_009_101/cmems_obs-oc_glo_bgc-reflectance_nrt_l3-olci-300m_P1D_202211/RRS400",
+      "Variable": "",
+      "Dimensions": {}
+    }
+  ]
 }
