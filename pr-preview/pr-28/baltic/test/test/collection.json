@@ -1,0 +1,52 @@
+{
+  "type": "Collection",
+  "id": "test",
+  "stac_version": "1.1.0",
+  "description": "test",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Baltic GTIF Catalog"
+    },
+    {
+      "rel": "item",
+      "href": "./test/2024/2024-01-01T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2024-01-01T00:00:00Z",
+      "assets": [
+        "test.fgb"
+      ]
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "test"
+    }
+  ],
+  "endpointtype": "FlatGeobuf source",
+  "title": "test",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -29.787234042553195,
+          -6.340435920877667,
+          32.7659574468085,
+          54.51062790890956
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-01-01T00:00:00Z",
+          "2024-01-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}
