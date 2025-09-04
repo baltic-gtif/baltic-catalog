@@ -58,13 +58,13 @@
       "rel": "collection",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "SOC Lithuania"
+      "title": ""
     },
     {
       "rel": "parent",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "SOC Lithuania"
+      "title": ""
     }
   ],
   "assets": {
