@@ -1,0 +1,79 @@
+{
+  "type": "Collection",
+  "id": "lithuania_grassland",
+  "stac_version": "1.1.0",
+  "description": "# Lithuania High Species Rich Permanent Grassland - Intensity of Management\n\nNatural PGs are ecosystems, where implementation of usual practices consciously adjusted to the actual conditions is able to create a high biodiversity value in a relatively short time-frame. \n\nThe way PGs are maintained by machinery and grazing are serious limiting factors of the ecosystem health. Timing of any activity to be adjusted to climate conditions (wet/dry periods) is essential not to destroy certain vulnerable fauna and herbaceous flora. \n\nThe type and methods as machinery is used, must take into account further parcel specific risks, such as:\n- Invasive weed spread (due to existing seed content)\n- Type and moisture level of the soil\n- Natural seeding period of the advantageous species, etc.\n\nAll these factors serve the natural genetic renewal of the herbaceous species.\n\n\n## Types of Permanent Grassland\n\n- **EPT**: Extensive management of grasslands for livestock grazing\n- **EPG**: Extensive management of perennial meadows with livestock grazing\n- **SPT**: Management of specific meadows with grazing + late mowing\n- **EBB**: Management of natural meadows, wetlands, and habitats of EC importance\n- **MNP**: Conservation of Praying Mantis habitats in natural and semi-natural meadows\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Baltic GTIF Catalog"
+    },
+    {
+      "rel": "item",
+      "href": "./lithuania_grassland/2024/2024-01-01T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2024-01-01T00:00:00Z",
+      "assets": [
+        "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/Laukai_20240701_IND_EURO_perparc_2024nov27_oldfilednames_dots_4326.fgb"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://api.npoint.io/36fe8ea4407000e46ffb",
+      "type": "text/vector-styles",
+      "asset:keys": [
+        "02"
+      ]
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "-> Species-Rich Grassland Management Lithuania"
+    }
+  ],
+  "eox:colorlegend": {
+    "title": "Permanent Grassland Type",
+    "range": [
+      "#156064",
+      "#00C49A",
+      "#F3C969",
+      "#75485E",
+      "#755C1B"
+    ],
+    "domain": [
+      "MNP",
+      "EPG",
+      "EPT",
+      "SPT",
+      "EBB"
+    ],
+    "scaleType": "categorical",
+    "markType": "rect"
+  },
+  "endpointtype": "FlatGeobuf source",
+  "title": "Species-Rich Grassland Management Lithuania",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          22.64524,
+          54.94676,
+          23.02416,
+          55.30585
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-01-01T00:00:00Z",
+          "2024-01-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

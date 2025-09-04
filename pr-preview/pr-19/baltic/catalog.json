@@ -19,10 +19,10 @@
     },
     {
       "rel": "child",
-      "href": "./soc-lithuania_grassland/collection.json",
+      "href": "./lithuania_grassland/collection.json",
       "type": "application/json",
       "title": "Species-Rich Grassland Management Lithuania",
-      "id": "soc-lithuania_grassland"
+      "id": "lithuania_grassland"
     },
     {
       "rel": "child",
@@ -30,6 +30,15 @@
       "type": "application/json",
       "title": "SOC Lithuania",
       "id": "soc_lithuania"
+    },
+    {
+      "rel": "child",
+      "href": "./grassland_intensity_lt/collection.json",
+      "type": "application/json",
+      "title": "-> Species-Rich Grassland Management Lithuania",
+      "code": "003",
+      "id": "grassland_intensity_lt",
+      "subcode": "003"
     },
     {
       "rel": "self",
