@@ -19,17 +19,17 @@
     },
     {
       "rel": "child",
+      "href": "./soc-lithuania_grassland/collection.json",
+      "type": "application/json",
+      "title": "Species-Rich Grassland Management Lithuania",
+      "id": "soc-lithuania_grassland"
+    },
+    {
+      "rel": "child",
       "href": "./soc_lithuania/collection.json",
       "type": "application/json",
       "title": "SOC Lithuania",
       "id": "soc_lithuania"
-    },
-    {
-      "rel": "child",
-      "href": "./soc_lithuania_grass/collection.json",
-      "type": "application/json",
-      "title": "Species-Rich Grassland Management Lithuania",
-      "id": "soc_lithuania_grass"
     },
     {
       "rel": "self",
