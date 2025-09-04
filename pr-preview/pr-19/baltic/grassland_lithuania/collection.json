@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./grassland_lithuania/collection.json",
       "type": "application/json",
-      "title": "Species-Rich Grassland Management Lithuania",
+      "title": "Permanent Grassland Type - Lithuania",
       "endpointtype": "FlatGeobuf source",
       "id": "grassland_lithuania"
     },
@@ -65,7 +65,7 @@
     "scaleType": "categorical",
     "markType": "rect"
   },
-  "title": "Species-Rich Grassland Management Lithuania",
+  "title": "Permanent Grassland Type - Lithuania",
   "extent": {
     "spatial": {
       "bbox": [
