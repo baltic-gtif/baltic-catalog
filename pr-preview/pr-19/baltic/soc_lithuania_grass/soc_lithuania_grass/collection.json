@@ -44,11 +44,11 @@
       "#755C1B"
     ],
     "domain": [
-      "Conservation of Praying Mantis habitats in natural and semi-natural meadows",
-      "Extensive management of perennial meadows with livestock grazing",
-      "Extensive management of grasslands for livestock grazing",
-      "Management of specific meadows with grazing+late mowing",
-      "Management of natural meadows, wetlands and habitats of EC importance"
+      "MNP",
+      "EPG",
+      "EPT",
+      "SPT",
+      "EBB"
     ],
     "scaleType": "categorical",
     "markType": "line",
