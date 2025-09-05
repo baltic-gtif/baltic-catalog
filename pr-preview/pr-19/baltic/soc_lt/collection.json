@@ -46,7 +46,6 @@
       "title": "Baltic GTIF Catalog"
     }
   ],
-  "thumbnail": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main/thumbnails/dummy.png",
   "title": "SOC Lithuania",
   "extent": {
     "spatial": {
@@ -68,14 +67,5 @@
       ]
     }
   },
-  "license": "other",
-  "assets": {
-    "thumbnail": {
-      "href": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main/thumbnails/dummy.png",
-      "type": "image/png",
-      "roles": [
-        "thumbnail"
-      ]
-    }
-  }
+  "license": "other"
 }
