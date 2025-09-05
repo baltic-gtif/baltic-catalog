@@ -34,7 +34,7 @@
       "title": "Species-Rich Grassland Management Lithuania"
     }
   ],
-  "thumbnail": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main/thumbnails/grassland_lt.png",
+  "thumbnail": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/grassland_lt.png",
   "eox:colorlegend": {
     "title": "Natural Grassland Type",
     "range": [
@@ -79,7 +79,7 @@
   "license": "other",
   "assets": {
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main/thumbnails/grassland_lt.png",
+      "href": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/grassland_lt.png",
       "type": "image/png",
       "roles": [
         "thumbnail"

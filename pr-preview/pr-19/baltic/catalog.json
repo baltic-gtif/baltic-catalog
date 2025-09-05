@@ -24,7 +24,7 @@
       "title": "Permanent Grassland in CAP - Lithuania",
       "id": "grassland_lithuania",
       "thumbnail": [
-        "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main/thumbnails/grassland_lt.png"
+        "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/grassland_lt.png"
       ]
     },
     {
@@ -34,7 +34,7 @@
       "title": "Habitats - Lithuania",
       "id": "habitats_lithuania",
       "thumbnail": [
-        "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main/thumbnails/grassland_lt.png"
+        "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/grassland_lt.png"
       ]
     },
     {
@@ -55,7 +55,7 @@
       "code": "grassland_intensity_lt",
       "id": "grassland_intensity_lt",
       "thumbnail": [
-        "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main/thumbnails/grassland_lt.png"
+        "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/grassland_lt.png"
       ],
       "subcode": "grassland_intensity_lt"
     },
