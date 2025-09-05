@@ -22,7 +22,7 @@
       "rel": "child",
       "href": "./habitats_lithuania/collection.json",
       "type": "application/json",
-      "title": "Habitatis - Lithuania",
+      "title": "Habitats - Lithuania",
       "endpointtype": "FlatGeobuf source",
       "id": "habitats_lithuania",
       "roles": [

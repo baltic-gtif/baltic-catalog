@@ -31,11 +31,11 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Habitatis - Lithuania"
+      "title": "Habitats - Lithuania"
     }
   ],
   "endpointtype": "FlatGeobuf source",
-  "title": "Habitatis - Lithuania",
+  "title": "Habitats - Lithuania",
   "extent": {
     "spatial": {
       "bbox": [

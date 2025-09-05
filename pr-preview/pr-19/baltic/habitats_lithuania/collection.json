@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./habitats_lithuania/collection.json",
       "type": "application/json",
-      "title": "Habitatis - Lithuania",
+      "title": "Habitats - Lithuania",
       "endpointtype": "FlatGeobuf source",
       "id": "habitats_lithuania"
     },
@@ -46,7 +46,7 @@
       "title": "Baltic GTIF Catalog"
     }
   ],
-  "title": "Habitatis - Lithuania",
+  "title": "Habitats - Lithuania",
   "extent": {
     "spatial": {
       "bbox": [
