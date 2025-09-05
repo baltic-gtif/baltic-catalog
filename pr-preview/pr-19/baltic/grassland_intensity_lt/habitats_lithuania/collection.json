@@ -21,7 +21,7 @@
     },
     {
       "rel": "style",
-      "href": "https://api.npoint.io/92c327adb4e47d9bf6c9",
+      "href": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//collections/habitats_lithuania/style.json",
       "type": "text/vector-styles",
       "asset:keys": [
         "002"
