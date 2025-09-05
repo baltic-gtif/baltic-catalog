@@ -22,21 +22,30 @@
       "href": "./grassland_lithuania/collection.json",
       "type": "application/json",
       "title": "Permanent Grassland in CAP - Lithuania",
-      "id": "grassland_lithuania"
+      "id": "grassland_lithuania",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main/thumbnails/grassland_lt.png"
+      ]
     },
     {
       "rel": "child",
       "href": "./habitats_lithuania/collection.json",
       "type": "application/json",
       "title": "Habitats - Lithuania",
-      "id": "habitats_lithuania"
+      "id": "habitats_lithuania",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main/thumbnails/grassland_lt.png"
+      ]
     },
     {
       "rel": "child",
       "href": "./soc_lithuania_gsa/collection.json",
       "type": "application/json",
       "title": "SOC Lithuania - Parcels",
-      "id": "soc_lithuania_gsa"
+      "id": "soc_lithuania_gsa",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main/thumbnails/soc_lt.png"
+      ]
     },
     {
       "rel": "child",
@@ -45,6 +54,9 @@
       "title": "Species-Rich Grassland Management Lithuania",
       "code": "grassland_intensity_lt",
       "id": "grassland_intensity_lt",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main/thumbnails/grassland_lt.png"
+      ],
       "subcode": "grassland_intensity_lt"
     },
     {
@@ -52,7 +64,10 @@
       "href": "./soc_lt/collection.json",
       "type": "application/json",
       "title": "SOC Lithuania",
-      "id": "soc_lt"
+      "id": "soc_lt",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main/thumbnails/soc_lt.png"
+      ]
     },
     {
       "rel": "self",
