@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "SOC Lithuania - Parcels",
+  "id": "soc_lithuania_parcels",
   "stac_version": "1.1.0",
   "description": "",
   "links": [
@@ -12,7 +12,7 @@
     },
     {
       "rel": "item",
-      "href": "./SOC Lithuania - Parcels/2024/2024-01-01T00:00:00Z.json",
+      "href": "./soc_lithuania_parcels/2024/2024-01-01T00:00:00Z.json",
       "type": "application/geo+json",
       "datetime": "2024-01-01T00:00:00Z",
       "assets": [
@@ -31,11 +31,11 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "SOC Lithuania"
+      "title": "SOC Lithuania - Parcels"
     }
   ],
   "endpointtype": "FlatGeobuf source",
-  "title": "",
+  "title": "SOC Lithuania - Parcels",
   "extent": {
     "spatial": {
       "bbox": [

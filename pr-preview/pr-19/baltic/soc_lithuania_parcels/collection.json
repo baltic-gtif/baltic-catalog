@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "SOC Lithuania - Parcels",
+  "id": "soc_lithuania_parcels",
   "stac_version": "1.1.0",
   "description": "",
   "links": [
@@ -12,11 +12,11 @@
     },
     {
       "rel": "child",
-      "href": "./SOC Lithuania - Parcels/collection.json",
+      "href": "./soc_lithuania_parcels/collection.json",
       "type": "application/json",
-      "title": "",
+      "title": "SOC Lithuania - Parcels",
       "endpointtype": "FlatGeobuf source",
-      "id": "SOC Lithuania - Parcels"
+      "id": "soc_lithuania_parcels"
     },
     {
       "rel": "xyz",
@@ -46,7 +46,7 @@
       "title": "Baltic GTIF Catalog"
     }
   ],
-  "title": "",
+  "title": "SOC Lithuania - Parcels",
   "extent": {
     "spatial": {
       "bbox": [

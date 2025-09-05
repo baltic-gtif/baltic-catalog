@@ -33,10 +33,10 @@
     },
     {
       "rel": "child",
-      "href": "./SOC Lithuania - Parcels/collection.json",
+      "href": "./soc_lithuania_parcels/collection.json",
       "type": "application/json",
-      "title": "",
-      "id": "SOC Lithuania - Parcels"
+      "title": "SOC Lithuania - Parcels",
+      "id": "soc_lithuania_parcels"
     },
     {
       "rel": "child",

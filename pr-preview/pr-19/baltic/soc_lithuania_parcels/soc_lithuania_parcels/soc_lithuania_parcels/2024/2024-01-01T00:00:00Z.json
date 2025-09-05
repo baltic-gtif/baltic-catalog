@@ -58,13 +58,13 @@
       "rel": "collection",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": ""
+      "title": "SOC Lithuania - Parcels"
     },
     {
       "rel": "parent",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": ""
+      "title": "SOC Lithuania - Parcels"
     }
   ],
   "assets": {
@@ -76,5 +76,5 @@
       ]
     }
   },
-  "collection": "SOC Lithuania - Parcels"
+  "collection": "soc_lithuania_parcels"
 }
