@@ -34,6 +34,17 @@
       "title": "Habitats - Lithuania"
     }
   ],
+  "eox:colorlegend": {
+    "title": "Permanent Grassland Type",
+    "range": [
+      "#aebc9e"
+    ],
+    "domain": [
+      "Habitat"
+    ],
+    "scaleType": "categorical",
+    "markType": "rect"
+  },
   "endpointtype": "FlatGeobuf source",
   "title": "Habitats - Lithuania",
   "extent": {
