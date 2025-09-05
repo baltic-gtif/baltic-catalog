@@ -34,7 +34,7 @@
       "title": "SOC Lithuania - Parcels"
     }
   ],
-  "thumbnail": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main/thumbnails/soc_lt.png",
+  "thumbnail": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/soc_lt.png",
   "endpointtype": "FlatGeobuf source",
   "title": "SOC Lithuania - Parcels",
   "extent": {
@@ -60,7 +60,7 @@
   "license": "other",
   "assets": {
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main/thumbnails/soc_lt.png",
+      "href": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/soc_lt.png",
       "type": "image/png",
       "roles": [
         "thumbnail"
