@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./grassland_lithuania/collection.json",
       "type": "application/json",
-      "title": "Permanent Grassland Type - Lithuania",
+      "title": "Permanent Grassland in CAP - Lithuania",
       "endpointtype": "FlatGeobuf source",
       "id": "grassland_lithuania"
     },
@@ -47,7 +47,7 @@
     }
   ],
   "eox:colorlegend": {
-    "title": "Permanent Grassland Type",
+    "title": "Natural Grassland Type",
     "range": [
       "#7fc97f",
       "#beaed4",
@@ -65,7 +65,7 @@
     "scaleType": "categorical",
     "markType": "rect"
   },
-  "title": "Permanent Grassland Type - Lithuania",
+  "title": "Permanent Grassland in CAP - Lithuania",
   "extent": {
     "spatial": {
       "bbox": [

@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./grassland_lithuania/collection.json",
       "type": "application/json",
-      "title": "Permanent Grassland Type - Lithuania",
+      "title": "Permanent Grassland in CAP - Lithuania",
       "endpointtype": "FlatGeobuf source",
       "id": "grassland_lithuania"
     },
