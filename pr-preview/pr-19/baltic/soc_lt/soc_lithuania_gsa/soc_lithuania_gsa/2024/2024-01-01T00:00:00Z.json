@@ -42,7 +42,7 @@
   "links": [
     {
       "rel": "style",
-      "href": "https://api.npoint.io/a9b7df0f3018aa2d6fab",
+      "href": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//collections/soc_lithuania/style.json",
       "type": "text/vector-styles",
       "asset:keys": [
         "parcels 2024-07"
