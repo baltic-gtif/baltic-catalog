@@ -31,7 +31,7 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "SOC Lithuania"
+      "title": "Soil Organic Carbon (SOC) - Lithuania"
     }
   ],
   "thumbnail": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/soc_lt.png",
