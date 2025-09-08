@@ -12,13 +12,6 @@
     },
     {
       "rel": "child",
-      "href": "./test1/collection.json",
-      "type": "application/json",
-      "title": "test1",
-      "id": "test1"
-    },
-    {
-      "rel": "child",
       "href": "./grassland_lithuania/collection.json",
       "type": "application/json",
       "title": "Permanent Grassland in CAP - Lithuania",
