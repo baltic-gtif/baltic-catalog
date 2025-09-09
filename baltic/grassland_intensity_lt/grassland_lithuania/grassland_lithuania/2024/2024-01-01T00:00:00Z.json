@@ -69,7 +69,7 @@
   ],
   "assets": {
     "02": {
-      "href": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/lt_pg_gsa_habitats.fgb",
+      "href": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/PG/lt_pg_gsa_habitats.fgb",
       "type": "application/vnd.flatgeobuf",
       "roles": [
         "data"
