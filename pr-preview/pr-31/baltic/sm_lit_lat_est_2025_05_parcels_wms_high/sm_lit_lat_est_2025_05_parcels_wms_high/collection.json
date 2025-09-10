@@ -11,6 +11,18 @@
       "title": "Baltic GTIF Catalog"
     },
     {
+      "rel": "item",
+      "href": "./sm_lit_lat_est_2025_05_parcels_wms_high/2025/2025-05-21T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-05-21T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./sm_lit_lat_est_2025_05_parcels_wms_high/2025/2025-05-31T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-05-31T00:00:00Z"
+    },
+    {
       "rel": "wms",
       "href": "https://server1.landimage.info/geoserver/wms",
       "type": "image/jpeg",
@@ -28,11 +40,6 @@
       }
     },
     {
-      "rel": "item",
-      "href": "./sm_lit_lat_est_2025_05_parcels_wms_high/1970/3766700f-ad23-4ea6-81ab-3f6243eeefdd.json",
-      "type": "application/geo+json"
-    },
-    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
@@ -48,18 +55,18 @@
     "spatial": {
       "bbox": [
         [
-          -180.0,
-          -90.0,
-          180.0,
-          90.0
+          20.649702939879514,
+          53.34689026629309,
+          28.816971956629423,
+          60.451750305254386
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "1970-01-01T00:00:00Z",
-          "2025-09-10T09:31:33.688129Z"
+          "2025-05-21T00:00:00Z",
+          "2025-05-31T00:00:00Z"
         ]
       ]
     }
