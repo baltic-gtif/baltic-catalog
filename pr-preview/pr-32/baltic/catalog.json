@@ -1,0 +1,30 @@
+{
+  "type": "Catalog",
+  "id": "baltic",
+  "stac_version": "1.1.0",
+  "description": "This catalog definition is done for the Baltic GTIF project.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./catalog.json",
+      "type": "application/json",
+      "title": "Baltic GTIF Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./High Waterlogging - parcels/collection.json",
+      "type": "application/json",
+      "title": "High Waterlogging - parcels",
+      "id": "High Waterlogging - parcels",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/sm_lt.png"
+      ]
+    },
+    {
+      "rel": "self",
+      "href": "https://baltic-gtif.github.io/baltic-gtif/baltic-catalog/catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "title": "Baltic GTIF Catalog"
+}
