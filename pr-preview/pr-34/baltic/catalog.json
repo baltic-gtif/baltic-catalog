@@ -18,6 +18,23 @@
       "id": "testdata"
     },
     {
+      "rel": "child",
+      "href": "./some indicator/collection.json",
+      "type": "application/json",
+      "title": "indicator test",
+      "id": "some indicator",
+      "eodash:mapProjection": {
+        "name": "",
+        "def": "",
+        "extent": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      }
+    },
+    {
       "rel": "self",
       "href": "https://baltic-gtif.github.io/baltic-gtif/baltic-catalog/catalog.json",
       "type": "application/json"
