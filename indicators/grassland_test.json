@@ -1,9 +1,11 @@
 {
-  "Name": "",
-  "Title": "",
+  "Name": "some indicator",
+  "Title": "indicator test",
   "EodashIdentifier": "",
   "Description": "",
-  "Collections": [],
+  "Collections": [
+    "testdata"
+  ],
   "Disable": [],
   "BaseLayers": [],
   "OverlayLayers": [],
