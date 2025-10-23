@@ -20,14 +20,6 @@
       ]
     },
     {
-      "rel": "style",
-      "href": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/SOC_index/SMM.json",
-      "type": "text/vector-styles",
-      "asset:keys": [
-        "GSOCseq_anSSM3_parc"
-      ]
-    },
-    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
