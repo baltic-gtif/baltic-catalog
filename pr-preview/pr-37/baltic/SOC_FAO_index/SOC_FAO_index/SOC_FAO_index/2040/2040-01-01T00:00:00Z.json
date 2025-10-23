@@ -69,7 +69,7 @@
   ],
   "assets": {
     "GSOCseq_anSSM3_parc": {
-      "href": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/SOC_index/GSOCseq_anSSM3_parc_EXTRACT.fgb",
+      "href": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/SOC_index/GSOCseq_anSSM3_parc_EXTRCAT.fgb",
       "type": "application/vnd.flatgeobuf",
       "roles": [
         "data"
