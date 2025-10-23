@@ -1,0 +1,71 @@
+{
+  "type": "Collection",
+  "id": "SOC_FAO_index",
+  "stac_version": "1.1.0",
+  "description": "",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Baltic GTIF Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./SOC_FAO_index/collection.json",
+      "type": "application/json",
+      "title": "SoC index ",
+      "endpointtype": "FlatGeobuf source",
+      "id": "SOC_FAO_index"
+    },
+    {
+      "rel": "xyz",
+      "href": "//tiles.maps.eox.at/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "EOxCloudless 2024",
+      "roles": [
+        "baselayer"
+      ],
+      "id": "cloudless-2024"
+    },
+    {
+      "rel": "xyz",
+      "href": "//tiles.maps.eox.at/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "image/png",
+      "title": "Overlay labels",
+      "roles": [
+        "overlay",
+        "visible"
+      ],
+      "id": "overlay_bright"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Baltic GTIF Catalog"
+    }
+  ],
+  "title": "SoC index ",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          20.477039241572896,
+          53.85657954510756,
+          26.90500803036645,
+          56.62822850154908
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2040-01-01T00:00:00Z",
+          "2040-01-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

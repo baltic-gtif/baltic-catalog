@@ -1,0 +1,60 @@
+{
+  "type": "Collection",
+  "id": "SOC_FAO_index",
+  "stac_version": "1.1.0",
+  "description": "",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Baltic GTIF Catalog"
+    },
+    {
+      "rel": "item",
+      "href": "./SOC_FAO_index/2040/2040-01-01T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2040-01-01T00:00:00Z",
+      "assets": [
+        "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/SOC_index/GSOCseq_anSSM3_parc_EXTRACT.fgb"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/SOC_index/SMM.json",
+      "type": "text/vector-styles",
+      "asset:keys": [
+        "GSOCseq_anSSM3_parc"
+      ]
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "SoC index "
+    }
+  ],
+  "endpointtype": "FlatGeobuf source",
+  "title": "SoC index ",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          20.477039241572896,
+          53.85657954510756,
+          26.90500803036645,
+          56.62822850154908
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2040-01-01T00:00:00Z",
+          "2040-01-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}
