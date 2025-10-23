@@ -5,7 +5,7 @@
   "Resources": [
     {
       "Name": "FlatGeobuf source",
-      "Style": "",
+      "Style": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/SOC_index/SMM.fgb",
       "TimeEntries": [
         {
           "Time": "2024",
