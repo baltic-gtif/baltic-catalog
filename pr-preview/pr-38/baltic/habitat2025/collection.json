@@ -1,0 +1,71 @@
+{
+  "type": "Collection",
+  "id": "habitat2025",
+  "stac_version": "1.1.0",
+  "description": "",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Baltic GTIF Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./habitat2025/collection.json",
+      "type": "application/json",
+      "title": "GSA LT habitat 2025",
+      "endpointtype": "FlatGeobuf source",
+      "id": "habitat2025"
+    },
+    {
+      "rel": "xyz",
+      "href": "//tiles.maps.eox.at/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "EOxCloudless 2024",
+      "roles": [
+        "baselayer"
+      ],
+      "id": "cloudless-2024"
+    },
+    {
+      "rel": "xyz",
+      "href": "//tiles.maps.eox.at/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "image/png",
+      "title": "Overlay labels",
+      "roles": [
+        "overlay",
+        "visible"
+      ],
+      "id": "overlay_bright"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Baltic GTIF Catalog"
+    }
+  ],
+  "title": "GSA LT habitat 2025",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          20.5392779143943,
+          53.85358782541098,
+          26.904429770877965,
+          56.48056051033487
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-01-01T00:00:00Z",
+          "2025-01-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

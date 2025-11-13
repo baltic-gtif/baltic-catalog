@@ -1,0 +1,80 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "2025-01-01T00:00:00Z",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          20.5392779143943,
+          53.85358782541098
+        ],
+        [
+          26.904429770877965,
+          53.85358782541098
+        ],
+        [
+          26.904429770877965,
+          56.48056051033487
+        ],
+        [
+          20.5392779143943,
+          56.48056051033487
+        ],
+        [
+          20.5392779143943,
+          53.85358782541098
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    20.5392779143943,
+    53.85358782541098,
+    26.904429770877965,
+    56.48056051033487
+  ],
+  "properties": {
+    "datetime": "2025-01-01T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "style",
+      "href": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/Habitat_2025/style_habitat.json",
+      "type": "text/vector-styles",
+      "asset:keys": [
+        "Habitat_2025"
+      ]
+    },
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Baltic GTIF Catalog"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "GSA LT habitat 2025"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "GSA LT habitat 2025"
+    }
+  ],
+  "assets": {
+    "Habitat_2025": {
+      "href": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/Habitat_2025/Habitat_2025_ReadyDisplay.fgb",
+      "type": "application/vnd.flatgeobuf",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "habitat2025"
+}
