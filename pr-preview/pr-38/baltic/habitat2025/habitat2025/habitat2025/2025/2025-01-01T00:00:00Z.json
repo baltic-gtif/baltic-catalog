@@ -69,7 +69,7 @@
   ],
   "assets": {
     "Habitat_2025": {
-      "href": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/Habitat_2025/Habitat_2025_PG2ha_ReadyDisplay.fgb",
+      "href": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/Habitat_2025/Habitat_2025_PG2ha_optimizedDisplay.fgb",
       "type": "application/vnd.flatgeobuf",
       "roles": [
         "data"
