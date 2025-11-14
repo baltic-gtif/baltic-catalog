@@ -24,5 +24,24 @@
         56.229196914456445
       ]
     }
-  ]
+  ],
+  "Colorlegend": {
+    "title": "Natural Grassland Type and Habitats",
+    "range": [
+      "#7fc97f",
+      "#beaed4",
+      "#fdc086",
+      "#ffff99",
+      "#386cb0"
+    ],
+    "markType": "rect",
+    "scaleType": "categorical",
+    "domain": [
+      "1LT",
+      "EPG",
+      "DGJ",
+      "DGP",
+      "EBB"
+    ]
+  }
 }
