@@ -58,13 +58,13 @@
       "rel": "collection",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "GSA LT habitat 2025"
+      "title": "PG LT - Habitat "
     },
     {
       "rel": "parent",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "GSA LT habitat 2025"
+      "title": "PG LT - Habitat "
     }
   ],
   "assets": {
