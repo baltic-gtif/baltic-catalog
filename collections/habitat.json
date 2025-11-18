@@ -8,7 +8,7 @@
       "Style": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/Habitat_2025/style_habitat_PG.json",
       "TimeEntries": [
         {
-          "Time": "2025",
+          "Time": "2025 bucket/public/NCS/SOCindexes_2025/SOC_2025_PG2ha_ReadyDisplay.fgb",
           "Assets": [
             {
               "Identifier": "Habitat_2025",
@@ -24,24 +24,5 @@
         56.229196914456445
       ]
     }
-  ],
-  "Colorlegend": {
-    "title": "Permanent Grassland Type",
-    "range": [
-      "#7fc97f",
-      "#beaed4",
-      "#fdc086",
-      "#ffff99",
-      "#386cb0"
-    ],
-    "markType": "rect",
-    "scaleType": "categorical",
-    "domain": [
-      "1LT",
-      "EPG",
-      "DGJ",
-      "DGP",
-      "EBB"
-    ]
-  }
+  ]
 }
