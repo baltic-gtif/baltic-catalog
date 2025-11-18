@@ -5,7 +5,7 @@
   "Resources": [
     {
       "Name": "FlatGeobuf source",
-      "Style": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/Habitat_2025/style_habitat_PG-Copy1.json",
+      "Style": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/Habitat_2025/style_habitat_PG_withPGorHabitat.json",
       "TimeEntries": [
         {
           "Time": "2025",
