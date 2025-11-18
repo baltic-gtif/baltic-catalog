@@ -21,10 +21,10 @@
     },
     {
       "rel": "style",
-      "href": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/Habitat_2025/style_habitat_PG.json",
+      "href": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/Habitat_2025/style_habitat_PG-Copy1.json",
       "type": "text/vector-styles",
       "asset:keys": [
-        "Habitat_2025"
+        "Habitat 2025"
       ]
     },
     {
@@ -34,25 +34,6 @@
       "title": "GSA LT habitat 2025"
     }
   ],
-  "eox:colorlegend": {
-    "title": "Permanent Grassland Type",
-    "range": [
-      "#7fc97f",
-      "#beaed4",
-      "#fdc086",
-      "#ffff99",
-      "#386cb0"
-    ],
-    "markType": "rect",
-    "scaleType": "categorical",
-    "domain": [
-      "1LT",
-      "EPG",
-      "DGJ",
-      "DGP",
-      "EBB"
-    ]
-  },
   "endpointtype": "FlatGeobuf source",
   "title": "GSA LT habitat 2025",
   "extent": {
