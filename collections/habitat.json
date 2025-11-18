@@ -5,7 +5,7 @@
   "Resources": [
     {
       "Name": "FlatGeobuf source",
-      "Style": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/Habitat_2025/style_habitat_PG_withPGorHabitat.json",
+      "Style": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/Habitat_2025/style_habitat_PG.json",
       "TimeEntries": [
         {
           "Time": "2025",
@@ -18,10 +18,10 @@
         }
       ],
       "Bbox": [
-        20.189932709470337,
-        53.55903874669065,
-        27.028282487729072,
-        56.229196914456445
+        21.160551753027363,
+        55.23478595248523,
+        21.486481700133524,
+        55.38482576246827
       ]
     }
   ]
