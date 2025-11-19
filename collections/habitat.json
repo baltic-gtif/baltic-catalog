@@ -1,6 +1,6 @@
 {
   "Name": "habitat2025",
-  "Title": "PG LT - Habitat ",
+  "Title": "PG LT 2025 - Habitat ",
   "Description": "# Lithuanian Permanent Grassland and their habitats\nNatural PGs are ecosystems, where implementation of usual practices consciously adjusted to the actual conditions is able to create a high biodiversity value in a relatively short time-frame.\n\nThe way PGs are maintained by machinery and grazing are serious limiting factors of the ecosystem health. Timing of any activity to be adjusted to climate conditions (wet/dry periods) is essential not to destroy certain vulnerable fauna and herbaceous flora.\n\n\n#### Data Sources:\n* PG parcels are from open governmental IACS GSA data (2024), managed by the National Paying Agency of Lithuania (NMA)\n* Habitat is from open published LT dataset, in relation to the INSPIRE Directive",
   "Resources": [
     {
