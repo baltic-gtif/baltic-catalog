@@ -24,24 +24,7 @@
       "href": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/SOCindexes_2025/style_SOC_PG.json",
       "type": "text/vector-styles",
       "asset:keys": [
-        "SOCindexes 2025 - PG"
-      ]
-    },
-    {
-      "rel": "item",
-      "href": "./SOCindex/2025/2025-12-31T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2025-12-31T00:00:00Z",
-      "assets": [
-        "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/SOCindexes_2025/SOC_2025_QDT_nonPG_ReadyDisplay.fgb"
-      ]
-    },
-    {
-      "rel": "style",
-      "href": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/SOCindexes_2025/style_SOC_nonPG.json",
-      "type": "text/vector-styles",
-      "asset:keys": [
-        "SOCindexes 2025 - PG"
+        "SOCindexes 2025 PG"
       ]
     },
     {
@@ -57,10 +40,10 @@
     "spatial": {
       "bbox": [
         [
-          -180,
-          -85,
-          180,
-          85
+          20.197014755726087,
+          53.59374203993408,
+          27.012401486389926,
+          56.47603436319983
         ]
       ]
     },
