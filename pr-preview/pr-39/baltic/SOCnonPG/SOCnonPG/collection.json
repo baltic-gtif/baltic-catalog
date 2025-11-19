@@ -16,23 +16,7 @@
       "type": "application/geo+json",
       "datetime": "2025-12-31T00:00:00Z",
       "assets": [
-        "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/SOCindexes_2025/SOC_2025_QDT_nonPG_ReadyDisplay.fgb"
-      ]
-    },
-    {
-      "rel": "style",
-      "href": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/SOCindexes_2025/style_SOC_nonPG.json",
-      "type": "text/vector-styles",
-      "asset:keys": [
-        "SOCindexes 2025 nonPG"
-      ]
-    },
-    {
-      "rel": "item",
-      "href": "./SOCnonPG/2025/2025-12-31T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2025-12-31T00:00:00Z",
-      "assets": [
+        "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/SOCindexes_2025/SOC_2025_QDT_nonPG_ReadyDisplay.fgb",
         "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/SOCindexes_2025/SOC_2025_QDT_PG2ha_ReadyDisplay.fgb"
       ]
     },
@@ -41,6 +25,7 @@
       "href": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/SOCindexes_2025/style_SOC_nonPG.json",
       "type": "text/vector-styles",
       "asset:keys": [
+        "SOCindexes 2025 nonPG",
         "SOCindexes 2025 PG"
       ]
     },
@@ -57,10 +42,10 @@
     "spatial": {
       "bbox": [
         [
-          23.251761786299106,
-          55.05145182995267,
-          24.946989136946318,
-          55.88787445111146
+          23.59259684468476,
+          55.330206345657196,
+          24.941740254076628,
+          55.88577793801024
         ]
       ]
     },
