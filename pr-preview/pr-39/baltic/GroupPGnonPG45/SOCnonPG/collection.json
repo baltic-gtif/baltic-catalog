@@ -31,7 +31,7 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "PG and non PG - 2025"
+      "title": "PG and non PG 2025 - SOC"
     }
   ],
   "endpointtype": "FlatGeobuf source",
