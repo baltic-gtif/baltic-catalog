@@ -4,8 +4,8 @@
   "EodashIdentifier": "",
   "Description": "",
   "Collections": [
-    "collections/socnonpg.json",
-    "collections/socindex.json"
+    "socnonpg",
+    "socindex"
   ],
   "Disable": [],
   "BaseLayers": [],
