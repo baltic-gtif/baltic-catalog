@@ -1,0 +1,60 @@
+{
+  "type": "Collection",
+  "id": "SOCnonPG",
+  "stac_version": "1.1.0",
+  "description": "# Soil Organic Carbon (SOC) - Lithuania\nDue to the large root surface and microbial activity, Natural Permanent Grasslands (PG) acts as organic carbon sinks. The intensity and nature of mowing events and livestock grazing critically influence grassland SOC levels. Intensive grazing can lead to significant C losses, while rotational, adaptive grazing can promote plant growth and improve carbon capture and storage in grasslands.\n\n### Data Sources:\n- Global Soil Organic Carbon content and Sequestration Potential Maps (GSOCseq) V1.0.0: Estimation of topsoil (0-30 cm) soil organic carbon sequestration potential in agricultural areas under a Business as Usual (BAU) scenario and a Sustainable Soil Management (SSM3) scenarios. Global Soil Information System of the FAO.\n- Parcels that are not of type PG in 2025, from open governmental IACS GSA data (2025), managed by the National Paying Agency of Lithuania (NMA)\n- Sentinel-2 cloudless 2024 by EOX IT Services GmbH is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. The required attribution including the given links is: \"Sentinel-2 cloudless by EOX IT Services GmbH (Contains modified Copernicus Sentinel data 2024)\"",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Baltic GTIF Catalog"
+    },
+    {
+      "rel": "item",
+      "href": "./SOCnonPG/2025/2025-12-31T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-12-31T00:00:00Z",
+      "assets": [
+        "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/SOCindexes_2025/SOC_2025_QDT_nonPG_ReadyDisplay.fgb"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/SOCindexes_2025/style_SOC_nonPG.json",
+      "type": "text/vector-styles",
+      "asset:keys": [
+        "SOCindexes 2025 nonPG"
+      ]
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "PG and non PG - 2025"
+    }
+  ],
+  "endpointtype": "FlatGeobuf source",
+  "title": "non PG LT 2025 - SOC",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          23.59259684468476,
+          55.330206345657196,
+          24.941740254076628,
+          55.88577793801024
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-12-31T00:00:00Z",
+          "2025-12-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

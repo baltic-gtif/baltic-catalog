@@ -1,0 +1,80 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "2025-12-31T00:00:00Z",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          23.59259684468476,
+          55.330206345657196
+        ],
+        [
+          24.941740254076628,
+          55.330206345657196
+        ],
+        [
+          24.941740254076628,
+          55.88577793801024
+        ],
+        [
+          23.59259684468476,
+          55.88577793801024
+        ],
+        [
+          23.59259684468476,
+          55.330206345657196
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    23.59259684468476,
+    55.330206345657196,
+    24.941740254076628,
+    55.88577793801024
+  ],
+  "properties": {
+    "datetime": "2025-12-31T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "style",
+      "href": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/SOCindexes_2025/style_SOC_nonPG.json",
+      "type": "text/vector-styles",
+      "asset:keys": [
+        "SOCindexes 2025 nonPG"
+      ]
+    },
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Baltic GTIF Catalog"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "non PG LT 2025 - SOC"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "non PG LT 2025 - SOC"
+    }
+  ],
+  "assets": {
+    "SOCindexes 2025 nonPG": {
+      "href": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/SOCindexes_2025/SOC_2025_QDT_nonPG_ReadyDisplay.fgb",
+      "type": "application/vnd.flatgeobuf",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "SOCnonPG"
+}
