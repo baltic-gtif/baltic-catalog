@@ -11,20 +11,6 @@
       "title": "Baltic GTIF Catalog"
     },
     {
-      "rel": "child",
-      "href": "./SOCindex/collection.json",
-      "type": "application/json",
-      "title": "PG LT 2025 - SOC",
-      "id": "SOCindex"
-    },
-    {
-      "rel": "child",
-      "href": "./SOCnonPG/collection.json",
-      "type": "application/json",
-      "title": "non PG LT 2025 - SOC",
-      "id": "SOCnonPG"
-    },
-    {
       "rel": "self",
       "href": "https://baltic-gtif.github.io/baltic-gtif/baltic-catalog/catalog.json",
       "type": "application/json"
