@@ -34,12 +34,6 @@
       "title": "PG LT 2025 - SOC"
     }
   ],
-  "eox:colorlegend": {
-    "title": "SOC indexes ",
-    "markType": "rect",
-    "range": [],
-    "scaleType": "continuous"
-  },
   "endpointtype": "FlatGeobuf source",
   "title": "PG LT 2025 - SOC",
   "extent": {

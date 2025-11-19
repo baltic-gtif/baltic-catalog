@@ -46,12 +46,6 @@
       "title": "Baltic GTIF Catalog"
     }
   ],
-  "eox:colorlegend": {
-    "title": "SOC indexes ",
-    "markType": "rect",
-    "range": [],
-    "scaleType": "continuous"
-  },
   "title": "PG LT 2025 - SOC",
   "extent": {
     "spatial": {
