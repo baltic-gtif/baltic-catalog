@@ -24,11 +24,5 @@
         56.47603436319983
       ]
     }
-  ],
-  "Colorlegend": {
-    "title": "SOC indexes ",
-    "markType": "rect",
-    "range": [],
-    "scaleType": "continuous"
-  }
+  ]
 }
