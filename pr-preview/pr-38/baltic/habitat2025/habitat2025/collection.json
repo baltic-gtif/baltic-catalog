@@ -31,11 +31,11 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "PG LT - Habitat "
+      "title": "PG LT 2025 - Habitat "
     }
   ],
   "endpointtype": "FlatGeobuf source",
-  "title": "PG LT - Habitat ",
+  "title": "PG LT 2025 - Habitat ",
   "extent": {
     "spatial": {
       "bbox": [
