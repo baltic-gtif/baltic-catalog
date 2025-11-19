@@ -31,7 +31,7 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "GSA LT SOC 2025"
+      "title": "PG LT 2025 - SOC"
     }
   ],
   "eox:colorlegend": {
@@ -41,7 +41,7 @@
     "scaleType": "continuous"
   },
   "endpointtype": "FlatGeobuf source",
-  "title": "GSA LT SOC 2025",
+  "title": "PG LT 2025 - SOC",
   "extent": {
     "spatial": {
       "bbox": [

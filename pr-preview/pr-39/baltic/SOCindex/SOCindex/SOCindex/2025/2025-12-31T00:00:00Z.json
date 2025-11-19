@@ -58,13 +58,13 @@
       "rel": "collection",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "GSA LT SOC 2025"
+      "title": "PG LT 2025 - SOC"
     },
     {
       "rel": "parent",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "GSA LT SOC 2025"
+      "title": "PG LT 2025 - SOC"
     }
   ],
   "assets": {
