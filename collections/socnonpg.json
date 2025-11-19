@@ -18,10 +18,31 @@
         }
       ],
       "Bbox": [
-        23.754737226809397,
-        55.39796241066747,
-        24.799077617646617,
-        55.87930297591378
+        23.251761786299106,
+        55.05145182995267,
+        24.946989136946318,
+        55.88787445111146
+      ]
+    },
+    {
+      "Name": "FlatGeobuf source",
+      "Style": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/SOCindexes_2025/style_SOC_nonPG.json",
+      "TimeEntries": [
+        {
+          "Time": "2025-12-31",
+          "Assets": [
+            {
+              "Identifier": "SOCindexes 2025 PG",
+              "File": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/SOCindexes_2025/SOC_2025_QDT_PG2ha_ReadyDisplay.fgb"
+            }
+          ]
+        }
+      ],
+      "Bbox": [
+        23.69122387163395,
+        55.110980881890924,
+        24.858268073648425,
+        55.85454696156911
       ]
     }
   ]
