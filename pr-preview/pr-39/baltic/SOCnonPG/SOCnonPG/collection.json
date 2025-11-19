@@ -28,6 +28,23 @@
       ]
     },
     {
+      "rel": "item",
+      "href": "./SOCnonPG/2025/2025-12-31T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-12-31T00:00:00Z",
+      "assets": [
+        "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/SOCindexes_2025/SOC_2025_QDT_PG2ha_ReadyDisplay.fgb"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/SOCindexes_2025/style_SOC_nonPG.json",
+      "type": "text/vector-styles",
+      "asset:keys": [
+        "SOCindexes 2025 PG"
+      ]
+    },
+    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
@@ -40,10 +57,10 @@
     "spatial": {
       "bbox": [
         [
-          23.754737226809397,
-          55.39796241066747,
-          24.799077617646617,
-          55.87930297591378
+          23.251761786299106,
+          55.05145182995267,
+          24.946989136946318,
+          55.88787445111146
         ]
       ]
     },

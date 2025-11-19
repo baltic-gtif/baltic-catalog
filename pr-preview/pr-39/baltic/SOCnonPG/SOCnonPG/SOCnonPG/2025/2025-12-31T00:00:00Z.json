@@ -8,33 +8,33 @@
     "coordinates": [
       [
         [
-          23.754737226809397,
-          55.39796241066747
+          23.69122387163395,
+          55.110980881890924
         ],
         [
-          24.799077617646617,
-          55.39796241066747
+          24.858268073648425,
+          55.110980881890924
         ],
         [
-          24.799077617646617,
-          55.87930297591378
+          24.858268073648425,
+          55.85454696156911
         ],
         [
-          23.754737226809397,
-          55.87930297591378
+          23.69122387163395,
+          55.85454696156911
         ],
         [
-          23.754737226809397,
-          55.39796241066747
+          23.69122387163395,
+          55.110980881890924
         ]
       ]
     ]
   },
   "bbox": [
-    23.754737226809397,
-    55.39796241066747,
-    24.799077617646617,
-    55.87930297591378
+    23.69122387163395,
+    55.110980881890924,
+    24.858268073648425,
+    55.85454696156911
   ],
   "properties": {
     "datetime": "2025-12-31T00:00:00Z"
@@ -45,7 +45,7 @@
       "href": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/SOCindexes_2025/style_SOC_nonPG.json",
       "type": "text/vector-styles",
       "asset:keys": [
-        "SOCindexes 2025 nonPG"
+        "SOCindexes 2025 PG"
       ]
     },
     {
@@ -68,8 +68,8 @@
     }
   ],
   "assets": {
-    "SOCindexes 2025 nonPG": {
-      "href": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/SOCindexes_2025/SOC_2025_QDT_nonPG_ReadyDisplay.fgb",
+    "SOCindexes 2025 PG": {
+      "href": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/SOCindexes_2025/SOC_2025_QDT_PG2ha_ReadyDisplay.fgb",
       "type": "application/vnd.flatgeobuf",
       "roles": [
         "data"
