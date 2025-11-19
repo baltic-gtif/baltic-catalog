@@ -3,7 +3,10 @@
   "Title": "",
   "EodashIdentifier": "",
   "Description": "",
-  "Collections": [],
+  "Collections": [
+    "collections/socnonpg.json",
+    "collections/socindex.json"
+  ],
   "Disable": [],
   "BaseLayers": [],
   "OverlayLayers": [],
