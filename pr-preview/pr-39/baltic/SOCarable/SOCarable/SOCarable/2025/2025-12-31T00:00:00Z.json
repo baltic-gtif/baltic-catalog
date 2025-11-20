@@ -45,7 +45,7 @@
       "href": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/SOCindexes_2025/style_SOC_nonPG.json",
       "type": "text/vector-styles",
       "asset:keys": [
-        "SOCindexes 2025 nonPG"
+        "SOCindexes 2025 arable"
       ]
     },
     {
@@ -58,23 +58,23 @@
       "rel": "collection",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "non PG LT 2025 - SOC"
+      "title": "Arable LT 2025 - SOC"
     },
     {
       "rel": "parent",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "non PG LT 2025 - SOC"
+      "title": "Arable LT 2025 - SOC"
     }
   ],
   "assets": {
-    "SOCindexes 2025 nonPG": {
-      "href": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/SOCindexes_2025/SOC_2025_QDT_nonPG_ReadyDisplay.fgb",
+    "SOCindexes 2025 arable": {
+      "href": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/SOCindexes_2025/SOC_2025_QDT_Arable_ReadyDisplay.fgb",
       "type": "application/vnd.flatgeobuf",
       "roles": [
         "data"
       ]
     }
   },
-  "collection": "SOCnonPG"
+  "collection": "SOCarable"
 }

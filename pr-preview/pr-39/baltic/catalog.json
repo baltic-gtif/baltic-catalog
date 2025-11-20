@@ -19,10 +19,10 @@
     },
     {
       "rel": "child",
-      "href": "./SOCnonPG/collection.json",
+      "href": "./SOCarable/collection.json",
       "type": "application/json",
-      "title": "non PG LT 2025 - SOC",
-      "id": "SOCnonPG"
+      "title": "Arable LT 2025 - SOC",
+      "id": "SOCarable"
     },
     {
       "rel": "child",
