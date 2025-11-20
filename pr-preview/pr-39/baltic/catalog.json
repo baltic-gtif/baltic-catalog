@@ -26,10 +26,10 @@
     },
     {
       "rel": "child",
-      "href": "./GroupPGnonPG45/collection.json",
+      "href": "./Group25PGarable/collection.json",
       "type": "application/json",
-      "title": "PG and non PG 2025 - SOC",
-      "id": "GroupPGnonPG45",
+      "title": "PG and Arable 2025 - SOC",
+      "id": "Group25PGarable",
       "eodash:mapProjection": {
         "name": "",
         "def": "",
