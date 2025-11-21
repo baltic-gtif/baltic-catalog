@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./SOCindex/collection.json",
       "type": "application/json",
-      "title": "PG LT 2025 - SOC",
+      "title": "Permanent Grassland LT 2025 - SOC",
       "endpointtype": "FlatGeobuf source",
       "id": "SOCindex"
     },
@@ -46,7 +46,7 @@
       "title": "Baltic GTIF Catalog"
     }
   ],
-  "title": "PG LT 2025 - SOC",
+  "title": "Permanent Grassland LT 2025 - SOC",
   "extent": {
     "spatial": {
       "bbox": [
