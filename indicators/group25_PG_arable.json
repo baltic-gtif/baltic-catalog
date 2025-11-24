@@ -6,35 +6,5 @@
   "Collections": [
     "soc_arable",
     "soc_pg"
-  ],
-  "Disable": [],
-  "BaseLayers": [],
-  "OverlayLayers": [],
-  "CollectionGroup": "",
-  "Process": {
-    "Name": "",
-    "JsonForm": "",
-    "VegaDefinition": "",
-    "EndPoints": [
-      {
-        "Identifier": "",
-        "Url": "",
-        "Type": "application/geo+json",
-        "EndPoint": "",
-        "Method": "GET",
-        "Body": "",
-        "Flatstyle": ""
-      }
-    ]
-  },
-  "MapProjection": {
-    "name": "",
-    "def": "",
-    "extent": [
-      "",
-      "",
-      "",
-      ""
-    ]
-  }
+  ]
 }
