@@ -28,18 +28,8 @@
       "rel": "child",
       "href": "./Group25PGarable/collection.json",
       "type": "application/json",
-      "title": "PG and Arable 2025 - SOC",
-      "id": "Group25PGarable",
-      "eodash:mapProjection": {
-        "name": "",
-        "def": "",
-        "extent": [
-          "",
-          "",
-          "",
-          ""
-        ]
-      }
+      "title": "Permanent Grassland and Arable 2025 - SOC",
+      "id": "Group25PGarable"
     },
     {
       "rel": "self",

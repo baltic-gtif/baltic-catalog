@@ -31,7 +31,7 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "PG and Arable 2025 - SOC"
+      "title": "Permanent Grassland and Arable 2025 - SOC"
     }
   ],
   "endpointtype": "FlatGeobuf source",
