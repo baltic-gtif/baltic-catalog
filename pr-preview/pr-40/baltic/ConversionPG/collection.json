@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./PGconversion/collection.json",
       "type": "application/json",
-      "title": "Conversion - Permanent Grassland  Loss",
+      "title": "Permanent Grassland  - Loss",
       "endpointtype": "FlatGeobuf source",
       "id": "PGconversion"
     },
