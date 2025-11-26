@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./POL_WATERLOGGING_D10_20250610/collection.json",
       "type": "application/json",
-      "title": "High Waterlogging - parcels",
+      "title": "SAGRIS Waterlogging 2025-06-10 - 06-20 High Waterlogging - parcels",
       "id": "POL_WATERLOGGING_D10_20250610",
       "thumbnail": [
         "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/sm_lt.png"
