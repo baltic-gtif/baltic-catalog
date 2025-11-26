@@ -58,13 +58,13 @@
       "rel": "collection",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "Permanent Grassland Conversion"
+      "title": "Conversion - Permanent Grassland  Loss"
     },
     {
       "rel": "parent",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "Permanent Grassland Conversion"
+      "title": "Conversion - Permanent Grassland  Loss"
     }
   ],
   "assets": {

@@ -14,9 +14,8 @@
       "rel": "child",
       "href": "./PGconversion/collection.json",
       "type": "application/json",
-      "title": "Permanent Grassland Conversion",
+      "title": "Conversion - Permanent Grassland  Loss",
       "endpointtype": "FlatGeobuf source",
-      "subtitle": "test1",
       "id": "PGconversion"
     },
     {
@@ -47,8 +46,7 @@
       "title": "Baltic GTIF Catalog"
     }
   ],
-  "subtitle": "test1",
-  "title": "Permanent Grassland Conversion",
+  "title": "Conversion - Permanent Grassland  Loss",
   "extent": {
     "spatial": {
       "bbox": [
@@ -69,15 +67,5 @@
       ]
     }
   },
-  "license": "other",
-  "assets": {
-    "reference_1": {
-      "href": "",
-      "type": "text/html",
-      "title": "test3",
-      "roles": [
-        "metadata"
-      ]
-    }
-  }
+  "license": "other"
 }

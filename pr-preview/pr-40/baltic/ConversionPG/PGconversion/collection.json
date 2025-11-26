@@ -34,9 +34,8 @@
       "title": "PG conversion (loss and positive conversion)"
     }
   ],
-  "subtitle": "test1",
   "endpointtype": "FlatGeobuf source",
-  "title": "Permanent Grassland Conversion",
+  "title": "Conversion - Permanent Grassland  Loss",
   "extent": {
     "spatial": {
       "bbox": [
@@ -57,15 +56,5 @@
       ]
     }
   },
-  "license": "other",
-  "assets": {
-    "reference_1": {
-      "href": "",
-      "type": "text/html",
-      "title": "test3",
-      "roles": [
-        "metadata"
-      ]
-    }
-  }
+  "license": "other"
 }
