@@ -1,0 +1,80 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "2024-01-01T00:00:00Z",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          20.419322145409254,
+          53.75314018365795
+        ],
+        [
+          27.046905366609607,
+          53.75314018365795
+        ],
+        [
+          27.046905366609607,
+          56.413294402376536
+        ],
+        [
+          20.419322145409254,
+          56.413294402376536
+        ],
+        [
+          20.419322145409254,
+          53.75314018365795
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    20.419322145409254,
+    53.75314018365795,
+    27.046905366609607,
+    56.413294402376536
+  ],
+  "properties": {
+    "datetime": "2024-01-01T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "style",
+      "href": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/GSAconversion/style_PGconversion2024.json",
+      "type": "text/vector-styles",
+      "asset:keys": [
+        "GSA2024conversion2024to2025"
+      ]
+    },
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Baltic GTIF Catalog"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Permanent Grassland Conversion"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Permanent Grassland Conversion"
+    }
+  ],
+  "assets": {
+    "GSA2024conversion2024to2025": {
+      "href": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/GSAconversion/GSAconversion_2024_2025/GSA_2024_parcelPG2ha_conversion_2024_to_2025_display.fgb",
+      "type": "application/vnd.flatgeobuf",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "PGconversion"
+}

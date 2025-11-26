@@ -1,0 +1,86 @@
+{
+  "type": "Collection",
+  "id": "ConversionPG",
+  "stac_version": "1.1.0",
+  "description": "# Soil Organic Carbon (SOC) - Lithuania\n\n\n### Data Sources:\n- **Global Soil Organic Carbon content and Sequestration Potential Maps (GSOCseq) V1.0.0**: Estimation of topsoil (0-30 cm) soil organic carbon sequestration potential in agricultural areas under a Business as Usual (BAU) scenario and a Sustainable Soil Management (SSM3) scenarios - Global Soil Information System of the FAO.\n- **Parcels** are from open governmental IACS GSA data (2025), managed by the National Paying Agency of Lithuania (NMA)\n- **Sentinel-2 cloudless 2024** by EOX IT Services GmbH is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. The required attribution including the given links is: \"Sentinel-2 cloudless by EOX IT Services GmbH (Contains modified Copernicus Sentinel data 2024)\"",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Baltic GTIF Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./PGconversion/collection.json",
+      "type": "application/json",
+      "title": "Permanent Grassland Conversion",
+      "endpointtype": "FlatGeobuf source",
+      "subtitle": "test1",
+      "id": "PGconversion"
+    },
+    {
+      "rel": "child",
+      "href": "./pgPositiveConversion2024to2025/collection.json",
+      "type": "application/json",
+      "title": "Conversion into Grassland ",
+      "endpointtype": "FlatGeobuf source",
+      "id": "pgPositiveConversion2024to2025"
+    },
+    {
+      "rel": "xyz",
+      "href": "//tiles.maps.eox.at/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "EOxCloudless 2024",
+      "roles": [
+        "baselayer"
+      ],
+      "id": "cloudless-2024"
+    },
+    {
+      "rel": "xyz",
+      "href": "//tiles.maps.eox.at/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "image/png",
+      "title": "Overlay labels",
+      "roles": [
+        "overlay",
+        "visible"
+      ],
+      "id": "overlay_bright"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Baltic GTIF Catalog"
+    }
+  ],
+  "title": "PG conversion (loss and positive conversion)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180,
+          -85,
+          180,
+          85
+        ],
+        [
+          20.419322145409254,
+          53.75314018365795,
+          27.046905366609607,
+          56.413294402376536
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-01-01T00:00:00Z",
+          "2025-01-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

@@ -26,6 +26,13 @@
       "id": "pgPositiveConversion2024to2025"
     },
     {
+      "rel": "child",
+      "href": "./ConversionPG/collection.json",
+      "type": "application/json",
+      "title": "PG conversion (loss and positive conversion)",
+      "id": "ConversionPG"
+    },
+    {
       "rel": "self",
       "href": "https://baltic-gtif.github.io/baltic-gtif/baltic-catalog/catalog.json",
       "type": "application/json"
