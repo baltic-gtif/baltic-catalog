@@ -1,3 +1,26 @@
 {
-  "Name": "Poland watterlogging index"
+  "Name": "POL_WATERLOGGING_D10_20250610",
+  "Title": "High Waterlogging - parcels",
+  "Description": "",
+  "Resources": [
+    {
+      "Name": "WMS",
+      "EndPoint": "https://server1.landimage.info/geoserver/wms",
+      "LayerId": "GTIFBaltic:POL_SM_2025_06_11_Q123",
+      "Type": "OverwriteTimes",
+      "TileSize": 256,
+      "DateTimeInterval": {
+        "Start": "2025-06-10",
+        "End": "2025-06-19",
+        "Timedelta": {
+          "days": 10
+        }
+      },
+      "DataProjection": {
+        "name": "EPSG:3857"
+      },
+      "Version": "1.1.1"
+    }
+  ],
+  "Image": "thumbnails/sm_lt.png"
 }
