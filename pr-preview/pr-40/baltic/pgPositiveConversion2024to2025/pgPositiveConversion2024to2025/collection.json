@@ -31,11 +31,11 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Conversion - Permanent Grassland  Gain"
+      "title": "Permanent Grassland - Gain"
     }
   ],
   "endpointtype": "FlatGeobuf source",
-  "title": "Conversion - Permanent Grassland  Gain",
+  "title": "Permanent Grassland - Gain",
   "extent": {
     "spatial": {
       "bbox": [

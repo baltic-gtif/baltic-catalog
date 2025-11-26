@@ -58,13 +58,13 @@
       "rel": "collection",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "Conversion - Permanent Grassland  Gain"
+      "title": "Permanent Grassland - Gain"
     },
     {
       "rel": "parent",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "Conversion - Permanent Grassland  Gain"
+      "title": "Permanent Grassland - Gain"
     }
   ],
   "assets": {

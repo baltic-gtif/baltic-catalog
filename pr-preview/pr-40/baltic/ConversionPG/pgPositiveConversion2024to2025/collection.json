@@ -35,7 +35,7 @@
     }
   ],
   "endpointtype": "FlatGeobuf source",
-  "title": "Conversion - Permanent Grassland  Gain",
+  "title": "Permanent Grassland - Gain",
   "extent": {
     "spatial": {
       "bbox": [
