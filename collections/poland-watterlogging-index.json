@@ -1,6 +1,6 @@
 {
   "Name": "POL_WATERLOGGING_D10_20250610",
-  "Title": "High Waterlogging - parcels",
+  "Title": "SAGRIS Waterlogging 2025-06-10 - 06-20 High Waterlogging - parcels",
   "Description": "",
   "Resources": [
     {
@@ -19,7 +19,14 @@
       "DataProjection": {
         "name": "EPSG:3857"
       },
-      "Version": "1.1.1"
+      "Version": "1.1.1",
+      "OverwriteBBox": [
+        13.93656099553417,
+        48.819062957613106,
+        24.381418577132894,
+        55.41779969689028
+      ],
+      "Styles": []
     }
   ],
   "Image": "thumbnails/sm_lt.png"
