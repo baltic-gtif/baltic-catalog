@@ -31,7 +31,7 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Permanent Grassland Conversion 2024-2025 (Loss and Gain)"
+      "title": "Permanent Grassland Conversion 2024 - 2025 (Loss and Gain)"
     }
   ],
   "endpointtype": "FlatGeobuf source",
