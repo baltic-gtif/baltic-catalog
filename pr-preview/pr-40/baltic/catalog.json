@@ -19,6 +19,13 @@
       "id": "PGconversion"
     },
     {
+      "rel": "child",
+      "href": "./pgPositiveConversion2024to2025/collection.json",
+      "type": "application/json",
+      "title": "Conversion into Grassland ",
+      "id": "pgPositiveConversion2024to2025"
+    },
+    {
       "rel": "self",
       "href": "https://baltic-gtif.github.io/baltic-gtif/baltic-catalog/catalog.json",
       "type": "application/json"
