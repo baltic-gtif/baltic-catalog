@@ -14,7 +14,7 @@
       "rel": "wms",
       "href": "https://server1.landimage.info/geoserver/wms",
       "type": "image/jpeg",
-      "title": "POL_WATERLOGGING_D10_20250610",
+      "title": "High Waterlogging - parcels",
       "wms:layers": [
         "GTIFBaltic:POL_SM_2025_06_11_Q123"
       ],
@@ -40,17 +40,17 @@
       "rel": "collection",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "SAGRIS Waterlogging 2025-06-10 - 06-20 High Waterlogging - parcels"
+      "title": "SAGRIS Waterlogging mid-June (2025)"
     },
     {
       "rel": "parent",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "SAGRIS Waterlogging 2025-06-10 - 06-20 High Waterlogging - parcels"
+      "title": "SAGRIS Waterlogging mid-June (2025)"
     }
   ],
   "assets": {},
-  "collection": "POL_WATERLOGGING_D10_20250610",
+  "collection": "High Waterlogging - parcels",
   "eodash:proj4_def": {
     "name": "EPSG:3857"
   }

@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "POL_WATERLOGGING_D10_20250610",
+  "id": "High Waterlogging - parcels",
   "stac_version": "1.1.0",
   "description": "",
   "links": [
@@ -12,11 +12,11 @@
     },
     {
       "rel": "child",
-      "href": "./POL_WATERLOGGING_D10_20250610/collection.json",
+      "href": "./High Waterlogging - parcels/collection.json",
       "type": "application/json",
-      "title": "SAGRIS Waterlogging 2025-06-10 - 06-20 High Waterlogging - parcels",
+      "title": "SAGRIS Waterlogging mid-June (2025)",
       "endpointtype": "WMS_OverwriteTimes",
-      "id": "POL_WATERLOGGING_D10_20250610"
+      "id": "High Waterlogging - parcels"
     },
     {
       "rel": "xyz",
@@ -47,7 +47,7 @@
     }
   ],
   "thumbnail": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/sm_lt.png",
-  "title": "SAGRIS Waterlogging 2025-06-10 - 06-20 High Waterlogging - parcels",
+  "title": "SAGRIS Waterlogging mid-June (2025)",
   "extent": {
     "spatial": {
       "bbox": [
