@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./pgPositiveConversion2024to2025/collection.json",
       "type": "application/json",
-      "title": "Conversion into Grassland ",
+      "title": "Conversion - Permanent Grassland  Gain",
       "endpointtype": "FlatGeobuf source",
       "id": "pgPositiveConversion2024to2025"
     },
@@ -46,7 +46,7 @@
       "title": "Baltic GTIF Catalog"
     }
   ],
-  "title": "Conversion into Grassland ",
+  "title": "Conversion - Permanent Grassland  Gain",
   "extent": {
     "spatial": {
       "bbox": [

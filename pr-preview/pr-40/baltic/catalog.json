@@ -21,14 +21,14 @@
       "rel": "child",
       "href": "./pgPositiveConversion2024to2025/collection.json",
       "type": "application/json",
-      "title": "Conversion into Grassland ",
+      "title": "Conversion - Permanent Grassland  Gain",
       "id": "pgPositiveConversion2024to2025"
     },
     {
       "rel": "child",
       "href": "./ConversionPG/collection.json",
       "type": "application/json",
-      "title": "PG conversion (loss and positive conversion)",
+      "title": "Permanent Grassland Conversion 2024-2025 (Loss and Gain)",
       "id": "ConversionPG"
     },
     {
