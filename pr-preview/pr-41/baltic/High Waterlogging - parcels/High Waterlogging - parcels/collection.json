@@ -37,7 +37,7 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "SAGRIS Waterlogging mid-June (2025)"
+      "title": "SAGRIS Waterlogging mid-June Poland (2025)"
     }
   ],
   "thumbnail": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/sm_lt.png",
@@ -45,7 +45,7 @@
     "name": "EPSG:3857"
   },
   "endpointtype": "WMS_OverwriteTimes",
-  "title": "SAGRIS Waterlogging mid-June (2025)",
+  "title": "SAGRIS Waterlogging mid-June Poland (2025)",
   "extent": {
     "spatial": {
       "bbox": [

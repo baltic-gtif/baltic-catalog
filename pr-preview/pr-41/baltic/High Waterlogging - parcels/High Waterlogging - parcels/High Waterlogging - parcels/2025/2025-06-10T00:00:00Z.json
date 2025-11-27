@@ -40,13 +40,13 @@
       "rel": "collection",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "SAGRIS Waterlogging mid-June (2025)"
+      "title": "SAGRIS Waterlogging mid-June Poland (2025)"
     },
     {
       "rel": "parent",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "SAGRIS Waterlogging mid-June (2025)"
+      "title": "SAGRIS Waterlogging mid-June Poland (2025)"
     }
   ],
   "assets": {},
