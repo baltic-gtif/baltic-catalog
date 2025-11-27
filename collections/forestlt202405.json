@@ -24,5 +24,6 @@
       },
       "TileSize": 256
     }
-  ]
+  ],
+  "Image": "thumbnails/sm_lt.png"
 }
