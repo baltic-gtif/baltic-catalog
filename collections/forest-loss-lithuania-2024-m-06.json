@@ -1,0 +1,49 @@
+{
+  "Name": "forest_lt_06",
+  "Title": "Forest Loss in Lithuania 06 (2024)",
+  "Description": "### Tree cover loss legend\n\nTree cover loss monthly estimates, derived from Sentinel-1 polarimetry\nSAR data pre-processed with SAGRIS production system\n(https://www.sagris.eu), cover all scenarios of natural and man-made \ncauses of the loss of trees, including natural tree fall due to aging,\nsevere storms, forestry maintenance activities, as well as legal or\nillegal timber production. This service has high sensitivity (minimum\nmapping unit - 100 sq.m) and temporal frequency (monthly updates during\nsummer) with additional periodic assessment of the whole summer season\n(months 05-09, 2024). Vector map of forestry taxation units shows\npercentage of area indicating tree loss.\n",
+  "Resources": [
+    {
+      "Name": "WMS",
+      "EndPoint": "https://server1.landimage.info/geoserver/gwc/service/wms",
+      "LayerId": "GTIFBaltic:LIT_2024_forest_cuts_m06",
+      "Type": "OverwriteTimes",
+      "DataProjection": {
+        "name": "EPSG:3857"
+      },
+      "Version": "1.1.1",
+      "DateTimeInterval": {
+        "Start": "2024-06-01",
+        "End": "2024-06-30"
+      },
+      "OverwriteBBox": [
+        20.248592282928634,
+        53.65840373790919,
+        26.882412357656143,
+        56.48185085917455
+      ],
+      "TileSize": 256
+    }
+  ],
+  "Colorlegend": {
+    "domain": [
+      "0",
+      "5",
+      "10",
+      "20",
+      "50",
+      "100"
+    ],
+    "title": "Forest loss",
+    "range": [
+      "#56b636",
+      "#a5da9f",
+      "#dcf883",
+      "#ffd6bf",
+      "#fdae61",
+      "#d7191c"
+    ],
+    "scaleType": "categorical",
+    "markType": "rect"
+  }
+}
