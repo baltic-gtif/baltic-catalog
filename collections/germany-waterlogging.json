@@ -1,7 +1,7 @@
 {
   "Name": "Medium Waterlogging - parcels",
   "Title": "SAGRIS Waterlogging mid-June Germany (2025)",
-  "Description": "",
+  "Description": "indicators/sm_lt_04_high_medium_low/description.md",
   "Resources": [
     {
       "Name": "WMS",
