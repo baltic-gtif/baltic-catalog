@@ -1,50 +1,52 @@
 {
   "type": "Collection",
-  "id": "High Waterlogging - parcels",
+  "id": "Medium Waterlogging - parcels",
   "stac_version": "1.1.0",
   "description": "",
   "links": [
     {
       "rel": "root",
-      "href": "../../catalog.json",
+      "href": "../catalog.json",
       "type": "application/json",
       "title": "Baltic GTIF Catalog"
     },
     {
-      "rel": "item",
-      "href": "./High Waterlogging - parcels/2025/2025-06-10T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2025-06-10T00:00:00Z"
+      "rel": "child",
+      "href": "./Medium Waterlogging - parcels/collection.json",
+      "type": "application/json",
+      "title": "SAGRIS Waterlogging mid-June Poland (2025)",
+      "endpointtype": "WMS_OverwriteTimes",
+      "id": "Medium Waterlogging - parcels"
     },
     {
-      "rel": "wms",
-      "href": "https://server1.landimage.info/geoserver/wms",
+      "rel": "xyz",
+      "href": "//tiles.maps.eox.at/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "image/jpeg",
-      "title": "High Waterlogging - parcels",
-      "wms:layers": [
-        "GTIFBaltic:POL_SM_2025_06_11_Q123"
+      "title": "EOxCloudless 2024",
+      "roles": [
+        "baselayer"
       ],
-      "role": [
-        "data"
+      "id": "cloudless-2024"
+    },
+    {
+      "rel": "xyz",
+      "href": "//tiles.maps.eox.at/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "image/png",
+      "title": "Overlay labels",
+      "roles": [
+        "overlay",
+        "visible"
       ],
-      "wms:tilesize": 256,
-      "wms:version": "1.1.1",
-      "eodash:proj4_def": {
-        "name": "EPSG:3857"
-      }
+      "id": "overlay_bright"
     },
     {
       "rel": "parent",
-      "href": "../collection.json",
+      "href": "../catalog.json",
       "type": "application/json",
-      "title": "SAGRIS Waterlogging mid-June Poland (2025)"
+      "title": "Baltic GTIF Catalog"
     }
   ],
   "thumbnail": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/sm_lt.png",
-  "eodash:proj4_def": {
-    "name": "EPSG:3857"
-  },
-  "endpointtype": "WMS_OverwriteTimes",
   "title": "SAGRIS Waterlogging mid-June Poland (2025)",
   "extent": {
     "spatial": {
@@ -67,6 +69,11 @@
     }
   },
   "license": "other",
+  "summaries": {
+    "thumbnail": [
+      "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/sm_lt.png"
+    ]
+  },
   "assets": {
     "thumbnail": {
       "href": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/sm_lt.png",
