@@ -1,3 +1,29 @@
 {
-  "Name": "Germany Waterlogging"
+  "Name": "High Waterlogging - parcels",
+  "Title": "SAGRIS Waterlogging mid-June Germany (2025)",
+  "Description": "",
+  "Resources": [
+    {
+      "Name": "WMS",
+      "EndPoint": "https://server1.landimage.info/geoserver/wms",
+      "LayerId": "GTIFBaltic:GER_SM_2025_06_11_Q2",
+      "Type": "OverwriteTimes",
+      "OverwriteBBox": [
+        5.898902261229354,
+        47.010279644189765,
+        15.198515135322308,
+        55.31672997833105
+      ],
+      "TileSize": 256,
+      "DateTimeInterval": {
+        "Start": "2025-06-10",
+        "End": "2025-06-19"
+      },
+      "Version": "1.1.1",
+      "DataProjection": {
+        "name": "EPSG:3857"
+      }
+    }
+  ],
+  "Image": "thumbnails/sm_lt.png"
 }
