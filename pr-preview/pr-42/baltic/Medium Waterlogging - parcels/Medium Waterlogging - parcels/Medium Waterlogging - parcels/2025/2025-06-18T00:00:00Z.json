@@ -14,7 +14,7 @@
       "rel": "wms",
       "href": "https://server1.landimage.info/geoserver/wms",
       "type": "image/jpeg",
-      "title": "High Waterlogging - parcels",
+      "title": "Medium Waterlogging - parcels",
       "wms:layers": [
         "GTIFBaltic:GER_SM_2025_06_11_Q2"
       ],
@@ -50,7 +50,7 @@
     }
   ],
   "assets": {},
-  "collection": "High Waterlogging - parcels",
+  "collection": "Medium Waterlogging - parcels",
   "eodash:proj4_def": {
     "name": "EPSG:3857"
   }
