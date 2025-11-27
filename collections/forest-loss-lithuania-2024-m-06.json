@@ -11,7 +11,7 @@
       "DataProjection": {
         "name": "EPSG:3857"
       },
-      "Version": "1.1.0",
+      "Version": "1.1.1",
       "DateTimeInterval": {
         "Start": "2024-06-01",
         "End": "2024-06-30"
