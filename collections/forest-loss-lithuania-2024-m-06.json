@@ -1,6 +1,6 @@
 {
   "Name": "forest_lt_06",
-  "Title": "Forest Loss in 2024 06",
+  "Title": "Forest Loss in Lithuania 06 (2024)",
   "Description": "",
   "Resources": [
     {
@@ -24,5 +24,26 @@
       ],
       "TileSize": 256
     }
-  ]
+  ],
+  "Colorlegend": {
+    "domain": [
+      0,
+      5,
+      10,
+      20,
+      50,
+      100
+    ],
+    "title": "Forest loss",
+    "range": [
+      "56b636",
+      "a5da9f",
+      "dcf883",
+      "ffd6bf",
+      "fdae61",
+      "d7191c"
+    ],
+    "scaleType": "categorical",
+    "markType": "rect"
+  }
 }
