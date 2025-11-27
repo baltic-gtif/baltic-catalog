@@ -220,6 +220,7 @@
       "title": "Forest Loss in 2024 05"
     }
   ],
+  "thumbnail": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/sm_lt.png",
   "eodash:proj4_def": {
     "name": "EPSG:3857"
   },
@@ -245,5 +246,14 @@
       ]
     }
   },
-  "license": "other"
+  "license": "other",
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/sm_lt.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
 }
