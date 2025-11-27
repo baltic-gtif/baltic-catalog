@@ -36,12 +36,12 @@
     ],
     "title": "Forest loss",
     "range": [
-      "56b636",
-      "a5da9f",
-      "dcf883",
-      "ffd6bf",
-      "fdae61",
-      "d7191c"
+      "#56b636",
+      "#a5da9f",
+      "#dcf883",
+      "#ffd6bf",
+      "#fdae61",
+      "#d7191c"
     ],
     "scaleType": "categorical",
     "markType": "rect"
