@@ -40,13 +40,13 @@
       "rel": "collection",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "Forest Loss in 2024 06"
+      "title": "Forest Loss in Lithuania 06 (2024)"
     },
     {
       "rel": "parent",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "Forest Loss in 2024 06"
+      "title": "Forest Loss in Lithuania 06 (2024)"
     }
   ],
   "assets": {},

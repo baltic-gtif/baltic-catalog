@@ -211,14 +211,35 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Forest Loss in 2024 06"
+      "title": "Forest Loss in Lithuania 06 (2024)"
     }
   ],
+  "eox:colorlegend": {
+    "domain": [
+      0,
+      5,
+      10,
+      20,
+      50,
+      100
+    ],
+    "title": "Forest loss",
+    "range": [
+      "56b636",
+      "a5da9f",
+      "dcf883",
+      "ffd6bf",
+      "fdae61",
+      "d7191c"
+    ],
+    "scaleType": "categorical",
+    "markType": "rect"
+  },
   "eodash:proj4_def": {
     "name": "EPSG:3857"
   },
   "endpointtype": "WMS_OverwriteTimes",
-  "title": "Forest Loss in 2024 06",
+  "title": "Forest Loss in Lithuania 06 (2024)",
   "extent": {
     "spatial": {
       "bbox": [
