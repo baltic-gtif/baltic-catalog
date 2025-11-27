@@ -1,12 +1,12 @@
 {
-  "Name": "High Waterlogging - parcels",
+  "Name": "Medium Waterlogging - parcels",
   "Title": "SAGRIS Waterlogging mid-June Poland (2025)",
   "Description": "",
   "Resources": [
     {
       "Name": "WMS",
       "EndPoint": "https://server1.landimage.info/geoserver/wms",
-      "LayerId": "GTIFBaltic:POL_SM_2025_06_11_Q123",
+      "LayerId": "GTIFBaltic:POL_SM_2025_06_11_Q2",
       "Type": "OverwriteTimes",
       "TileSize": 256,
       "DateTimeInterval": {
