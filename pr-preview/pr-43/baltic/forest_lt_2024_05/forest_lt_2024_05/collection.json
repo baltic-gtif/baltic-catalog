@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "forest_lt_2024_05",
   "stac_version": "1.1.0",
-  "description": "",
+  "description": "## Tree cover loss\n\n### Tree cover loss legend\n![image](sagris_forest_cuts_m0509_pc.png)\n\nTree cover loss monthly estimates, derived from Sentinel-1 polarimetry\nSAR data pre-processed with SAGRIS production system\n(http://www.sagris.eu), cover all scenarios of natural and man-made \ncauses of the loss of trees, including natural tree fall due to aging,\nsevere storms, forestry maintenance activities, as well as legal or\nillegal timber production. This service has high sensitivity (minimum\nmapping unit - 100 sq.m) and temporal frequency (monthly updates during\nsummer) with additional periodic assessment of the whole summer season\n(months 05-09, 2024). Vector map of forestry taxation units shows\npercentage of area indicating tree loss.\n",
   "links": [
     {
       "rel": "root",
