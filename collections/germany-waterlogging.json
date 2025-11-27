@@ -1,5 +1,5 @@
 {
-  "Name": "High Waterlogging - parcels",
+  "Name": "Medium Waterlogging - parcels",
   "Title": "SAGRIS Waterlogging mid-June Germany (2025)",
   "Description": "",
   "Resources": [
@@ -25,5 +25,26 @@
       }
     }
   ],
-  "Image": "thumbnails/sm_lt.png"
+  "Image": "thumbnails/sm_lt.png",
+  "Colorlegend": {
+    "title": "Waterlogging",
+    "range": [
+      "#ffffff",
+      "#b8ebff",
+      "#88c3ff",
+      "#74abe2",
+      "#3281d1",
+      "#00509f"
+    ],
+    "markType": "rect",
+    "scaleType": "categorical",
+    "domain": [
+      0,
+      5,
+      10,
+      50,
+      100,
+      200
+    ]
+  }
 }
