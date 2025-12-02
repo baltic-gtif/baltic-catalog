@@ -113,13 +113,23 @@
     },
     {
       "rel": "child",
-      "href": "./Medium Waterlogging - parcels/collection.json",
+      "href": "./sm_pl_2025_06_parcels_wms_medium/collection.json",
       "type": "application/json",
       "title": "SAGRIS Waterlogging mid-June Poland (2025)",
-      "id": "Medium Waterlogging - parcels",
+      "id": "sm_pl_2025_06_parcels_wms_medium",
       "themes": [
         "Flooding"
       ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/sm_lt.png"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./sm_de_2025_06_parcels_wms_medium/collection.json",
+      "type": "application/json",
+      "title": "SAGRIS Waterlogging mid-June Germany (2025)",
+      "id": "sm_de_2025_06_parcels_wms_medium",
       "thumbnail": [
         "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/sm_lt.png"
       ]
