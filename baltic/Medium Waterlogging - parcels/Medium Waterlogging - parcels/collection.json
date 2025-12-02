@@ -17,6 +17,29 @@
       "datetime": "2025-06-10T00:00:00Z"
     },
     {
+      "rel": "wms",
+      "href": "https://server1.landimage.info/geoserver/wms",
+      "type": "image/jpeg",
+      "title": "Medium Waterlogging - parcels",
+      "wms:layers": [
+        "GTIFBaltic:POL_SM_2025_06_11_Q2"
+      ],
+      "role": [
+        "data"
+      ],
+      "wms:tilesize": 256,
+      "wms:version": "1.1.1",
+      "eodash:proj4_def": {
+        "name": "EPSG:3857"
+      }
+    },
+    {
+      "rel": "item",
+      "href": "./Medium Waterlogging - parcels/2025/2025-06-10T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-10T00:00:00Z"
+    },
+    {
       "rel": "item",
       "href": "./Medium Waterlogging - parcels/2025/2025-06-11T00:00:00Z.json",
       "type": "application/geo+json",
@@ -91,10 +114,13 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "SAGRIS Waterlogging mid-June Germany (2025)"
+      "title": "SAGRIS Waterlogging mid-June Poland (2025)"
     }
   ],
   "thumbnail": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/sm_lt.png",
+  "themes": [
+    "Flooding"
+  ],
   "eox:colorlegend": {
     "title": "Waterlogging",
     "range": [
@@ -120,7 +146,7 @@
     "name": "EPSG:3857"
   },
   "endpointtype": "WMS_OverwriteTimes",
-  "title": "SAGRIS Waterlogging mid-June Germany (2025)",
+  "title": "SAGRIS Waterlogging mid-June Poland (2025)",
   "extent": {
     "spatial": {
       "bbox": [

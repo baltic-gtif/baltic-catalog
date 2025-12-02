@@ -14,9 +14,33 @@
       "rel": "child",
       "href": "./Medium Waterlogging - parcels/collection.json",
       "type": "application/json",
-      "title": "SAGRIS Waterlogging mid-June Germany (2025)",
+      "title": "SAGRIS Waterlogging mid-June Poland (2025)",
       "endpointtype": "WMS_OverwriteTimes",
-      "id": "Medium Waterlogging - parcels"
+      "id": "Medium Waterlogging - parcels",
+      "themes": [
+        "Flooding"
+      ]
+    },
+    {
+      "rel": "xyz",
+      "href": "//tiles.maps.eox.at/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "EOxCloudless 2024",
+      "roles": [
+        "baselayer"
+      ],
+      "id": "cloudless-2024"
+    },
+    {
+      "rel": "xyz",
+      "href": "//tiles.maps.eox.at/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "image/png",
+      "title": "Overlay labels",
+      "roles": [
+        "overlay",
+        "visible"
+      ],
+      "id": "overlay_bright"
     },
     {
       "rel": "xyz",
@@ -47,6 +71,9 @@
     }
   ],
   "thumbnail": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/sm_lt.png",
+  "themes": [
+    "Flooding"
+  ],
   "eox:colorlegend": {
     "title": "Waterlogging",
     "range": [
@@ -68,7 +95,7 @@
       200
     ]
   },
-  "title": "SAGRIS Waterlogging mid-June Germany (2025)",
+  "title": "SAGRIS Waterlogging mid-June Poland (2025)",
   "extent": {
     "spatial": {
       "bbox": [
@@ -91,6 +118,9 @@
   },
   "license": "other",
   "summaries": {
+    "themes": [
+      "Flooding"
+    ],
     "thumbnail": [
       "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/sm_lt.png"
     ]
