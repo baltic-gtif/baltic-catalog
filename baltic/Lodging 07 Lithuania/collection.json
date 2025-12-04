@@ -50,7 +50,7 @@
     },
     {
       "rel": "xyz",
-      "href": "//tiles.maps.eox.at/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
+      "href": "https://tiles.maps.eox.at/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "image/jpeg",
       "title": "EOxCloudless 2024",
       "roles": [
@@ -60,7 +60,7 @@
     },
     {
       "rel": "xyz",
-      "href": "//tiles.maps.eox.at/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "href": "https://tiles.maps.eox.at/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
       "type": "image/png",
       "title": "Overlay labels",
       "roles": [
@@ -107,8 +107,8 @@
   "license": "other",
   "summaries": {
     "subcode": [
-      "ld_lt_07_wms",
-      "ld_06_lt_raster"
+      "ld_06_lt_raster",
+      "ld_lt_07_wms"
     ],
     "themes": [
       "Crops Lodging"
