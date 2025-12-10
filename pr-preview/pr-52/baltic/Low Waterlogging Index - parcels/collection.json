@@ -16,7 +16,10 @@
       "type": "application/json",
       "title": "Low Waterlogging Index - parcels",
       "endpointtype": "WMS_OverwriteTimes",
-      "id": "Low Waterlogging Index - parcels"
+      "id": "Low Waterlogging Index - parcels",
+      "themes": [
+        "Flooding"
+      ]
     },
     {
       "rel": "xyz",
@@ -46,6 +49,30 @@
       "title": "Baltic GTIF Catalog"
     }
   ],
+  "themes": [
+    "Flooding"
+  ],
+  "eox:colorlegend": {
+    "title": "Waterlogging",
+    "range": [
+      "#ffffff",
+      "#b8ebff",
+      "#88c3ff",
+      "#74abe2",
+      "#3281d1",
+      "#00509f"
+    ],
+    "domain": [
+      "0",
+      "5",
+      "10",
+      "50",
+      "100",
+      "200"
+    ],
+    "scaleType": "categorical",
+    "markType": "rect"
+  },
   "title": "Low Waterlogging Index - parcels",
   "extent": {
     "spatial": {
@@ -67,5 +94,10 @@
       ]
     }
   },
-  "license": "other"
+  "license": "other",
+  "summaries": {
+    "themes": [
+      "Flooding"
+    ]
+  }
 }

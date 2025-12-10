@@ -15,7 +15,10 @@
       "href": "./Low Waterlogging Index - parcels/collection.json",
       "type": "application/json",
       "title": "Low Waterlogging Index - parcels",
-      "id": "Low Waterlogging Index - parcels"
+      "id": "Low Waterlogging Index - parcels",
+      "themes": [
+        "Flooding"
+      ]
     },
     {
       "rel": "self",
