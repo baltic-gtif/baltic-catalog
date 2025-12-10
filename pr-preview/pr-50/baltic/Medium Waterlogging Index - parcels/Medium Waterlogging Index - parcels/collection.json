@@ -1,0 +1,135 @@
+{
+  "type": "Collection",
+  "id": "Medium Waterlogging Index - parcels",
+  "stac_version": "1.1.0",
+  "description": "",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Baltic GTIF Catalog"
+    },
+    {
+      "rel": "item",
+      "href": "./Medium Waterlogging Index - parcels/2025/2025-05-21T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-05-21T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./Medium Waterlogging Index - parcels/2025/2025-05-22T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-05-22T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./Medium Waterlogging Index - parcels/2025/2025-05-23T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-05-23T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./Medium Waterlogging Index - parcels/2025/2025-05-24T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-05-24T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./Medium Waterlogging Index - parcels/2025/2025-05-25T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-05-25T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./Medium Waterlogging Index - parcels/2025/2025-05-26T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-05-26T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./Medium Waterlogging Index - parcels/2025/2025-05-27T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-05-27T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./Medium Waterlogging Index - parcels/2025/2025-05-28T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-05-28T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./Medium Waterlogging Index - parcels/2025/2025-05-29T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-05-29T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./Medium Waterlogging Index - parcels/2025/2025-05-30T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-05-30T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./Medium Waterlogging Index - parcels/2025/2025-05-31T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-05-31T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./Medium Waterlogging Index - parcels/2025/2025-06-01T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-01T00:00:00Z"
+    },
+    {
+      "rel": "wms",
+      "href": "https://server1.landimage.info/geoserver/wms",
+      "type": "image/jpeg",
+      "title": "Medium Waterlogging Index - parcels",
+      "wms:layers": [
+        "GTIFBaltic:LIT_LAT_EST_SM_2025_05_21_Q2"
+      ],
+      "role": [
+        "data"
+      ],
+      "wms:tilesize": 256,
+      "wms:version": "1.1.1",
+      "eodash:proj4_def": {
+        "name": "EPSG:3857"
+      }
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Medium Waterlogging Index - parcels"
+    }
+  ],
+  "eodash:proj4_def": {
+    "name": "EPSG:3857"
+  },
+  "endpointtype": "WMS_OverwriteTimes",
+  "title": "Medium Waterlogging Index - parcels",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          20.689717832247297,
+          53.66527805979655,
+          28.305356100201507,
+          60.05512166227293
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-05-21T00:00:00Z",
+          "2025-06-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}
