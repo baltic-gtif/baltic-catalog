@@ -12,10 +12,10 @@
     },
     {
       "rel": "child",
-      "href": "./Forest Loss Clear-cuts Points/collection.json",
+      "href": "./CORINE 2018 Forest Boundaries/collection.json",
       "type": "application/json",
-      "title": "Forest Loss Clear-cuts Points",
-      "id": "Forest Loss Clear-cuts Points"
+      "title": "CORINE 2018 Forest Boundaries",
+      "id": "CORINE 2018 Forest Boundaries"
     },
     {
       "rel": "child",
@@ -23,6 +23,13 @@
       "type": "application/json",
       "title": "Forest Loss Coeficient Values",
       "id": "forest_ger_pix_2024_06_2025_06"
+    },
+    {
+      "rel": "child",
+      "href": "./Forest Loss Clear-cuts Points/collection.json",
+      "type": "application/json",
+      "title": "Forest Loss Clear-cuts Points",
+      "id": "Forest Loss Clear-cuts Points"
     },
     {
       "rel": "child",
