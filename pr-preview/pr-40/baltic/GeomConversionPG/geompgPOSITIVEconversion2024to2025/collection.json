@@ -31,7 +31,7 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Permanent Grassland (Loss and Gain)"
+      "title": "Permanent Grassland (Area of Loss and Gain)"
     }
   ],
   "endpointtype": "FlatGeobuf source",
