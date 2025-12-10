@@ -1,19 +1,19 @@
 {
-  "Name": "Forest Loss Clear-cuts Points",
-  "Title": "Forest Loss Clear-cuts Points",
+  "Name": "CORINE 2018 Forest Boundaries",
+  "Title": "CORINE 2018 Forest Boundaries",
   "Description": "",
   "Resources": [
     {
       "Name": "WMS",
       "EndPoint": "https://server1.landimage.info/geoserver/gwc/service/wms",
-      "LayerId": "FROMSAT:GER_forest_taskai_cut50_2024_06_2025_06",
+      "LayerId": "FROMSAT:GER_forest_p50_2024_06_minus_2025_06 ",
       "Type": "OverwriteTimes",
       "TileSize": 256,
       "OverwriteBBox": [
-        6.057666009457114,
-        47.11998879580425,
-        16.086220520642673,
-        55.22812035264417
+        6.278152152164994,
+        47.255837415165104,
+        15.19215393061429,
+        55.41937636582809
       ],
       "DateTimeInterval": {
         "Start": "2024-06-01T00:00:00Z",
