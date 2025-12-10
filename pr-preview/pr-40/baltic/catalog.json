@@ -19,6 +19,13 @@
     },
     {
       "rel": "child",
+      "href": "./geompgPOSITIVEconversion2024to2025/collection.json",
+      "type": "application/json",
+      "title": "Permanent Grassland  - GAIN",
+      "id": "geompgPOSITIVEconversion2024to2025"
+    },
+    {
+      "rel": "child",
       "href": "./PGconversion/collection.json",
       "type": "application/json",
       "title": "Permanent Grassland  - Loss",
