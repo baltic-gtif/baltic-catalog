@@ -1,0 +1,71 @@
+{
+  "type": "Collection",
+  "id": "Low Waterlogging Index - parcels",
+  "stac_version": "1.1.0",
+  "description": "",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Baltic GTIF Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./Low Waterlogging Index - parcels/collection.json",
+      "type": "application/json",
+      "title": "Low Waterlogging Index - parcels",
+      "endpointtype": "WMS_OverwriteTimes",
+      "id": "Low Waterlogging Index - parcels"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://tiles.maps.eox.at/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "EOxCloudless 2024",
+      "roles": [
+        "baselayer"
+      ],
+      "id": "cloudless-2024"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://tiles.maps.eox.at/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "image/png",
+      "title": "Overlay labels",
+      "roles": [
+        "overlay",
+        "visible"
+      ],
+      "id": "overlay_bright"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Baltic GTIF Catalog"
+    }
+  ],
+  "title": "Low Waterlogging Index - parcels",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          20.535637247249902,
+          53.726992890222235,
+          28.42065258480048,
+          59.83493068245266
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-05-21T00:00:00Z",
+          "2025-05-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}
