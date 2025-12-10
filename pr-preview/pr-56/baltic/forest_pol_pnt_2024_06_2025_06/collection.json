@@ -1,0 +1,71 @@
+{
+  "type": "Collection",
+  "id": "forest_pol_pnt_2024_06_2025_06",
+  "stac_version": "1.1.0",
+  "description": "",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Baltic GTIF Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./forest_pol_pnt_2024_06_2025_06/collection.json",
+      "type": "application/json",
+      "title": "Forest Loss Clear-cuts Points",
+      "endpointtype": "WMS_OverwriteTimes",
+      "id": "forest_pol_pnt_2024_06_2025_06"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://tiles.maps.eox.at/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "EOxCloudless 2024",
+      "roles": [
+        "baselayer"
+      ],
+      "id": "cloudless-2024"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://tiles.maps.eox.at/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "image/png",
+      "title": "Overlay labels",
+      "roles": [
+        "overlay",
+        "visible"
+      ],
+      "id": "overlay_bright"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Baltic GTIF Catalog"
+    }
+  ],
+  "title": "Forest Loss Clear-cuts Points",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          13.482905980438765,
+          47.85459516139734,
+          24.456214985307376,
+          55.01281105819039
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-10-01T00:00:00Z",
+          "2024-10-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

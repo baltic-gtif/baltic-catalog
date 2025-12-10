@@ -11,6 +11,13 @@
       "title": "Baltic GTIF Catalog"
     },
     {
+      "rel": "child",
+      "href": "./forest_pol_pnt_2024_06_2025_06/collection.json",
+      "type": "application/json",
+      "title": "Forest Loss Clear-cuts Points",
+      "id": "forest_pol_pnt_2024_06_2025_06"
+    },
+    {
       "rel": "self",
       "href": "https://baltic-gtif.github.io/baltic-gtif/baltic-catalog/catalog.json",
       "type": "application/json"
