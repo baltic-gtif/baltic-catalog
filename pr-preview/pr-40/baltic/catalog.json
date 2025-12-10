@@ -12,6 +12,13 @@
     },
     {
       "rel": "child",
+      "href": "./GEOMpgConversion2024to2025/collection.json",
+      "type": "application/json",
+      "title": "Permanent Grassland  - Loss",
+      "id": "GEOMpgConversion2024to2025"
+    },
+    {
+      "rel": "child",
       "href": "./PGconversion/collection.json",
       "type": "application/json",
       "title": "Permanent Grassland  - Loss",
