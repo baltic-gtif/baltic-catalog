@@ -1,0 +1,106 @@
+{
+  "type": "Collection",
+  "id": "Forest Loss in Poland (2024-06 - 2025-06) ",
+  "stac_version": "1.1.0",
+  "description": "",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Baltic GTIF Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./forest_pol_bnd_2024_06_2025_06/collection.json",
+      "type": "application/json",
+      "title": "CORINE 2018 Forest Boundaries",
+      "endpointtype": "WMS_OverwriteTimes",
+      "id": "forest_pol_bnd_2024_06_2025_06"
+    },
+    {
+      "rel": "child",
+      "href": "./Forest Loss Clear-cuts Points/collection.json",
+      "type": "application/json",
+      "title": "Forest Loss Clear-cuts Points",
+      "endpointtype": "WMS_OverwriteTimes",
+      "id": "Forest Loss Clear-cuts Points"
+    },
+    {
+      "rel": "child",
+      "href": "./Forest Loss Coeficient Values/collection.json",
+      "type": "application/json",
+      "title": "Forest Loss Coeficient Values",
+      "endpointtype": "WMS_OverwriteTimes",
+      "id": "Forest Loss Coeficient Values"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://tiles.maps.eox.at/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "EOxCloudless 2024",
+      "roles": [
+        "baselayer"
+      ],
+      "id": "cloudless-2024"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://tiles.maps.eox.at/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "image/png",
+      "title": "Overlay labels",
+      "roles": [
+        "overlay",
+        "visible"
+      ],
+      "id": "overlay_bright"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Baltic GTIF Catalog"
+    }
+  ],
+  "subcode": "forest_2024_06_2025_06_wms_high_medium_low",
+  "title": "Forest Loss in Poland (2024-06 - 2025-06) ",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          13.323205271117939,
+          48.08372833456975,
+          25.18572551492741,
+          55.49835566167371
+        ],
+        [
+          13.78253510560739,
+          48.81534508801565,
+          24.431939087501725,
+          55.0459431279403
+        ],
+        [
+          13.323205271117939,
+          48.08372833456975,
+          25.18572551492741,
+          55.149564275700854
+        ],
+        [
+          13.620142028066024,
+          48.292231336439166,
+          25.016380158261374,
+          55.49835566167371
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-06-01T00:00:00Z",
+          "2025-06-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

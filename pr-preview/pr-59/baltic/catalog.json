@@ -1,0 +1,50 @@
+{
+  "type": "Catalog",
+  "id": "baltic",
+  "stac_version": "1.1.0",
+  "description": "This catalog definition is done for the Baltic GTIF project.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./catalog.json",
+      "type": "application/json",
+      "title": "Baltic GTIF Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./forest_pol_bnd_2024_06_2025_06/collection.json",
+      "type": "application/json",
+      "title": "CORINE 2018 Forest Boundaries",
+      "id": "forest_pol_bnd_2024_06_2025_06"
+    },
+    {
+      "rel": "child",
+      "href": "./Forest Loss Coeficient Values/collection.json",
+      "type": "application/json",
+      "title": "Forest Loss Coeficient Values",
+      "id": "Forest Loss Coeficient Values"
+    },
+    {
+      "rel": "child",
+      "href": "./Forest Loss Clear-cuts Points/collection.json",
+      "type": "application/json",
+      "title": "Forest Loss Clear-cuts Points",
+      "id": "Forest Loss Clear-cuts Points"
+    },
+    {
+      "rel": "child",
+      "href": "./Forest Loss in Poland (2024-06 - 2025-06) /collection.json",
+      "type": "application/json",
+      "title": "Forest Loss in Poland (2024-06 - 2025-06) ",
+      "code": "forest_2024_06_2025_06_wms_high_medium_low",
+      "id": "Forest Loss in Poland (2024-06 - 2025-06) ",
+      "subcode": "forest_2024_06_2025_06_wms_high_medium_low"
+    },
+    {
+      "rel": "self",
+      "href": "https://baltic-gtif.github.io/baltic-gtif/baltic-catalog/catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "title": "Baltic GTIF Catalog"
+}

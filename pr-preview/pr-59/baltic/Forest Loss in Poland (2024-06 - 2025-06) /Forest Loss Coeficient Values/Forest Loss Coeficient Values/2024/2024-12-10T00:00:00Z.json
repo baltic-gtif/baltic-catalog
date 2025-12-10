@@ -1,0 +1,57 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.1.0/schema.json"
+  ],
+  "id": "2024-12-10T00:00:00Z",
+  "geometry": null,
+  "properties": {
+    "datetime": "2024-12-10T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "wms",
+      "href": "https://server1.landimage.info/geoserver/wms",
+      "type": "image/jpeg",
+      "title": "Forest Loss Coeficient Values",
+      "wms:layers": [
+        "FROMSAT:2024_m06_2025_m06_POL_diff_proc_rem50"
+      ],
+      "role": [
+        "data"
+      ],
+      "wms:dimensions": {
+        "TIME": "2024-12-10T00:00:00Z"
+      },
+      "wms:tilesize": 256,
+      "wms:version": "1.1.1",
+      "eodash:proj4_def": {
+        "name": "EPSG:3857"
+      }
+    },
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Baltic GTIF Catalog"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Forest Loss Coeficient Values"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Forest Loss Coeficient Values"
+    }
+  ],
+  "assets": {},
+  "collection": "Forest Loss Coeficient Values",
+  "eodash:proj4_def": {
+    "name": "EPSG:3857"
+  }
+}
