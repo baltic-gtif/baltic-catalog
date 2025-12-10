@@ -6,7 +6,7 @@
     {
       "Name": "WMS",
       "EndPoint": "https://server1.landimage.info/geoserver/gwc/service/wms",
-      "LayerId": "FROMSAT:GER_forest_p50_2024_06_minus_2025_06 ",
+      "LayerId": "FROMSAT:GER_forest_p50_2024_06_minus_2025_06",
       "Type": "OverwriteTimes",
       "TileSize": 256,
       "DateTimeInterval": {
