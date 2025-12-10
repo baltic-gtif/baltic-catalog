@@ -1,0 +1,21 @@
+{
+  "Name": "Forest Loss in Poland (2024-06 - 2025-06) ",
+  "Title": "Forest Loss in Poland (2024-06 - 2025-06) ",
+  "EodashIdentifier": "forest_2024_06_2025_06_wms_high_medium_low",
+  "Description": "",
+  "Collections": [
+    "forest_pol_bnd_2024_06_2025_06",
+    "forest_pol_pnt_2024_06_2025_06",
+    "forest_pol_pix_2024_06_2025_06"
+  ],
+  "MapProjection": {
+    "name": "",
+    "def": "",
+    "extent": [
+      13.323205271117939,
+      48.08372833456975,
+      25.18572551492741,
+      55.149564275700854
+    ]
+  }
+}
