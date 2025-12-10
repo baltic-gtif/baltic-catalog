@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "Forest Loss in Germany (2024-06 - 2025-06) ",
+  "id": "Forest Loss Coeficient Values",
   "stac_version": "1.1.0",
   "description": "",
   "links": [
@@ -12,34 +12,11 @@
     },
     {
       "rel": "child",
-      "href": "./CORINE 2018 Forest Boundaries/collection.json",
-      "type": "application/json",
-      "title": "CORINE 2018 Forest Boundaries",
-      "endpointtype": "WMS_OverwriteTimes",
-      "id": "CORINE 2018 Forest Boundaries"
-    },
-    {
-      "rel": "child",
-      "href": "./Forest Loss Clear-cuts Points/collection.json",
-      "type": "application/json",
-      "title": "Forest Loss Clear-cuts Points",
-      "endpointtype": "WMS_OverwriteTimes",
-      "id": "Forest Loss Clear-cuts Points"
-    },
-    {
-      "rel": "child",
       "href": "./Forest Loss Coeficient Values/collection.json",
       "type": "application/json",
       "title": "Forest Loss Coeficient Values",
       "endpointtype": "WMS_OverwriteTimes",
       "id": "Forest Loss Coeficient Values"
-    },
-    {
-      "rel": "service",
-      "href": "",
-      "type": "application/geo+json",
-      "id": "",
-      "method": "GET"
     },
     {
       "rel": "xyz",
@@ -69,39 +46,38 @@
       "title": "Baltic GTIF Catalog"
     }
   ],
-  "subcode": "forest_ger_2024_06_2025_06_wms_high_medium_low",
-  "eodash:mapProjection": {
-    "name": "",
-    "def": "",
-    "extent": [
-      5.979707336988206,
-      46.483752002498846,
-      15.208715624134541,
-      55.65423392583931
-    ]
+  "eox:colorlegend": {
+    "title": "Forest Loss",
+    "range": [
+      "#2b83ba",
+      "#64abb0",
+      "#9dd3a6",
+      "#c7e8ad",
+      "#ecf7b9",
+      "#ffedaa",
+      "#fec980",
+      "#f99d59",
+      "#e85b3b",
+      "#d7191c"
+    ],
+    "domain": [
+      "50",
+      "52",
+      "55",
+      "57",
+      "60",
+      "63",
+      "66",
+      69,
+      75,
+      96
+    ],
+    "scaleType": "categorical"
   },
-  "title": "Forest Loss in Germany (2024-06 - 2025-06) ",
+  "title": "Forest Loss Coeficient Values",
   "extent": {
     "spatial": {
       "bbox": [
-        [
-          5.979707336988206,
-          46.483752002498846,
-          16.086220520642673,
-          55.65423392583931
-        ],
-        [
-          6.278152152164994,
-          47.255837415165104,
-          15.19215393061429,
-          55.41937636582809
-        ],
-        [
-          6.057666009457114,
-          47.11998879580425,
-          16.086220520642673,
-          55.22812035264417
-        ],
         [
           5.979707336988206,
           46.483752002498846,
@@ -114,7 +90,7 @@
       "interval": [
         [
           "2024-06-01T00:00:00Z",
-          "2025-06-01T00:00:00Z"
+          "2025-05-27T00:00:00Z"
         ]
       ]
     }

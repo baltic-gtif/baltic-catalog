@@ -19,10 +19,10 @@
     },
     {
       "rel": "child",
-      "href": "./forest_ger_pix_2024_06_2025_06/collection.json",
+      "href": "./Forest Loss Coeficient Values/collection.json",
       "type": "application/json",
       "title": "Forest Loss Coeficient Values",
-      "id": "forest_ger_pix_2024_06_2025_06"
+      "id": "Forest Loss Coeficient Values"
     },
     {
       "rel": "child",
