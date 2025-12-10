@@ -4,22 +4,32 @@
   "Description": "",
   "Resources": [
     {
-      "Name": "Sentinel Hub",
+      "Name": "WMS",
       "EndPoint": "https://server1.landimage.info/geoserver/wms",
       "LayerId": "FROMSAT:2024_m06_2025_m06_POL_diff_proc_rem50",
-      "Type": "byoc",
+      "Type": "OverwriteTimes",
       "DataProjection": {
         "name": "EPSG:3857"
       },
-      "CollectionId": ""
+      "Version": "1.1.1",
+      "DateTimeInterval": {
+        "Start": "2024-06-01T00:00:00Z",
+        "End": "2025-06-01T00:00:00Z"
+      },
+      "OverwriteBBox": [
+        13.623814913197418,
+        48.48769480756834,
+        24.187241443561824,
+        55.276518298719544
+      ],
+      "TileSize": 256
     }
   ],
   "Themes": [
     "Flooding"
   ],
   "Image": "",
-  "CollectionGroup": "",
-  "Legend": "",
-  "DataSource": {},
-  "Tags": []
+  "Tags": [
+    "Forest"
+  ]
 }
