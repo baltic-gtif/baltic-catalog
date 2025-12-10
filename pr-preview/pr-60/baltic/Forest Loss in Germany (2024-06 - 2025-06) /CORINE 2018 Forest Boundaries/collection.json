@@ -2212,7 +2212,7 @@
       "type": "image/jpeg",
       "title": "CORINE 2018 Forest Boundaries",
       "wms:layers": [
-        "FROMSAT:GER_forest_p50_2024_06_minus_2025_06 "
+        "FROMSAT:GER_forest_p50_2024_06_minus_2025_06"
       ],
       "role": [
         "data"
