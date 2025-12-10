@@ -1,0 +1,55 @@
+{
+  "Name": "Low Waterlogging Index - parcels",
+  "Title": "Low Waterlogging Index - parcels",
+  "Description": "",
+  "Resources": [
+    {
+      "Name": "WMS",
+      "EndPoint": "https://server1.landimage.info/geoserver/wms",
+      "LayerId": "GTIFBaltic:LIT_LAT_EST_SM_2025_05_21_Q3",
+      "Type": "OverwriteTimes",
+      "TileSize": 256,
+      "DateTimeInterval": {
+        "Start": "2025-05-21T00:00:00Z",
+        "End": "2025-06-01:00:00Z",
+        "Timedelta": {
+          "days": 10
+        }
+      },
+      "OverwriteBBox": [
+        20.535637247249902,
+        53.726992890222235,
+        28.42065258480048,
+        59.83493068245266
+      ],
+      "Version": "1.1.1",
+      "DataProjection": {
+        "name": "EPSG:3857"
+      }
+    }
+  ],
+  "Themes": [
+    "Flooding"
+  ],
+  "Colorlegend": {
+    "title": "Waterlogging",
+    "range": [
+      "#ffffff",
+      "#b8ebff",
+      "#88c3ff",
+      "#74abe2",
+      "#3281d1",
+      "#00509f"
+    ],
+    "domain": [
+      "0",
+      "5",
+      "10",
+      "50",
+      "100",
+      "200"
+    ],
+    "scaleType": "categorical",
+    "markType": "rect"
+  }
+}
