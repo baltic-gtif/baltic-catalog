@@ -1,1 +1,28 @@
-{}
+{
+  "Name": "Forest Loss Clear-cuts Points",
+  "Title": "Forest Loss Clear-cuts Points",
+  "Description": "",
+  "Resources": [
+    {
+      "Name": "WMS",
+      "EndPoint": "https://server1.landimage.info/geoserver/gwc/service/wms",
+      "LayerId": "FROMSAT:POL_forest_taskai_cut50_2024_06_2025_06",
+      "Type": "OverwriteTimes",
+      "TileSize": 256,
+      "OverwriteBBox": [
+        13.323205271117939,
+        48.08372833456975,
+        25.18572551492741,
+        55.149564275700854
+      ],
+      "DateTimeInterval": {
+        "Start": "2024-06-01T00:00:00Z",
+        "End": "2025-06-01T00:00:00Z"
+      },
+      "Version": "1.1.1",
+      "DataProjection": {
+        "name": "EPSG:3857"
+      }
+    }
+  ]
+}
