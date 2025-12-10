@@ -4,33 +4,22 @@
   "Description": "",
   "Resources": [
     {
-      "Name": "WMS",
+      "Name": "Sentinel Hub",
       "EndPoint": "https://server1.landimage.info/geoserver/wms",
       "LayerId": "FROMSAT:2024_m06_2025_m06_POL_diff_proc_rem50",
-      "Type": "OverwriteTimes",
+      "Type": "byoc",
       "DataProjection": {
         "name": "EPSG:3857"
       },
-      "DateTimeInterval": {
-        "Start": "2024-06-01T00:00:00Z",
-        "End": "2025-06-01T00:00:00Z",
-        "Timedelta": {
-          "days": 10
-        }
-      },
-      "OverwriteBBox": [
-        13.87784108020881,
-        48.63403038199924,
-        24.46277897754932,
-        55.10734306066063
-      ],
-      "TileSize": 256,
-      "Version": "1.3.0"
+      "CollectionId": ""
     }
   ],
   "Themes": [
     "Flooding"
   ],
   "Image": "",
-  "CollectionGroup": ""
+  "CollectionGroup": "",
+  "Legend": "",
+  "DataSource": {},
+  "Tags": []
 }
