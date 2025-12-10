@@ -1,0 +1,28 @@
+{
+  "Name": "CORINE 2018 Forest Boundaries",
+  "Title": "CORINE 2018 Forest Boundaries",
+  "Description": "",
+  "Resources": [
+    {
+      "Name": "WMS",
+      "EndPoint": "https://server1.landimage.info/geoserver/gwc/service/wms",
+      "LayerId": "FROMSAT:GER_forest_p50_2024_06_minus_2025_06",
+      "Type": "OverwriteTimes",
+      "TileSize": 256,
+      "OverwriteBBox": [
+        6.278152152164994,
+        47.255837415165104,
+        15.19215393061429,
+        55.41937636582809
+      ],
+      "DateTimeInterval": {
+        "Start": "2024-06-01T00:00:00Z",
+        "End": "2025-06-01T00:00:00Z"
+      },
+      "Version": "1.1.1",
+      "DataProjection": {
+        "name": "EPSG:3857"
+      }
+    }
+  ]
+}
