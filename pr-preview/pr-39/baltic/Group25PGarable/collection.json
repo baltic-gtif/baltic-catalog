@@ -12,19 +12,19 @@
     },
     {
       "rel": "child",
-      "href": "./SOCarable/collection.json",
-      "type": "application/json",
-      "title": "Arable LT 2025 - SOC",
-      "endpointtype": "FlatGeobuf source",
-      "id": "SOCarable"
-    },
-    {
-      "rel": "child",
       "href": "./SOCindex/collection.json",
       "type": "application/json",
       "title": "Permanent Grassland LT 2025 - SOC",
       "endpointtype": "FlatGeobuf source",
       "id": "SOCindex"
+    },
+    {
+      "rel": "child",
+      "href": "./SOCarable/collection.json",
+      "type": "application/json",
+      "title": "Arable LT 2025 - SOC",
+      "endpointtype": "FlatGeobuf source",
+      "id": "SOCarable"
     },
     {
       "rel": "xyz",
