@@ -1,0 +1,60 @@
+{
+  "type": "Collection",
+  "id": "geompgPOSITIVEconversion2024to2025",
+  "stac_version": "1.1.0",
+  "description": "# Conversion of Permanent Grassland - Lithuania\n\n\n## Data Sources & references:\nGlobal Soil Organic Carbon content and Sequestration Potential Maps (GSOCseq) V1.0.0: Estimation of Soil Organic Carbon content and of sequestration potential in agricultural areas under a Business as Usual (BAU) scenario and a Sustainable Soil Management scenarios Ref: FAO. 2022. Global Soil Organic Carbon Sequestration Potential Map – SOCseq v.1.1. Technical report. Rome - https://doi.org/10.4060/cb9002en\n\nAgricultural parcels are from open governmental IACS GSA data (2025), managed by the National Paying Agency of Lithuania (NMA).\n\nSentinel-2 cloudless by EOX IT Services GmbH (Contains modified Copernicus Sentinel data 2024)\" Ref: https://cloudless.eox.at/",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Baltic GTIF Catalog"
+    },
+    {
+      "rel": "item",
+      "href": "./geompgPOSITIVEconversion2024to2025/2025/2025-01-01T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-01-01T00:00:00Z",
+      "assets": [
+        "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/GSAconversion/GSAconversion_GEOM_2024_2025/GSA_2024_mergeConvertedArea_2024_to_2025_display.fgb"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/GSAconversion/GSAconversion_GEOM_2024_2025/style_GEOM_PGconversionGSA2025.json",
+      "type": "text/vector-styles",
+      "asset:keys": [
+        "GEOMGSA2024POSITIVEconversion2024to2025 "
+      ]
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Permanent Grassland (Loss and Gain)"
+    }
+  ],
+  "endpointtype": "FlatGeobuf source",
+  "title": "Permanent Grassland  - GAIN",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180,
+          -85,
+          180,
+          85
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-01-01T00:00:00Z",
+          "2025-01-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

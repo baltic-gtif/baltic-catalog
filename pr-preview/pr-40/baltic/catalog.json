@@ -40,6 +40,13 @@
     },
     {
       "rel": "child",
+      "href": "./GeomConversionPG/collection.json",
+      "type": "application/json",
+      "title": "Permanent Grassland (Loss and Gain)",
+      "id": "GeomConversionPG"
+    },
+    {
+      "rel": "child",
       "href": "./ConversionPG/collection.json",
       "type": "application/json",
       "title": "Permanent Grassland (Loss and Gain)",
