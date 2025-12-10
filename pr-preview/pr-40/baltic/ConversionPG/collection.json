@@ -12,19 +12,19 @@
     },
     {
       "rel": "child",
-      "href": "./PGconversion/collection.json",
-      "type": "application/json",
-      "title": "Permanent Grassland  - Loss",
-      "endpointtype": "FlatGeobuf source",
-      "id": "PGconversion"
-    },
-    {
-      "rel": "child",
       "href": "./pgPositiveConversion2024to2025/collection.json",
       "type": "application/json",
       "title": "Permanent Grassland - Gain",
       "endpointtype": "FlatGeobuf source",
       "id": "pgPositiveConversion2024to2025"
+    },
+    {
+      "rel": "child",
+      "href": "./PGconversion/collection.json",
+      "type": "application/json",
+      "title": "Permanent Grassland  - Loss",
+      "endpointtype": "FlatGeobuf source",
+      "id": "PGconversion"
     },
     {
       "rel": "xyz",
