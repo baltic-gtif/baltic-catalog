@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./habitat2025/collection.json",
       "type": "application/json",
-      "title": "PG LT 2025 - Habitat ",
+      "title": "Permanent Grassland LT 2025 - Habitat ",
       "endpointtype": "FlatGeobuf source",
       "id": "habitat2025"
     },
@@ -46,7 +46,7 @@
       "title": "Baltic GTIF Catalog"
     }
   ],
-  "title": "PG LT 2025 - Habitat ",
+  "title": "Permanent Grassland LT 2025 - Habitat ",
   "extent": {
     "spatial": {
       "bbox": [

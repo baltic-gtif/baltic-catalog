@@ -58,13 +58,13 @@
       "rel": "collection",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "PG LT 2025 - Habitat "
+      "title": "Permanent Grassland LT 2025 - Habitat "
     },
     {
       "rel": "parent",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "PG LT 2025 - Habitat "
+      "title": "Permanent Grassland LT 2025 - Habitat "
     }
   ],
   "assets": {
