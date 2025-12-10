@@ -4,7 +4,8 @@
   "EodashIdentifier": "forest_2024_06_2025_06_wms_high_medium_low",
   "Description": "",
   "Collections": [
-    "forest_pol_pix_2024_06_2025_06"
+    "forest_pol_pix_2024_06_2025_06",
+    "forest_pol_pnt_2024_06_2025_06"
   ],
   "Disable": [],
   "BaseLayers": [],
