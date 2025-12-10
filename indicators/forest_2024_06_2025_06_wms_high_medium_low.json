@@ -1,9 +1,11 @@
 {
-  "Name": "",
-  "Title": "",
-  "EodashIdentifier": "",
+  "Name": "Forest Loss in Poland (2024-06 - 2025-06)",
+  "Title": "Forest Loss in Poland (2024-06 - 2025-06)",
+  "EodashIdentifier": "forest_2024_06_2025_06_wms_high_medium_low",
   "Description": "",
-  "Collections": [],
+  "Collections": [
+    "forest_pol_pix_2024_06_2025_06"
+  ],
   "Disable": [],
   "BaseLayers": [],
   "OverlayLayers": [],
@@ -25,8 +27,8 @@
     ]
   },
   "MapProjection": {
-    "name": "",
-    "def": "",
+    "name": "EPSG:3857",
+    "def": "+proj=laea +lat_0=52 +lon_0=10 +x_0=4321000 +y_0=3210000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs +type=crs",
     "extent": [
       "",
       "",
