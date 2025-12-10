@@ -12,11 +12,11 @@
     },
     {
       "rel": "child",
-      "href": "./forest_pol_bnd_2024_06_2025_06/collection.json",
+      "href": "./CORINE 2018 Forest Boundaries/collection.json",
       "type": "application/json",
       "title": "CORINE 2018 Forest Boundaries",
       "endpointtype": "WMS_OverwriteTimes",
-      "id": "forest_pol_bnd_2024_06_2025_06"
+      "id": "CORINE 2018 Forest Boundaries"
     },
     {
       "rel": "child",
