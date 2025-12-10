@@ -25,6 +25,25 @@
       "id": "Forest Loss Clear-cuts Points"
     },
     {
+      "rel": "child",
+      "href": "./Forest Loss in Germany (2024-06 - 2025-06) /collection.json",
+      "type": "application/json",
+      "title": "Forest Loss in Germany (2024-06 - 2025-06) ",
+      "code": "forest_ger_2024_06_2025_06_wms_high_medium_low",
+      "id": "Forest Loss in Germany (2024-06 - 2025-06) ",
+      "subcode": "forest_ger_2024_06_2025_06_wms_high_medium_low",
+      "eodash:mapProjection": {
+        "name": "",
+        "def": "",
+        "extent": [
+          5.979707336988206,
+          46.483752002498846,
+          15.208715624134541,
+          55.65423392583931
+        ]
+      }
+    },
+    {
       "rel": "self",
       "href": "https://baltic-gtif.github.io/baltic-gtif/baltic-catalog/catalog.json",
       "type": "application/json"

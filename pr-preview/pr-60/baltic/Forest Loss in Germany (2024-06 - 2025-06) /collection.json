@@ -1,0 +1,109 @@
+{
+  "type": "Collection",
+  "id": "Forest Loss in Germany (2024-06 - 2025-06) ",
+  "stac_version": "1.1.0",
+  "description": "",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Baltic GTIF Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./Forest Loss Clear-cuts Points/collection.json",
+      "type": "application/json",
+      "title": "Forest Loss Clear-cuts Points",
+      "endpointtype": "WMS_OverwriteTimes",
+      "id": "Forest Loss Clear-cuts Points"
+    },
+    {
+      "rel": "child",
+      "href": "./forest_ger_pix_2024_06_2025_06/collection.json",
+      "type": "application/json",
+      "title": "Forest Loss Coeficient Values",
+      "endpointtype": "WMS_OverwriteTimes",
+      "id": "forest_ger_pix_2024_06_2025_06"
+    },
+    {
+      "rel": "service",
+      "href": "",
+      "type": "application/geo+json",
+      "id": "",
+      "method": "GET"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://tiles.maps.eox.at/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "EOxCloudless 2024",
+      "roles": [
+        "baselayer"
+      ],
+      "id": "cloudless-2024"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://tiles.maps.eox.at/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "image/png",
+      "title": "Overlay labels",
+      "roles": [
+        "overlay",
+        "visible"
+      ],
+      "id": "overlay_bright"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Baltic GTIF Catalog"
+    }
+  ],
+  "subcode": "forest_ger_2024_06_2025_06_wms_high_medium_low",
+  "eodash:mapProjection": {
+    "name": "",
+    "def": "",
+    "extent": [
+      5.979707336988206,
+      46.483752002498846,
+      15.208715624134541,
+      55.65423392583931
+    ]
+  },
+  "title": "Forest Loss in Germany (2024-06 - 2025-06) ",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          5.979707336988206,
+          46.483752002498846,
+          16.086220520642673,
+          55.65423392583931
+        ],
+        [
+          6.057666009457114,
+          47.11998879580425,
+          16.086220520642673,
+          55.22812035264417
+        ],
+        [
+          5.979707336988206,
+          46.483752002498846,
+          15.208715624134541,
+          55.65423392583931
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-06-01T00:00:00Z",
+          "2025-06-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

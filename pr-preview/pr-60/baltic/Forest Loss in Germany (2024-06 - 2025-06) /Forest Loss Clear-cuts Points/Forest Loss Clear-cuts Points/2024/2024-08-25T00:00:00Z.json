@@ -1,0 +1,57 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.1.0/schema.json"
+  ],
+  "id": "2024-08-25T00:00:00Z",
+  "geometry": null,
+  "properties": {
+    "datetime": "2024-08-25T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "wms",
+      "href": "https://server1.landimage.info/geoserver/gwc/service/wms",
+      "type": "image/jpeg",
+      "title": "Forest Loss Clear-cuts Points",
+      "wms:layers": [
+        "FROMSAT:GER_forest_taskai_cut50_2024_06_2025_06"
+      ],
+      "role": [
+        "data"
+      ],
+      "wms:dimensions": {
+        "TIME": "2024-08-25T00:00:00Z"
+      },
+      "wms:tilesize": 256,
+      "wms:version": "1.1.1",
+      "eodash:proj4_def": {
+        "name": "EPSG:3857"
+      }
+    },
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Baltic GTIF Catalog"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Forest Loss Clear-cuts Points"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Forest Loss Clear-cuts Points"
+    }
+  ],
+  "assets": {},
+  "collection": "Forest Loss Clear-cuts Points",
+  "eodash:proj4_def": {
+    "name": "EPSG:3857"
+  }
+}
