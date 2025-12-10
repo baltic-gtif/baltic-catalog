@@ -8,7 +8,10 @@
       "EndPoint": "https://server1.landimage.info/geoserver/wms",
       "LayerId": "GTIFBaltic:LIT_LAT_EST_SM_2025_05_21_Q2",
       "Type": "byoc",
-      "CollectionId": ""
+      "CollectionId": "",
+      "DataProjection": {
+        "name": ""
+      }
     }
   ],
   "Colorlegend": {
