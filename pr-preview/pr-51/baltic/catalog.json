@@ -16,6 +16,9 @@
       "type": "application/json",
       "title": "High Waterlogging Index - parcels",
       "id": "High Waterlogging Index - parcels",
+      "themes": [
+        "Flooding"
+      ],
       "thumbnail": [
         "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/sm_lt.png"
       ]
