@@ -14,7 +14,7 @@
       "rel": "wms",
       "href": "https://server1.landimage.info/geoserver/gwc/service/wms",
       "type": "image/jpeg",
-      "title": "forest_pol_pnt_2024_06_2025_06",
+      "title": "forest_pol_points_2024_06_2025_06",
       "wms:layers": [
         "FROMSAT:POL_forest_taskai_cut50_2024_06_2025_06"
       ],
@@ -50,7 +50,7 @@
     }
   ],
   "assets": {},
-  "collection": "forest_pol_pnt_2024_06_2025_06",
+  "collection": "forest_pol_points_2024_06_2025_06",
   "eodash:proj4_def": {
     "name": "EPSG:3857"
   }

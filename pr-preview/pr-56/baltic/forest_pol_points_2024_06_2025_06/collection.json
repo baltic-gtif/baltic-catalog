@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "forest_pol_pnt_2024_06_2025_06",
+  "id": "forest_pol_points_2024_06_2025_06",
   "stac_version": "1.1.0",
   "description": "",
   "links": [
@@ -12,11 +12,11 @@
     },
     {
       "rel": "child",
-      "href": "./forest_pol_pnt_2024_06_2025_06/collection.json",
+      "href": "./forest_pol_points_2024_06_2025_06/collection.json",
       "type": "application/json",
       "title": "Forest Loss Clear-cuts Points",
       "endpointtype": "WMS_OverwriteTimes",
-      "id": "forest_pol_pnt_2024_06_2025_06"
+      "id": "forest_pol_points_2024_06_2025_06"
     },
     {
       "rel": "xyz",
