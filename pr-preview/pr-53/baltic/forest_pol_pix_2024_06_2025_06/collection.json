@@ -18,7 +18,7 @@
       "endpointtype": "WMS_OverwriteTimes",
       "id": "forest_pol_pix_2024_06_2025_06",
       "themes": [
-        "Flooding"
+        "Forest Loss"
       ],
       "tags": [
         "Forest"
@@ -53,11 +53,40 @@
     }
   ],
   "themes": [
-    "Flooding"
+    "Forest Loss"
   ],
   "tags": [
     "Forest"
   ],
+  "eox:colorlegend": {
+    "title": "Forest Loss",
+    "range": [
+      "#2b83ba",
+      "#64abb0",
+      "#9dd3a6",
+      "#c7e8ad",
+      "#ecf7b9",
+      "#ffedaa",
+      "#fec980",
+      "#f99d59",
+      "#e85b3b",
+      "#d7191c"
+    ],
+    "domain": [
+      "50",
+      "52",
+      "55",
+      "57",
+      "60",
+      "63",
+      "66",
+      "69",
+      "75",
+      "96"
+    ],
+    "scaleType": "categorical",
+    "markType": "rect"
+  },
   "title": "Forest Loss Coeficient Values",
   "extent": {
     "spatial": {
@@ -82,7 +111,7 @@
   "license": "other",
   "summaries": {
     "themes": [
-      "Flooding"
+      "Forest Loss"
     ]
   }
 }
