@@ -6,7 +6,7 @@
     {
       "Name": "WMS",
       "EndPoint": "https://server1.landimage.info/geoserver/gwc/service/wms",
-      "LayerId": " \tFROMSAT:POL_forest_p50_2024_06_minus_2025_06 ",
+      "LayerId": "FROMSAT:POL_forest_p50_2024_06_minus_2025_06 ",
       "Type": "OverwriteTimes",
       "DataProjection": {
         "name": "EPSG:3857"
