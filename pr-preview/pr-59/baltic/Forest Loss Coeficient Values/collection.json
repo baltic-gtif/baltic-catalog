@@ -46,6 +46,35 @@
       "title": "Baltic GTIF Catalog"
     }
   ],
+  "eox:colorlegend": {
+    "title": "Forest Loss",
+    "domain": [
+      "50",
+      "52",
+      "55",
+      "57",
+      "60",
+      "63",
+      "66",
+      "69",
+      "75",
+      "96"
+    ],
+    "range": [
+      "#2b83ba",
+      "#64abb0",
+      "#9dd3a6",
+      "#c7e8ad",
+      "#ecf7b9",
+      "#ffedaa",
+      "#fec980",
+      "#f99d59",
+      "#e85b3b",
+      "#d7191c"
+    ],
+    "scaleType": "categorical",
+    "markType": "rect"
+  },
   "title": "Forest Loss Coeficient Values",
   "extent": {
     "spatial": {
