@@ -1,1 +1,28 @@
-{}
+{
+  "Name": "Forest Loss Coeficient Values",
+  "Title": "Forest Loss Coeficient Values",
+  "Description": "",
+  "Resources": [
+    {
+      "Name": "WMS",
+      "EndPoint": "https://server1.landimage.info/geoserver/wms",
+      "LayerId": "FROMSAT:2024_m06_2025_m06_POL_diff_proc_rem50",
+      "Type": "OverwriteTimes",
+      "DataProjection": {
+        "name": "EPSG:3857"
+      },
+      "Version": "1.1.1",
+      "DateTimeInterval": {
+        "Start": "2024-06-01T00:00:00Z",
+        "End": "2025-06-01T00:00:00Z"
+      },
+      "OverwriteBBox": [
+        13.620142028066024,
+        48.292231336439166,
+        25.016380158261374,
+        55.49835566167371
+      ],
+      "TileSize": 256
+    }
+  ]
+}
