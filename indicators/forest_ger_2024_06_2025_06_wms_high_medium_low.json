@@ -4,8 +4,8 @@
   "EodashIdentifier": "forest_ger_2024_06_2025_06_wms_high_medium_low",
   "Description": "",
   "Collections": [
-    "forest_ger_bnd_2024_06_2025_06",
     "forest_ger_pnt_2024_06_2025_06",
+    "forest_ger_bnd_2024_06_2025_06",
     "forest_ger_pix_2024_06_2025_06"
   ],
   "Disable": [],
