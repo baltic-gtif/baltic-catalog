@@ -15,7 +15,10 @@
       "href": "./forest_pol_pix_2024_06_2025_06/collection.json",
       "type": "application/json",
       "title": "Forest Loss Coeficient Values",
-      "id": "forest_pol_pix_2024_06_2025_06"
+      "id": "forest_pol_pix_2024_06_2025_06",
+      "themes": [
+        "Flooding"
+      ]
     },
     {
       "rel": "self",

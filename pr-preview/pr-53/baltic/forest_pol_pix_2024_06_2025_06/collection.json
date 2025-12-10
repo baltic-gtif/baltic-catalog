@@ -16,7 +16,10 @@
       "type": "application/json",
       "title": "Forest Loss Coeficient Values",
       "endpointtype": "WMS_OverwriteTimes",
-      "id": "forest_pol_pix_2024_06_2025_06"
+      "id": "forest_pol_pix_2024_06_2025_06",
+      "themes": [
+        "Flooding"
+      ]
     },
     {
       "rel": "xyz",
@@ -46,6 +49,9 @@
       "title": "Baltic GTIF Catalog"
     }
   ],
+  "themes": [
+    "Flooding"
+  ],
   "title": "Forest Loss Coeficient Values",
   "extent": {
     "spatial": {
@@ -67,5 +73,10 @@
       ]
     }
   },
-  "license": "other"
+  "license": "other",
+  "summaries": {
+    "themes": [
+      "Flooding"
+    ]
+  }
 }
