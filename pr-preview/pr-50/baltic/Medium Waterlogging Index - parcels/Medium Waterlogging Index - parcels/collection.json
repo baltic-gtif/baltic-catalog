@@ -11,81 +11,9 @@
       "title": "Baltic GTIF Catalog"
     },
     {
-      "rel": "item",
-      "href": "./Medium Waterlogging Index - parcels/2025/2025-05-21T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2025-05-21T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./Medium Waterlogging Index - parcels/2025/2025-05-22T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2025-05-22T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./Medium Waterlogging Index - parcels/2025/2025-05-23T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2025-05-23T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./Medium Waterlogging Index - parcels/2025/2025-05-24T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2025-05-24T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./Medium Waterlogging Index - parcels/2025/2025-05-25T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2025-05-25T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./Medium Waterlogging Index - parcels/2025/2025-05-26T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2025-05-26T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./Medium Waterlogging Index - parcels/2025/2025-05-27T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2025-05-27T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./Medium Waterlogging Index - parcels/2025/2025-05-28T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2025-05-28T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./Medium Waterlogging Index - parcels/2025/2025-05-29T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2025-05-29T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./Medium Waterlogging Index - parcels/2025/2025-05-30T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2025-05-30T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./Medium Waterlogging Index - parcels/2025/2025-05-31T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2025-05-31T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./Medium Waterlogging Index - parcels/2025/2025-06-01T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2025-06-01T00:00:00Z"
-    },
-    {
       "rel": "wms",
-      "href": "https://server1.landimage.info/geoserver/wms",
-      "type": "image/jpeg",
+      "href": "https://services.sentinel-hub.com/ogc/wms/",
+      "type": "image/png",
       "title": "Medium Waterlogging Index - parcels",
       "wms:layers": [
         "GTIFBaltic:LIT_LAT_EST_SM_2025_05_21_Q2"
@@ -93,11 +21,14 @@
       "role": [
         "data"
       ],
-      "wms:tilesize": 256,
-      "wms:version": "1.1.1",
       "eodash:proj4_def": {
-        "name": "EPSG:3857"
+        "name": ""
       }
+    },
+    {
+      "rel": "item",
+      "href": "./Medium Waterlogging Index - parcels/1970/92eb9724-982d-4165-a865-aa1db3b6b915.json",
+      "type": "application/geo+json"
     },
     {
       "rel": "parent",
@@ -106,27 +37,51 @@
       "title": "Medium Waterlogging Index - parcels"
     }
   ],
-  "eodash:proj4_def": {
-    "name": "EPSG:3857"
+  "themes": [
+    "Flooding"
+  ],
+  "eox:colorlegend": {
+    "title": "Waterlogging",
+    "range": [
+      "#ffffff",
+      "#b8ebff",
+      "#88c3ff",
+      "#74abe2",
+      "#3281d1",
+      "#00509f"
+    ],
+    "domain": [
+      "0",
+      "5",
+      "10",
+      "50",
+      "100",
+      "200"
+    ],
+    "scaleType": "categorical",
+    "markType": "rect"
   },
-  "endpointtype": "WMS_OverwriteTimes",
+  "eodash:proj4_def": {
+    "name": ""
+  },
+  "endpointtype": "Sentinel Hub WMS",
   "title": "Medium Waterlogging Index - parcels",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          20.689717832247297,
-          53.66527805979655,
-          28.305356100201507,
-          60.05512166227293
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2025-05-21T00:00:00Z",
-          "2025-06-01T00:00:00Z"
+          "1970-01-01T00:00:00Z",
+          "2025-12-10T10:19:04.587518Z"
         ]
       ]
     }

@@ -15,7 +15,10 @@
       "href": "./Medium Waterlogging Index - parcels/collection.json",
       "type": "application/json",
       "title": "Medium Waterlogging Index - parcels",
-      "id": "Medium Waterlogging Index - parcels"
+      "id": "Medium Waterlogging Index - parcels",
+      "themes": [
+        "Flooding"
+      ]
     },
     {
       "rel": "self",
