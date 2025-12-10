@@ -12,19 +12,19 @@
     },
     {
       "rel": "child",
-      "href": "./CORINE 2018 Forest Boundaries/collection.json",
-      "type": "application/json",
-      "title": "CORINE 2018 Forest Boundaries",
-      "endpointtype": "WMS_OverwriteTimes",
-      "id": "CORINE 2018 Forest Boundaries"
-    },
-    {
-      "rel": "child",
       "href": "./Forest Loss Clear-cuts Points/collection.json",
       "type": "application/json",
       "title": "Forest Loss Clear-cuts Points",
       "endpointtype": "WMS_OverwriteTimes",
       "id": "Forest Loss Clear-cuts Points"
+    },
+    {
+      "rel": "child",
+      "href": "./CORINE 2018 Forest Boundaries/collection.json",
+      "type": "application/json",
+      "title": "CORINE 2018 Forest Boundaries",
+      "endpointtype": "WMS_OverwriteTimes",
+      "id": "CORINE 2018 Forest Boundaries"
     },
     {
       "rel": "child",
@@ -91,16 +91,16 @@
           55.65423392583931
         ],
         [
-          6.278152152164994,
-          47.255837415165104,
-          15.19215393061429,
-          55.41937636582809
-        ],
-        [
           6.057666009457114,
           47.11998879580425,
           16.086220520642673,
           55.22812035264417
+        ],
+        [
+          6.278152152164994,
+          47.255837415165104,
+          15.19215393061429,
+          55.41937636582809
         ],
         [
           5.979707336988206,
