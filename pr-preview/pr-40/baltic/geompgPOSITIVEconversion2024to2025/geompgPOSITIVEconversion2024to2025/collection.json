@@ -21,7 +21,7 @@
     },
     {
       "rel": "style",
-      "href": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/GSAconversion_GEOM_2024_2025/style_GEOM_PGconversionGSA2025.json",
+      "href": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/GSAconversion/GSAconversion_GEOM_2024_2025/style_GEOM_PGconversionGSA2025.json",
       "type": "text/vector-styles",
       "asset:keys": [
         "GEOMGSA2024POSITIVEconversion2024to2025 "
