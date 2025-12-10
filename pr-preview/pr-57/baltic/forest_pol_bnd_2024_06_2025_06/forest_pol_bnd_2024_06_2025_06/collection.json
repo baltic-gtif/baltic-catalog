@@ -2212,7 +2212,7 @@
       "type": "image/jpeg",
       "title": "forest_pol_bnd_2024_06_2025_06",
       "wms:layers": [
-        " \tFROMSAT:POL_forest_p50_2024_06_minus_2025_06 "
+        "FROMSAT:POL_forest_p50_2024_06_minus_2025_06 "
       ],
       "role": [
         "data"
