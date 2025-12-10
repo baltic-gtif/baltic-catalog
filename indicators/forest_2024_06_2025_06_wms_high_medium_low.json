@@ -2,7 +2,7 @@
   "Name": "Forest Loss in Poland (2024-06 - 2025-06)",
   "Title": "Forest Loss in Poland (2024-06 - 2025-06)",
   "EodashIdentifier": "forest_2024_06_2025_06_wms_high_medium_low",
-  "Description": "",
+  "Description": "indicators/sm_at_09_high_medium_low/description.md",
   "Collections": [
     "forest_pol_pix_2024_06_2025_06"
   ],
