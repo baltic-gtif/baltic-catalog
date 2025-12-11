@@ -18,6 +18,13 @@
       "id": "habitat2025"
     },
     {
+      "rel": "child",
+      "href": "./habitat_rawlayer/collection.json",
+      "type": "application/json",
+      "title": "Habitat type",
+      "id": "habitat_rawlayer"
+    },
+    {
       "rel": "self",
       "href": "https://baltic-gtif.github.io/baltic-gtif/baltic-catalog/catalog.json",
       "type": "application/json"
