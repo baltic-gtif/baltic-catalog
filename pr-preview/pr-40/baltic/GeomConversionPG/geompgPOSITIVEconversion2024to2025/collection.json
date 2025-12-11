@@ -16,12 +16,12 @@
       "type": "application/geo+json",
       "datetime": "2025-01-01T00:00:00Z",
       "assets": [
-        "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/GSAconversion/GSAconversion_GEOM_2024_2025/GSA_2024_mergeConvertedArea_2024_to_2025_display.fgb"
+        "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/GSAconversion/GSAconversion_GEOM_2024_2025/GSA_2025_mergeConvertedArea_2024_to_2025_display.fgb"
       ]
     },
     {
       "rel": "style",
-      "href": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/GSAconversion/GSAconversion_GEOM_2024_2025/style_GEOM_PGconversionGSA2025.json",
+      "href": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/GSAconversion/GSAconversion_GEOM_2025_2024/style_GEOM_PGconversionGSA2025.json",
       "type": "text/vector-styles",
       "asset:keys": [
         "GEOMGSA2024POSITIVEconversion2024to2025 "
