@@ -24,16 +24,5 @@
         56.31700190178251
       ]
     }
-  ],
-  "Process": {
-    "Name": "",
-    "JsonForm": "",
-    "EndPoints": [
-      {
-        "Identifier": "",
-        "Url": "",
-        "Type": "application/geo+json"
-      }
-    ]
-  }
+  ]
 }
