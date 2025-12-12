@@ -12,19 +12,19 @@
     },
     {
       "rel": "child",
-      "href": "./GEOMpgConversion2024to2025/collection.json",
-      "type": "application/json",
-      "title": "Permanent Grassland  - Loss",
-      "endpointtype": "FlatGeobuf source",
-      "id": "GEOMpgConversion2024to2025"
-    },
-    {
-      "rel": "child",
       "href": "./geompgPOSITIVEconversion2024to2025/collection.json",
       "type": "application/json",
       "title": "Permanent Grassland  - GAIN",
       "endpointtype": "FlatGeobuf source",
       "id": "geompgPOSITIVEconversion2024to2025"
+    },
+    {
+      "rel": "child",
+      "href": "./GEOMpgConversion2024to2025/collection.json",
+      "type": "application/json",
+      "title": "Permanent Grassland  - Loss",
+      "endpointtype": "FlatGeobuf source",
+      "id": "GEOMpgConversion2024to2025"
     },
     {
       "rel": "xyz",
