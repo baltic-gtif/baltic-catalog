@@ -12,11 +12,11 @@
     },
     {
       "rel": "child",
-      "href": "./SAGRIS Waterlogging 04 Lithuania (2024)/collection.json",
+      "href": "./SAGRIS_Waterlogging_04_Lithuania_2024/collection.json",
       "type": "application/json",
       "title": "SAGRIS Waterlogging 04 Lithuania (2024)",
       "code": "sm_lt_04_high_medium_low",
-      "id": "SAGRIS Waterlogging 04 Lithuania (2024)",
+      "id": "SAGRIS_Waterlogging_04_Lithuania_2024",
       "subcode": "sm_lt_04_high_medium_low",
       "themes": [
         "Flooding"
@@ -37,11 +37,11 @@
     },
     {
       "rel": "child",
-      "href": "./Lodging 07 Lithuania/collection.json",
+      "href": "./Lodging_07_Lithuania/collection.json",
       "type": "application/json",
       "title": "Lodging 07 Lithuania",
       "code": "ld_lt_07",
-      "id": "Lodging 07 Lithuania",
+      "id": "Lodging_07_Lithuania",
       "subcode": "ld_lt_07",
       "themes": [
         "Crops Lodging"
@@ -56,11 +56,11 @@
     },
     {
       "rel": "child",
-      "href": "./SAGRIS Waterlogging 09 Austria (2024)/collection.json",
+      "href": "./SAGRIS_Waterlogging_09_Austria_2024/collection.json",
       "type": "application/json",
       "title": "SAGRIS Waterlogging 09 Austria (2024)",
       "code": "sm_at_09_high_medium_low",
-      "id": "SAGRIS Waterlogging 09 Austria (2024)",
+      "id": "SAGRIS_Waterlogging_09_Austria_2024",
       "subcode": "sm_at_09_high_medium_low",
       "themes": [
         "Flooding"
