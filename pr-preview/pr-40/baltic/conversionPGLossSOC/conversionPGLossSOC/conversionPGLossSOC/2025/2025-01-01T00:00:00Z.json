@@ -8,33 +8,33 @@
     "coordinates": [
       [
         [
-          20.192839000764053,
-          53.669887528554874
+          20.42795566942043,
+          53.4029448783337
         ],
         [
-          27.163422781611978,
-          53.669887528554874
+          27.45957917612118,
+          53.4029448783337
         ],
         [
-          27.163422781611978,
-          56.2726817584444
+          27.45957917612118,
+          56.44450478947332
         ],
         [
-          20.192839000764053,
-          56.2726817584444
+          20.42795566942043,
+          56.44450478947332
         ],
         [
-          20.192839000764053,
-          53.669887528554874
+          20.42795566942043,
+          53.4029448783337
         ]
       ]
     ]
   },
   "bbox": [
-    20.192839000764053,
-    53.669887528554874,
-    27.163422781611978,
-    56.2726817584444
+    20.42795566942043,
+    53.4029448783337,
+    27.45957917612118,
+    56.44450478947332
   ],
   "properties": {
     "datetime": "2025-01-01T00:00:00Z"
@@ -45,7 +45,7 @@
       "href": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/GSAconversion/style_GEOM_LossSOC_PGconversionGSA2024to2025.json",
       "type": "text/vector-styles",
       "asset:keys": [
-        "lossSOC_PG2024_nonPG2025"
+        "lossSOC_PG2024_to_nonPG2025"
       ]
     },
     {
@@ -68,7 +68,7 @@
     }
   ],
   "assets": {
-    "lossSOC_PG2024_nonPG2025": {
+    "lossSOC_PG2024_to_nonPG2025": {
       "href": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/GSAconversion/GSAconversion_GEOM_2024_2025/GSA_2024_mergeConvertedArea_2024_to_2025_lossSOC_display.fgb",
       "type": "application/vnd.flatgeobuf",
       "roles": [
