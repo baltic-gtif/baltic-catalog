@@ -16,6 +16,7 @@
     "pgconversion",
     "pgpositiveconversion2024to2025",
     "geompgconversion2024to2025",
-    "geompgpositiveconversion2024to2025"
+    "geompgpositiveconversion2024to2025",
+    "conversionpglosssoc"
   ]
 }
