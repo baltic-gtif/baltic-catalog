@@ -35,7 +35,7 @@
     }
   ],
   "endpointtype": "FlatGeobuf source",
-  "title": "Permanent Grassland  - Area Gain",
+  "title": "Permanent Grassland  - Area Gain ",
   "extent": {
     "spatial": {
       "bbox": [

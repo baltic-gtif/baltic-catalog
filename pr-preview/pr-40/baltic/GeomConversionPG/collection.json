@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./geompgPOSITIVEconversion2024to2025/collection.json",
       "type": "application/json",
-      "title": "Permanent Grassland  - Area Gain",
+      "title": "Permanent Grassland  - Area Gain ",
       "endpointtype": "FlatGeobuf source",
       "id": "geompgPOSITIVEconversion2024to2025"
     },

@@ -58,13 +58,13 @@
       "rel": "collection",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "Permanent Grassland  - Area Gain"
+      "title": "Permanent Grassland  - Area Gain "
     },
     {
       "rel": "parent",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "Permanent Grassland  - Area Gain"
+      "title": "Permanent Grassland  - Area Gain "
     }
   ],
   "assets": {
