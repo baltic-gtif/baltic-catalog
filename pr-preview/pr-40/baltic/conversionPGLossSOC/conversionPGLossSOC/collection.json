@@ -24,7 +24,7 @@
       "href": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/GSAconversion/style_GEOM_LossSOC_PGconversionGSA2024to2025.json",
       "type": "text/vector-styles",
       "asset:keys": [
-        ""
+        "lossSOC_PG2024_nonPG2025"
       ]
     },
     {
@@ -40,10 +40,10 @@
     "spatial": {
       "bbox": [
         [
-          -180,
-          -85,
-          180,
-          85
+          20.192839000764053,
+          53.669887528554874,
+          27.163422781611978,
+          56.2726817584444
         ]
       ]
     },
