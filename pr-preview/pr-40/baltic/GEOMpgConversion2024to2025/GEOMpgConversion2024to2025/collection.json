@@ -31,11 +31,11 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Permanent Grassland  - Area Loss"
+      "title": "Permanent Grassland  - Area Loss "
     }
   ],
   "endpointtype": "FlatGeobuf source",
-  "title": "Permanent Grassland  - Area Loss",
+  "title": "Permanent Grassland  - Area Loss ",
   "extent": {
     "spatial": {
       "bbox": [

@@ -58,13 +58,13 @@
       "rel": "collection",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "Permanent Grassland  - Area Loss"
+      "title": "Permanent Grassland  - Area Loss "
     },
     {
       "rel": "parent",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "Permanent Grassland  - Area Loss"
+      "title": "Permanent Grassland  - Area Loss "
     }
   ],
   "assets": {

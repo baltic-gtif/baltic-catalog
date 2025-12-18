@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./GEOMpgConversion2024to2025/collection.json",
       "type": "application/json",
-      "title": "Permanent Grassland  - Area Loss",
+      "title": "Permanent Grassland  - Area Loss ",
       "endpointtype": "FlatGeobuf source",
       "id": "GEOMpgConversion2024to2025"
     },
@@ -46,7 +46,7 @@
       "title": "Baltic GTIF Catalog"
     }
   ],
-  "title": "Permanent Grassland  - Area Loss",
+  "title": "Permanent Grassland  - Area Loss ",
   "extent": {
     "spatial": {
       "bbox": [

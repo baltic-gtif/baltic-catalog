@@ -35,7 +35,7 @@
     }
   ],
   "endpointtype": "FlatGeobuf source",
-  "title": "Permanent Grassland  - Area Loss",
+  "title": "Permanent Grassland  - Area Loss ",
   "extent": {
     "spatial": {
       "bbox": [
