@@ -11,17 +11,17 @@
           "Time": "2025",
           "Assets": [
             {
-              "Identifier": "lossSOC_PG2024_nonPG2025",
+              "Identifier": "lossSOC_PG2024_to_nonPG2025",
               "File": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/GSAconversion/GSAconversion_GEOM_2024_2025/GSA_2024_mergeConvertedArea_2024_to_2025_lossSOC_display.fgb"
             }
           ]
         }
       ],
       "Bbox": [
-        20.192839000764053,
-        53.669887528554874,
-        27.163422781611978,
-        56.2726817584444
+        20.42795566942043,
+        53.4029448783337,
+        27.45957917612118,
+        56.44450478947332
       ]
     }
   ]
