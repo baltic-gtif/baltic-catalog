@@ -12,6 +12,13 @@
     },
     {
       "rel": "child",
+      "href": "./conversionPGLossSOC/collection.json",
+      "type": "application/json",
+      "title": "Loss of SOC",
+      "id": "conversionPGLossSOC"
+    },
+    {
+      "rel": "child",
       "href": "./GEOMpgConversion2024to2025/collection.json",
       "type": "application/json",
       "title": "Permanent Grassland  - Area Loss ",
