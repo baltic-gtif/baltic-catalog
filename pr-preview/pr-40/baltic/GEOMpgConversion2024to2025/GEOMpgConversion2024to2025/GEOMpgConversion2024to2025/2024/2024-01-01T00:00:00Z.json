@@ -42,7 +42,7 @@
   "links": [
     {
       "rel": "style",
-      "href": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/GSAconversion/GSAconversion_GEOM_2024_2025/style_GEOM_PGconversionGSA2024.json",
+      "href": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/GSAconversion/style_GEOM_PGconversionGSA2024.json",
       "type": "text/vector-styles",
       "asset:keys": [
         "GEOMGSA2024conversion2024to2025"
@@ -58,13 +58,13 @@
       "rel": "collection",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "Permanent Grassland  - Loss"
+      "title": "Permanent Grassland  - Area Loss"
     },
     {
       "rel": "parent",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "Permanent Grassland  - Loss"
+      "title": "Permanent Grassland  - Area Loss"
     }
   ],
   "assets": {
