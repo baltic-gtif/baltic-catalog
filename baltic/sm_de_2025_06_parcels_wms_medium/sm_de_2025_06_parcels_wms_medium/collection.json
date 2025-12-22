@@ -11,70 +11,10 @@
       "title": "Baltic GTIF Catalog"
     },
     {
-      "rel": "item",
-      "href": "./sm_de_2025_06_parcels_wms_medium/2025/2025-06-10T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2025-06-10T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./sm_de_2025_06_parcels_wms_medium/2025/2025-06-11T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2025-06-11T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./sm_de_2025_06_parcels_wms_medium/2025/2025-06-12T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2025-06-12T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./sm_de_2025_06_parcels_wms_medium/2025/2025-06-13T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2025-06-13T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./sm_de_2025_06_parcels_wms_medium/2025/2025-06-14T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2025-06-14T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./sm_de_2025_06_parcels_wms_medium/2025/2025-06-15T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2025-06-15T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./sm_de_2025_06_parcels_wms_medium/2025/2025-06-16T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2025-06-16T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./sm_de_2025_06_parcels_wms_medium/2025/2025-06-17T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2025-06-17T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./sm_de_2025_06_parcels_wms_medium/2025/2025-06-18T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2025-06-18T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./sm_de_2025_06_parcels_wms_medium/2025/2025-06-19T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2025-06-19T00:00:00Z"
-    },
-    {
       "rel": "wms",
       "href": "https://server1.landimage.info/geoserver/wms",
       "type": "image/jpeg",
-      "title": "sm_de_2025_06_parcels_wms_medium",
+      "title": "SAGRIS Waterlogging mid-June Germany (2025)",
       "wms:layers": [
         "GTIFBaltic:GER_SM_2025_06_11_Q2"
       ],
@@ -83,6 +23,7 @@
       ],
       "wms:tilesize": 256,
       "wms:version": "1.1.1",
+      "key": "cd26bb6e-6d33-42af-8ad0-bd80e0d279c3",
       "eodash:proj4_def": {
         "name": "EPSG:3857"
       }
@@ -143,6 +84,14 @@
   },
   "license": "other",
   "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    },
     "thumbnail": {
       "href": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/sm_lt.png",
       "type": "image/png",

@@ -11,22 +11,10 @@
       "title": "Baltic GTIF Catalog"
     },
     {
-      "rel": "item",
-      "href": "./Soil_Moisture_high_parcels/2024/2024-09-01T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2024-09-01T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./Soil_Moisture_high_parcels/2024/2024-09-30T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2024-09-30T00:00:00Z"
-    },
-    {
       "rel": "wms",
       "href": "https://server1.landimage.info/geoserver/wms",
       "type": "image/png",
-      "title": "Soil_Moisture_high_parcels",
+      "title": "Soil Moisture high - parcels",
       "wms:layers": [
         "GTIFBaltic:AUT_SM_2024_09_1120_Q1"
       ],
@@ -35,6 +23,7 @@
       ],
       "wms:tilesize": 256,
       "wms:version": "1.1.1",
+      "key": "c9b31c83-5829-4831-9a9a-b9497c706afe",
       "proj:epsg": 3857
     },
     {
@@ -95,6 +84,14 @@
   },
   "license": "other",
   "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    },
     "thumbnail": {
       "href": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/sm_at.png",
       "type": "image/png",

@@ -125,7 +125,7 @@
       "title": "Baltic GTIF Catalog"
     }
   ],
-  "thumbnail": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//https://raw.githubusercontent.com/baltic-gtif/baltic-catalog/refs/heads/main/assets/sm_lt.png",
+  "thumbnail": "https://raw.githubusercontent.com/baltic-gtif/baltic-catalog/refs/heads/main/assets/sm_lt.png",
   "subcode": "sm_lt_04_high_medium_low",
   "eodash:mapProjection": {
     "name": "EPSG:3035",
@@ -156,8 +156,8 @@
   "summaries": {
     "subcode": [
       "sm_lt_04_parcels_wms_low",
-      "sm_lt_04_parcels_wms_medium",
-      "sm_lt_04_parcels_wms_high"
+      "sm_lt_04_parcels_wms_high",
+      "sm_lt_04_parcels_wms_medium"
     ],
     "themes": [
       "Flooding"
@@ -174,7 +174,7 @@
   },
   "assets": {
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//https://raw.githubusercontent.com/baltic-gtif/baltic-catalog/refs/heads/main/assets/sm_lt.png",
+      "href": "https://raw.githubusercontent.com/baltic-gtif/baltic-catalog/refs/heads/main/assets/sm_lt.png",
       "type": "image/png",
       "roles": [
         "thumbnail"

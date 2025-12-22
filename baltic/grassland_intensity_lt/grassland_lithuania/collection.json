@@ -11,15 +11,6 @@
       "title": "Baltic GTIF Catalog"
     },
     {
-      "rel": "item",
-      "href": "./grassland_lithuania/2024/2024-01-01T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2024-01-01T00:00:00Z",
-      "assets": [
-        "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/PG/lt_pg_gsa_habitats.fgb"
-      ]
-    },
-    {
       "rel": "style",
       "href": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//collections/grassland_lithuania/style.json",
       "type": "text/vector-styles",
@@ -78,6 +69,14 @@
   },
   "license": "other",
   "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    },
     "thumbnail": {
       "href": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/grassland_lt.png",
       "type": "image/png",

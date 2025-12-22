@@ -11,22 +11,10 @@
       "title": "Baltic GTIF Catalog"
     },
     {
-      "rel": "item",
-      "href": "./Crops_Lodging_parcels/2024/2024-06-25T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2024-06-25T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./Crops_Lodging_parcels/2024/2024-07-15T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2024-07-15T00:00:00Z"
-    },
-    {
       "rel": "wms",
       "href": "https://server1.landimage.info/geoserver/wms",
       "type": "image/png",
-      "title": "Crops_Lodging_parcels",
+      "title": "Crops Lodging - parcels",
       "wms:layers": [
         "GTIFBaltic:LIT_2024_crops_lodging_07"
       ],
@@ -35,6 +23,7 @@
       ],
       "wms:tilesize": 256,
       "wms:version": "1.1.1",
+      "key": "b9f4bf1b-a803-465f-9557-05a06107489d",
       "proj:epsg": 3857
     },
     {
@@ -74,6 +63,14 @@
   },
   "license": "other",
   "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    },
     "thumbnail": {
       "href": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/ld_lt.png",
       "type": "image/png",

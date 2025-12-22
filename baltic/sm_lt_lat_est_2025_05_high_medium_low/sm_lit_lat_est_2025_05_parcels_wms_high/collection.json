@@ -11,22 +11,10 @@
       "title": "Baltic GTIF Catalog"
     },
     {
-      "rel": "item",
-      "href": "./sm_lit_lat_est_2025_05_parcels_wms_high/2025/2025-05-21T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2025-05-21T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./sm_lit_lat_est_2025_05_parcels_wms_high/2025/2025-05-31T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2025-05-31T00:00:00Z"
-    },
-    {
       "rel": "wms",
       "href": "https://server1.landimage.info/geoserver/wms",
       "type": "image/jpeg",
-      "title": "sm_lit_lat_est_2025_05_parcels_wms_high",
+      "title": "High Waterlogging - parcels",
       "wms:layers": [
         "GTIFBaltic:LIT_LAT_EST_SM_2025_05_21_Q1"
       ],
@@ -35,6 +23,7 @@
       ],
       "wms:tilesize": 256,
       "wms:version": "1.1.1",
+      "key": "983ae7e6-48ca-4e84-9b8c-974248599197",
       "eodash:proj4_def": {
         "name": "EPSG:3857"
       }
@@ -74,6 +63,14 @@
   },
   "license": "other",
   "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    },
     "thumbnail": {
       "href": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/sm_lt.png",
       "type": "image/png",
