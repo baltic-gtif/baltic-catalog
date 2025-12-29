@@ -11,15 +11,6 @@
       "title": "Baltic GTIF Catalog"
     },
     {
-      "rel": "item",
-      "href": "./SOCarable/2025/2025-12-31T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2025-12-31T00:00:00Z",
-      "assets": [
-        "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/SOCindexes_2025/SOC_2025_QDT_Arable_ReadyDisplay.fgb"
-      ]
-    },
-    {
       "rel": "style",
       "href": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/SOCindexes_2025/style_SOC_nonPG.json",
       "type": "text/vector-styles",
@@ -56,5 +47,15 @@
       ]
     }
   },
-  "license": "other"
+  "license": "other",
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    }
+  }
 }
