@@ -1,7 +1,7 @@
 {
   "Name": "habitat_pg_indicator",
   "Title": "Habitat and Permanent Grassland ",
-  "Description": "indicators/habitat_and_pgtype/description.md"
+  "Description": "indicators/habitat_and_pgtype/description.md",
   "Collections": [
     "habitat",
     "habitat_rawlayer"
