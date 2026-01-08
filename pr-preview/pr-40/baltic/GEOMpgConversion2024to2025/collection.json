@@ -49,6 +49,7 @@
       "title": "Baltic GTIF Catalog"
     }
   ],
+  "thumbnail": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/grassland_lt.png",
   "title": "Permanent Grassland  - Area Loss ",
   "extent": {
     "spatial": {
@@ -76,5 +77,19 @@
       ]
     }
   },
-  "license": "other"
+  "license": "other",
+  "summaries": {
+    "thumbnail": [
+      "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/grassland_lt.png"
+    ]
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/grassland_lt.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
 }

@@ -25,6 +25,7 @@
       "title": "Permanent Grassland (Area of Loss and Gain)"
     }
   ],
+  "thumbnail": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/grassland_lt.png",
   "endpointtype": "FlatGeobuf source",
   "title": "Permanent Grassland  - Area Loss ",
   "extent": {
@@ -55,6 +56,13 @@
       "title": "GeoParquet Items",
       "roles": [
         "collection-mirror"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/grassland_lt.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
       ]
     }
   }
