@@ -11,15 +11,6 @@
       "title": "Baltic GTIF Catalog"
     },
     {
-      "rel": "item",
-      "href": "./conversionPGLossSOC/2025/2025-01-01T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2025-01-01T00:00:00Z",
-      "assets": [
-        "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/GSAconversion/GSAconversion_GEOM_2024_2025/GSA_2024_mergeConvertedArea_2024_to_2025_lossSOC_display.fgb"
-      ]
-    },
-    {
       "rel": "style",
       "href": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/GSAconversion/style_GEOM_LossSOC_PGconversionGSA2024to2025.json",
       "type": "text/vector-styles",
@@ -56,5 +47,15 @@
       ]
     }
   },
-  "license": "other"
+  "license": "other",
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    }
+  }
 }
