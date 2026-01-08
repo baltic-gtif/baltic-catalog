@@ -1,0 +1,28 @@
+{
+  "Name": "SOC_FAO_index",
+  "Title": "SoC index ",
+  "Description": "",
+  "Resources": [
+    {
+      "Name": "FlatGeobuf source",
+      "Style": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/SOC_index/SMM.json",
+      "TimeEntries": [
+        {
+          "Time": "2024",
+          "Assets": [
+            {
+              "Identifier": "GSOCseq_anSSM3_parc",
+              "File": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/SOC_index/test.fgb"
+            }
+          ]
+        }
+      ],
+      "Bbox": [
+        20.477039241572896,
+        53.85657954510756,
+        26.90500803036645,
+        56.62822850154908
+      ]
+    }
+  ]
+}
