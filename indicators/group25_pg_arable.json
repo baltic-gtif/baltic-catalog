@@ -1,7 +1,7 @@
 {
   "Name": "Group25PGarable",
   "Title": "Permanent Grassland and Arable 2025 - SOC",
-  "Description": "indicators/group25_pg_arable/description.md"
+  "Description": "indicators/group25_pg_arable/description.md",
   "Collections": [
     "soc_pg",
     "soc_arable"
