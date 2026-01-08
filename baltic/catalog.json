@@ -113,6 +113,16 @@
     },
     {
       "rel": "child",
+      "href": "./GeomConversionPG/collection.json",
+      "type": "application/json",
+      "title": "Permanent Grassland (Area of Loss and Gain)",
+      "id": "GeomConversionPG",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/grassland_lt.png"
+      ]
+    },
+    {
+      "rel": "child",
       "href": "./sm_pl_2025_06_parcels_wms_medium/collection.json",
       "type": "application/json",
       "title": "SAGRIS Waterlogging mid-June Poland (2025)",
