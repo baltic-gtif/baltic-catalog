@@ -28,24 +28,27 @@
     },
     {
       "rel": "xyz",
-      "href": "//tiles.maps.eox.at/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "image/jpeg",
       "title": "EOxCloudless 2024",
       "roles": [
-        "baselayer"
+        "baselayer",
+        "visible"
       ],
-      "id": "cloudless-2024"
+      "id": "cloudless-2024",
+      "attribution": "{ EOxCloudless 2024: <a xmlns:dct=\"http://purl.org/dc/terms/\" href=\"https://s2maps.eu\" target=\"_blank\" property=\"dct:title\">Sentinel-2 cloudless - s2maps.eu</a> by <a xmlns:cc=\"http://creativecommons.org/ns#\" href=\"https://eox.at\" target=\"_blank\" property=\"cc:attributionName\" rel=\"cc:attributionURL\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2024) }"
     },
     {
       "rel": "xyz",
-      "href": "//tiles.maps.eox.at/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
       "type": "image/png",
       "title": "Overlay labels",
       "roles": [
         "overlay",
         "visible"
       ],
-      "id": "overlay_bright"
+      "id": "overlay_bright",
+      "attribution": "{ Overlay: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors, Made with Natural Earth, Rendering &copy; <a href=\"https://eox.at\" target=\"_blank\">EOX</a> }"
     },
     {
       "rel": "parent",
@@ -59,22 +62,22 @@
     "spatial": {
       "bbox": [
         [
-          20.197014755726087,
-          53.59374203993408,
-          27.012401486389926,
-          56.47603436319983
+          24.137263217517965,
+          55.632431054308064,
+          24.52914701150821,
+          55.82343792279835
         ],
         [
-          20.197014755726087,
-          53.59374203993408,
-          27.012401486389926,
-          56.47603436319983
+          24.137263217517965,
+          55.632431054308064,
+          24.52914701150821,
+          55.82343792279835
         ],
         [
-          23.59259684468476,
-          55.330206345657196,
-          24.941740254076628,
-          55.88577793801024
+          24.137263217517965,
+          55.632431054308064,
+          24.52914701150821,
+          55.82343792279835
         ]
       ]
     },
@@ -87,5 +90,10 @@
       ]
     }
   },
-  "license": "other"
+  "license": "other",
+  "summaries": {
+    "thumbnail": [
+      "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/soc_lt.png"
+    ]
+  }
 }

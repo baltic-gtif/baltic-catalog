@@ -15,21 +15,30 @@
       "href": "./SOCarable/collection.json",
       "type": "application/json",
       "title": "Arable LT 2025 - SOC",
-      "id": "SOCarable"
+      "id": "SOCarable",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/soc_lt.png"
+      ]
     },
     {
       "rel": "child",
       "href": "./SOCindex/collection.json",
       "type": "application/json",
       "title": "Permanent Grassland LT 2025 - SOC",
-      "id": "SOCindex"
+      "id": "SOCindex",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/soc_lt.png"
+      ]
     },
     {
       "rel": "child",
       "href": "./Group25PGarable/collection.json",
       "type": "application/json",
       "title": "Permanent Grassland and Arable 2025 - SOC",
-      "id": "Group25PGarable"
+      "id": "Group25PGarable",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/soc_lt.png"
+      ]
     },
     {
       "rel": "self",

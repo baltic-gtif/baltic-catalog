@@ -25,16 +25,17 @@
       "title": "Permanent Grassland LT 2025 - SOC"
     }
   ],
+  "thumbnail": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/soc_lt.png",
   "endpointtype": "FlatGeobuf source",
   "title": "Permanent Grassland LT 2025 - SOC",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          20.197014755726087,
-          53.59374203993408,
-          27.012401486389926,
-          56.47603436319983
+          24.137263217517965,
+          55.632431054308064,
+          24.52914701150821,
+          55.82343792279835
         ]
       ]
     },
@@ -55,6 +56,13 @@
       "title": "GeoParquet Items",
       "roles": [
         "collection-mirror"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/soc_lt.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
       ]
     }
   }

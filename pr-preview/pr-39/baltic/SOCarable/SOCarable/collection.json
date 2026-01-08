@@ -25,16 +25,17 @@
       "title": "Arable LT 2025 - SOC"
     }
   ],
+  "thumbnail": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/soc_lt.png",
   "endpointtype": "FlatGeobuf source",
   "title": "Arable LT 2025 - SOC",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          23.59259684468476,
-          55.330206345657196,
-          24.941740254076628,
-          55.88577793801024
+          24.137263217517965,
+          55.632431054308064,
+          24.52914701150821,
+          55.82343792279835
         ]
       ]
     },
@@ -55,6 +56,13 @@
       "title": "GeoParquet Items",
       "roles": [
         "collection-mirror"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/soc_lt.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
       ]
     }
   }
