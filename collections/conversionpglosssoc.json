@@ -1,0 +1,28 @@
+{
+  "Name": "conversionPGLossSOC",
+  "Title": "Loss of SOC",
+  "Description": "# Loss of SOC link to the conversion of Permanent Grassland - Lithuania\n\n\n## Data Sources & references:\nGlobal Soil Organic Carbon content and Sequestration Potential Maps (GSOCseq) V1.0.0: Estimation of Soil Organic Carbon content and of sequestration potential in agricultural areas under a Business as Usual (BAU) scenario and a Sustainable Soil Management scenarios Ref: FAO. 2022. Global Soil Organic Carbon Sequestration Potential Map – SOCseq v.1.1. Technical report. Rome - https://doi.org/10.4060/cb9002en\n\nAgricultural parcels are from open governmental IACS GSA data (2025), managed by the National Paying Agency of Lithuania (NMA).\n\nSentinel-2 cloudless by EOX IT Services GmbH (Contains modified Copernicus Sentinel data 2024)\" Ref: https://cloudless.eox.at/",
+  "Resources": [
+    {
+      "Name": "FlatGeobuf source",
+      "Style": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/GSAconversion/style_GEOM_LossSOC_PGconversionGSA2024to2025.json",
+      "TimeEntries": [
+        {
+          "Time": "2025",
+          "Assets": [
+            {
+              "Identifier": "lossSOC_PG2024_to_nonPG2025",
+              "File": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/GSAconversion/GSAconversion_GEOM_2024_2025/GSA_2024_mergeConvertedArea_2024_to_2025_lossSOC_display.fgb"
+            }
+          ]
+        }
+      ],
+      "Bbox": [
+        20.42795566942043,
+        53.4029448783337,
+        27.45957917612118,
+        56.44450478947332
+      ]
+    }
+  ]
+}
