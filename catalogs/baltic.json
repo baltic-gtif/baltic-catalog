@@ -13,10 +13,8 @@
     "soc_lt",
     "grassland_intensity_lt",
     "sm_lit_lat_est_2025_05_high_medium_low",
-    "pgconversion",
-    "pgpositiveconversion2024to2025",
-    "geompgconversion2024to2025",
-    "geompgpositiveconversion2024to2025",
-    "conversionpglosssoc"
+    "geomconversionpg",
+    "poland-watterlogging-index",
+    "germany-waterlogging"
   ]
 }
