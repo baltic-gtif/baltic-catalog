@@ -113,6 +113,16 @@
     },
     {
       "rel": "child",
+      "href": "./Group25PGarable/collection.json",
+      "type": "application/json",
+      "title": "Permanent Grassland and Arable 2025 - SOC",
+      "id": "Group25PGarable",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/soc_lt.png"
+      ]
+    },
+    {
+      "rel": "child",
       "href": "./GeomConversionPG/collection.json",
       "type": "application/json",
       "title": "Permanent Grassland (Area of Loss and Gain)",
