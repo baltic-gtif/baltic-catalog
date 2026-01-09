@@ -28,6 +28,16 @@
       "id": "habitat_rawlayer"
     },
     {
+      "rel": "child",
+      "href": "./habitat_pg_indicator/collection.json",
+      "type": "application/json",
+      "title": "Habitat and Permanent Grassland ",
+      "id": "habitat_pg_indicator",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/grassland_lt.png"
+      ]
+    },
+    {
       "rel": "self",
       "href": "https://baltic-gtif.github.io/baltic-gtif/baltic-catalog/catalog.json",
       "type": "application/json"
