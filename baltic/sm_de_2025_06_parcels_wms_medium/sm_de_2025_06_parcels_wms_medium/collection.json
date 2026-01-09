@@ -23,7 +23,7 @@
       ],
       "wms:tilesize": 256,
       "wms:version": "1.1.1",
-      "key": "2a3b1515-a438-484e-bc1b-1f87f82bfb29",
+      "key": "19ada5e4-0ccb-42f5-9432-e180929b1f82",
       "eodash:proj4_def": {
         "name": "EPSG:3857"
       }
