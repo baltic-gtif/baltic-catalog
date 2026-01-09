@@ -75,18 +75,6 @@
     },
     {
       "rel": "child",
-      "href": "./grassland_intensity_lt/collection.json",
-      "type": "application/json",
-      "title": "Species-Rich Grassland Management Lithuania",
-      "code": "grassland_intensity_lt",
-      "id": "grassland_intensity_lt",
-      "thumbnail": [
-        "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/grassland_lt.png"
-      ],
-      "subcode": "grassland_intensity_lt"
-    },
-    {
-      "rel": "child",
       "href": "./sm_lt_lat_est_2025_05_high_medium_low/collection.json",
       "type": "application/json",
       "title": "SAGRIS Waterlogging 05 Baltic States (2025)",
