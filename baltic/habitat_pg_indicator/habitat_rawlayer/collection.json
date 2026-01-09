@@ -1,0 +1,61 @@
+{
+  "type": "Collection",
+  "id": "habitat_rawlayer",
+  "stac_version": "1.1.0",
+  "description": "# Lithuanian Permanent Grasslands and Their Habitats\n**Natural Permanent Grasslands (PGs)** are ecosystems in which well-adapted, context-appropriate **management practices** can create and maintain high biodiversity value within a relatively short time.\n\nThe way PGs are managed, whether through mowing or livestock grazing, has a major impact on overall ecosystem health. The timing of these activities is critical: operations must be adjusted to current climate and soil conditions (e.g., wet or dry periods) to avoid damaging vulnerable fauna and herbaceous plant communities.\n\n## Data Sources\n- **PG parcels (2024)** from the open governmental IACS GSA data, managed by the National Paying Agency of Lithuania (NMA).\n- **Habitat** data from publicly available Lithuanian datasets published in accordance with the INSPIRE Directive.\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Baltic GTIF Catalog"
+    },
+    {
+      "rel": "style",
+      "href": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/Habitat_2025/Habitat_layer_raw/style_habitat_raw.json",
+      "type": "text/vector-styles",
+      "asset:keys": [
+        "habitat_rawlayer"
+      ]
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Habitat and Permanent Grassland "
+    }
+  ],
+  "endpointtype": "FlatGeobuf source",
+  "title": "Habitat type",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          20.37351690406548,
+          53.71729184024658,
+          26.9521701367242,
+          56.31700190178251
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-01-01T00:00:00Z",
+          "2025-01-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    }
+  }
+}
