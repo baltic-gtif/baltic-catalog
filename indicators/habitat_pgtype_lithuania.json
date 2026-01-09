@@ -4,7 +4,7 @@
   "Description": "indicators/habitat_and_pgtype/description.md",
   "Collections": [
     "habitat",
-    "habitat_rawlayer"
+    "habitatrawlayer"
   ],
   "Disable": [
     "habitatrawlayer"
