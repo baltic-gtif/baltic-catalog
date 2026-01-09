@@ -1,0 +1,28 @@
+{
+  "Name": "habitat_rawlayer",
+  "Title": "Habitat type",
+  "Description": "indicators/habitat_and_pgtype/description.md",
+  "Resources": [
+    {
+      "Name": "FlatGeobuf source",
+      "Style": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/Habitat_2025/Habitat_layer_raw/style_habitat_raw.json",
+      "TimeEntries": [
+        {
+          "Time": "2025",
+          "Assets": [
+            {
+              "Identifier": "habitat_rawlayer",
+              "File": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/Habitat_2025/Habitat_layer_raw/lt_habitats.fgb"
+            }
+          ]
+        }
+      ],
+      "Bbox": [
+        20.37351690406548,
+        53.71729184024658,
+        26.9521701367242,
+        56.31700190178251
+      ]
+    }
+  ]
+}

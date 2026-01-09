@@ -1,0 +1,29 @@
+{
+  "Name": "habitat2025",
+  "Title": "Permanent Grassland LT 2025 - Habitat ",
+  "Image": "thumbnails/grassland_lt.png",
+  "Description": "indicators/habitat_and_pgtype/description.md",
+  "Resources": [
+    {
+      "Name": "FlatGeobuf source",
+      "Style": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/Habitat_2025/style_habitat_PG.json",
+      "TimeEntries": [
+        {
+          "Time": "2025-12-31",
+          "Assets": [
+            {
+              "Identifier": "Habitat 2025",
+              "File": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/Habitat_2025/Habitat_2025_PG2ha_optimizedDisplay0_00005.fgb"
+            }
+          ]
+        }
+      ],
+      "Bbox": [
+        21.228707166566753,
+        55.25151888701188,
+        21.457688260815036,
+        55.35223641266015
+      ]
+    }
+  ]
+}
