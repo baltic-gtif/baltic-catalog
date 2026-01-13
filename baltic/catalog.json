@@ -101,16 +101,6 @@
     },
     {
       "rel": "child",
-      "href": "./habitat_pg_indicator/collection.json",
-      "type": "application/json",
-      "title": "Habitat and Permanent Grassland ",
-      "id": "habitat_pg_indicator",
-      "thumbnail": [
-        "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/grassland_lt.png"
-      ]
-    },
-    {
-      "rel": "child",
       "href": "./GeomConversionPG/collection.json",
       "type": "application/json",
       "title": "Conversion of Permanent Grassland (Area of Loss and Gain)",
