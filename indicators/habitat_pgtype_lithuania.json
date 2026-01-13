@@ -3,7 +3,7 @@
   "Title": "Habitat and Permanent Grassland ",
   "Description": "indicators/habitat_and_pgtype/description.md",
   "Collections": [
-    "habitat",
+    "habitat_typePG_lithuania",
     "habitatrawlayer"
   ],
   "Disable": [
