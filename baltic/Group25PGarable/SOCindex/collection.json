@@ -12,7 +12,7 @@
     },
     {
       "rel": "style",
-      "href": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/SOCindexes_2025/style_SOC_PG.json",
+      "href": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//collections/soc_lithuania/style_SOC_PG.json",
       "type": "text/vector-styles",
       "asset:keys": [
         "SOCindexes 2025 PG"
