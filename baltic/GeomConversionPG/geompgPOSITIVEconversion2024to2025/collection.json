@@ -12,7 +12,7 @@
     },
     {
       "rel": "style",
-      "href": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//collections/PG_conversion/style_GEOM_PGconversionGSA2025.json",
+      "href": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//collections/PG_conversion/style_GEOM_PGconversionPositive.json",
       "type": "text/vector-styles",
       "asset:keys": [
         "Gain of PG areas "
