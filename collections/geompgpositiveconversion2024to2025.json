@@ -5,7 +5,7 @@
   "Resources": [
     {
       "Name": "FlatGeobuf source",
-      "Style": "collections/PG_conversion/style_GEOM_PGconversionGSA2025.json",
+      "Style": "collections/PG_conversion/style_GEOM_PGconversionPositive.json",
       "TimeEntries": [
         {
           "Time": "2025",
