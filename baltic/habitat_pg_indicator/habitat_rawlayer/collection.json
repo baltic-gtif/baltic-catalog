@@ -15,7 +15,7 @@
       "href": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//collections/habitats_lithuania/style_habitat_raw.json",
       "type": "text/vector-styles",
       "asset:keys": [
-        "habitat_rawlayer"
+        "Habitat type"
       ]
     },
     {
