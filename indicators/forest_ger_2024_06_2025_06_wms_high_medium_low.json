@@ -1,0 +1,41 @@
+{
+  "Name": "Forest Loss in Germany (2024-06 - 2025-06) ",
+  "Title": "Forest Loss in Germany (2024-06 - 2025-06) ",
+  "EodashIdentifier": "forest_ger_2024_06_2025_06_wms_high_medium_low",
+  "Description": "",
+  "Collections": [
+    "forest_ger_bnd_2024_06_2025_06",
+    "forest_ger_pnt_2024_06_2025_06",
+    "forest_ger_pix_2024_06_2025_06"
+  ],
+  "Disable": [],
+  "BaseLayers": [],
+  "OverlayLayers": [],
+  "CollectionGroup": "",
+  "Process": {
+    "Name": "",
+    "JsonForm": "",
+    "VegaDefinition": "",
+    "EndPoints": [
+      {
+        "Identifier": "",
+        "Url": "",
+        "Type": "application/geo+json",
+        "EndPoint": "",
+        "Method": "GET",
+        "Body": "",
+        "Flatstyle": ""
+      }
+    ]
+  },
+  "MapProjection": {
+    "name": "",
+    "def": "",
+    "extent": [
+      5.979707336988206,
+      46.483752002498846,
+      15.208715624134541,
+      55.65423392583931
+    ]
+  }
+}
