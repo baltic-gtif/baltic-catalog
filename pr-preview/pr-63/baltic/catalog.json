@@ -1,0 +1,27 @@
+{
+  "type": "Catalog",
+  "id": "baltic",
+  "stac_version": "1.1.0",
+  "description": "This catalog definition is done for the Baltic GTIF project.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./catalog.json",
+      "type": "application/json",
+      "title": "Baltic GTIF Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./UHTM_Vilnius/collection.json",
+      "type": "application/json",
+      "title": "Urban Heat Trend Monitor for city of Vilnius/Lithuania",
+      "id": "UHTM_Vilnius"
+    },
+    {
+      "rel": "self",
+      "href": "https://baltic-gtif.github.io/baltic-gtif/baltic-catalog/catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "title": "Baltic GTIF Catalog"
+}
