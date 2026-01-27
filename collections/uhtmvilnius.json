@@ -4,7 +4,7 @@
   "Description": "Example of the Urban Heat Trend Monitoring service for the city of Vilnius in Lithuania.",
   "Resources": [
     {
-      "Style": "",
+      "Style": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/UHTM/Vilnius/Vilnius_LST_mean_style.json",
       "TimeEntries": [
         {
           "Time": "20260127",
