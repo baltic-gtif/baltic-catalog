@@ -8,7 +8,12 @@
       "TimeEntries": [
         {
           "Time": "20260127",
-          "Assets": []
+          "Assets": [
+            {
+              "Identifier": "Vilnius_LST mean",
+              "File": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/UHTM/Vilnius/Vilnius_2_mean.tif"
+            }
+          ]
         }
       ],
       "Name": "COG source"
