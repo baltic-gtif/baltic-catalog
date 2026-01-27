@@ -2,5 +2,16 @@
   "Name": "UHTM_Vilnius",
   "Title": "Urban Heat Trend Monitor for city of Vilnius/Lithuania",
   "Description": "Example of the Urban Heat Trend Monitoring service for the city of Vilnius in Lithuania.",
-  "Resources": []
+  "Resources": [
+    {
+      "Style": "",
+      "TimeEntries": [
+        {
+          "Time": "20260127",
+          "Assets": []
+        }
+      ],
+      "Name": "COG source"
+    }
+  ]
 }
