@@ -28,7 +28,6 @@
   "themes": [
     "Crops Lodging"
   ],
-  "subcode": "ld_06_lt_raster",
   "collection_group": "Crops",
   "eodash:mapProjection": {
     "name": "EPSG:3035",

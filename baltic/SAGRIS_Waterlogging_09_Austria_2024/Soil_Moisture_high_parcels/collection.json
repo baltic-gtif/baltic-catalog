@@ -23,7 +23,7 @@
       ],
       "wms:tilesize": 256,
       "wms:version": "1.1.1",
-      "key": "fb1c2221-ee4d-411c-95b8-5bde843df107",
+      "key": "e3e8fb21-6b9a-4372-9338-fa16bb502b61",
       "proj:epsg": 3857
     },
     {
@@ -37,7 +37,6 @@
   "themes": [
     "Flooding"
   ],
-  "subcode": "sm_at_09_parcels_wms_high",
   "eox:colorlegend": {
     "title": "Waterlogging",
     "range": [

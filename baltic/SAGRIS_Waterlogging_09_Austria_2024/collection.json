@@ -16,12 +16,10 @@
       "type": "application/json",
       "title": "Soil Moisture high - parcels",
       "endpointtype": "WMS_OverwriteTimes",
-      "code": "sm_at_09_parcels_wms_high",
       "id": "Soil_Moisture_high_parcels",
       "themes": [
         "Flooding"
-      ],
-      "subcode": "sm_at_09_parcels_wms_high"
+      ]
     },
     {
       "rel": "child",
@@ -29,12 +27,10 @@
       "type": "application/json",
       "title": "Soil Moisture medium - parcels",
       "endpointtype": "WMS_OverwriteTimes",
-      "code": "sm_at_09_parcels_wms_medium",
       "id": "Soil_Moisture_medium_parcels",
       "themes": [
         "Flooding"
-      ],
-      "subcode": "sm_at_09_parcels_wms_medium"
+      ]
     },
     {
       "rel": "child",
@@ -42,12 +38,10 @@
       "type": "application/json",
       "title": "Soil Moisture low - parcels",
       "endpointtype": "WMS_OverwriteTimes",
-      "code": "sm_at_09_parcels_wms_low",
       "id": "Soil_Moisture_low_parcels",
       "themes": [
         "Flooding"
-      ],
-      "subcode": "sm_at_09_parcels_wms_low"
+      ]
     },
     {
       "rel": "xyz",
@@ -80,7 +74,6 @@
       "title": "Baltic GTIF Catalog"
     }
   ],
-  "subcode": "sm_at_09_high_medium_low",
   "eodash:mapProjection": {
     "name": "EPSG:3035",
     "def": "+proj=laea +lat_0=52 +lon_0=10 +x_0=4321000 +y_0=3210000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs +type=crs"
@@ -108,11 +101,6 @@
   },
   "license": "other",
   "summaries": {
-    "subcode": [
-      "sm_at_09_parcels_wms_low",
-      "sm_at_09_parcels_wms_high",
-      "sm_at_09_parcels_wms_medium"
-    ],
     "themes": [
       "Flooding"
     ],

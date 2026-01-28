@@ -16,7 +16,6 @@
       "type": "application/json",
       "title": "Soil Moisture high - parcels",
       "endpointtype": "WMS_OverwriteTimes",
-      "code": "sm_lt_04_parcels_wms_high",
       "id": "Soil_Moisture_high_parcels",
       "themes": [
         "Flooding"
@@ -27,7 +26,6 @@
       "agency": [
         "Example agency"
       ],
-      "subcode": "sm_lt_04_parcels_wms_high",
       "sensor": [
         "Sensorname"
       ],
@@ -44,7 +42,6 @@
       "type": "application/json",
       "title": "Soil Moisture medium - parcels",
       "endpointtype": "WMS_OverwriteTimes",
-      "code": "sm_lt_04_parcels_wms_medium",
       "id": "Soil_Moisture_medium_parcels",
       "themes": [
         "Flooding"
@@ -55,7 +52,6 @@
       "agency": [
         "Example agency"
       ],
-      "subcode": "sm_lt_04_parcels_wms_medium",
       "sensor": [
         "Sensorname"
       ],
@@ -72,7 +68,6 @@
       "type": "application/json",
       "title": "Soil Moisture low - parcels",
       "endpointtype": "WMS_OverwriteTimes",
-      "code": "sm_lt_04_parcels_wms_low",
       "id": "Soil_Moisture_low_parcels",
       "themes": [
         "Flooding"
@@ -83,7 +78,6 @@
       "agency": [
         "Example agency"
       ],
-      "subcode": "sm_lt_04_parcels_wms_low",
       "sensor": [
         "Sensorname"
       ],
@@ -126,7 +120,6 @@
     }
   ],
   "thumbnail": "https://raw.githubusercontent.com/baltic-gtif/baltic-catalog/refs/heads/main/assets/sm_lt.png",
-  "subcode": "sm_lt_04_high_medium_low",
   "eodash:mapProjection": {
     "name": "EPSG:3035",
     "def": "+proj=laea +lat_0=52 +lon_0=10 +x_0=4321000 +y_0=3210000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs +type=crs"
@@ -154,11 +147,6 @@
   },
   "license": "other",
   "summaries": {
-    "subcode": [
-      "sm_lt_04_parcels_wms_high",
-      "sm_lt_04_parcels_wms_low",
-      "sm_lt_04_parcels_wms_medium"
-    ],
     "themes": [
       "Flooding"
     ],

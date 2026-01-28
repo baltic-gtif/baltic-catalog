@@ -23,7 +23,7 @@
       ],
       "wms:tilesize": 256,
       "wms:version": "1.1.1",
-      "key": "bd1eae34-9a41-4dc3-a505-7a20b3cd9d0b",
+      "key": "e7b7ccd7-bb18-4672-bb1b-2f9053e46ffd",
       "proj:epsg": 3857
     },
     {
@@ -37,7 +37,6 @@
   "themes": [
     "Crops Lodging"
   ],
-  "subcode": "ld_lt_07_wms",
   "proj:epsg": 3857,
   "endpointtype": "WMS_OverwriteTimes",
   "title": "Crops Lodging - parcels",

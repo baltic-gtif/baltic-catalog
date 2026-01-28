@@ -26,7 +26,7 @@
       ],
       "wms:tilesize": 256,
       "wms:version": "1.1.1",
-      "key": "f8fe6845-f784-432b-8e6d-bda111d82781",
+      "key": "2f298b11-b7c2-4bbf-bea7-14c0419d7e17",
       "proj:epsg": 3857
     },
     {
@@ -46,7 +46,6 @@
   "agency": [
     "Example agency"
   ],
-  "subcode": "sm_lt_04_parcels_wms_high",
   "sensor": [
     "Sensorname"
   ],
