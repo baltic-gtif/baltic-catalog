@@ -1,7 +1,6 @@
 {
     "Name": "Lodging_07_Lithuania",
     "Title": "Lodging 07 Lithuania",
-    "EodashIdentifier": "ld_lt_07",
     "Description": "indicators/ld_lt_07/description.md",
     "Bbox": [22.64524, 54.94676, 23.02416, 55.30585],
     "MapProjection": {
