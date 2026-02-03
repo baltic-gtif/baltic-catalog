@@ -1,6 +1,6 @@
 {
   "Name": "UHTM_Vilnius",
-  "Title": "Urban Heat Trend Monitor for city of Vilnius/Lithuania",
+  "Title": "Vilnius  Heat Trend Monitor",
   "Description": "Example of the Urban Heat Trend Monitoring service for the city of Vilnius in Lithuania.",
   "Resources": [
     {
@@ -25,5 +25,7 @@
       ]
     }
   ],
-  "Colorlegend": {}
+  "Colorlegend": {},
+  "BaseLayers": [],
+  "OverlayLayers": []
 }
