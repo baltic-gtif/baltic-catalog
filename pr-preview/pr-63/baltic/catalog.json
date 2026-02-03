@@ -18,23 +18,6 @@
       "id": "UHTM_Vilnius"
     },
     {
-      "rel": "child",
-      "href": "./collection.json",
-      "type": "application/json",
-      "title": "",
-      "id": "",
-      "eodash:mapProjection": {
-        "name": "",
-        "def": "",
-        "extent": [
-          "",
-          "",
-          "",
-          ""
-        ]
-      }
-    },
-    {
       "rel": "self",
       "href": "https://baltic-gtif.github.io/baltic-gtif/baltic-catalog/catalog.json",
       "type": "application/json"
