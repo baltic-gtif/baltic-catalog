@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./UHTM_Vilnius/collection.json",
       "type": "application/json",
-      "title": "Urban Heat Trend Monitor for city of Vilnius/Lithuania",
+      "title": "Vilnius  Heat Trend Monitor",
       "endpointtype": "COG source",
       "id": "UHTM_Vilnius"
     },
@@ -61,7 +61,7 @@
       "title": "Baltic GTIF Catalog"
     }
   ],
-  "title": "Urban Heat Trend Monitor for city of Vilnius/Lithuania",
+  "title": "Vilnius  Heat Trend Monitor",
   "extent": {
     "spatial": {
       "bbox": [
