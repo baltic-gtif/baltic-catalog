@@ -1,7 +1,7 @@
 {
-  "Name": "",
-  "Title": "",
-  "Description": "",
+  "Name": "Vilnius_Heat_Trend_Monitor",
+  "Title": "Vilnius Heat Trend Monitor",
+  "Description": "The Vilnius Heat Trend Monitor shows the mean heat map and a superpixel partition for the city of Vilnius.",
   "Themes": [],
   "Tags": [],
   "DataSource": {
@@ -67,5 +67,7 @@
   "Legend": "",
   "Disable": [],
   "Hidden": [],
-  "Collections": []
+  "Collections": [
+    "uhtmvilnius"
+  ]
 }
