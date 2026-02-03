@@ -1,7 +1,7 @@
 {
-  "Name": "",
-  "Title": "",
-  "Description": "",
+  "Name": "UHTM_Vilnius_indicator",
+  "Title": "Indicator showing mean heat map and smart partitioning for Vilnius",
+  "Description": "Mean heat map and smart partitioning for Vilnius",
   "Themes": [],
   "Tags": [],
   "DataSource": {
@@ -67,5 +67,7 @@
   "Legend": "",
   "Disable": [],
   "Hidden": [],
-  "Collections": []
+  "Collections": [
+    "UHTM_Vilnius"
+  ]
 }
