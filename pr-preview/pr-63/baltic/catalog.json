@@ -18,6 +18,23 @@
       "id": "UHTM_Vilnius"
     },
     {
+      "rel": "child",
+      "href": "./UHTM_Vilnius_indicator/collection.json",
+      "type": "application/json",
+      "title": "Indicator showing mean heat map and smart partitioning for Vilnius",
+      "id": "UHTM_Vilnius_indicator",
+      "eodash:mapProjection": {
+        "name": "",
+        "def": "",
+        "extent": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      }
+    },
+    {
       "rel": "self",
       "href": "https://baltic-gtif.github.io/baltic-gtif/baltic-catalog/catalog.json",
       "type": "application/json"

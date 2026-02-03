@@ -1,0 +1,118 @@
+{
+  "type": "Collection",
+  "id": "UHTM_Vilnius_indicator",
+  "stac_version": "1.1.0",
+  "description": "Mean heat map and smart partitioning for Vilnius",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Baltic GTIF Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./UHTM_Vilnius/collection.json",
+      "type": "application/json",
+      "title": "Urban Heat Trend Monitor for city of Vilnius/Lithuania",
+      "endpointtype": "COG source",
+      "id": "UHTM_Vilnius"
+    },
+    {
+      "rel": "service",
+      "href": "",
+      "type": "application/geo+json",
+      "id": "",
+      "method": "GET"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "EOxCloudless 2024",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "cloudless-2024",
+      "attribution": "{ EOxCloudless 2024: <a xmlns:dct=\"http://purl.org/dc/terms/\" href=\"https://s2maps.eu\" target=\"_blank\" property=\"dct:title\">Sentinel-2 cloudless - s2maps.eu</a> by <a xmlns:cc=\"http://creativecommons.org/ns#\" href=\"https://eox.at\" target=\"_blank\" property=\"cc:attributionName\" rel=\"cc:attributionURL\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2024) }"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "OSM Baselayer",
+      "roles": [
+        "baselayer",
+        "visible"
+      ],
+      "id": "OSM",
+      "attribution": "{ OSM: Data &copy; <a href=\\\"http://www.openstreetmap.org/copyright\\\" target=\\\"_blank\\\">OpenStreetMap</a> contributors and <a href=\\\"https://maps.eox.at/#data\\\" target=\\\"_blank\\\">others</a>, Rendering &copy; <a href=\\\"http://eox.at\\\" target=\\\"_blank\\\">EOX</a> }"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "image/png",
+      "title": "Overlay labels",
+      "roles": [
+        "overlay",
+        "visible"
+      ],
+      "id": "overlay_bright",
+      "attribution": "{ Overlay: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors, Made with Natural Earth, Rendering &copy; <a href=\"https://eox.at\" target=\"_blank\">EOX</a> }"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Baltic GTIF Catalog"
+    }
+  ],
+  "eodash:mapProjection": {
+    "name": "",
+    "def": "",
+    "extent": [
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  "eox:colorlegend": {
+    "title": "",
+    "range": [],
+    "domain": [],
+    "tickFormat": "",
+    "tickValues": [],
+    "scaleType": "continuous",
+    "markType": "rect"
+  },
+  "title": "Indicator showing mean heat map and smart partitioning for Vilnius",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          24.989100841571663,
+          54.470830082920855,
+          25.531948185484868,
+          54.86817195320784
+        ],
+        [
+          24.989100841571663,
+          54.470830082920855,
+          25.531948185484868,
+          54.86817195320784
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2026-01-27T00:00:00Z",
+          "2026-01-27T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}
