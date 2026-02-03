@@ -1,7 +1,6 @@
 {
     "Name": "Crops_Lodging",
     "Title": "Crops Lodging",
-    "EodashIdentifier": "ld_06_lt_raster",
     "Description": "",
     "CollectionGroup": "Crops",
     "Themes": [
