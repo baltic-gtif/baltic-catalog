@@ -1,0 +1,118 @@
+{
+  "type": "Collection",
+  "id": "ConversionPG",
+  "stac_version": "1.1.0",
+  "description": "# Permanent Grassland Conversion - Lithuania\n\n\n### Data Sources:\n- **Global Soil Organic Carbon content and Sequestration Potential Maps (GSOCseq) V1.0.0**: Estimation of topsoil (0-30 cm) soil organic carbon sequestration potential in agricultural areas under a Business as Usual (BAU) scenario and a Sustainable Soil Management (SSM3) scenarios - Global Soil Information System of the FAO.\n- **Parcels** are from open governmental IACS GSA data (2025), managed by the National Paying Agency of Lithuania (NMA)\n- **Sentinel-2 cloudless 2024** by EOX IT Services GmbH is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. The required attribution including the given links is: \"Sentinel-2 cloudless by EOX IT Services GmbH (Contains modified Copernicus Sentinel data 2024)\" ",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Baltic GTIF Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./pgPositiveConversion2024to2025/collection.json",
+      "type": "application/json",
+      "title": "Permanent Grassland - Gain",
+      "endpointtype": "FlatGeobuf source",
+      "id": "pgPositiveConversion2024to2025"
+    },
+    {
+      "rel": "child",
+      "href": "./PGconversion/collection.json",
+      "type": "application/json",
+      "title": "Permanent Grassland  - Loss",
+      "endpointtype": "FlatGeobuf source",
+      "id": "PGconversion"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "EOxCloudless 2024",
+      "roles": [
+        "baselayer",
+        "visible"
+      ],
+      "id": "cloudless-2024",
+      "attribution": "{ EOxCloudless 2024: <a xmlns:dct=\"http://purl.org/dc/terms/\" href=\"https://s2maps.eu\" target=\"_blank\" property=\"dct:title\">Sentinel-2 cloudless - s2maps.eu</a> by <a xmlns:cc=\"http://creativecommons.org/ns#\" href=\"https://eox.at\" target=\"_blank\" property=\"cc:attributionName\" rel=\"cc:attributionURL\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2024) }"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://eoapi.workspace.baltic-gtif.hub-otc.eox.at/raster/collections/eoxcloudless-exploitation-ready-2025_lithuania/items/eoxcloudless-exploitation-ready-2025_lithuania/tiles/WebMercatorQuad/{z}/{x}/{y}.png?&assets=red&assets=green&assets=blue&rescale=0,4000&rescale=0,4000&rescale=0,4000",
+      "type": "image/jpeg",
+      "title": "EOxCloudless 2025 Lithuania True Color",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "cloudless-2025-tc-lithuania",
+      "attribution": "{ EOxCloudless 2025: <a xmlns:dct=\"http://purl.org/dc/terms/\" href=\"https://s2maps.eu\" target=\"_blank\" property=\"dct:title\">Sentinel-2 cloudless - s2maps.eu</a> by <a xmlns:cc=\"http://creativecommons.org/ns#\" href=\"https://eox.at\" target=\"_blank\" property=\"cc:attributionName\" rel=\"cc:attributionURL\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2025) }"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://eoapi.workspace.baltic-gtif.hub-otc.eox.at/raster/collections/eoxcloudless-exploitation-ready-2025_lithuania/items/eoxcloudless-exploitation-ready-2025_lithuania/tiles/WebMercatorQuad/{z}/{x}/{y}.png?&assets=nir&assets=green&assets=red&rescale=3000,6000&rescale=1000,3000&rescale=1000,3000",
+      "type": "image/jpeg",
+      "title": "EOxCloudless 2025 False Color - Nir, Green, Red",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "cloudless-2025-fc-lithuania",
+      "attribution": "{ EOxCloudless 2025: <a xmlns:dct=\"http://purl.org/dc/terms/\" href=\"https://s2maps.eu\" target=\"_blank\" property=\"dct:title\">Sentinel-2 cloudless - s2maps.eu</a> by <a xmlns:cc=\"http://creativecommons.org/ns#\" href=\"https://eox.at\" target=\"_blank\" property=\"cc:attributionName\" rel=\"cc:attributionURL\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2025) }"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "image/png",
+      "title": "Overlay labels",
+      "roles": [
+        "overlay",
+        "visible"
+      ],
+      "id": "overlay_bright",
+      "attribution": "{ Overlay: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors, Made with Natural Earth, Rendering &copy; <a href=\"https://eox.at\" target=\"_blank\">EOX</a> }"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Baltic GTIF Catalog"
+    }
+  ],
+  "title": "Permanent Grassland (Loss and Gain)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          20.419322145409254,
+          53.75314018365795,
+          27.046905366609607,
+          56.413294402376536
+        ],
+        [
+          20.489850779605074,
+          53.873106437403216,
+          26.903171787403263,
+          56.34132054833751
+        ],
+        [
+          20.419322145409254,
+          53.75314018365795,
+          27.046905366609607,
+          56.413294402376536
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-01-01T00:00:00Z",
+          "2025-01-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}
