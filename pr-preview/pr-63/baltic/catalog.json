@@ -19,10 +19,10 @@
     },
     {
       "rel": "child",
-      "href": "./collection.json",
+      "href": "./Vilnius_Heat_Trend_Monitor/collection.json",
       "type": "application/json",
-      "title": "",
-      "id": "",
+      "title": "Vilnius Heat Trend Monitor",
+      "id": "Vilnius_Heat_Trend_Monitor",
       "eodash:mapProjection": {
         "name": "",
         "def": "",

@@ -1,14 +1,22 @@
 {
   "type": "Collection",
-  "id": "",
+  "id": "Vilnius_Heat_Trend_Monitor",
   "stac_version": "1.1.0",
-  "description": "",
+  "description": "The Vilnius Heat Trend Monitor shows the mean heat map and a superpixel partition for the city of Vilnius.",
   "links": [
     {
       "rel": "root",
-      "href": "./catalog.json",
+      "href": "../catalog.json",
       "type": "application/json",
       "title": "Baltic GTIF Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./UHTM_Vilnius/collection.json",
+      "type": "application/json",
+      "title": "Urban Heat Trend Monitor for city of Vilnius/Lithuania",
+      "endpointtype": "COG source",
+      "id": "UHTM_Vilnius"
     },
     {
       "rel": "service",
@@ -55,7 +63,7 @@
     },
     {
       "rel": "parent",
-      "href": "./catalog.json",
+      "href": "../catalog.json",
       "type": "application/json",
       "title": "Baltic GTIF Catalog"
     }
@@ -79,23 +87,29 @@
     "scaleType": "continuous",
     "markType": "rect"
   },
-  "title": "",
+  "title": "Vilnius Heat Trend Monitor",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -180.0,
-          -90.0,
-          180.0,
-          90.0
+          24.989100841571663,
+          54.470830082920855,
+          25.531948185484868,
+          54.86817195320784
+        ],
+        [
+          24.989100841571663,
+          54.470830082920855,
+          25.531948185484868,
+          54.86817195320784
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2026-02-03T15:20:56.757186Z",
-          null
+          "2026-01-27T00:00:00Z",
+          "2026-01-27T00:00:00Z"
         ]
       ]
     }
