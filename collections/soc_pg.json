@@ -6,7 +6,7 @@
   "Resources": [
     {
       "Name": "VectorTile source",
-      "Style": "collections/soc_lithuania/style_SOC_PG.json",
+      "Style": "collections/soc_lithuania/style_SOC_PG_geotile.json",
       "TimeEntries": [
         {
           "Time": "2025-12-31",
