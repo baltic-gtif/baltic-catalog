@@ -12,10 +12,10 @@
     },
     {
       "rel": "child",
-      "href": "./UHTM_Vilnius/collection.json",
+      "href": "./Vilnius_heat_map/collection.json",
       "type": "application/json",
-      "title": "Vilnius  Heat Trend Monitor",
-      "id": "UHTM_Vilnius",
+      "title": "Vilnius Heat Trend",
+      "id": "Vilnius_heat_map",
       "themes": [
         "Sustainable cities"
       ],

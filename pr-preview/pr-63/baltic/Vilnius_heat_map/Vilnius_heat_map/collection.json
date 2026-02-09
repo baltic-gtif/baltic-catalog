@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "UHTM_Vilnius",
+  "id": "Vilnius_heat_map",
   "stac_version": "1.1.0",
   "description": "Example of the Urban Heat Trend Monitoring service for the city of Vilnius in Lithuania.",
   "links": [
@@ -22,7 +22,7 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Vilnius  Heat Trend Monitor"
+      "title": "Vilnius Heat Trend"
     }
   ],
   "thumbnail": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/UHTM/iStock-1159485884.jpg",
@@ -30,7 +30,7 @@
     "Sustainable cities"
   ],
   "endpointtype": "COG source",
-  "title": "Vilnius  Heat Trend Monitor",
+  "title": "Vilnius Heat Trend",
   "extent": {
     "spatial": {
       "bbox": [
