@@ -27,5 +27,15 @@
   ],
   "Colorlegend": {},
   "BaseLayers": [],
-  "OverlayLayers": []
+  "OverlayLayers": [
+    {
+      "id": "Vilnius_city_border",
+      "url": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/UHTM/Vilnius/Vilnius_boundalry.geojson",
+      "protocol": "GeoJSON source",
+      "name": "Vilnius city border",
+      "visible": true
+    }
+  ],
+  "Themes": [],
+  "Tags": []
 }
