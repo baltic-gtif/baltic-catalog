@@ -64,6 +64,7 @@
       "title": "Baltic GTIF Catalog"
     }
   ],
+  "thumbnail": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/UHTM/iStock-1159485884.jpg",
   "themes": [
     "Sustainable cities"
   ],
@@ -98,6 +99,18 @@
   "summaries": {
     "themes": [
       "Sustainable cities"
+    ],
+    "thumbnail": [
+      "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/UHTM/iStock-1159485884.jpg"
     ]
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/UHTM/iStock-1159485884.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
   }
 }
