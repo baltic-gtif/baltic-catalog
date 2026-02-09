@@ -9,7 +9,7 @@
       "TimeEntries": [
 	      {
           "Time": "2024-12-31",
-          "Url": "https://eoapi.workspace.baltic-gtif.hub-otc.eox.at/vector/collections/public.lt_2025_conversion_pg/tiles/WebMercatorQuad/{z}/{x}/{y}"
+          "Url": "https://eoapi.workspace.baltic-gtif.hub-otc.eox.at/vector/collections/public.lt_2025_2024_conversion_pg/tiles/WebMercatorQuad/{z}/{x}/{y}"
         }
       ],
       "Bbox": [
