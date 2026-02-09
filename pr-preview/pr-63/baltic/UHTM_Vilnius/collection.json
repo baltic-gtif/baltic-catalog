@@ -16,7 +16,10 @@
       "type": "application/json",
       "title": "Vilnius  Heat Trend Monitor",
       "endpointtype": "COG source",
-      "id": "UHTM_Vilnius"
+      "id": "UHTM_Vilnius",
+      "themes": [
+        "Sustainable cities"
+      ]
     },
     {
       "rel": "xyz",
@@ -61,6 +64,9 @@
       "title": "Baltic GTIF Catalog"
     }
   ],
+  "themes": [
+    "Sustainable cities"
+  ],
   "title": "Vilnius  Heat Trend Monitor",
   "extent": {
     "spatial": {
@@ -88,5 +94,10 @@
       ]
     }
   },
-  "license": "other"
+  "license": "other",
+  "summaries": {
+    "themes": [
+      "Sustainable cities"
+    ]
+  }
 }

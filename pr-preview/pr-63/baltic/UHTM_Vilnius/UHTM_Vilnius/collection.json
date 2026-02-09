@@ -25,6 +25,9 @@
       "title": "Vilnius  Heat Trend Monitor"
     }
   ],
+  "themes": [
+    "Sustainable cities"
+  ],
   "endpointtype": "COG source",
   "title": "Vilnius  Heat Trend Monitor",
   "extent": {

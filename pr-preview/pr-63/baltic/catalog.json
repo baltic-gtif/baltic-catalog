@@ -15,7 +15,10 @@
       "href": "./UHTM_Vilnius/collection.json",
       "type": "application/json",
       "title": "Vilnius  Heat Trend Monitor",
-      "id": "UHTM_Vilnius"
+      "id": "UHTM_Vilnius",
+      "themes": [
+        "Sustainable cities"
+      ]
     },
     {
       "rel": "self",
