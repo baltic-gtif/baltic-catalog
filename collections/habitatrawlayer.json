@@ -4,17 +4,12 @@
   "Description": "indicators/habitat_and_pgtype/description.md",
   "Resources": [
     {
-      "Name": "FlatGeobuf source",
-      "Style": "collections/habitats_lithuania/style_habitat_raw.json",
+      "Name": "VectorTile source",
+      "Style": "collections/habitats_lithuania/style_habitat_raw_geotile.json",
       "TimeEntries": [
-        {
-          "Time": "2025",
-          "Assets": [
-            {
-              "Identifier": "Habitat type",
-              "File": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/Habitat_2025/Habitat_layer_raw/lt_habitats.fgb"
-            }
-          ]
+	       {
+          "Time": "2025-12-31",
+          "Url": "https://eoapi.workspace.baltic-gtif.hub-otc.eox.at/vector/collections/public.lt_raw_habitat/tiles/WebMercatorQuad/{z}/{x}/{y}"
         }
       ],
       "Bbox": [
