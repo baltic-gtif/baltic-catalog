@@ -12,9 +12,16 @@
     },
     {
       "rel": "child",
-      "href": "./lt_stackLULC_gsa/collection.json",
+      "href": "./lt_stackLULC/collection.json",
       "type": "application/json",
       "title": "Land Cover Land Use - Stack ",
+      "id": "lt_stackLULC"
+    },
+    {
+      "rel": "child",
+      "href": "./lt_stackLULC_gsa/collection.json",
+      "type": "application/json",
+      "title": "Land Cover Land Use - Stack with annual GSA dataset ",
       "id": "lt_stackLULC_gsa"
     },
     {
