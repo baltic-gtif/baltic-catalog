@@ -12,6 +12,14 @@
     },
     {
       "rel": "style",
+      "href": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/stack_vulnerability/LULC/style_syntheticID_stacked_datasets_LULC.json",
+      "type": "text/cog-styles",
+      "asset:keys": [
+        "stackLULC"
+      ]
+    },
+    {
+      "rel": "style",
       "href": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/stack_vulnerability/2024/style_stacked_masked_datasets_2024.json",
       "type": "text/cog-styles",
       "asset:keys": [
