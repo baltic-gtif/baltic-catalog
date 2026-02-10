@@ -1,0 +1,37 @@
+{
+  "Name": "lt_stackLULC_gsa",
+  "Title": "Land Cover Land Use - Stack with annual GSA dataset ",
+  "Description": "Stack created based on the following datasets: GSA (from NPA), Habitat (from Inspire LT), Natura2000 qirzq, Small Woody Features and CLC+ BackBone",
+  "Resources": [
+    {
+      "Name": "COG source",
+      "Style": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/stack_vulnerability/2024/style_stacked_masked_datasets_2024.json",
+      "Bbox": [
+        20.489850779605074,
+        53.873106437403216,
+        26.903171787403263,
+        56.34132054833751
+      ],
+      "TimeEntries": [
+        {
+          "Time": "2024-12-31",
+          "Assets": [
+            {
+              "Identifier": "stack2024",
+              "File": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/stack_vulnerability/2024/stacked_masked_datasets_2024.cog"
+            }
+          ]
+        },
+        {
+          "Time": "2025-12-31",
+          "Assets": [
+            {
+              "Identifier": "stack2025",
+              "File": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/stack_vulnerability/2025/stacked_masked_datasets_2025.cog"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
