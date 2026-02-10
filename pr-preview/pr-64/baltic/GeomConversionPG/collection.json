@@ -1,0 +1,109 @@
+{
+  "type": "Collection",
+  "id": "GeomConversionPG",
+  "stac_version": "1.1.0",
+  "description": "# Conversion of Permanent Grassland - Lithuania\n\nThis indicator shows which land-use categories are most frequently converted to or from Permanent Grassland and where these conversions occur spatially. \nIt helps to identify hotspots of land use change, revealing regions where specific categories drive grassland loss or contribute most to grassland positive conversion.\n\n## Data Sources & references:\n- **Global Soil Organic Carbon** content and Sequestration Potential Maps (GSOCseq) V1.0.0:\n \n  Estimation of Soil Organic Carbon content and of sequestration potential in agricultural areas under a Business as Usual (BAU) scenario and a Sustainable Soil Management scenarios.\n  \n  Ref: FAO. 2022. Global Soil Organic Carbon Sequestration Potential Map – SOCseq v.1.1. Technical report. Rome - https://doi.org/10.4060/cb9002en\n\n- **Agricultural parcels** are from open governmental IACS GSA data (2025), managed by the National Paying Agency of Lithuania (NMA).\n\n- **Sentinel-2 cloudless** by EOX IT Services GmbH (Contains modified Copernicus Sentinel data 2024)\\\" Ref: https://cloudless.eox.at/\".\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Baltic GTIF Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./geompgPOSITIVEconversion2024to2025/collection.json",
+      "type": "application/json",
+      "title": "Permanent Grassland  - Area Gain ",
+      "endpointtype": "FlatGeobuf source",
+      "id": "geompgPOSITIVEconversion2024to2025"
+    },
+    {
+      "rel": "child",
+      "href": "./GEOMpgConversion2024to2025/collection.json",
+      "type": "application/json",
+      "title": "Permanent Grassland  - Area Loss ",
+      "endpointtype": "FlatGeobuf source",
+      "id": "GEOMpgConversion2024to2025"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://eoapi.workspace.baltic-gtif.hub-otc.eox.at/raster/collections/eoxcloudless-exploitation-ready-2025_lithuania/items/eoxcloudless-exploitation-ready-2025_lithuania/tiles/WebMercatorQuad/{z}/{x}/{y}.png?assets=red&assets=green&assets=blue&rescale=100,2000&rescale=100,2000&rescale=100,2000",
+      "type": "image/jpeg",
+      "title": "EOxCloudless 2025 Lithuania True Color",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "cloudless-2025-tc-lithuania"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://eoapi.workspace.baltic-gtif.hub-otc.eox.at/raster/collections/eoxcloudless-exploitation-ready-2025_lithuania/items/eoxcloudless-exploitation-ready-2025_lithuania/tiles/WebMercatorQuad/{z}/{x}/{y}.png?assets=nir&assets=green&assets=red&rescale=3000,6400&rescale=1200,2800&rescale=1300,2500",
+      "type": "image/jpeg",
+      "title": "EOxCloudless 2025 False Color - Nir, Green, Red",
+      "roles": [
+        "baselayer",
+        "visible"
+      ],
+      "id": "cloudless-2025-fc-lithuania"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "image/png",
+      "title": "Overlay labels",
+      "roles": [
+        "overlay",
+        "visible"
+      ],
+      "id": "overlay_bright",
+      "attribution": "{ Overlay: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors, Made with Natural Earth, Rendering &copy; <a href=\"https://eox.at\" target=\"_blank\">EOX</a> }"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Baltic GTIF Catalog"
+    }
+  ],
+  "title": "Conversion of Permanent Grassland (Area of Loss and Gain)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          20.489850779605074,
+          53.873106437403216,
+          26.903171787403263,
+          56.34132054833751
+        ],
+        [
+          20.489850779605074,
+          53.873106437403216,
+          26.903171787403263,
+          56.34132054833751
+        ],
+        [
+          20.489850779605074,
+          53.873106437403216,
+          26.903171787403263,
+          56.34132054833751
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-01-01T00:00:00Z",
+          "2025-01-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "summaries": {
+    "thumbnail": [
+      "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/grassland_lt.png"
+    ]
+  }
+}

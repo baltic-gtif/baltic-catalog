@@ -18,6 +18,16 @@
       "id": "ConversionPG"
     },
     {
+      "rel": "child",
+      "href": "./GeomConversionPG/collection.json",
+      "type": "application/json",
+      "title": "Conversion of Permanent Grassland (Area of Loss and Gain)",
+      "id": "GeomConversionPG",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/grassland_lt.png"
+      ]
+    },
+    {
       "rel": "self",
       "href": "https://baltic-gtif.github.io/baltic-gtif/baltic-catalog/catalog.json",
       "type": "application/json"
