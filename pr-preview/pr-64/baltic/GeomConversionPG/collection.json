@@ -28,6 +28,18 @@
     },
     {
       "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "EOxCloudless 2024",
+      "roles": [
+        "baselayer",
+        "visible"
+      ],
+      "id": "cloudless-2024",
+      "attribution": "{ EOxCloudless 2024: <a xmlns:dct=\"http://purl.org/dc/terms/\" href=\"https://s2maps.eu\" target=\"_blank\" property=\"dct:title\">Sentinel-2 cloudless - s2maps.eu</a> by <a xmlns:cc=\"http://creativecommons.org/ns#\" href=\"https://eox.at\" target=\"_blank\" property=\"cc:attributionName\" rel=\"cc:attributionURL\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2024) }"
+    },
+    {
+      "rel": "xyz",
       "href": "https://eoapi.workspace.baltic-gtif.hub-otc.eox.at/raster/collections/eoxcloudless-exploitation-ready-2025_lithuania/items/eoxcloudless-exploitation-ready-2025_lithuania/tiles/WebMercatorQuad/{z}/{x}/{y}.png?assets=red&assets=green&assets=blue&rescale=100,2000&rescale=100,2000&rescale=100,2000",
       "type": "image/jpeg",
       "title": "EOxCloudless 2025 Lithuania True Color",
