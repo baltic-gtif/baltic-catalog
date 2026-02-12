@@ -12,6 +12,16 @@
     },
     {
       "rel": "child",
+      "href": "./SOCarable/collection.json",
+      "type": "application/json",
+      "title": "Arable LT 2025 - SOC",
+      "id": "SOCarable",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/soc_lt.png"
+      ]
+    },
+    {
+      "rel": "child",
       "href": "./SOCindex/collection.json",
       "type": "application/json",
       "title": "Permanent Grassland LT 2025 - SOC",
