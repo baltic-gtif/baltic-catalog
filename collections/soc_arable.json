@@ -5,17 +5,16 @@
   "Description": "indicators/group25_pg_arable/description.md",
   "Resources": [
     {
-      "Name": "FlatGeobuf source",
-      "Style": "collections/soc_lithuania/style_SOC_nonPG.json",
+      "Name": "VectorTile source",
+      "Style": "collections/soc_lithuania/style_SOC_nonPG_geotile.json",
       "TimeEntries": [
         {
+          "Time": "2024-12-31",
+          "Url": "https://eoapi.workspace.baltic-gtif.hub-otc.eox.at/vector/collections/public.lt_2024_soc_al/tiles/WebMercatorQuad/{z}/{x}/{y}"
+        },
+	{
           "Time": "2025-12-31",
-          "Assets": [
-            {
-              "Identifier": "Soc of Arable parcels - 2025",
-              "File": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/SOCindexes_2025/SOC_2025_QDT_Arable_ReadyDisplay.fgb"
-            }
-          ]
+          "Url": "https://eoapi.workspace.baltic-gtif.hub-otc.eox.at/vector/collections/public.lt_2025_soc_al/tiles/WebMercatorQuad/{z}/{x}/{y}"
         }
       ],
       "Bbox": [
