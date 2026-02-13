@@ -33,6 +33,12 @@
       "url": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/UHTM/Vilnius/Vilnius_superpixel_LST.geojson",
       "protocol": "GeoJSON source",
       "Style": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/UHTM/Vilnius/Vilnius_superpixel_style.json"
+    },
+    {
+      "id": "Vilnius_boundary",
+      "url": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/UHTM/Vilnius/Vilnius_boundary.geojson",
+      "protocol": "GeoJSON source",
+      "Style": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/UHTM/Vilnius/Vilnius_boundary_style.json"
     }
   ],
   "Themes": [
