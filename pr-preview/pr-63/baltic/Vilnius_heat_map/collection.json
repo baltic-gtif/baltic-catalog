@@ -46,16 +46,12 @@
       "attribution": "{ OSM: Data &copy; <a href=\\\"http://www.openstreetmap.org/copyright\\\" target=\\\"_blank\\\">OpenStreetMap</a> contributors and <a href=\\\"https://maps.eox.at/#data\\\" target=\\\"_blank\\\">others</a>, Rendering &copy; <a href=\\\"http://eox.at\\\" target=\\\"_blank\\\">EOX</a> }"
     },
     {
-      "rel": "xyz",
-      "href": "https://s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
-      "type": "image/png",
-      "title": "Overlay labels",
-      "roles": [
-        "overlay",
-        "visible"
-      ],
-      "id": "overlay_bright",
-      "attribution": "{ Overlay: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors, Made with Natural Earth, Rendering &copy; <a href=\"https://eox.at\" target=\"_blank\">EOX</a> }"
+      "rel": "style",
+      "href": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/UHTM/Vilnius/Vilnius_superpixel_style.json",
+      "type": "text/vector-styles",
+      "asset:keys": [
+        "vilnius_smart_partitioning"
+      ]
     },
     {
       "rel": "parent",
@@ -68,6 +64,7 @@
   "themes": [
     "Sustainable cities"
   ],
+  "merge_assets": false,
   "title": "Vilnius Heat Trend",
   "extent": {
     "spatial": {
@@ -110,6 +107,14 @@
       "type": "image/png",
       "roles": [
         "thumbnail"
+      ]
+    },
+    "vilnius_smart_partitioning": {
+      "href": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/UHTM/Vilnius/Vilnius_superpixel_LST.geojson",
+      "type": "application/geo+json",
+      "title": "vilnius_smart_partitioning",
+      "roles": [
+        "overlay"
       ]
     }
   }
