@@ -54,6 +54,14 @@
       ]
     },
     {
+      "rel": "style",
+      "href": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/UHTM/Vilnius/Vilnius_boundary_style.json",
+      "type": "text/vector-styles",
+      "asset:keys": [
+        "Vilnius_boundary"
+      ]
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
@@ -113,6 +121,14 @@
       "href": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/UHTM/Vilnius/Vilnius_superpixel_LST.geojson",
       "type": "application/geo+json",
       "title": "vilnius_smart_partitioning",
+      "roles": [
+        "overlay"
+      ]
+    },
+    "Vilnius_boundary": {
+      "href": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/UHTM/Vilnius/Vilnius_boundary.geojson",
+      "type": "application/geo+json",
+      "title": "Vilnius_boundary",
       "roles": [
         "overlay"
       ]
