@@ -25,9 +25,10 @@
       "rel": "xyz",
       "href": "https://s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "image/jpeg",
-      "title": "OSM",
+      "title": "OpenStreetMap",
       "roles": [
-        "baselayer"
+        "baselayer",
+        "visible"
       ],
       "id": "OSM",
       "attribution": " { OSM: Data &copy; <a href=\\\"http://www.openstreetmap.org/copyright\\\" target=\\\"_blank\\\">OpenStreetMap</a> contributors and <a href=\\\"https://maps.eox.at/#data\\\" target=\\\"_blank\\\">others</a>, Rendering &copy; <a href=\\\"http://eox.at\\\" target=\\\"_blank\\\">EOX</a> }"
@@ -107,7 +108,7 @@
     "vilnius_smart_partitioning": {
       "href": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/UHTM/Vilnius/Vilnius_superpixel_LST.geojson",
       "type": "application/geo+json",
-      "title": "vilnius_smart_partitioning",
+      "title": "Smart partitioning",
       "roles": [
         "overlay",
         "visible"
@@ -116,7 +117,7 @@
     "Vilnius_boundary": {
       "href": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/UHTM/Vilnius/Vilnius_boundary.geojson",
       "type": "application/geo+json",
-      "title": "Vilnius_boundary",
+      "title": "Vilnius city borders",
       "roles": [
         "overlay",
         "visible"
