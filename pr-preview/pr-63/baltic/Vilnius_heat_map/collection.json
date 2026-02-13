@@ -109,7 +109,8 @@
       "type": "application/geo+json",
       "title": "vilnius_smart_partitioning",
       "roles": [
-        "overlay"
+        "overlay",
+        "visible"
       ]
     },
     "Vilnius_boundary": {
@@ -117,7 +118,8 @@
       "type": "application/geo+json",
       "title": "Vilnius_boundary",
       "roles": [
-        "overlay"
+        "overlay",
+        "visible"
       ]
     }
   }
