@@ -32,7 +32,9 @@
       "url": "https://s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
       "protocol": "xyz",
       "Attribution": " { OSM: Data &copy; <a href=\\\"http://www.openstreetmap.org/copyright\\\" target=\\\"_blank\\\">OpenStreetMap</a> contributors and <a href=\\\"https://maps.eox.at/#data\\\" target=\\\"_blank\\\">others</a>, Rendering &copy; <a href=\\\"http://eox.at\\\" target=\\\"_blank\\\">EOX</a> }",
-      "media_type": "image/jpeg"
+      "media_type": "image/jpeg",
+      "name": "OpenStreetMap",
+      "visible": true
     }
   ],
   "OverlayLayers": [
@@ -41,14 +43,16 @@
       "url": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/UHTM/Vilnius/Vilnius_superpixel_LST.geojson",
       "protocol": "GeoJSON source",
       "Style": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/UHTM/Vilnius/Vilnius_superpixel_style.json",
-      "visible": true
+      "visible": true,
+      "name": "Smart partitioning"
     },
     {
       "id": "Vilnius_boundary",
       "url": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/UHTM/Vilnius/Vilnius_boundary.geojson",
       "protocol": "GeoJSON source",
       "Style": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/UHTM/Vilnius/Vilnius_boundary_style.json",
-      "visible": true
+      "visible": true,
+      "name": "Vilnius city borders"
     }
   ],
   "Themes": [
