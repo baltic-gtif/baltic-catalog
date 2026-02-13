@@ -10,11 +10,11 @@
       "TimeEntries": [
         {
           "Time": "2024-12-31",
-          "Url": "https://eoapi.workspace.baltic-gtif.hub-otc.eox.at/vector/collections/public.lt_2024_soc_al/tiles/WebMercatorQuad/{z}/{x}/{y}"
+          "Url": "https://eoapi.workspace.baltic-gtif.hub-otc.eox.at/vector/collections/public.lt_2024_soc_cat_al/tiles/WebMercatorQuad/{z}/{x}/{y}"
         },
 	{
           "Time": "2025-12-31",
-          "Url": "https://eoapi.workspace.baltic-gtif.hub-otc.eox.at/vector/collections/public.lt_2025_soc_al/tiles/WebMercatorQuad/{z}/{x}/{y}"
+          "Url": "https://eoapi.workspace.baltic-gtif.hub-otc.eox.at/vector/collections/public.lt_2025_soc_cat_al/tiles/WebMercatorQuad/{z}/{x}/{y}"
         }
       ],
       "Bbox": [
