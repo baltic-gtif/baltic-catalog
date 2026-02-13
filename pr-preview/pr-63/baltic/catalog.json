@@ -24,6 +24,13 @@
       ]
     },
     {
+      "rel": "child",
+      "href": "./Vilnius_smart_partitioning/collection.json",
+      "type": "application/json",
+      "title": "Vilnius Smart Partitioning",
+      "id": "Vilnius_smart_partitioning"
+    },
+    {
       "rel": "self",
       "href": "https://baltic-gtif.github.io/baltic-gtif/baltic-catalog/catalog.json",
       "type": "application/json"
