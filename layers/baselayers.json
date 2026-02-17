@@ -8,6 +8,23 @@
       "Attribution": "{ EOxCloudless 2024: <a xmlns:dct=\"http://purl.org/dc/terms/\" href=\"https://s2maps.eu\" target=\"_blank\" property=\"dct:title\">Sentinel-2 cloudless - s2maps.eu</a> by <a xmlns:cc=\"http://creativecommons.org/ns#\" href=\"https://eox.at\" target=\"_blank\" property=\"cc:attributionName\" rel=\"cc:attributionURL\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2024) }",
       "protocol": "xyz",
       "visible": true
+    }, {
+      "id": "cloudless-2025-tc-lithuania",
+      "name": "EOxCloudless 2025 Lithuania True Color",
+      "url": "https://eoapi.workspace.baltic-gtif.hub-otc.eox.at/raster/collections/eoxcloudless-exploitation-ready-2025_lithuania/items/eoxcloudless-exploitation-ready-2025_lithuania/tiles/WebMercatorQuad/{z}/{x}/{y}.png?&assets=red&assets=green&assets=blue&rescale=0,4000&rescale=0,4000&rescale=0,4000",
+      "media_type": "image/jpeg",
+      "Attribution": "{ EOxCloudless 2025: <a xmlns:dct=\"http://purl.org/dc/terms/\" href=\"https://s2maps.eu\" target=\"_blank\" property=\"dct:title\">Sentinel-2 cloudless - s2maps.eu</a> by <a xmlns:cc=\"http://creativecommons.org/ns#\" href=\"https://eox.at\" target=\"_blank\" property=\"cc:attributionName\" rel=\"cc:attributionURL\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2025) }",
+      "protocol": "xyz",
+      "visible": false
+    }, {
+      "id": "cloudless-2025-fc-lithuania",
+      "name": "EOxCloudless 2025 False Color - Nir, Green, Red",
+      "url": "https://eoapi.workspace.baltic-gtif.hub-otc.eox.at/raster/collections/eoxcloudless-exploitation-ready-2025_lithuania/items/eoxcloudless-exploitation-ready-2025_lithuania/tiles/WebMercatorQuad/{z}/{x}/{y}.png?&assets=nir&assets=green&assets=red&rescale=3000,6000&rescale=1000,3000&rescale=1000,3000",
+      "media_type": "image/jpeg",
+      "Attribution": "{ EOxCloudless 2025: <a xmlns:dct=\"http://purl.org/dc/terms/\" href=\"https://s2maps.eu\" target=\"_blank\" property=\"dct:title\">Sentinel-2 cloudless - s2maps.eu</a> by <a xmlns:cc=\"http://creativecommons.org/ns#\" href=\"https://eox.at\" target=\"_blank\" property=\"cc:attributionName\" rel=\"cc:attributionURL\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2025) }",
+      "protocol": "xyz",
+      "visible": false
     }
   ]
 }
+
