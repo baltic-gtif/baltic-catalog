@@ -1,7 +1,6 @@
 {
   "Name": "GeomConversionPG",
   "Title": "Conversion of Permanent Grassland (Area of Loss and Gain)",
-  "EodashIdentifier": "",
   "Description": "indicators/conversion_PG_LT/description.md",
   "Collections": [
     "geompgpositiveconversion2024to2025",

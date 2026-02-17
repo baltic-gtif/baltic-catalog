@@ -1,7 +1,6 @@
 {
     "Name": "Soil_Moisture_medium_parcels",
     "Title": "Soil Moisture medium - parcels",
-    "EodashIdentifier": "sm_at_09_parcels_wms_medium",
     "Description": "",
     "Themes": [
       "Flooding"
