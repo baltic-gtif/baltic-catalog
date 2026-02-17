@@ -60,7 +60,7 @@
   "themes": [
     "Sustainable cities"
   ],
-  "merge_assets": false,
+  "eodash:merge_assets": false,
   "title": "Vilnius Heat Trend",
   "extent": {
     "spatial": {
