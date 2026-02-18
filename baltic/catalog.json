@@ -135,6 +135,19 @@
       ]
     },
     {
+      "rel": "child",
+      "href": "./Vilnius_heat_map/collection.json",
+      "type": "application/json",
+      "title": "Vilnius Heat Trend",
+      "id": "Vilnius_heat_map",
+      "themes": [
+        "Sustainable cities"
+      ],
+      "thumbnail": [
+        "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/UHTM/iStock-1159485884.jpg"
+      ]
+    },
+    {
       "rel": "self",
       "href": "https://baltic-gtif.github.io/baltic-gtif/baltic-catalog/catalog.json",
       "type": "application/json"
