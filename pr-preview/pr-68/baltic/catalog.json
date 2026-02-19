@@ -39,23 +39,6 @@
     },
     {
       "rel": "child",
-      "href": "./habitat2025/collection.json",
-      "type": "application/json",
-      "title": "Permanent Grassland LT 2025 - Habitat",
-      "id": "habitat2025",
-      "thumbnail": [
-        "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/grassland_lt.png"
-      ]
-    },
-    {
-      "rel": "child",
-      "href": "./habitat_rawlayer/collection.json",
-      "type": "application/json",
-      "title": "Habitat type",
-      "id": "habitat_rawlayer"
-    },
-    {
-      "rel": "child",
       "href": "./GeomConversionPG/collection.json",
       "type": "application/json",
       "title": "Conversion of Permanent Grassland (Area of Loss and Gain)",
