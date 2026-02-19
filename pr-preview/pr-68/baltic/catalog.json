@@ -12,6 +12,16 @@
     },
     {
       "rel": "child",
+      "href": "./LTGSAPG/collection.json",
+      "type": "application/json",
+      "title": "Permanent Grassland Parcels",
+      "id": "LTGSAPG",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/grassland_lt.png"
+      ]
+    },
+    {
+      "rel": "child",
       "href": "./GEOMpgConversion2024to2025/collection.json",
       "type": "application/json",
       "title": "Permanent Grassland  - Area Loss ",

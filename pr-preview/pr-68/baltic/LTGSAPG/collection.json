@@ -1,30 +1,14 @@
 {
   "type": "Collection",
-  "id": "GeomConversionPG",
+  "id": "LTGSAPG",
   "stac_version": "1.1.0",
-  "description": "# Conversion of Permanent Grassland - Lithuania\n\nThis indicator shows which land-use categories are most frequently converted to or from Permanent Grassland and where these conversions occur spatially. \nIt helps to identify hotspots of land use change, revealing regions where specific categories drive grassland loss or contribute most to grassland positive conversion.\n\n## Data Sources & references:\n- **Global Soil Organic Carbon** content and Sequestration Potential Maps (GSOCseq) V1.0.0:\n \n  Estimation of Soil Organic Carbon content and of sequestration potential in agricultural areas under a Business as Usual (BAU) scenario and a Sustainable Soil Management scenarios.\n  \n  Ref: FAO. 2022. Global Soil Organic Carbon Sequestration Potential Map – SOCseq v.1.1. Technical report. Rome - https://doi.org/10.4060/cb9002en\n\n- **Agricultural parcels** are from open governmental IACS GSA data (2025), managed by the National Paying Agency of Lithuania (NMA). \n\n- **Sentinel-2 cloudless** by EOX IT Services GmbH (Contains modified Copernicus Sentinel data 2024)\\\" Ref: https://cloudless.eox.at/\".\n\n## Legend description:\n[Code description PDF](https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/Code_description_Lithuania.pdf)\n",
+  "description": "",
   "links": [
     {
       "rel": "root",
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Baltic GTIF Catalog"
-    },
-    {
-      "rel": "child",
-      "href": "./geompgPOSITIVEconversion2024to2025/collection.json",
-      "type": "application/json",
-      "title": "Permanent Grassland  - Area Gain ",
-      "endpointtype": "VectorTile source",
-      "id": "geompgPOSITIVEconversion2024to2025"
-    },
-    {
-      "rel": "child",
-      "href": "./GEOMpgConversion2024to2025/collection.json",
-      "type": "application/json",
-      "title": "Permanent Grassland  - Area Loss ",
-      "endpointtype": "VectorTile source",
-      "id": "GEOMpgConversion2024to2025"
     },
     {
       "rel": "child",
@@ -65,22 +49,11 @@
       "title": "Baltic GTIF Catalog"
     }
   ],
-  "title": "Conversion of Permanent Grassland (Area of Loss and Gain)",
+  "thumbnail": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/grassland_lt.png",
+  "title": "Permanent Grassland Parcels",
   "extent": {
     "spatial": {
       "bbox": [
-        [
-          20.489850779605074,
-          53.873106437403216,
-          26.903171787403263,
-          56.34132054833751
-        ],
-        [
-          20.489850779605074,
-          53.873106437403216,
-          26.903171787403263,
-          56.34132054833751
-        ],
         [
           20.489850779605074,
           53.873106437403216,
@@ -109,5 +82,14 @@
     "thumbnail": [
       "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/grassland_lt.png"
     ]
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/grassland_lt.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
   }
 }
