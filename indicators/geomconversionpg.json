@@ -4,6 +4,7 @@
   "Description": "indicators/conversion_PG_LT/description.md",
   "Collections": [
     "geompgpositiveconversion2024to2025",
-    "geompgconversion2024to2025"
+    "geompgconversion2024to2025",
+    "lt_gsa_pg"
   ]
 }
