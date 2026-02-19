@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "lt_stackLULC",
   "stac_version": "1.1.0",
-  "description": "Stack created based on the following datasets: GSA (from NPA), Habitat (from Inspire LT), Natura2000 qirzq, Small Woody Features and CLC+ BackBone",
+  "description": "Stack created based on the following datasets:  Habitat (from Inspire LT), Natura2000 sites, Small Woody Features and CLC+ BackBone. (Description of the stack dataset value)[https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/stack_vulnerability/LULC/category_for_style.pdf]",
   "links": [
     {
       "rel": "root",
