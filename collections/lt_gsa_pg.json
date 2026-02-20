@@ -1,0 +1,28 @@
+{
+  "Name": "LTGSAPG",
+  "Title": "Permanent Grassland Parcels",
+  "Image": "thumbnails/grassland_lt.png",
+  "Description": "",
+  "Resources": [
+    {
+      "Name": "VectorTile source",
+      "Style": "collections/gsa/style_gsa_pg02_geotile.json",
+      "TimeEntries": [
+	      {
+          "Time": "2024-12-31",
+          "Url": "https://eoapi.workspace.baltic-gtif.hub-otc.eox.at/vector/collections/public.lt_2024_gsa_pg02ha/tiles/WebMercatorQuad/{z}/{x}/{y}"
+        },
+	 {
+          "Time": "2025-12-31",
+          "Url": "https://eoapi.workspace.baltic-gtif.hub-otc.eox.at/vector/collections/public.lt_2025_gsa_pg02ha/tiles/WebMercatorQuad/{z}/{x}/{y}"
+        }
+      ],
+      "Bbox": [
+        20.489850779605074,
+        53.873106437403216,
+        26.903171787403263,
+        56.34132054833751
+      ]
+    }
+  ]
+}
