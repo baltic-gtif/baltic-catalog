@@ -25,6 +25,13 @@
       "id": "lt_stackLULC_gsa"
     },
     {
+      "rel": "child",
+      "href": "./Ecosystem Connectivity/collection.json",
+      "type": "application/json",
+      "title": "Ecosystem Connectivity",
+      "id": "Ecosystem Connectivity"
+    },
+    {
       "rel": "self",
       "href": "https://baltic-gtif.github.io/baltic-gtif/baltic-catalog/catalog.json",
       "type": "application/json"
