@@ -1,0 +1,28 @@
+{
+  "Name": "lt_stackLULC",
+  "Title": "Land Cover Land Use - Stack ",
+  "Description": "Stack created based on the following datasets:  Habitat (from Inspire LT), Natura2000 sites, Small Woody Features and CLC+ BackBone. [Description of the stack dataset value](https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/stack_vulnerability/LULC/category_for_style.pdf)",
+  "Resources": [
+    {
+      "Name": "COG source",
+      "Style": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/stack_vulnerability/LULC/style_syntheticID_stacked_datasets_LULC.json",
+      "Bbox": [
+        20.489850779605074,
+        53.873106437403216,
+        26.903171787403263,
+        56.34132054833751
+      ],
+      "TimeEntries": [
+        {
+          "Time": "2024-12-31",
+          "Assets": [
+            {
+              "Identifier": "stackLULC",
+              "File": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/stack_vulnerability/LULC/stacked_datasets_LULC.cog"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
