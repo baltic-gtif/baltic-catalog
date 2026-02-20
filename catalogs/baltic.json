@@ -15,6 +15,7 @@
     "habitat_pgtype_lithuania",
     "geomconversionpg",
     "poland-watterlogging-index",
-    "germany-waterlogging"
+    "germany-waterlogging",
+    "lt_ecosystem_connectivity"
   ]
 }
