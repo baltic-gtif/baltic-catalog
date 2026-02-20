@@ -32,7 +32,10 @@
       "type": "application/json",
       "title": "Permanent Grassland Parcels",
       "endpointtype": "VectorTile source",
-      "id": "LTGSAPG"
+      "id": "LTGSAPG",
+      "roles": [
+        "disable"
+      ]
     },
     {
       "rel": "xyz",
