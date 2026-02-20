@@ -11,21 +11,13 @@
       "title": "Baltic GTIF Catalog"
     },
     {
-      "rel": "style",
-      "href": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//collections/PG_conversion/style_GEOM_PGconversionPositive.json",
-      "type": "text/vector-styles",
-      "asset:keys": [
-        "Increase of PG areas "
-      ]
-    },
-    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
       "title": "Conversion of Permanent Grassland (Area of Loss and Gain)"
     }
   ],
-  "endpointtype": "FlatGeobuf source",
+  "endpointtype": "VectorTile source",
   "title": "Permanent Grassland  - Area Gain ",
   "extent": {
     "spatial": {
@@ -41,8 +33,8 @@
     "temporal": {
       "interval": [
         [
-          "2025-01-01T00:00:00Z",
-          "2025-01-01T00:00:00Z"
+          "2024-12-31T00:00:00Z",
+          "2024-12-31T00:00:00Z"
         ]
       ]
     }
