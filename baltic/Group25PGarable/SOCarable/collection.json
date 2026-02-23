@@ -11,14 +11,6 @@
       "title": "Baltic GTIF Catalog"
     },
     {
-      "rel": "style",
-      "href": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//collections/soc_lithuania/style_SOC_nonPG.json",
-      "type": "text/vector-styles",
-      "asset:keys": [
-        "Soc of Arable parcels - 2025"
-      ]
-    },
-    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
@@ -26,23 +18,23 @@
     }
   ],
   "thumbnail": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/soc_lt.png",
-  "endpointtype": "FlatGeobuf source",
+  "endpointtype": "VectorTile source",
   "title": "Arable LT 2025 - SOC",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          24.137263217517965,
-          55.632431054308064,
-          24.52914701150821,
-          55.82343792279835
+          20.489850779605074,
+          53.873106437403216,
+          26.903171787403263,
+          56.34132054833751
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2025-12-31T00:00:00Z",
+          "2024-12-31T00:00:00Z",
           "2025-12-31T00:00:00Z"
         ]
       ]
