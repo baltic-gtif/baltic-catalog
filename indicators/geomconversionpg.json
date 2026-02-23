@@ -5,9 +5,11 @@
   "Collections": [
     "geompgpositiveconversion2024to2025",
     "geompgconversion2024to2025",
-    "lt_gsa_pg"
+    "lt_gsa_pg",
+    "soc_pg_loss"
   ],
   "Disable": [
-    "lt_gsa_pg"
+    "lt_gsa_pg",
+    "soc_pg_loss"
   ]
 }
