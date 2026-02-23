@@ -12,6 +12,28 @@
     },
     {
       "rel": "child",
+      "href": "./LTGSAPG/collection.json",
+      "type": "application/json",
+      "title": "Permanent Grassland Parcels",
+      "endpointtype": "VectorTile source",
+      "id": "LTGSAPG",
+      "roles": [
+        "disable"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./lt_soc_pg_loss/collection.json",
+      "type": "application/json",
+      "title": "SOC loss estimation in Permanent Grassland",
+      "endpointtype": "VectorTile source",
+      "id": "lt_soc_pg_loss",
+      "roles": [
+        "disable"
+      ]
+    },
+    {
+      "rel": "child",
       "href": "./geompgPOSITIVEconversion2024to2025/collection.json",
       "type": "application/json",
       "title": "Permanent Grassland  - Area Gain ",
@@ -25,17 +47,6 @@
       "title": "Permanent Grassland  - Area Loss ",
       "endpointtype": "VectorTile source",
       "id": "GEOMpgConversion2024to2025"
-    },
-    {
-      "rel": "child",
-      "href": "./LTGSAPG/collection.json",
-      "type": "application/json",
-      "title": "Permanent Grassland Parcels",
-      "endpointtype": "VectorTile source",
-      "id": "LTGSAPG",
-      "roles": [
-        "disable"
-      ]
     },
     {
       "rel": "xyz",
@@ -84,6 +95,12 @@
   "extent": {
     "spatial": {
       "bbox": [
+        [
+          20.489850779605074,
+          53.873106437403216,
+          26.903171787403263,
+          56.34132054833751
+        ],
         [
           20.489850779605074,
           53.873106437403216,
