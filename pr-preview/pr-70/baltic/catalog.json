@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./lt_soc_pg_loss/collection.json",
       "type": "application/json",
-      "title": "SOC loss estimation in Permanent Grassland parcels",
+      "title": "SOC loss estimation in Permanent Grassland",
       "id": "lt_soc_pg_loss",
       "thumbnail": [
         "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/grassland_lt.png"

@@ -14,12 +14,12 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "SOC loss estimation in Permanent Grassland parcels"
+      "title": "SOC loss estimation in Permanent Grassland"
     }
   ],
   "thumbnail": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/grassland_lt.png",
   "endpointtype": "VectorTile source",
-  "title": "SOC loss estimation in Permanent Grassland parcels",
+  "title": "SOC loss estimation in Permanent Grassland",
   "extent": {
     "spatial": {
       "bbox": [
