@@ -3,10 +3,10 @@
   "Title": "Conversion of Permanent Grassland (Area of Loss and Gain)",
   "Description": "indicators/conversion_PG_LT/description.md",
   "Collections": [
-    "geompgpositiveconversion2024to2025",
-    "geompgconversion2024to2025",
+    "lt_gsa_pg", 
     "soc_pg_loss",
-    "lt_gsa_pg"
+    "geompgpositiveconversion2024to2025",
+    "geompgconversion2024to2025"
   ],
   "Disable": [
     "lt_gsa_pg",
