@@ -1,0 +1,27 @@
+{
+  "Name": "LT_boundary_amd1",
+  "Title": "Lithuania - Apskritys",
+  "Resources": [
+    {
+      "Name": "FlatGeobuf source",
+      "Style": "collections/lt/style_lt_boundary.json",
+      "TimeEntries": [
+        {
+          "Time": "2025",
+          "Assets": [
+            {
+              "Identifier": "amd1",
+              "File": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/LT/geoboundary-ltu-amd1-all.fgb"
+            }
+          ]
+        }
+      ],
+      "Bbox": [
+        20.37351690406548,
+        53.71729184024658,
+        26.9521701367242,
+        56.31700190178251
+      ]
+    }
+  ]
+}
