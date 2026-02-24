@@ -20,9 +20,9 @@
     },
     {
       "rel": "service",
-      "href": "data:application/json,[soc_year\":\"{{feature.values_.soctot_parcel_gsocseq_tyear}}\",\"area\":{{feature.values_.area_ha}}}]",
+      "href": "https://eoapi.workspace.baltic-gtif.hub-otc.eox.at/vector/collections.public.lt_2024_soc_pg/items?limit=1&bbox-only=true&filter=id_year%20%3D%20%27{{feature}}%27",
       "type": "application/json",
-      "id": "SOCindex",
+      "id": "timeseries",
       "method": "GET"
     },
     {
