@@ -9,5 +9,26 @@
   ],
   "Disable": [
     "habitatrawlayer"
-  ]
+  ],
+    "Process": {
+        "Name": "timeseries",
+        "JsonForm": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/LT/form_comparison_habitat.json",
+        "VegaDefinition": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/LT/vega_chart_habitat.json",
+        "EndPoints": [
+            {
+                "Identifier": "habitat_typePG_lithuania_2025",
+                "Url":  "https://eoapi.workspace.baltic-gtif.hub-otc.eox.at/vector/collections/public.lt_2025_habitat_pg/items?limit=1&bbox-only=true&filter=id%20%3D%20%27{{feature}}%27",
+                "Type": "application/json",
+                "Method": "GET"
+            },
+	    {
+                "Identifier": "habitat_typePG_lithuania_2024",
+                "Url":  "https://eoapi.workspace.baltic-gtif.hub-otc.eox.at/vector/collections/public.lt_2024_habitat_pg/items?limit=1&bbox-only=true&filter=id%20%3D%20%27{{feature}}%27",
+                "Type": "application/json",
+                "Method": "GET"
+            }
+
+        ]
+    }
+
 }
