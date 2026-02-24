@@ -39,9 +39,9 @@
     },
     {
       "rel": "service",
-      "href": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/LT/geoboundary-ltu-amd1-all.fgb",
+      "href": "data:application/json,[psl_kodas\":\"{{feature.values_.psl_kodas}}\",\"area\":{{feature.values_.area_ha}}}]",
       "type": "application/json",
-      "id": "timeseries",
+      "id": "habitat_typePG_lithuania",
       "method": "GET"
     },
     {
