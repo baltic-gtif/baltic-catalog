@@ -19,13 +19,6 @@
       "id": "LT_boundary_amd1"
     },
     {
-      "rel": "service",
-      "href": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/LT/geoboundary-ltu-amd1-all.fgb",
-      "type": "application/json",
-      "id": "timeseries",
-      "method": "GET"
-    },
-    {
       "rel": "xyz",
       "href": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "image/jpeg",
@@ -56,8 +49,6 @@
       "title": "Baltic GTIF Catalog"
     }
   ],
-  "eodash:jsonform": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/LT/form_comparison_habitat.json",
-  "eodash:vegadefinition": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/LT/vega_chart_habitat.json",
   "title": "Lithuania - Apskritys",
   "extent": {
     "spatial": {
