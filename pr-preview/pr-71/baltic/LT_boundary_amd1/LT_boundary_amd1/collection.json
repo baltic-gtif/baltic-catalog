@@ -12,7 +12,7 @@
     },
     {
       "rel": "style",
-      "href": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//literal",
+      "href": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//data:application/json,{\"stroke-width\":2,\"stroke-color\":\"#faf5e880\",\"fill-color\":\"#00000000\"}",
       "type": "text/vector-styles",
       "asset:keys": [
         "amd1"
