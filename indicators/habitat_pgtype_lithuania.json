@@ -17,13 +17,7 @@
         "EndPoints": [
             {
                 "Identifier": "timeseries",
-                "Url":  "https://eoapi.workspace.baltic-gtif.hub-otc.eox.at/vector/collections/public.lt_2025_habitat_pg/items?limit=1&bbox-only=true&filter=id_year%20%3D%20{{feature}}",
-                "Type": "application/json",
-                "Method": "GET"
-            },
-	    {
-                "Identifier": "timeseries",
-                "Url":  "https://eoapi.workspace.baltic-gtif.hub-otc.eox.at/vector/collections/public.lt_2024_habitat_pg/items?limit=1&bbox-only=true&filter=id_year%20%3D%20{{feature}}",
+                "Url":  "https://eoapi.workspace.baltic-gtif.hub-otc.eox.at/vector/collections/public.lt_{{year}}_habitat_pg/items?bbox-only=true&bbox={{bbox.0}},{{bbox.1}},{{bbox.2}},{{bbox.3}}",
                 "Type": "application/json",
                 "Method": "GET"
             }
