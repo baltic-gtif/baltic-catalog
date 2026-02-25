@@ -39,14 +39,7 @@
     },
     {
       "rel": "service",
-      "href": "https://eoapi.workspace.baltic-gtif.hub-otc.eox.at/vector/collections/public.lt_2025_habitat_pg/items?limit=1&bbox-only=true&filter=id_year%20%3D%20{{feature}}",
-      "type": "application/json",
-      "id": "timeseries",
-      "method": "GET"
-    },
-    {
-      "rel": "service",
-      "href": "https://eoapi.workspace.baltic-gtif.hub-otc.eox.at/vector/collections/public.lt_2024_habitat_pg/items?limit=1&bbox-only=true&filter=id_year%20%3D%20{{feature}}",
+      "href": "https://eoapi.workspace.baltic-gtif.hub-otc.eox.at/vector/collections/public.lt_{{year}}_habitat_pg/items?bbox-only=true&bbox={{bbox.0}},{{bbox.1}},{{bbox.2}},{{bbox.3}}",
       "type": "application/json",
       "id": "timeseries",
       "method": "GET"
