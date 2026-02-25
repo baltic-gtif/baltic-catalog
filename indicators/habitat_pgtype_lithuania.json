@@ -3,10 +3,26 @@
   "Title": "Habitat and Permanent Grassland ",
   "Description": "indicators/habitat_and_pgtype/description.md",
   "Collections": [
-    "habitat_typePG_lithuania",
-    "habitatrawlayer"
+    "lt_admin_amd1",
+    "habitatrawlayer",
+    "habitat_typePG_lithuania"
   ],
   "Disable": [
     "habitatrawlayer"
-  ]
+  ],
+    "Process": {
+        "Name": "timeseries",
+        "JsonForm": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/LT/form_comparison_habitat.json",
+        "VegaDefinition": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/LT/vega_chart_habitat.json",
+        "EndPoints": [
+            {
+                "Identifier": "timeseries",
+                "Url": "https://eoapi.workspace.baltic-gtif.hub-otc.eox.at/vector/collections/public.lt_{{year}}_habitat_pg/items?limit=10000&filter-lang=cql2-text&filter=S_INTERSECTS(geometry,POLYGON(({{bbox.0}}%20{{bbox.1}},{{bbox.2}}%20{{bbox.1}},{{bbox.2}}%20{{bbox.3}},{{bbox.0}}%20{{bbox.3}},{{bbox.0}}%20{{bbox.1}})))",
+		"Type": "application/json",
+                "Method": "GET"
+            }
+
+        ]
+    }
+
 }
