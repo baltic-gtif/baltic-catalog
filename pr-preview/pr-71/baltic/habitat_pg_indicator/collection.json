@@ -39,7 +39,7 @@
     },
     {
       "rel": "service",
-      "href": "https://eoapi.workspace.baltic-gtif.hub-otc.eox.at/vector/collections/public.lt_{{year}}_habitat_pg/items?bbox-only=true&bbox={{bbox.0}},{{bbox.1}},{{bbox.2}},{{bbox.3}}",
+      "href": "https://eoapi.workspace.baltic-gtif.hub-otc.eox.at/vector/collections/public.lt_{{year}}_habitat_pg/items?limit=10&filter-lang=cql2-text&filter=S_INTERSECTS(geometry,POLYGON(({{bbox.0}}%20{{bbox.1}},{{bbox.2}}%20{{bbox.1}},{{bbox.2}}%20{{bbox.3}},{{bbox.0}}%20{{bbox.3}},{{bbox.0}}%20{{bbox.1}})))",
       "type": "application/json",
       "id": "timeseries",
       "method": "GET"
