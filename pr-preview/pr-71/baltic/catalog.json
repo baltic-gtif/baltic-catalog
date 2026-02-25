@@ -19,6 +19,16 @@
     },
     {
       "rel": "child",
+      "href": "./habitat/collection.json",
+      "type": "application/json",
+      "title": "Permanent Grassland LT 2025 - Habitat",
+      "id": "habitat",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/grassland_lt.png"
+      ]
+    },
+    {
+      "rel": "child",
       "href": "./habitat_pg_indicator/collection.json",
       "type": "application/json",
       "title": "Habitat and Permanent Grassland ",

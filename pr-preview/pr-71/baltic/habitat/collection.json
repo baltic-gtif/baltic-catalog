@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "habitat_pg_indicator",
+  "id": "habitat",
   "stac_version": "1.1.0",
   "description": "# Lithuanian Permanent Grasslands and Their Habitats\n\nThis dataset combines Natural Permanent Grasslands (PGs) parcels  and habitats information\nThe combined data supports identification of areas with rich habitat types, with dominant parcel types helping to assess land-use pressures, ecological value, and opportunities for sustainable management.\n\n**Natural PG** are ecosystems in which well-adapted, context-appropriate **management practices** can create and maintain high biodiversity value within a relatively short time. \nThe way PGs are managed, whether through mowing or livestock grazing, has a major impact on overall ecosystem health. The timing of these activities is critical: operations must be adjusted to current climate and soil conditions (e.g., wet or dry periods) to avoid damaging vulnerable fauna and herbaceous plant communities.\n\n## Data Sources\n- **PG parcels** from the open governmental IACS GSA data, managed by the National Paying Agency of Lithuania (NMA).\n- **Habitat** data from publicly available Lithuanian datasets published in accordance with the INSPIRE Directive.\n\n## Legend description:\n[Code description PDF](https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/Code_description_Lithuania.pdf)\n",
   "links": [
@@ -12,44 +12,11 @@
     },
     {
       "rel": "child",
-      "href": "./LT_boundary_amd1/collection.json",
-      "type": "application/json",
-      "title": "Lithuania - Apskritys",
-      "endpointtype": "FlatGeobuf source",
-      "id": "LT_boundary_amd1"
-    },
-    {
-      "rel": "child",
-      "href": "./habitat_rawlayer/collection.json",
-      "type": "application/json",
-      "title": "Habitat type",
-      "endpointtype": "VectorTile source",
-      "id": "habitat_rawlayer",
-      "roles": [
-        "disable"
-      ]
-    },
-    {
-      "rel": "child",
       "href": "./habitat/collection.json",
       "type": "application/json",
       "title": "Permanent Grassland LT 2025 - Habitat",
       "endpointtype": "VectorTile source",
       "id": "habitat"
-    },
-    {
-      "rel": "service",
-      "href": "https://eoapi.workspace.baltic-gtif.hub-otc.eox.at/vector/collections/public.lt_2025_habitat_pg/items?limit=1&bbox-only=true&filter=id%20%3D%20%27{{feature}}%27",
-      "type": "application/json",
-      "id": "habitat_typePG_lithuania_2025",
-      "method": "GET"
-    },
-    {
-      "rel": "service",
-      "href": "https://eoapi.workspace.baltic-gtif.hub-otc.eox.at/vector/collections/public.lt_2024_habitat_pg/items?limit=1&bbox-only=true&filter=id%20%3D%20%27{{feature}}%27",
-      "type": "application/json",
-      "id": "habitat_typePG_lithuania_2024",
-      "method": "GET"
     },
     {
       "rel": "xyz",
@@ -82,29 +49,16 @@
       "title": "Baltic GTIF Catalog"
     }
   ],
-  "eodash:jsonform": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/LT/form_comparison_habitat.json",
-  "eodash:vegadefinition": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/LT/vega_chart_habitat.json",
-  "title": "Habitat and Permanent Grassland ",
+  "thumbnail": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/grassland_lt.png",
+  "title": "Permanent Grassland LT 2025 - Habitat",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          20.37351690406548,
-          53.71729184024658,
-          26.9521701367242,
-          56.31700190178251
-        ],
-        [
-          20.37351690406548,
-          53.71729184024658,
-          26.9521701367242,
-          56.31700190178251
-        ],
-        [
-          20.37351690406548,
-          53.71729184024658,
-          26.9521701367242,
-          56.31700190178251
+          21.228707166566753,
+          55.25151888701188,
+          21.457688260815036,
+          55.35223641266015
         ],
         [
           21.228707166566753,
@@ -128,5 +82,14 @@
     "thumbnail": [
       "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/grassland_lt.png"
     ]
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/grassland_lt.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
   }
 }
