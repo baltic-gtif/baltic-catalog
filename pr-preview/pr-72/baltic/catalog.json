@@ -12,10 +12,10 @@
     },
     {
       "rel": "child",
-      "href": "./SOCindex/collection.json",
+      "href": "./Group25PGarable/collection.json",
       "type": "application/json",
-      "title": "Permanent Grassland LT 2025 - SOC",
-      "id": "SOCindex",
+      "title": "SOC of Permanent Grassland and Arable - 2025",
+      "id": "Group25PGarable",
       "thumbnail": [
         "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/soc_lt.png"
       ]
