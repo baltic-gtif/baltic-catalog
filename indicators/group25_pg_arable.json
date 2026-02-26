@@ -5,5 +5,18 @@
   "Collections": [
     "soc_pg",
     "soc_arable"
-  ]
+  ],
+  "Process": {
+        "Name": "timeseries",
+        "JsonForm": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/LT/form_evol_soc.json",
+        "VegaDefinition": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/LT/vega_chart_evol_soc.json",
+        "EndPoints": [
+            {
+                "Identifier": "timeseries",
+                "Url": "https://eoapi.workspace.baltic-gtif.hub-otc.eox.at/vector/collections.public.lt_{{year}}_{{layer}}/items?limit=1&bbox-only=true&filter=id_year%20%3D%20%27{{feature}}%27",
+                "Type": "application/json",
+                "Method": "GET"
+            }
+        ]
+    }
 }
