@@ -28,28 +28,28 @@
     },
     {
       "rel": "service",
-      "href": "https://eoapi.workspace.baltic-gtif.hub-otc.eox.at/vector/collections/public.lt_2024_soc_pg/items?limit=10000&filter-lang=cql2-text&filter=S_CONTAINS(geometry,POLYGON(({{bbox.0}}%20{{bbox.1}},{{bbox.2}}%20{{bbox.1}},{{bbox.2}}%20{{bbox.3}},{{bbox.0}}%20{{bbox.3}},{{bbox.0}}%20{{bbox.1}})))",
+      "href": "https://eoapi.workspace.baltic-gtif.hub-otc.eox.at/vector/collections/public.lt_2024_soc_pg/items?limit=10000&filter-lang=cql2-text&filter=S_CONTAINS(POLYGON(({{bbox.0}}%20{{bbox.1}},{{bbox.2}}%20{{bbox.1}},{{bbox.2}}%20{{bbox.3}},{{bbox.0}}%20{{bbox.3}},{{bbox.0}}%20{{bbox.1}})),geometry)",
       "type": "application/json",
       "id": "lt2024socpg",
       "method": "GET"
     },
     {
       "rel": "service",
-      "href": "https://eoapi.workspace.baltic-gtif.hub-otc.eox.at/vector/collections/public.lt_2025_soc_pg/items?limit=10000&filter-lang=cql2-text&filter=S_CONTAINS(geometry,POLYGON(({{bbox.0}}%20{{bbox.1}},{{bbox.2}}%20{{bbox.1}},{{bbox.2}}%20{{bbox.3}},{{bbox.0}}%20{{bbox.3}},{{bbox.0}}%20{{bbox.1}})))",
+      "href": "https://eoapi.workspace.baltic-gtif.hub-otc.eox.at/vector/collections/public.lt_2025_soc_pg/items?limit=10000&filter-lang=cql2-text&filter=S_CONTAINS(POLYGON(({{bbox.0}}%20{{bbox.1}},{{bbox.2}}%20{{bbox.1}},{{bbox.2}}%20{{bbox.3}},{{bbox.0}}%20{{bbox.3}},{{bbox.0}}%20{{bbox.1}})),geometry)",
       "type": "application/json",
       "id": "lt2025socpg",
       "method": "GET"
     },
     {
       "rel": "service",
-      "href": "https://eoapi.workspace.baltic-gtif.hub-otc.eox.at/vector/collections/public.lt_2024_soc_cat_al/items?limit=10000&filter-lang=cql2-text&filter=S_CONTAINS(geometry,POLYGON(({{bbox.0}}%20{{bbox.1}},{{bbox.2}}%20{{bbox.1}},{{bbox.2}}%20{{bbox.3}},{{bbox.0}}%20{{bbox.3}},{{bbox.0}}%20{{bbox.1}})))",
+      "href": "https://eoapi.workspace.baltic-gtif.hub-otc.eox.at/vector/collections/public.lt_2024_soc_cat_al/items?limit=10000&filter-lang=cql2-text&filter=S_CONTAINS(POLYGON(({{bbox.0}}%20{{bbox.1}},{{bbox.2}}%20{{bbox.1}},{{bbox.2}}%20{{bbox.3}},{{bbox.0}}%20{{bbox.3}},{{bbox.0}}%20{{bbox.1}})),geometry)",
       "type": "application/json",
       "id": "lt2024soccatal",
       "method": "GET"
     },
     {
       "rel": "service",
-      "href": "https://eoapi.workspace.baltic-gtif.hub-otc.eox.at/vector/collections/public.lt_2025_soc_cat_al/items?limit=10000&filter-lang=cql2-text&filter=S_CONTAINS(geometry,POLYGON(({{bbox.0}}%20{{bbox.1}},{{bbox.2}}%20{{bbox.1}},{{bbox.2}}%20{{bbox.3}},{{bbox.0}}%20{{bbox.3}},{{bbox.0}}%20{{bbox.1}})))",
+      "href": "https://eoapi.workspace.baltic-gtif.hub-otc.eox.at/vector/collections/public.lt_2025_soc_cat_al/items?limit=10000&filter-lang=cql2-text&filter=S_CONTAINS(POLYGON(({{bbox.0}}%20{{bbox.1}},{{bbox.2}}%20{{bbox.1}},{{bbox.2}}%20{{bbox.3}},{{bbox.0}}%20{{bbox.3}},{{bbox.0}}%20{{bbox.1}})),geometry)",
       "type": "application/json",
       "id": "lt2025soccatal",
       "method": "GET"
