@@ -49,7 +49,7 @@
     },
     {
       "rel": "service",
-      "href": "https://eoapi.workspace.baltic-gtif.hub-otc.eox.at/vector/collections/public.lt_2025_cat_al/items?limit=10000&filter-lang=cql2-text&filter=S_INTERSECTS(geometry,POINT({{location.0}}%20{{location.1}}))",
+      "href": "https://eoapi.workspace.baltic-gtif.hub-otc.eox.at/vector/collections/public.lt_2025_soc_cat_al/items?limit=10000&filter-lang=cql2-text&filter=S_INTERSECTS(geometry,POINT({{location.0}}%20{{location.1}}))",
       "type": "application/json",
       "id": "lt2025soccatal",
       "method": "GET"
