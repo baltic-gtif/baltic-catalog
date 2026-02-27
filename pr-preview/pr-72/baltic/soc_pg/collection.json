@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "Group25PGarable",
+  "id": "soc_pg",
   "stac_version": "1.1.0",
   "description": "# Soil Organic Carbon (SOC) - Lithuania\nThe carbon storage and sequestration capacity of permanent grasslands are relatively less discovered and also under-estimated, although we know that the significant root volume in the soil has an outstanding capability of carbon mobilization. \nThe indicator presents various grided soil layers of predictions, assigned to agricultural parcels. The models published by FAO are integrated to derive updated scenarios for year 2025:\n- Existing SOC content [t/parcel]\n- Annual SOC sequestration potential [t/y/parcel]\n- Estimated value of existing SOC content [€/parcel]\n- Possible SOC content after 20 years of conventional land management {until 2045} [t/parcel]\n- Possible SOC content under 20 years of sustainable soil management {until 2045} [t/parcel]\n- Estimated value increase under 20 years of sustainable soil management {until 2045} [€/parcel]\n\n## Data Sources & references:\n- **Global Soil Organic Carbon content and Sequestration Potential Maps (GSOCseq) V1.0.0**: Estimation of Soil Organic Carbon content and of sequestration potential in agricultural areas under a Business as Usual (BAU) scenario and a Sustainable Soil Management scenarios Ref: FAO. 2022. Global Soil Organic Carbon Sequestration Potential Map – SOCseq v.1.1. Technical report. Rome - https://doi.org/10.4060/cb9002en\n- **Agricultural parcels** are from open governmental IACS GSA data (2025), managed by the National Paying Agency of Lithuania (NMA).\n- **Sentinel-2 cloudless** by EOX IT Services GmbH (Contains modified Copernicus Sentinel data 2024)\\\" Ref: https://cloudless.eox.at/\"\n",
   "links": [
@@ -17,21 +17,6 @@
       "title": "Permanent Grassland LT 2025 - SOC",
       "endpointtype": "VectorTile source",
       "id": "soc_pg"
-    },
-    {
-      "rel": "child",
-      "href": "./soc_cat_al/collection.json",
-      "type": "application/json",
-      "title": "Arable LT 2025 - SOC",
-      "endpointtype": "VectorTile source",
-      "id": "soc_cat_al"
-    },
-    {
-      "rel": "service",
-      "href": "https://eoapi.workspace.baltic-gtif.hub-otc.eox.at/vector/collections/public.lt_{{year}}_{{layer}}/items?limit=1&bbox-only=true&filter=id_year%20%3D%20%27{{feature}}%27",
-      "type": "application/json",
-      "id": "timeseries",
-      "method": "GET"
     },
     {
       "rel": "xyz",
@@ -64,18 +49,11 @@
       "title": "Baltic GTIF Catalog"
     }
   ],
-  "eodash:jsonform": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/LT/form_evol_soc.json",
-  "eodash:vegadefinition": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/LT/vega_chart_evol_soc.json",
-  "title": "SOC of Permanent Grassland and Arable - 2025",
+  "thumbnail": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/soc_lt.png",
+  "title": "Permanent Grassland LT 2025 - SOC",
   "extent": {
     "spatial": {
       "bbox": [
-        [
-          20.489850779605074,
-          53.873106437403216,
-          26.903171787403263,
-          56.34132054833751
-        ],
         [
           20.489850779605074,
           53.873106437403216,
@@ -104,5 +82,14 @@
     "thumbnail": [
       "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/soc_lt.png"
     ]
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/soc_lt.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
   }
 }
