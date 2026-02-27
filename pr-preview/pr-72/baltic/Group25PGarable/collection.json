@@ -28,7 +28,7 @@
     },
     {
       "rel": "service",
-      "href": "https://eoapi.workspace.baltic-gtif.hub-otc.eox.at/vector/collections/public.lt_{{year}}_{{layer}}/items?limit=1&bbox-only=true&filter=id_year%20%3D%20%27{{feature}}%27",
+      "href": "https://eoapi.workspace.baltic-gtif.hub-otc.eox.at/vector/collections/public.lt_{{year}}_{{layer}}/items?limit=1&filter=id_year%20%3D%20%27{{feature}}%27",
       "type": "application/json",
       "id": "timeseries",
       "method": "GET"
