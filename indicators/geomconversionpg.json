@@ -48,8 +48,8 @@
                 "Method": "GET"
             },
             {
-                "Identifier": "lt_2024_habitat_pg",
-                "Url": "https://eoapi.workspace.baltic-gtif.hub-otc.eox.at/vector/collections/public.lt_2024_habitat_pg/items?limit=10000&filter-lang=cql2-text&filter=S_INTERSECTS(geometry,POLYGON(({{bbox.0}}%20{{bbox.1}},{{bbox.2}}%20{{bbox.1}},{{bbox.2}}%20{{bbox.3}},{{bbox.0}}%20{{bbox.3}},{{bbox.0}}%20{{bbox.1}})))",
+                "Identifier": "lt_2025_gsa_pg02ha",
+                "Url": "https://eoapi.workspace.baltic-gtif.hub-otc.eox.at/vector/collections/public.lt_2025_gsa_pg02ha/items?limit=10000&filter-lang=cql2-text&filter=S_INTERSECTS(geometry,POLYGON(({{bbox.0}}%20{{bbox.1}},{{bbox.2}}%20{{bbox.1}},{{bbox.2}}%20{{bbox.3}},{{bbox.0}}%20{{bbox.3}},{{bbox.0}}%20{{bbox.1}})))",
 		"Type": "application/json",
                 "Method": "GET"
             }
