@@ -12,8 +12,8 @@
   ],
     "Process": {
         "Name": "timeseries",
-        "JsonForm": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/LT/form_comparison_habitat.json",
-        "VegaDefinition": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/LT/vega_chart_habitat.json",
+        "JsonForm": "jsonforms/habitat.json",
+        "VegaDefinition": "chartdefs/vega_chart_habitat.json",
         "EndPoints": [
             {
                 "Identifier": "timeseries",
