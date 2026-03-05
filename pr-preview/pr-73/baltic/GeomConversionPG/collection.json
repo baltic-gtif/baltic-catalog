@@ -133,8 +133,8 @@
       "title": "Baltic GTIF Catalog"
     }
   ],
-  "eodash:jsonform": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/LT/form_conversion.json",
-  "eodash:vegadefinition": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/LT/vega_chart_conversion.json",
+  "eodash:jsonform": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main/jsonforms/conversion.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main/chartdefs/vega_chart_conversion.json",
   "title": "Conversion of Permanent Grassland (Area of Loss and Gain)",
   "extent": {
     "spatial": {
