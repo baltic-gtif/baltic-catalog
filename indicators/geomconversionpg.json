@@ -14,8 +14,8 @@
   ],
   "Process": {
         "Name": "timeseries",
-        "JsonForm": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/LT/form_conversion.json",
-        "VegaDefinition": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/LT/vega_chart_conversion.json",
+        "JsonForm": "jsonforms/conversion.json",
+        "VegaDefinition": "chartdefs/vega_chart_conversion.json",
         "EndPoints": [
             {
                 "Identifier": "lt_2024_soc_pg_loss",
