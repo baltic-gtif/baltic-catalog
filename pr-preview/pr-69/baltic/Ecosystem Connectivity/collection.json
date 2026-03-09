@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "Ecosystem Connectivity",
   "stac_version": "1.1.0",
-  "description": "",
+  "description": "indicators/lt_ecosys_connectivity/ecosys_connectivity.md",
   "links": [
     {
       "rel": "root",
