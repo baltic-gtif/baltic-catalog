@@ -1,7 +1,7 @@
 {
   "Name": "Ecosystem Connectivity",
   "Title": "Ecosystem Connectivity",
-  "Description": "",
+  "Description": "indicators/lt_ecosys_connectivity/ecosys_connectivity.md",
   "Collections": [
     "lt_stack_LULC"
     
