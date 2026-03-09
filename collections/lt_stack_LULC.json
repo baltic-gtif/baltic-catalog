@@ -1,7 +1,7 @@
 {
   "Name": "lt_stackLULC",
   "Title": "Land Cover Land Use - Stack ",
-  "Description": "indicators/lt_ecosys_connectivity/ecosys_connectivity.md",
+  "Description": "indicators/lt_ecosys_connectivity/description.md",
   "Resources": [
     {
       "Name": "COG source",
