@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "lt_stackLULC",
   "stac_version": "1.1.0",
-  "description": "LULC map created based on the availability of the following sorted datasets:\n- Habitat (from [Inspire LT](https://www.inspire-geoportal.lt/) )\n- Natura2000 sites (from [Inspire LT](https://www.inspire-geoportal.lt/) )\n- [Small Woody Features](https://land.copernicus.eu/en/products/high-resolution-layer-small-landscape-features/small-woody-features-2021)\n- [CLC+ BackBone ](https://land.copernicus.eu/en/products/clc-backbone/clcplus-backbone-2023-raster-10-m-europe-2-yearly)\n\n[Description of the stack dataset value](https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/stack_vulnerability/LULC/category_for_style.pdf)\"\n",
+  "description": "",
   "links": [
     {
       "rel": "root",
