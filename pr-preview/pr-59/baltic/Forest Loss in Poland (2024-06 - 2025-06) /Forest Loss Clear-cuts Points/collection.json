@@ -23,7 +23,7 @@
       ],
       "wms:tilesize": 256,
       "wms:version": "1.1.1",
-      "key": "184282f5-b8a6-47d4-a9bb-515ba71bb362",
+      "key": "ebe954cd-229d-4061-a192-b2f997b51797",
       "eodash:proj4_def": {
         "name": "EPSG:3857"
       }
@@ -39,10 +39,22 @@
   "eox:colorlegend": {
     "title": "Point",
     "domain": [
-      "0,11-100"
+      "0,11 - 0,5",
+      "0,5-1",
+      "1 - 2",
+      "2-3",
+      "3-4",
+      "4-5",
+      "5-100"
     ],
     "range": [
-      "#db1e2a"
+      "#1a9641",
+      "#a6d96a",
+      "#ffffbf",
+      "#fdae61",
+      "#f46d43",
+      "#d7191c",
+      "#7b0000"
     ],
     "scaleType": "categorical",
     "markType": "rect"
