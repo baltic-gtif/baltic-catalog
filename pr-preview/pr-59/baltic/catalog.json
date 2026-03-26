@@ -15,7 +15,10 @@
       "href": "./CORINE 2018 Forest Boundaries/collection.json",
       "type": "application/json",
       "title": "CORINE 2018 Forest Boundaries",
-      "id": "CORINE 2018 Forest Boundaries"
+      "id": "CORINE 2018 Forest Boundaries",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/forest_lt.png"
+      ]
     },
     {
       "rel": "child",
@@ -38,6 +41,9 @@
       "title": "Forest Loss in Poland (2024-06 - 2025-06) ",
       "code": "forest_pol_2024_06_2025_06_wms_high_medium_low",
       "id": "Forest Loss in Poland (2024-06 - 2025-06) ",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/forest_lt.png"
+      ],
       "subcode": "forest_pol_2024_06_2025_06_wms_high_medium_low",
       "eodash:mapProjection": {
         "name": "",

@@ -112,5 +112,10 @@
       ]
     }
   },
-  "license": "other"
+  "license": "other",
+  "summaries": {
+    "thumbnail": [
+      "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/forest_lt.png"
+    ]
+  }
 }
