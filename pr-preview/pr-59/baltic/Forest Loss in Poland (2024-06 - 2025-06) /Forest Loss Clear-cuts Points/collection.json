@@ -23,7 +23,7 @@
       ],
       "wms:tilesize": 256,
       "wms:version": "1.1.1",
-      "key": "065c32f9-5df8-4a63-9cbe-80f08b5c47d0",
+      "key": "0167ce22-c154-473d-adb0-2e18a1454e48",
       "eodash:proj4_def": {
         "name": "EPSG:3857"
       }
@@ -36,6 +36,17 @@
     }
   ],
   "thumbnail": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/forest_lt.png",
+  "eox:colorlegend": {
+    "title": "Point",
+    "domain": [
+      "0,11-100"
+    ],
+    "range": [
+      "#db1e2a"
+    ],
+    "scaleType": "categorical",
+    "markType": "rect"
+  },
   "eodash:proj4_def": {
     "name": "EPSG:3857"
   },

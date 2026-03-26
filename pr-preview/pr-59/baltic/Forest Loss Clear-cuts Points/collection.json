@@ -47,6 +47,17 @@
     }
   ],
   "thumbnail": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/forest_lt.png",
+  "eox:colorlegend": {
+    "title": "Point",
+    "domain": [
+      "0,11-100"
+    ],
+    "range": [
+      "#db1e2a"
+    ],
+    "scaleType": "categorical",
+    "markType": "rect"
+  },
   "title": "Forest Loss Clear-cuts Points",
   "extent": {
     "spatial": {
