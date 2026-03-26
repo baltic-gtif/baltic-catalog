@@ -1,7 +1,7 @@
 {
   "Name": "Forest Loss in Germany (2024-06 - 2025-06) ",
   "Title": "Forest Loss in Germany (2024-06 - 2025-06) ",
-  "Description": "",
+  "Description": "indicators/forest_lt/description.md",
   "Collections": [
     "forest_ger_bnd_2024_06_2025_06",
     "forest_ger_pnt_2024_06_2025_06",
