@@ -23,7 +23,7 @@
       ],
       "wms:tilesize": 256,
       "wms:version": "1.1.1",
-      "key": "805df01a-41e4-4988-9026-e73dabeda21f",
+      "key": "a1a74974-e207-4221-9e00-4984aea1d940",
       "eodash:proj4_def": {
         "name": "EPSG:3857"
       }
@@ -35,6 +35,7 @@
       "title": "Forest Loss in Germany (2024-06 - 2025-06) "
     }
   ],
+  "thumbnail": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/forest_lt.png",
   "eodash:proj4_def": {
     "name": "EPSG:3857"
   },
@@ -68,6 +69,13 @@
       "title": "GeoParquet Items",
       "roles": [
         "collection-mirror"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/forest_lt.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
       ]
     }
   }
