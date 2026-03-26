@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "CORINE 2018 Forest Boundaries",
   "stac_version": "1.1.0",
-  "description": "",
+  "description": "## Tree cover loss\n\nTree cover loss estimates, derived from Sentinel-1 polarimetry\nSAR data pre-processed with SAGRIS production system\n(https://www.sagris.eu), cover all scenarios of natural and man-made \ncauses of the loss of trees, including natural tree fall due to aging,\nsevere storms, forestry maintenance activities, as well as legal or\nillegal timber production. This service has high sensitivity (minimum\nmapping unit - 100 sq.m) and assessment of the whole winter season 2024/25 (October-April) in Baltic states (Lithuania, Latvia, Estonia). \n\n### Tree cover loss coeficient values legend\nVector map of SAGRIS tree loss coeficient shows coeficient values of area in hectares indicating tree loss.\n\n### Tree cover loss points layer legend\nPoints layer of forest clear-cuts (incl. natural forest loss) shows the center-point locations and relative sizes of the clear-cuts.\n",
   "links": [
     {
       "rel": "root",
@@ -23,7 +23,7 @@
       ],
       "wms:tilesize": 256,
       "wms:version": "1.1.1",
-      "key": "9cf3fc48-0d72-4808-b22c-93754418c47a",
+      "key": "1dad4ba8-0562-48e9-93a4-6a1ad7f94952",
       "eodash:proj4_def": {
         "name": "EPSG:3857"
       }
@@ -36,6 +36,12 @@
     }
   ],
   "thumbnail": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/forest_lt.png",
+  "eox:colorlegend": {
+    "title": "CORINE Forest Boundary",
+    "range": [
+      "#20d210"
+    ]
+  },
   "eodash:proj4_def": {
     "name": "EPSG:3857"
   },
