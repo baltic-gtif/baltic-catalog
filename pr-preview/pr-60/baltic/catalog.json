@@ -17,7 +17,7 @@
       "title": "CORINE 2018 Forest Boundaries",
       "id": "CORINE 2018 Forest Boundaries",
       "thumbnail": [
-        "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/sm_at.png"
+        "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/forest_lt.png"
       ]
     },
     {
@@ -41,7 +41,7 @@
       "title": "Forest Loss in Germany (2024-06 - 2025-06) ",
       "id": "Forest Loss in Germany (2024-06 - 2025-06) ",
       "thumbnail": [
-        "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/sm_at.png"
+        "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/forest_lt.png"
       ],
       "eodash:mapProjection": {
         "name": "",
