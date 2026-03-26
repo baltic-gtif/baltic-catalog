@@ -23,7 +23,7 @@
       ],
       "wms:tilesize": 256,
       "wms:version": "1.1.1",
-      "key": "cedbc06f-2397-4ec3-a139-c461da2fdd5a",
+      "key": "4e26ada7-aa8f-4050-924b-943ce3ccccf5",
       "eodash:proj4_def": {
         "name": "EPSG:3857"
       }
@@ -35,6 +35,7 @@
       "title": "CORINE 2018 Forest Boundaries"
     }
   ],
+  "thumbnail": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/sm_at.png",
   "eodash:proj4_def": {
     "name": "EPSG:3857"
   },
@@ -68,6 +69,13 @@
       "title": "GeoParquet Items",
       "roles": [
         "collection-mirror"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/sm_at.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
       ]
     }
   }
