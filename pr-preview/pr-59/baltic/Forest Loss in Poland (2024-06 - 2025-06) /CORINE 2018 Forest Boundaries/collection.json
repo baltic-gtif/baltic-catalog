@@ -23,7 +23,7 @@
       ],
       "wms:tilesize": 256,
       "wms:version": "1.1.1",
-      "key": "b1652ad0-974e-4dae-9e0c-8f6abc867172",
+      "key": "2e351884-331c-406d-9cb4-51035b1673b1",
       "eodash:proj4_def": {
         "name": "EPSG:3857"
       }
@@ -37,12 +37,12 @@
   ],
   "thumbnail": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/forest_lt.png",
   "eox:colorlegend": {
-    "title": "CORINE Forest Boundary",
+    "title": "CORINE Forest Boundary 1",
     "range": [
       "#20d210"
     ],
     "domain": [
-      "CORINE Forest Boundary"
+      "CORINE Forest Boundary 1"
     ],
     "scaleType": "categorical",
     "markType": "rect"
