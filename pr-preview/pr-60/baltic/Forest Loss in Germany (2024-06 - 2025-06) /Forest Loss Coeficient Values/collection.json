@@ -11,120 +11,6 @@
       "title": "Baltic GTIF Catalog"
     },
     {
-      "rel": "item",
-      "href": "./Forest Loss Coeficient Values/2024/2024-06-01T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2024-06-01T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./Forest Loss Coeficient Values/2024/2024-06-21T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2024-06-21T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./Forest Loss Coeficient Values/2024/2024-07-11T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2024-07-11T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./Forest Loss Coeficient Values/2024/2024-07-31T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2024-07-31T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./Forest Loss Coeficient Values/2024/2024-08-20T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2024-08-20T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./Forest Loss Coeficient Values/2024/2024-09-09T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2024-09-09T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./Forest Loss Coeficient Values/2024/2024-09-29T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2024-09-29T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./Forest Loss Coeficient Values/2024/2024-10-19T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2024-10-19T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./Forest Loss Coeficient Values/2024/2024-11-08T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2024-11-08T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./Forest Loss Coeficient Values/2024/2024-11-28T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2024-11-28T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./Forest Loss Coeficient Values/2024/2024-12-18T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2024-12-18T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./Forest Loss Coeficient Values/2025/2025-01-07T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2025-01-07T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./Forest Loss Coeficient Values/2025/2025-01-27T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2025-01-27T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./Forest Loss Coeficient Values/2025/2025-02-16T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2025-02-16T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./Forest Loss Coeficient Values/2025/2025-03-08T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2025-03-08T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./Forest Loss Coeficient Values/2025/2025-03-28T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2025-03-28T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./Forest Loss Coeficient Values/2025/2025-04-17T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2025-04-17T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./Forest Loss Coeficient Values/2025/2025-05-07T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2025-05-07T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./Forest Loss Coeficient Values/2025/2025-05-27T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2025-05-27T00:00:00Z"
-    },
-    {
       "rel": "wms",
       "href": "https://server1.landimage.info/geoserver/wms",
       "type": "image/jpeg",
@@ -137,6 +23,7 @@
       ],
       "wms:tilesize": 256,
       "wms:version": "1.1.1",
+      "key": "f0cfedd2-4b33-464c-aeb4-6d2b5ca65485",
       "eodash:proj4_def": {
         "name": "EPSG:3857"
       }
@@ -201,5 +88,15 @@
       ]
     }
   },
-  "license": "other"
+  "license": "other",
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    }
+  }
 }
