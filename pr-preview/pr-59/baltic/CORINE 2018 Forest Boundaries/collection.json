@@ -51,6 +51,9 @@
     "title": "CORINE Forest Boundary",
     "range": [
       "#20d210"
+    ],
+    "domain": [
+      "Boundaries"
     ]
   },
   "title": "CORINE 2018 Forest Boundaries",

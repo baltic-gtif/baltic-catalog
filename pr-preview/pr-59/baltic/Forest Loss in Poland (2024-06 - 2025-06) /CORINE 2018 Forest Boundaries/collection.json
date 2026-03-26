@@ -23,7 +23,7 @@
       ],
       "wms:tilesize": 256,
       "wms:version": "1.1.1",
-      "key": "1dad4ba8-0562-48e9-93a4-6a1ad7f94952",
+      "key": "c36ab7b2-57f7-47db-b0ca-6d2bb4ccd91e",
       "eodash:proj4_def": {
         "name": "EPSG:3857"
       }
@@ -40,6 +40,9 @@
     "title": "CORINE Forest Boundary",
     "range": [
       "#20d210"
+    ],
+    "domain": [
+      "Boundaries"
     ]
   },
   "eodash:proj4_def": {
