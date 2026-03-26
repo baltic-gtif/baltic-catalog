@@ -23,7 +23,7 @@
       ],
       "wms:tilesize": 256,
       "wms:version": "1.1.1",
-      "key": "6f655b0c-6477-4c0c-b626-1b7532df8612",
+      "key": "266faa9f-fc2b-4511-8a9b-58becfc8dc35",
       "eodash:proj4_def": {
         "name": "EPSG:3857"
       }
@@ -42,7 +42,7 @@
       "#20d210"
     ],
     "domain": [
-      "0"
+      "CORINE Forest Boundary"
     ],
     "scaleType": "categorical",
     "markType": "rect"
