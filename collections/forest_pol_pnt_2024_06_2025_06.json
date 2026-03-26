@@ -24,5 +24,6 @@
         "name": "EPSG:3857"
       }
     }
-  ]
+  ],
+  "Image": "thumbnails/forest_lt.png"
 }
