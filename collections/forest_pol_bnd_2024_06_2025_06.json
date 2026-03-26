@@ -33,7 +33,7 @@
     "domain": [
       "0"
     ],
-    "scaleType": "discrete",
+    "scaleType": "categorical",
     "markType": "rect"
   },
   "Image": "thumbnails/forest_lt.png"
