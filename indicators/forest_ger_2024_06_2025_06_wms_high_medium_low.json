@@ -1,7 +1,6 @@
 {
   "Name": "Forest Loss in Germany (2024-06 - 2025-06) ",
   "Title": "Forest Loss in Germany (2024-06 - 2025-06) ",
-  "EodashIdentifier": "forest_ger_2024_06_2025_06_wms_high_medium_low",
   "Description": "",
   "Collections": [
     "forest_ger_bnd_2024_06_2025_06",
@@ -37,5 +36,6 @@
       15.208715624134541,
       55.65423392583931
     ]
-  }
+  },
+  "Image": "thumbnails/forest_lt.png"
 }
