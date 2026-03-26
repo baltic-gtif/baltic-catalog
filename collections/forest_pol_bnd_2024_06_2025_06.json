@@ -32,7 +32,9 @@
     ],
     "domain": [
       "0"
-    ]
+    ],
+    "scaleType": "discrete",
+    "markType": "rect"
   },
   "Image": "thumbnails/forest_lt.png"
 }
