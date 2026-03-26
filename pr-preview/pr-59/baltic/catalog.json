@@ -25,7 +25,10 @@
       "href": "./Forest Loss Coeficient Values/collection.json",
       "type": "application/json",
       "title": "Forest Loss Coeficient Values",
-      "id": "Forest Loss Coeficient Values"
+      "id": "Forest Loss Coeficient Values",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/forest_lt.png"
+      ]
     },
     {
       "rel": "child",

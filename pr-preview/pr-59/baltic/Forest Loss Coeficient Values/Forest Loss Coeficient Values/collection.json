@@ -23,7 +23,7 @@
       ],
       "wms:tilesize": 256,
       "wms:version": "1.1.1",
-      "key": "55af46b0-68d0-4696-98d3-183c7c85be29",
+      "key": "755796f8-d31f-4923-aa10-85b08ccc8c9b",
       "eodash:proj4_def": {
         "name": "EPSG:3857"
       }
@@ -35,6 +35,7 @@
       "title": "Forest Loss Coeficient Values"
     }
   ],
+  "thumbnail": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/forest_lt.png",
   "eox:colorlegend": {
     "title": "Forest Loss",
     "domain": [
@@ -97,6 +98,13 @@
       "title": "GeoParquet Items",
       "roles": [
         "collection-mirror"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/forest_lt.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
       ]
     }
   }
