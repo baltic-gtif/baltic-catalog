@@ -26,12 +26,11 @@
     }
   ],
   "Colorlegend": {
-    "title": "CORINE Forest Boundary 1",
     "range": [
       "#20d210"
     ],
     "domain": [
-      "CORINE Forest Boundary 1"
+      "Forest Boundary"
     ],
     "scaleType": "categorical",
     "markType": "rect"
