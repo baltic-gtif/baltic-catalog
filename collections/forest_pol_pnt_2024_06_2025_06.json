@@ -25,5 +25,16 @@
       }
     }
   ],
-  "Image": "thumbnails/forest_lt.png"
+  "Image": "thumbnails/forest_lt.png",
+  "Colorlegend": {
+    "title": "Point",
+    "domain": [
+      "0,11-100"
+    ],
+    "range": [
+      "#db1e2a"
+    ],
+    "scaleType": "categorical",
+    "markType": "rect"
+  }
 }
