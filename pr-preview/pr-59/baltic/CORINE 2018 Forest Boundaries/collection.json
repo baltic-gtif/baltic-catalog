@@ -55,7 +55,7 @@
     "domain": [
       "0"
     ],
-    "scaleType": "discrete",
+    "scaleType": "categorical",
     "markType": "rect"
   },
   "title": "CORINE 2018 Forest Boundaries",
