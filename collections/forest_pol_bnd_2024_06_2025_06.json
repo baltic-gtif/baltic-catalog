@@ -29,6 +29,9 @@
     "title": "CORINE Forest Boundary",
     "range": [
       "#20d210"
+    ],
+    "domain": [
+      "Boundaries"
     ]
   },
   "Image": "thumbnails/forest_lt.png"
