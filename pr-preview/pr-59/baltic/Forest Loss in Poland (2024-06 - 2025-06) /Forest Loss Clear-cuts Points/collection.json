@@ -23,7 +23,7 @@
       ],
       "wms:tilesize": 256,
       "wms:version": "1.1.1",
-      "key": "b571d7e7-f940-4f3a-bcae-d74a8b8b3675",
+      "key": "b502edfe-1884-45f8-8b83-8e9ff69a7d22",
       "eodash:proj4_def": {
         "name": "EPSG:3857"
       }
@@ -35,6 +35,7 @@
       "title": "Forest Loss in Poland (2024-06 - 2025-06) "
     }
   ],
+  "thumbnail": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/forest_lt.png",
   "eodash:proj4_def": {
     "name": "EPSG:3857"
   },
@@ -68,6 +69,13 @@
       "title": "GeoParquet Items",
       "roles": [
         "collection-mirror"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/forest_lt.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
       ]
     }
   }
