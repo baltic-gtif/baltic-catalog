@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "forest_lit_lat_est_2025_winter_pnt",
+  "id": "forest_lit_05",
   "stac_version": "1.1.0",
   "description": "",
   "links": [
@@ -14,48 +14,43 @@
       "rel": "wms",
       "href": "https://server1.landimage.info/geoserver/gwc/service/wms",
       "type": "image/jpeg",
-      "title": "Forest Loss Clear-cuts Points In 2025 Winter",
+      "title": "Forest Loss in 2024 05",
       "wms:layers": [
-        "GTIFBaltic:LIT_LAT_EST_2025_forest_cuts_winter_pnt"
+        "GTIFBaltic:LIT_2024_forest_cuts_m05"
       ],
       "role": [
         "data"
       ],
       "wms:tilesize": 256,
       "wms:version": "1.1.1",
-      "key": "84fece6e-348f-420b-9e81-7f38190d1876"
+      "key": "b1af00b4-2687-4760-b6f0-d26873d47ccc"
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Forest Loss Clear-cuts Points In 2025 Winter"
+      "title": "Forest Loss in Lithuania 2024 05-09"
     }
   ],
   "thumbnail": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/forest_lt.png",
-  "eox:colorlegend": {
-    "title": "",
-    "range": [],
-    "domain": []
-  },
   "endpointtype": "WMS_OverwriteTimes",
-  "title": "Forest Loss Clear-cuts Points In 2025 Winter",
+  "title": "Forest Loss in 2024 05",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          20.317059676354628,
-          53.6916146989355,
-          28.65253032037603,
-          59.95282075873038
+          0.0,
+          45.0,
+          45.0,
+          90.0
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2024-06-01T00:00:00Z",
-          "2025-06-01T00:00:00Z"
+          "2024-05-01T00:00:00Z",
+          "2024-05-31T00:00:00Z"
         ]
       ]
     }
