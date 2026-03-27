@@ -23,7 +23,7 @@
       ],
       "wms:tilesize": 256,
       "wms:version": "1.1.1",
-      "key": "c726fd6f-1d13-4f7d-9923-b10ac541ad71",
+      "key": "cce2decd-2659-4924-9264-163f435403c9",
       "eodash:proj4_def": {
         "name": "EPSG:3857"
       }
@@ -60,7 +60,7 @@
       "#e85b3b",
       "#fec980",
       "#ffedaa",
-      "#d7191c"
+      "#d7191c "
     ],
     "scaleType": "categorical",
     "markType": "rect"
