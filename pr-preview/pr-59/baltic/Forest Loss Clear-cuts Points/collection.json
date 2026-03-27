@@ -50,7 +50,7 @@
   "eox:colorlegend": {
     "title": "Size of Clear-cuts (ha)",
     "domain": [
-      "0,11-0,5",
+      "0,1-0,5",
       "0,5-1",
       "1-2",
       "2-3",
