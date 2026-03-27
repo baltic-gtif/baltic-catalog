@@ -1,1 +1,30 @@
-{}
+{
+  "Name": "forest_lit_lat_est_2025_winter_pix",
+  "Title": "Forest Loss Coeficient Values",
+  "Description": "",
+  "Resources": [
+    {
+      "Name": "WMS",
+      "EndPoint": "https://server1.landimage.info/geoserver/wms",
+      "LayerId": "GTIFBaltic:LIT_LAT_EST_2025_forest_cuts_winter_pix",
+      "Type": "OverwriteTimes",
+      "DataProjection": {
+        "name": "EPSG:3857"
+      },
+      "DateTimeInterval": {
+        "Start": "2024-10-01T00:00:00Z",
+        "End": "2025-04-30:00:00Z\"",
+        "Timedelta": {}
+      },
+      "Version": "1.1.1",
+      "OverwriteBBox": [
+        20.600197028938098,
+        53.745079732563575,
+        28.37651914716472,
+        59.77429864361153
+      ]
+    }
+  ],
+  "Colorlegend": {},
+  "Image": "thumbnails/forest_lt.png"
+}
