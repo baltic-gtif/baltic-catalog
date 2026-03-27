@@ -1,0 +1,127 @@
+{
+  "type": "Catalog",
+  "id": "baltic",
+  "stac_version": "1.1.0",
+  "description": "This catalog definition is done for the Baltic GTIF project.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./catalog.json",
+      "type": "application/json",
+      "title": "Baltic GTIF Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./forest_lit_05/collection.json",
+      "type": "application/json",
+      "title": "Forest Loss in 2024 05",
+      "id": "forest_lit_05",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/forest_lt.png"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./forest_lit_06/collection.json",
+      "type": "application/json",
+      "title": "Forest Loss in 2024 06",
+      "id": "forest_lit_06",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/forest_lt.png"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./forest_lt_07/collection.json",
+      "type": "application/json",
+      "title": "Forest Loss in 2024 07",
+      "id": "forest_lt_07",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/forest_lt.png"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./forest_lit_08/collection.json",
+      "type": "application/json",
+      "title": "Forest Loss in 2024 08",
+      "id": "forest_lit_08"
+    },
+    {
+      "rel": "child",
+      "href": "./forest_lt_09/collection.json",
+      "type": "application/json",
+      "title": "Forest Loss in 2024 09",
+      "id": "forest_lt_09",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/forest_lt.png"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./forest_lit_lat_est_2025_winter_pix/collection.json",
+      "type": "application/json",
+      "title": "Forest Loss Coeficient Values",
+      "id": "forest_lit_lat_est_2025_winter_pix",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/forest_lt.png"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./forest_lit_lat_est_2025_winter_pnt/collection.json",
+      "type": "application/json",
+      "title": "Forest Loss Clear-cuts Points In 2025 Winter",
+      "id": "forest_lit_lat_est_2025_winter_pnt",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/forest_lt.png"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./forest_lit_lat_est_2025_winter/collection.json",
+      "type": "application/json",
+      "title": "Forest Loss In Baltic States 2025 winter",
+      "id": "forest_lit_lat_est_2025_winter",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/forest_lt.png"
+      ],
+      "eodash:mapProjection": {
+        "name": "",
+        "def": "",
+        "extent": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      }
+    },
+    {
+      "rel": "child",
+      "href": "./forest_lt_m05-09/collection.json",
+      "type": "application/json",
+      "title": "Forest Loss in Lithuania 2024 05-09",
+      "id": "forest_lt_m05-09",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/forest_lt.png"
+      ],
+      "eodash:mapProjection": {
+        "name": "",
+        "def": "",
+        "extent": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      }
+    },
+    {
+      "rel": "self",
+      "href": "https://baltic-gtif.github.io/baltic-gtif/baltic-catalog/catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "title": "Baltic GTIF Catalog"
+}

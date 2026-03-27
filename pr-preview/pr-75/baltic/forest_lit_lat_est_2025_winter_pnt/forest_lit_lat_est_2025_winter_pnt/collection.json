@@ -1,0 +1,81 @@
+{
+  "type": "Collection",
+  "id": "forest_lit_lat_est_2025_winter_pnt",
+  "stac_version": "1.1.0",
+  "description": "",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Baltic GTIF Catalog"
+    },
+    {
+      "rel": "wms",
+      "href": "https://server1.landimage.info/geoserver/gwc/service/wms",
+      "type": "image/jpeg",
+      "title": "Forest Loss Clear-cuts Points In 2025 Winter",
+      "wms:layers": [
+        "GTIFBaltic:LIT_LAT_EST_2025_forest_cuts_winter_pnt"
+      ],
+      "role": [
+        "data"
+      ],
+      "wms:tilesize": 256,
+      "wms:version": "1.1.1",
+      "key": "3255897d-cbb2-472d-9d80-a100fe52d4b5"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Forest Loss Clear-cuts Points In 2025 Winter"
+    }
+  ],
+  "thumbnail": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/forest_lt.png",
+  "eox:colorlegend": {
+    "title": "",
+    "range": [],
+    "domain": []
+  },
+  "endpointtype": "WMS_OverwriteTimes",
+  "title": "Forest Loss Clear-cuts Points In 2025 Winter",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          20.317059676354628,
+          53.6916146989355,
+          28.65253032037603,
+          59.95282075873038
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-06-01T00:00:00Z",
+          "2025-06-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/forest_lt.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}
