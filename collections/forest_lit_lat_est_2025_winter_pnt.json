@@ -26,5 +26,9 @@
     }
   ],
   "Image": "thumbnails/forest_lt.png",
-  "Colorlegend": {}
+  "Colorlegend": {
+    "title": "",
+    "range": [],
+    "domain": []
+  }
 }
