@@ -23,7 +23,7 @@
       ],
       "wms:tilesize": 256,
       "wms:version": "1.1.1",
-      "key": "5ee75fab-2c07-430a-ac2f-56423a0a4b25",
+      "key": "c4c3d6ef-2454-4f30-b3ae-01ff35aa9b57",
       "eodash:proj4_def": {
         "name": "EPSG:3857"
       }
@@ -36,6 +36,16 @@
     }
   ],
   "thumbnail": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/forest_lt.png",
+  "eox:colorlegend": {
+    "range": [
+      "#20d210"
+    ],
+    "domain": [
+      "Forest Boundary"
+    ],
+    "scaleType": "categorical",
+    "markType": "rect"
+  },
   "eodash:proj4_def": {
     "name": "EPSG:3857"
   },

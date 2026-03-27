@@ -47,6 +47,16 @@
     }
   ],
   "thumbnail": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/forest_lt.png",
+  "eox:colorlegend": {
+    "range": [
+      "#20d210"
+    ],
+    "domain": [
+      "Forest Boundary"
+    ],
+    "scaleType": "categorical",
+    "markType": "rect"
+  },
   "title": "CORINE 2018 Forest Boundaries",
   "extent": {
     "spatial": {
