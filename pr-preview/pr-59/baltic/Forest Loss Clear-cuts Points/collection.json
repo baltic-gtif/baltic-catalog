@@ -48,24 +48,24 @@
   ],
   "thumbnail": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/forest_lt.png",
   "eox:colorlegend": {
-    "title": "Point",
+    "title": "Size of Clear-cuts (ha)",
     "domain": [
-      "0,11",
-      "0,5",
-      "1",
-      "2",
-      "3",
-      "4",
+      "0,11-0,5",
+      "0,5-1",
+      "1-2",
+      "2-3",
+      "3-4",
+      "4-5",
       "5-100"
     ],
     "range": [
-      "#1a9641",
-      "#a6d96a",
-      "#ffffbf",
-      "#fdae61",
-      "#f46d43",
-      "#d7191c",
-      "#7b0000"
+      "#ffffb2",
+      "#fecc5c",
+      "#fd8d3c",
+      "#f03b20",
+      "#e31a1c",
+      "#bd0026",
+      "#800026"
     ],
     "scaleType": "categorical",
     "markType": "rect"
