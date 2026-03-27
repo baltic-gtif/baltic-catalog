@@ -25,5 +25,28 @@
       }
     }
   ],
-  "Image": "thumbnails/forest_lt.png"
+  "Image": "thumbnails/forest_lt.png",
+  "Colorlegend": {
+    "title": "Size of Clear-cuts (ha)",
+    "domain": [
+      "0,11-0,5",
+      "0,5-1",
+      "1-2",
+      "2-3",
+      "3-4",
+      "4-5",
+      "5-100"
+    ],
+    "range": [
+      "#ffffb2",
+      "#fecc5c",
+      "#fd8d3c",
+      "#f03b20",
+      "#e31a1c",
+      "#bd0026",
+      "#800026"
+    ],
+    "scaleType": "categorical",
+    "markType": "rect"
+  }
 }
