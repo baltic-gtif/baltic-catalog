@@ -54,7 +54,8 @@
       75,
       96
     ],
-    "scaleType": "categorical"
+    "scaleType": "categorical",
+    "markType": "line"
   },
   "Image": "thumbnails/forest_lt.png"
 }
