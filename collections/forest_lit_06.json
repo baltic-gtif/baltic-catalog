@@ -1,1 +1,23 @@
-{}
+{
+  "Name": "forest_lit_06",
+  "Title": "Forest Loss in 2024 06",
+  "Description": "",
+  "Resources": [
+    {
+      "Name": "WMS",
+      "EndPoint": "https://server1.landimage.info/geoserver/gwc/service/wms",
+      "LayerId": "FROMSAT:GER_forest_p50_2024_06_minus_2025_06",
+      "Type": "OverwriteTimes",
+      "TileSize": 256,
+      "DateTimeInterval": {
+        "Start": "2024-06-01T00:00:00Z",
+        "End": "2024-06-30T00:00:00Z"
+      },
+      "Version": "1.1.1",
+      "DataProjection": {
+        "name": "EPSG:3857"
+      }
+    }
+  ],
+  "Image": "thumbnails/forest_lt.png"
+}
