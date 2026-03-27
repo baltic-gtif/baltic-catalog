@@ -23,7 +23,7 @@
       ],
       "wms:tilesize": 256,
       "wms:version": "1.1.1",
-      "key": "a5454b38-689e-4fa2-a187-d94466113fa9",
+      "key": "63ccbc59-a946-4fc0-9759-3bb7ca543879",
       "eodash:proj4_def": {
         "name": "EPSG:3857"
       }
@@ -39,13 +39,13 @@
   "eox:colorlegend": {
     "title": "Size of Clear-cuts (ha)",
     "domain": [
-      "0,1-0,5",
-      "0,5-1",
-      "1-2",
-      "2-3",
-      "3-4",
-      "4-5",
-      "5-100"
+      "0,1",
+      "0,5",
+      "1",
+      "2",
+      "3",
+      "4",
+      ">5"
     ],
     "range": [
       "#ffffb2",
