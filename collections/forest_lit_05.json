@@ -1,0 +1,20 @@
+{
+  "Name": "forest_lit_05",
+  "Title": "Forest Loss in 2024 05",
+  "Description": "",
+  "Resources": [
+    {
+      "Name": "WMS",
+      "EndPoint": "https://server1.landimage.info/geoserver/gwc/service/wms",
+      "LayerId": "GTIFBaltic:LIT_2024_forest_cuts_m05",
+      "Type": "OverwriteTimes",
+      "TileSize": 256,
+      "Version": "1.1.1",
+      "DateTimeInterval": {
+        "Start": "2024-05-01T00:00:00Z",
+        "End": "2024-05-31:00:00Z"
+      }
+    }
+  ],
+  "Image": "thumbnails/forest_lt.png"
+}

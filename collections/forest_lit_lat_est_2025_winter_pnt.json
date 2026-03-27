@@ -1,0 +1,34 @@
+{
+  "Name": "forest_lit_lat_est_2025_winter_pnt",
+  "Title": "Forest Loss Clear-cuts Points In 2025 Winter",
+  "Description": "",
+  "Resources": [
+    {
+      "Name": "WMS",
+      "EndPoint": "https://server1.landimage.info/geoserver/gwc/service/wms",
+      "LayerId": "GTIFBaltic:LIT_LAT_EST_2025_forest_cuts_winter_pnt",
+      "Type": "OverwriteTimes",
+      "TileSize": 256,
+      "OverwriteBBox": [
+        20.317059676354628,
+        53.6916146989355,
+        28.65253032037603,
+        59.95282075873038
+      ],
+      "DateTimeInterval": {
+        "Start": "2024-06-01T00:00:00Z",
+        "End": "2025-06-01T00:00:00Z",
+        "Timedelta": {
+          "days": 1
+        }
+      },
+      "Version": "1.1.1"
+    }
+  ],
+  "Image": "thumbnails/forest_lt.png",
+  "Colorlegend": {
+    "title": "",
+    "range": [],
+    "domain": []
+  }
+}
