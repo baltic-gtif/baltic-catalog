@@ -74,7 +74,7 @@
       96
     ],
     "scaleType": "categorical",
-    "markType": "line"
+    "markType": "rect"
   },
   "title": "Forest Loss Coeficient Values",
   "extent": {
