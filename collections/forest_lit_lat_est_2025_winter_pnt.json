@@ -17,7 +17,10 @@
       ],
       "DateTimeInterval": {
         "Start": "2024-06-01T00:00:00Z",
-        "End": "2025-06-01T00:00:00Z"
+        "End": "2025-06-01T00:00:00Z",
+        "Timedelta": {
+          "days": 1
+        }
       },
       "Version": "1.1.1"
     }
