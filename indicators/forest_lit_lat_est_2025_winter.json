@@ -1,6 +1,6 @@
 {
-  "Name": "",
-  "Title": "",
+  "Name": "forest_lit_lat_est_2025_winter",
+  "Title": "Forest Loss In Baltic States 2025 winter",
   "Description": "",
   "Themes": [],
   "Tags": [],
@@ -67,5 +67,8 @@
   "Legend": "",
   "Disable": [],
   "Hidden": [],
-  "Collections": []
+  "Collections": [
+    "forest_lit_lat_est_2025_winter_pix",
+    "forest_lit_lat_est_2025_winter_pnt"
+  ]
 }
