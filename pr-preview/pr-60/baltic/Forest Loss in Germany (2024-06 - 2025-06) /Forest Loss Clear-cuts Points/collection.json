@@ -23,7 +23,7 @@
       ],
       "wms:tilesize": 256,
       "wms:version": "1.1.1",
-      "key": "d0b080cc-23fd-46e2-abb1-b239f957f50d",
+      "key": "b8c073fb-9184-49cc-9b5e-e9d1f49db0ef",
       "eodash:proj4_def": {
         "name": "EPSG:3857"
       }
@@ -36,6 +36,29 @@
     }
   ],
   "thumbnail": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/forest_lt.png",
+  "eox:colorlegend": {
+    "title": "Size of Clear-cuts (ha)",
+    "domain": [
+      "0,11-0,5",
+      "0,5-1",
+      "1-2",
+      "2-3",
+      "3-4",
+      "4-5",
+      "5-100"
+    ],
+    "range": [
+      "#ffffb2",
+      "#fecc5c",
+      "#fd8d3c",
+      "#f03b20",
+      "#e31a1c",
+      "#bd0026",
+      "#800026"
+    ],
+    "scaleType": "categorical",
+    "markType": "rect"
+  },
   "eodash:proj4_def": {
     "name": "EPSG:3857"
   },
