@@ -47,6 +47,6 @@
       "#800026"
     ],
     "scaleType": "categorical",
-    "markType": "rect"
+    "markType": "circle"
   }
 }
