@@ -12,10 +12,7 @@
       "Version": "1.1.1",
       "DateTimeInterval": {
         "Start": "2024-05-01T00:00:00Z",
-        "End": "2024-05-31:00:00Z",
-        "Timedelta": {
-          "days": 31
-        }
+        "End": "2024-05-31:00:00Z"
       }
     }
   ],
