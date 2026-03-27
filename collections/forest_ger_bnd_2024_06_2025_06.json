@@ -26,5 +26,14 @@
     }
   ],
   "Image": "thumbnails/forest_lt.png",
-  "Colorlegend": {}
+  "Colorlegend": {
+    "range": [
+      "#20d210"
+    ],
+    "domain": [
+      "Forest Boundary"
+    ],
+    "scaleType": "categorical",
+    "markType": "rect"
+  }
 }
