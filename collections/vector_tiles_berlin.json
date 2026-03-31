@@ -11,7 +11,8 @@
           "Time": "20210321",
           "Url": "https://baltic-gtif.ohb-ds.de/gateway/tipg/collections/public.public___berlin_v0319_a01/tiles/WebMercatorQuad/{z}/{x}/{y}"
         }
-      ]
+      ],
+      "Style": " https://obs.eu-nl.otc.t-systems.com/baltic-gtif/public/vector_tiles_berlin_style.json?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=UILHYPJOOCRS4UQ4A2HF%2F20260331%2Feu-nl%2Fs3%2Faws4_request&X-Amz-Date=20260331T174838Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=2d7fbb662327c94673116375f04eec011a9c8896a2c092da4d146e1fc35da2ca"
     }
   ]
 }
