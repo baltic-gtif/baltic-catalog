@@ -1,0 +1,7 @@
+{
+    "Name": "vector_tiles_berlin_indicator",
+    "Title": "lst_ee",
+    "EodashIdentifier": "ector_tiles_berlin",
+    "Description": "...",
+    "Collections": ["vector_tiles_berlin"]
+}
