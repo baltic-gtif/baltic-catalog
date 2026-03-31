@@ -12,6 +12,13 @@
     },
     {
       "rel": "child",
+      "href": "./collection_vector_tiles_berlin/collection.json",
+      "type": "application/json",
+      "title": "Berlin Vector Tiles",
+      "id": "collection_vector_tiles_berlin"
+    },
+    {
+      "rel": "child",
       "href": "./vector_tiles/collection.json",
       "type": "application/json",
       "title": "vector_tiles",
