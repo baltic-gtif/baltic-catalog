@@ -1,0 +1,24 @@
+{
+  "Name": "collection_vector_tiles_berlin",
+  "Title": "Berlin Vector Tiles",
+  "Description": "Vector tile layer for Berlin dataset served via TiPg",
+  "Resources": [
+    {
+      "Name": "VectorTile source",
+      "layers": ["public.public___berlin_v0319_a01"],
+      "idProperty": "id",
+      "TimeEntries": [
+        {
+          "Time": "20210321",
+          "Assets": [
+            {
+              "Identifier": "berlin_vector_tiles",
+              "Type": "VectorTile",
+              "URL": "https://baltic-gtif.ohb-ds.de/gateway/tipg/collections/public.public___berlin_v0319_a01/tiles/WebMercatorQuad/{z}/{x}/{y}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
