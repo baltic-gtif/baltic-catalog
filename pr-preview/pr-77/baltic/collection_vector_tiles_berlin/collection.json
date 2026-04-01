@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "collection_vector_tiles_berlin",
   "stac_version": "1.1.0",
-  "description": "Vector tile layer for Berlin dataset served via TiPg",
+  "description": "Vector tile layer for Berlin dataset served via TiPg ",
   "links": [
     {
       "rel": "root",
