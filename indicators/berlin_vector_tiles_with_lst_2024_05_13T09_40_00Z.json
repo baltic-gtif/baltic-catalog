@@ -4,5 +4,8 @@
     "EodashIdentifier": "berlin_vector_tiles_with_lst_2024_05_13T09_40_00Z",
     "Description": "...",
     "Bbox": [22.64524, 54.94676, 23.02416, 55.30585],
-    "Collections": ["vector_tiles_berlin", "berlin_v0319_a01_d01_2024-05-13T09_40_00Z"]
+    "Collections": [
+        "berlin_v0319_a01_d01_2024-05-13T09_40_00Z",
+        "vector_tiles_berlin"
+    ]
 }
