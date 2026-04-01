@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "berlin_v0319_a01_d01_rasters",
+  "id": "berlin_v0319_a01_d01_cogs",
   "stac_version": "1.1.0",
   "description": "....",
   "links": [
@@ -22,11 +22,11 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "berlin_v0319_a01_d01_rasters"
+      "title": "berlin_v0319_a01_d01_cogs"
     }
   ],
   "endpointtype": "COG source",
-  "title": "berlin_v0319_a01_d01_rasters",
+  "title": "berlin_v0319_a01_d01_cogs",
   "extent": {
     "spatial": {
       "bbox": [

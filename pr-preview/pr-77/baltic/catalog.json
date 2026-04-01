@@ -12,10 +12,10 @@
     },
     {
       "rel": "child",
-      "href": "./berlin_v0319_a01_d01_rasters/collection.json",
+      "href": "./berlin_v0319_a01_d01_cogs/collection.json",
       "type": "application/json",
-      "title": "berlin_v0319_a01_d01_rasters",
-      "id": "berlin_v0319_a01_d01_rasters"
+      "title": "berlin_v0319_a01_d01_cogs",
+      "id": "berlin_v0319_a01_d01_cogs"
     },
     {
       "rel": "child",
@@ -23,6 +23,15 @@
       "type": "application/json",
       "title": "Berlin Vector Tiles",
       "id": "collection_vector_tiles_berlin"
+    },
+    {
+      "rel": "child",
+      "href": "./berlin_vector_tiles_with_lst_cogs/collection.json",
+      "type": "application/json",
+      "title": "berlin_vector_tiles_with_lst_cogs",
+      "code": "berlin_vector_tiles_with_lst_cogs",
+      "id": "berlin_vector_tiles_with_lst_cogs",
+      "subcode": "berlin_vector_tiles_with_lst_cogs"
     },
     {
       "rel": "self",
