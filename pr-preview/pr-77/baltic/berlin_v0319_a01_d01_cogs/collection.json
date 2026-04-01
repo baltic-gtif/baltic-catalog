@@ -19,6 +19,13 @@
       "id": "berlin_v0319_a01_d01_cogs"
     },
     {
+      "rel": "service",
+      "href": "",
+      "type": "application/geo+json",
+      "id": "",
+      "method": "GET"
+    },
+    {
       "rel": "xyz",
       "href": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "image/jpeg",
