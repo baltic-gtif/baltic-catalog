@@ -7,10 +7,10 @@
       "Name": "COG source",
       "Style": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/UEPM/LST_turbo_style.json",
       "Bbox": [
-        -38.099999999999966,
-        -10.115625000000009,
-        84.9,
-        73.28437499999998
+        13.0884,
+        52.3383,
+        13.7611,
+        52.6755
       ],
       "TimeEntries": [
         {
