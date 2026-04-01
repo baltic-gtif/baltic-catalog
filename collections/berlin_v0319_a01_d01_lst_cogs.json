@@ -33,5 +33,15 @@
         }
       ]
     }
-  ]
+  ],
+  "Process": {
+    "JsonForm": "",
+    "EndPoints": [
+      {
+        "Identifier": "",
+        "Url": "",
+        "Type": "application/geo+json"
+      }
+    ]
+  }
 }
