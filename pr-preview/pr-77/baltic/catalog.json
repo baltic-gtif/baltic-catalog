@@ -12,10 +12,10 @@
     },
     {
       "rel": "child",
-      "href": "./berlin_v0319_a01_d01_2024-05-13T09_40_00Z/collection.json",
+      "href": "./berlin_v0319_a01_d01_rasters/collection.json",
       "type": "application/json",
-      "title": "berlin_v0319_a01_d01_2024-05-13T09_40_00Z",
-      "id": "berlin_v0319_a01_d01_2024-05-13T09_40_00Z"
+      "title": "berlin_v0319_a01_d01_rasters",
+      "id": "berlin_v0319_a01_d01_rasters"
     },
     {
       "rel": "child",

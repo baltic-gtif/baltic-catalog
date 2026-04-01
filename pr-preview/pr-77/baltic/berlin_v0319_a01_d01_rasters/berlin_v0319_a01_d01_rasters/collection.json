@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "berlin_v0319_a01_d01_2024-05-13T09_40_00Z",
+  "id": "berlin_v0319_a01_d01_rasters",
   "stac_version": "1.1.0",
   "description": "....",
   "links": [
@@ -15,18 +15,18 @@
       "href": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/UEPM/LST_turbo_style.json",
       "type": "text/cog-styles",
       "asset:keys": [
-        "test_cog004"
+        "berlin_v0319_a01_d01_2025-03-03T09_17_00Z"
       ]
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "berlin_vector_tiles_with_lst_2024_05_13T09_40_00Z"
+      "title": "berlin_v0319_a01_d01_rasters"
     }
   ],
   "endpointtype": "COG source",
-  "title": "berlin_v0319_a01_d01_2024-05-13T09_40_00Z",
+  "title": "berlin_v0319_a01_d01_rasters",
   "extent": {
     "spatial": {
       "bbox": [
@@ -42,7 +42,7 @@
       "interval": [
         [
           "2024-05-13T00:00:00Z",
-          "2024-05-13T00:00:00Z"
+          "2025-03-03T00:00:00Z"
         ]
       ]
     }
