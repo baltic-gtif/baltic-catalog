@@ -1,0 +1,28 @@
+{
+  "Name": "berlin_v0319_a01_d01_2024-05-13T09_40_00Z",
+  "Title": "berlin_v0319_a01_d01_2024-05-13T09_40_00Z",
+  "Description": "....",
+  "Resources": [
+    {
+      "Name": "COG source",
+      "Style": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/LST_gray_style.json",
+      "Bbox": [
+        -38.099999999999966,
+        -10.115625000000009,
+        84.9,
+        73.28437499999998
+      ],
+      "TimeEntries": [
+        {
+          "Time": "2018-06-02",
+          "Assets": [
+            {
+              "Identifier": "test_cog004",
+              "File": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/LST_europe.tif"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
