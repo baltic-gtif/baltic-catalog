@@ -5,7 +5,7 @@
   "Resources": [
     {
       "Name": "VectorTile source",
-      "idProperty": "building_id",
+      "idProperty": "properties.building_id",
       "TimeEntries": [
         {
           "Time": "20210321",
