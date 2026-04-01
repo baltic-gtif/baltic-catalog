@@ -1,6 +1,6 @@
 {
-  "Name": "berlin_v0319_a01_d01_2024-05-13T09_40_00Z",
-  "Title": "berlin_v0319_a01_d01_2024-05-13T09_40_00Z",
+  "Name": "berlin_v0319_a01_d01_rasters",
+  "Title": "berlin_v0319_a01_d01_rasters",
   "Description": "....",
   "Resources": [
     {
@@ -17,8 +17,17 @@
           "Time": "20240513",
           "Assets": [
             {
-              "Identifier": "test_cog004",
+              "Identifier": "berlin_v0319_a01_d01_2024-05-13T09_40_00Z",
               "File": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/UEPM/berlin_v0319_a01_d01_2024-05-13T09_40_00Z.tif"
+            }
+          ]
+        },
+        {
+          "Time": "20250303",
+          "Assets": [
+            {
+              "Identifier": "berlin_v0319_a01_d01_2025-03-03T09_17_00Z",
+              "File": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/UEPM/berlin_v0319_a01_d01_2025-03-03T09_17_00Z.tif"
             }
           ]
         }
