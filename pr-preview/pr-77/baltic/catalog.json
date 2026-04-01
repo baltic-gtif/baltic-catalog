@@ -25,15 +25,6 @@
       "id": "collection_vector_tiles_berlin"
     },
     {
-      "rel": "child",
-      "href": "./berlin_vector_tiles_with_lst_2024_05_13T09_40_00Z/collection.json",
-      "type": "application/json",
-      "title": "berlin_vector_tiles_with_lst_2024_05_13T09_40_00Z",
-      "code": "berlin_vector_tiles_with_lst_2024_05_13T09_40_00Z",
-      "id": "berlin_vector_tiles_with_lst_2024_05_13T09_40_00Z",
-      "subcode": "berlin_vector_tiles_with_lst_2024_05_13T09_40_00Z"
-    },
-    {
       "rel": "self",
       "href": "https://baltic-gtif.github.io/baltic-gtif/baltic-catalog/catalog.json",
       "type": "application/json"
