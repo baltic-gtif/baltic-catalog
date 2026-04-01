@@ -5,7 +5,13 @@
   "Resources": [
     {
       "Name": "VectorTile source",
-      "idProperty": "properties.building_id",
+      "idProperty": "building_id",
+      "Bbox": [
+        13.0884,
+        52.3383,
+        13.7611,
+        52.6755
+      ],
       "TimeEntries": [
         {
           "Time": "20210321",
