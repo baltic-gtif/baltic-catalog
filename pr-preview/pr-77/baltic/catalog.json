@@ -19,6 +19,13 @@
     },
     {
       "rel": "child",
+      "href": "./berlin_fgb/collection.json",
+      "type": "application/json",
+      "title": "berlin_fgb",
+      "id": "berlin_fgb"
+    },
+    {
+      "rel": "child",
       "href": "./collection_vector_tiles_berlin/collection.json",
       "type": "application/json",
       "title": "Berlin Vector Tiles",
