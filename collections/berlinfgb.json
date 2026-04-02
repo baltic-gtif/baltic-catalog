@@ -1,17 +1,24 @@
 {
   "Name": "berlin_fgb",
   "Title": "berlin_fgb",
-  "Description": "",
+  "Description": "Flatgeobuf layer of berlin builing footprints",
   "Resources": [
     {
-      "Style": "bla",
+      "idProperty": "building_id",
+      "Bbox": [
+        13.0884,
+        52.3383,
+        13.7611,
+        52.6755
+      ],
+      "Style": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/UEPM/vector_tiles_berlin_style.json",
       "TimeEntries": [
         {
-          "Time": "bla",
+          "Time": "20240513",
           "Assets": [
             {
               "Identifier": "berlin_fgb",
-              "File": "bla"
+              "File": ""https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/UEPM/buildings_fgb.fgb""
             }
           ]
         }
