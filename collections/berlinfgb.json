@@ -1,3 +1,22 @@
 {
-  "Name": "berlin_fgb"
+  "Name": "berlin_fgb",
+  "Title": "berlin_fgb",
+  "Description": "",
+  "Resources": [
+    {
+      "Style": "bla",
+      "TimeEntries": [
+        {
+          "Time": "bla",
+          "Assets": [
+            {
+              "Identifier": "berlin_fgb",
+              "File": "bla"
+            }
+          ]
+        }
+      ],
+      "Name": "FlatGeobuf source"
+    }
+  ]
 }
