@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "collection_vector_tiles_berlin",
+  "id": "vector_tiles_berlin",
   "stac_version": "1.1.0",
   "description": "Vector tile layer for Berlin dataset served via TiPg ",
   "links": [
@@ -14,7 +14,7 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Berlin Vector Tiles"
+      "title": "berlin_vector_tiles_with_lst_cogs"
     }
   ],
   "endpointtype": "VectorTile source",
