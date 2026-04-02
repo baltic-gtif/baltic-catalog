@@ -1,5 +1,5 @@
 {
-  "Name": "collection_vector_tiles_berlin",
+  "Name": "vector_tiles_berlin",
   "Title": "Berlin Vector Tiles",
   "Description": "Vector tile layer for Berlin dataset served via TiPg ",
   "Resources": [
