@@ -19,6 +19,13 @@
       "id": "berlin_fgb"
     },
     {
+      "rel": "service",
+      "href": "https://baltic-gtif.ohb-ds.de/gateway/api/datasets/berlin_v0319_a01_d01/buildings/timeseries?namespace=public&use_case=energy_emission&building_id=94459&start_date=2018-06-01T00:00:00Z&end_date=2026-03-30T23:59:59Z",
+      "type": "application/json",
+      "id": "bla",
+      "method": "GET"
+    },
+    {
       "rel": "xyz",
       "href": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "image/jpeg",
@@ -61,6 +68,7 @@
       "title": "Baltic GTIF Catalog"
     }
   ],
+  "eodash:jsonform": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/UEPM/timeseries_form.json",
   "title": "berlin_fgb",
   "extent": {
     "spatial": {
