@@ -4,26 +4,21 @@
   "Description": "Flatgeobuf layer of berlin builing footprints",
   "Resources": [
     {
-      "idProperty": "building_id",
-      "Bbox": [
-        13.0884,
-        52.3383,
-        13.7611,
-        52.6755
-      ],
-      "Style": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/UEPM/vector_tiles_berlin_style.json",
-      "TimeEntries": [
-        {
-          "Time": "20240513",
-          "Assets": [
-            {
-              "Identifier": "berlin_fgb",
-              "File": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/UEPM/buildings_fgb.fgb"
-            }
-          ]
-        }
-      ],
-      "Name": "FlatGeobuf source"
+      "Name": "Sentinel Hub",
+      "EndPoint": "",
+      "Type": "byoc",
+      "CollectionId": "",
+      "LayerId": ""
     }
-  ]
+  ],
+  "Process": {
+    "JsonForm": "bla",
+    "EndPoints": [
+      {
+        "Identifier": "bla",
+        "Url": "https://baltic-gtif.ohb-ds.de/gateway/api/datasets/berlin_v0319_a01_d01/buildings/timeseries?namespace=public&use_case=energy_emission&building_id=94459&start_date=2018-06-01T00:00:00Z&end_date=2026-03-30T23:59:59Z",
+        "Type": "application/json"
+      }
+    ]
+  }
 }
