@@ -5,7 +5,6 @@
   "Resources": [
     {
       "Name": "VectorTile source",
-      "idProperty": "building_id",
       "Bbox": [
         13.0884,
         52.3383,
