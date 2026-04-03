@@ -14,7 +14,7 @@
       "TimeEntries": [
         {
           "Time": "2023",
-          "Url": "https://baltic-gtif.ohb-ds.de/gateway/tipg/collections/public.public___berlin_v0319_a01/tiles/WebMercatorQuad/{z}/{x}/{y}"
+          "Url": "https://baltic-gtif.ohb-ds.de/gateway/tipg/collections/public.public___berlin_v0319_a01/tiles/WebMercatorQuad/{z}/{x}/{y}?limit=1000"
         }
       ],
       "Style": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/UEPM/vector_tiles_style.json"
