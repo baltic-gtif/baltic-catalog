@@ -16,6 +16,8 @@
     "geomconversionpg",
     "poland-watterlogging-index",
     "germany-waterlogging",
-    "vilnius_heat_map"
+    "vilnius_heat_map",
+    "berlin_vector_tiles_with_lst_cogs",
+    "berlinfgb"
   ]
 }
