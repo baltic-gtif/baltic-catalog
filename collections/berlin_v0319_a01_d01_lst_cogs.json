@@ -1,50 +1,55 @@
 {
-    "Name": "berlin_v0319_a01_d01_cogs",
-    "Title": "berlin_v0319_a01_d01_cogs",
-    "Description": "....",
-    "Resources": [
+  "Name": "berlin_v0319_a01_d01_hirestlst_cogs",
+  "Title": "berlin_v0319_a01_d01_hirestlst_cogs",
+  "Description": "....",
+  "Resources": [
+    {
+      "Name": "COG source",
+      "Style": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/UEPM/LST_turbo_style.json",
+      "Bbox": [
+        13.250362765112287,
+        52.41995503815249,
+        13.559195545057818,
+        52.60758767568098
+      ],
+      "TimeEntries": [
         {
-            "Name": "COG source",
-            "Style": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/UEPM/LST_turbo_style.json",
-            "Bbox": [13.0884, 52.3383, 13.7611, 52.6755],
-            "TimeEntries": [
-                {
-                    "Time": "2018-06-02T09:51:00Z",
-                    "Assets": [
-                        {
-                            "Identifier": "hireslst_cog",
-                            "File": "https://s3.de.io.cloud.ovh.net/hireslstdev/estarfmpredictionresults/energy_emission_public___berlin_v0319_a01_d01___estarfm_prediction___201806020951/LST.tif?response-content-disposition=attachment%3B%20filename%3Destarfmpredictionresults%2Fenergy_emission_public___berlin_v0319_a01_d01___estarfm_prediction___201806020951%2FLST.tif&AWSAccessKeyId=f6268602616b4990bdb809afe1489fc7&Signature=3JWmRBqBeeX6wFDf1jicMye4PSs%3D&Expires=2090278716"
-                        }
-                    ]
-                },
-                {
-                    "Time": "2018-06-03T09:25:00Z",
-                    "Assets": [
-                        {
-                            "Identifier": "hireslst_cog",
-                            "File": "https://s3.de.io.cloud.ovh.net/hireslstdev/estarfmpredictionresults/energy_emission_public___berlin_v0319_a01_d01___estarfm_prediction___201806030925/LST.tif?response-content-disposition=attachment%3B%20filename%3Destarfmpredictionresults%2Fenergy_emission_public___berlin_v0319_a01_d01___estarfm_prediction___201806030925%2FLST.tif&AWSAccessKeyId=f6268602616b4990bdb809afe1489fc7&Signature=8zAO8iMQChgDhDx4fKMYsGeySpo%3D&Expires=2090278698"
-                        }
-                    ]
-                },
-                {
-                    "Time": "2024-05-13T09:40:00Z",
-                    "Assets": [
-                        {
-                            "Identifier": "hireslst_cog",
-                            "File": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/UEPM/berlin_v0319_a01_d01_2024-05-13T09_40_00Z.tif"
-                        }
-                    ]
-                },
-                {
-                    "Time": "2025-03-03T09:17:00Z",
-                    "Assets": [
-                        {
-                            "Identifier": "hireslst_cog",
-                            "File": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/UEPM/berlin_v0319_a01_d01_2025-03-03T09_17_00Z.tif"
-                        }
-                    ]
-                }
-            ]
+          "Time": "2018-06-01T10:17:30Z",
+          "Assets": [
+            {
+              "Identifier": "hireslst_cog",
+              "File": "https://s3.de.io.cloud.ovh.net/hireslstdev/estarfmpredictionresults/energy_emission_public___berlin_v0319_a01_d01___estarfm_prediction___201806011017/LST.tif?response-content-disposition=attachment%3B%20filename%3Destarfmpredictionresults%2Fenergy_emission_public___berlin_v0319_a01_d01___estarfm_prediction___201806011017%2FLST.tif&AWSAccessKeyId=f6268602616b4990bdb809afe1489fc7&Signature=S6NFYK9WbmeuqUjO20jcqY6CtI4%3D&Expires=2090278734"
+            }
+          ]
+        },
+        {
+          "Time": "2018-06-02T09:51:19Z",
+          "Assets": [
+            {
+              "Identifier": "hireslst_cog",
+              "File": "https://s3.de.io.cloud.ovh.net/hireslstdev/estarfmpredictionresults/energy_emission_public___berlin_v0319_a01_d01___estarfm_prediction___201806020951/LST.tif?response-content-disposition=attachment%3B%20filename%3Destarfmpredictionresults%2Fenergy_emission_public___berlin_v0319_a01_d01___estarfm_prediction___201806020951%2FLST.tif&AWSAccessKeyId=f6268602616b4990bdb809afe1489fc7&Signature=3JWmRBqBeeX6wFDf1jicMye4PSs%3D&Expires=2090278716"
+            }
+          ]
+        },
+        {
+          "Time": "2018-06-03T09:25:08Z",
+          "Assets": [
+            {
+              "Identifier": "hireslst_cog",
+              "File": "https://s3.de.io.cloud.ovh.net/hireslstdev/estarfmpredictionresults/energy_emission_public___berlin_v0319_a01_d01___estarfm_prediction___201806030925/LST.tif?response-content-disposition=attachment%3B%20filename%3Destarfmpredictionresults%2Fenergy_emission_public___berlin_v0319_a01_d01___estarfm_prediction___201806030925%2FLST.tif&AWSAccessKeyId=f6268602616b4990bdb809afe1489fc7&Signature=8zAO8iMQChgDhDx4fKMYsGeySpo%3D&Expires=2090278698"
+            }
+          ]
+        },
+        {
+          "Time": "2026-03-28T10:09:03Z",
+          "Assets": [
+            {
+              "Identifier": "hireslst_cog",
+              "File": "https://s3.de.io.cloud.ovh.net/hireslstdev/estarfmpredictionresults/energy_emission_public___berlin_v0319_a01_d01___estarfm_prediction___202603281009/LST.tif?response-content-disposition=attachment%3B%20filename%3Destarfmpredictionresults%2Fenergy_emission_public___berlin_v0319_a01_d01___estarfm_prediction___202603281009%2FLST.tif&AWSAccessKeyId=f6268602616b4990bdb809afe1489fc7&Signature=FbCYz6O8C%2B6rLSlaFT9cfE%2Bk1eg%3D&Expires=2090283662"
+            }
+          ]
         }
-    ]
+      ]
+    }
+  ]
 }
