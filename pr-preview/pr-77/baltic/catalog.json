@@ -12,10 +12,10 @@
     },
     {
       "rel": "child",
-      "href": "./berlin_v0319_a01_d01_cogs/collection.json",
+      "href": "./berlin_v0319_a01_d01_hirestlst_cogs/collection.json",
       "type": "application/json",
-      "title": "berlin_v0319_a01_d01_cogs",
-      "id": "berlin_v0319_a01_d01_cogs"
+      "title": "berlin_v0319_a01_d01_hirestlst_cogs",
+      "id": "berlin_v0319_a01_d01_hirestlst_cogs"
     },
     {
       "rel": "child",

@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "berlin_v0319_a01_d01_cogs",
+  "id": "berlin_v0319_a01_d01_hirestlst_cogs",
   "stac_version": "1.1.0",
   "description": "....",
   "links": [
@@ -22,27 +22,27 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "berlin_v0319_a01_d01_cogs"
+      "title": "berlin_vector_tiles_with_lst_cogs"
     }
   ],
   "endpointtype": "COG source",
-  "title": "berlin_v0319_a01_d01_cogs",
+  "title": "berlin_v0319_a01_d01_hirestlst_cogs",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          13.0884,
-          52.3383,
-          13.7611,
-          52.6755
+          13.250362765112287,
+          52.41995503815249,
+          13.559195545057818,
+          52.60758767568098
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2018-06-02T09:51:00Z",
-          "2025-03-03T09:17:00Z"
+          "2018-06-01T10:17:30Z",
+          "2026-03-28T10:09:03Z"
         ]
       ]
     }
