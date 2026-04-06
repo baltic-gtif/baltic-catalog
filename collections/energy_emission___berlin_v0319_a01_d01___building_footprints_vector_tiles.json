@@ -1,15 +1,15 @@
 {
-  "Name": "vector_tiles_berlin",
-  "Title": "Berlin Vector Tiles",
+  "Name": "energy_emission___berlin_v0319_a01_d01___building_footprints_vector_tiles",
+  "Title": "building_footprints",
   "Description": "Vector tile layer for Berlin dataset served via TiPg ",
   "Resources": [
     {
       "Name": "VectorTile source",
       "Bbox": [
-        13.0884,
-        52.3383,
-        13.7611,
-        52.6755
+        13.250362765112287,
+        52.41995503815249,
+        13.559195545057818,
+        52.60758767568098
       ],
       "TimeEntries": [
         {
@@ -21,12 +21,12 @@
     }
   ],
   "Process": {
-    "JsonForm": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/UEPM/timeseries_form.json",
+    "JsonForm": "https://baltic-gtif.ohb-ds.de/gateway/api/eodash/datasets/berlin_v0319_a01_d01/buildings/timeseries/form",
     "VegaDefinition": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/UEPM/timeseries_vega_chart.json",
     "EndPoints": [
       {
-        "Identifier": "test_process_ab",
-        "Url": "https://baltic-gtif.ohb-ds.de/gateway/api/datasets/berlin_v0319_a01_d01/buildings/timeseries?namespace=public&use_case=energy_emission&building_id={{feature_id}}&start_date=2018-06-01T00:00:00Z&end_date=2026-03-30T23:59:59Z&drop_building_id=true&f=json",
+        "Identifier": "building_timeseries",
+        "Url": "https://baltic-gtif.ohb-ds.de/gateway/api/eodash/datasets/berlin_v0319_a01_d01/buildings/timeseries?namespace=public&use_case=energy_emission&building_id={{feature_id}}&start_date=2018-06-01T00:00:00Z&end_date=2026-03-30T23:59:59Z&drop_building_id=true&f=json",
         "Type": "application/json"
       }
     ]
