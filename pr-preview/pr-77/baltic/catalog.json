@@ -12,35 +12,112 @@
     },
     {
       "rel": "child",
-      "href": "./berlin_v0319_a01_d01_hirestlst_cogs/collection.json",
+      "href": "./berlin_v0319_a01_d01_30m_lst_cogs/collection.json",
       "type": "application/json",
-      "title": "berlin_v0319_a01_d01_hirestlst_cogs",
-      "id": "berlin_v0319_a01_d01_hirestlst_cogs"
+      "title": "berlin_v0319_a01_d01_30m_lst_cogs",
+      "id": "berlin_v0319_a01_d01_30m_lst_cogs"
     },
     {
       "rel": "child",
-      "href": "./berlin_fgb/collection.json",
+      "href": "./energy_emission___berlin_v0319_a01_d01___building_footprints_vector_tiles/collection.json",
       "type": "application/json",
-      "title": "berlin_fgb",
-      "id": "berlin_fgb"
+      "title": "building_footprints",
+      "id": "energy_emission___berlin_v0319_a01_d01___building_footprints_vector_tiles"
     },
     {
       "rel": "child",
-      "href": "./vector_tiles_berlin/collection.json",
+      "href": "./london_v0319_a01_d01_30m_lst_cogs/collection.json",
       "type": "application/json",
-      "title": "Berlin Vector Tiles",
-      "id": "vector_tiles_berlin"
+      "title": "london_v0319_a01_d01_30m_lst_cogs",
+      "id": "london_v0319_a01_d01_30m_lst_cogs"
     },
     {
       "rel": "child",
-      "href": "./berlin_vector_tiles_with_lst_cogs/collection.json",
+      "href": "./energy_emission___london_v0319_a01_d01___building_footprints_vector_tiles/collection.json",
       "type": "application/json",
-      "title": "berlin_vector_tiles_with_lst_cogs",
-      "id": "berlin_vector_tiles_with_lst_cogs"
+      "title": "building_footprints",
+      "id": "energy_emission___london_v0319_a01_d01___building_footprints_vector_tiles"
+    },
+    {
+      "rel": "child",
+      "href": "./paris_v0319_a01_d01_30m_lst_cogs/collection.json",
+      "type": "application/json",
+      "title": "paris_v0319_a01_d01_30m_lst_cogs",
+      "id": "paris_v0319_a01_d01_30m_lst_cogs"
+    },
+    {
+      "rel": "child",
+      "href": "./energy_emission___paris_v0319_a01_d01___building_footprints_vector_tiles/collection.json",
+      "type": "application/json",
+      "title": "building_footprints",
+      "id": "energy_emission___paris_v0319_a01_d01___building_footprints_vector_tiles"
+    },
+    {
+      "rel": "child",
+      "href": "./vienna_v0319_a01_d01_30m_lst_cogs/collection.json",
+      "type": "application/json",
+      "title": "vienna_v0319_a01_d01_30m_lst_cogs",
+      "id": "vienna_v0319_a01_d01_30m_lst_cogs"
+    },
+    {
+      "rel": "child",
+      "href": "./energy_emission___vienna_v0319_a01_d01___building_footprints_vector_tiles/collection.json",
+      "type": "application/json",
+      "title": "building_footprints",
+      "id": "energy_emission___vienna_v0319_a01_d01___building_footprints_vector_tiles"
+    },
+    {
+      "rel": "child",
+      "href": "./warsaw_v0319_a01_d01_30m_lst_cogs/collection.json",
+      "type": "application/json",
+      "title": "warsaw_v0319_a01_d01_30m_lst_cogs",
+      "id": "warsaw_v0319_a01_d01_30m_lst_cogs"
+    },
+    {
+      "rel": "child",
+      "href": "./energy_emission___warsaw_v0319_a01_d01___building_footprints_vector_tiles/collection.json",
+      "type": "application/json",
+      "title": "building_footprints",
+      "id": "energy_emission___warsaw_v0319_a01_d01___building_footprints_vector_tiles"
+    },
+    {
+      "rel": "child",
+      "href": "./energy_emission___berlin_v0319_a01_d01/collection.json",
+      "type": "application/json",
+      "title": "energy_emission___berlin_v0319_a01_d01",
+      "id": "energy_emission___berlin_v0319_a01_d01"
+    },
+    {
+      "rel": "child",
+      "href": "./energy_emission___london_v0319_a01_d01/collection.json",
+      "type": "application/json",
+      "title": "energy_emission___london_v0319_a01_d01",
+      "id": "energy_emission___london_v0319_a01_d01"
+    },
+    {
+      "rel": "child",
+      "href": "./energy_emission___paris_v0319_a01_d01/collection.json",
+      "type": "application/json",
+      "title": "energy_emission___paris_v0319_a01_d01",
+      "id": "energy_emission___paris_v0319_a01_d01"
+    },
+    {
+      "rel": "child",
+      "href": "./energy_emission___vienna_v0319_a01_d01/collection.json",
+      "type": "application/json",
+      "title": "energy_emission___vienna_v0319_a01_d01",
+      "id": "energy_emission___vienna_v0319_a01_d01"
+    },
+    {
+      "rel": "child",
+      "href": "./energy_emission___warsaw_v0319_a01_d01/collection.json",
+      "type": "application/json",
+      "title": "energy_emission___warsaw_v0319_a01_d01",
+      "id": "energy_emission___warsaw_v0319_a01_d01"
     },
     {
       "rel": "self",
-      "href": "https://baltic-gtif.github.io/baltic-gtif/baltic-catalog/catalog.json",
+      "href": "http://localhost:7777/catalog.json",
       "type": "application/json"
     }
   ],

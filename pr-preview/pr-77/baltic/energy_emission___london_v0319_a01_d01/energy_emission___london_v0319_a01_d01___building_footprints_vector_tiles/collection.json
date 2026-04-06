@@ -1,0 +1,53 @@
+{
+  "type": "Collection",
+  "id": "energy_emission___london_v0319_a01_d01___building_footprints_vector_tiles",
+  "stac_version": "1.1.0",
+  "description": "Vector tile layer for Berlin dataset served via TiPg ",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Baltic GTIF Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "energy_emission___london_v0319_a01_d01"
+    }
+  ],
+  "endpointtype": "VectorTile source",
+  "title": "building_footprints",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -0.2428290444048618,
+          51.43592871229009,
+          0.06947749709636729,
+          51.629949412744025
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2023-01-01T00:00:00Z",
+          "2023-01-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    }
+  }
+}
