@@ -2,7 +2,7 @@
   "id": "baltic",
   "title": "Baltic GTIF Catalog",
   "description": "This catalog definition is done for the Baltic GTIF project.",
-  "endpoint": "https://baltic-gtif.github.io/baltic-gtif/baltic-catalog/",
+  "endpoint": "http://localhost:7777/",
   "default_base_layers": "layers/baselayers",
   "default_overlay_layers": "layers/overlays",
   "assets_endpoint": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main/",
@@ -16,6 +16,11 @@
     "geomconversionpg",
     "poland-watterlogging-index",
     "germany-waterlogging",
-    "vilnius_heat_map"
+    "vilnius_heat_map",
+    "energy_emission___berlin_v0319_a01_d01",
+    "energy_emission___warsaw_v0319_a01_d01",
+    "energy_emission___vienna_v0319_a01_d01",
+    "energy_emission___london_v0319_a01_d01",
+    "energy_emission___paris_v0319_a01_d01"
   ]
 }
