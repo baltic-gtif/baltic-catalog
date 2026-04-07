@@ -19,7 +19,7 @@
   ],
   "thumbnail": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/grassland_lt.png",
   "endpointtype": "VectorTile source",
-  "title": "Permanent Grassland LT 2025 - Habitat",
+  "title": "Permanent Grassland LT - Habitat",
   "extent": {
     "spatial": {
       "bbox": [
