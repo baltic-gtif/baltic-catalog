@@ -1,7 +1,7 @@
 {
   "Name": "forest_lt_m05-09",
   "Title": "Forest Loss in Lithuania 2024 05-09",
-  "Description": "",
+  "Description": "indicators/forest_lt/description.md",
   "Themes": [],
   "Tags": [],
   "DataSource": {
@@ -56,12 +56,26 @@
     ]
   },
   "Colorlegend": {
-    "title": "",
-    "range": [],
-    "domain": [],
+    "title": "Forest Loss",
+    "range": [
+      "#56b636",
+      "#a5da9f",
+      "#dcf883",
+      "#ffd6bf",
+      "#fdae61",
+      "#d7191c"
+    ],
+    "domain": [
+      "0",
+      "1-5",
+      "6-10",
+      "11-20",
+      "21-49",
+      "> 50"
+    ],
     "tickFormat": "",
     "tickValues": [],
-    "scaleType": "continuous",
+    "scaleType": "categorical",
     "markType": "rect"
   },
   "Legend": "",
