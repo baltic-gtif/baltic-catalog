@@ -6,7 +6,7 @@
     {
       "Name": "WMS",
       "EndPoint": "https://server1.landimage.info/geoserver/gwc/service/wms",
-      "LayerId": "FROMSAT:GER_forest_p50_2024_06_minus_2025_06",
+      "LayerId": "GTIFBaltic:LIT_2024_forest_cuts_m06",
       "Type": "OverwriteTimes",
       "TileSize": 256,
       "DateTimeInterval": {
@@ -16,7 +16,13 @@
       "Version": "1.1.1",
       "DataProjection": {
         "name": "EPSG:3857"
-      }
+      },
+      "OverwriteBBox": [
+        20.179231653355544,
+        53.672508837578434,
+        27.172175676922908,
+        56.66295264733336
+      ]
     }
   ],
   "Image": "thumbnails/forest_lt.png"
