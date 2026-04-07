@@ -22,7 +22,7 @@
       "rel": "child",
       "href": "./SOCarable/collection.json",
       "type": "application/json",
-      "title": "Arable LT 2025 - SOC",
+      "title": "Arable LT - SOC",
       "endpointtype": "VectorTile source",
       "id": "SOCarable"
     },
