@@ -23,7 +23,7 @@
       ],
       "wms:tilesize": 256,
       "wms:version": "1.1.1",
-      "key": "55bc766f-5915-4950-91b5-449f315ecc7d"
+      "key": "f8422acd-1b95-498d-bbdb-8a933fddfebc"
     },
     {
       "rel": "parent",
@@ -34,9 +34,27 @@
   ],
   "thumbnail": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/forest_lt.png",
   "eox:colorlegend": {
-    "title": "",
-    "range": [],
-    "domain": []
+    "title": "Size of Clear-cuts (ha)",
+    "range": [
+      "#ffffb2",
+      "#fecc5c",
+      "#fd8d3c",
+      "#f03b20",
+      "#e31a1c",
+      "#bd0026",
+      "#800026"
+    ],
+    "domain": [
+      "0,1",
+      "0,5",
+      "1",
+      "2",
+      "3",
+      "4",
+      ">5"
+    ],
+    "scaleType": "categorical",
+    "markType": "circle"
   },
   "endpointtype": "WMS_OverwriteTimes",
   "title": "Forest Loss Clear-cuts Points In 2025 Winter",
