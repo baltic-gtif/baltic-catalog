@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./SOCindex/collection.json",
       "type": "application/json",
-      "title": "Permanent Grassland LT 2025 - SOC",
+      "title": "Permanent Grassland LT - SOC",
       "endpointtype": "VectorTile source",
       "id": "SOCindex"
     },
