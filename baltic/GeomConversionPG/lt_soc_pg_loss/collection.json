@@ -18,7 +18,7 @@
     }
   ],
   "endpointtype": "VectorTile source",
-  "title": "SOC loss estimation in Permanent Grassland",
+  "title": "Permanent Grassland - SOC estimation",
   "extent": {
     "spatial": {
       "bbox": [
