@@ -45,7 +45,10 @@
       "href": "./forest_lit_08/collection.json",
       "type": "application/json",
       "title": "Forest Loss in 2024 08",
-      "id": "forest_lit_08"
+      "id": "forest_lit_08",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/forest_lt.png"
+      ]
     },
     {
       "rel": "child",
