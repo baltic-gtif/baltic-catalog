@@ -16,14 +16,14 @@
       "type": "image/jpeg",
       "title": "Forest Loss in 2024 06",
       "wms:layers": [
-        "FROMSAT:GER_forest_p50_2024_06_minus_2025_06"
+        "GTIFBaltic:LIT_2024_forest_cuts_m06"
       ],
       "role": [
         "data"
       ],
       "wms:tilesize": 256,
       "wms:version": "1.1.1",
-      "key": "18c9e170-931a-4fab-80d8-82d862132f02",
+      "key": "0e5aac53-15f6-4138-8f97-8b0ed9e80d3e",
       "eodash:proj4_def": {
         "name": "EPSG:3857"
       }
@@ -45,10 +45,10 @@
     "spatial": {
       "bbox": [
         [
-          0.0,
-          45.0,
-          22.5,
-          67.5
+          20.179231653355544,
+          53.672508837578434,
+          27.172175676922908,
+          56.66295264733336
         ]
       ]
     },
