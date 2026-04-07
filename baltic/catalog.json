@@ -85,7 +85,7 @@
       "rel": "child",
       "href": "./Group25PGarable/collection.json",
       "type": "application/json",
-      "title": "SOC of Permanent Grassland and Arable - 2025",
+      "title": "SOC of Permanent Grassland and Arable",
       "id": "Group25PGarable",
       "thumbnail": [
         "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/soc_lt.png"
