@@ -15,5 +15,6 @@
       "Version": "1.1.1",
       "TileSize": 256
     }
-  ]
+  ],
+  "Image": "thumbnails/forest_lt.png"
 }
