@@ -10,19 +10,15 @@
       "Type": "OverwriteTimes",
       "TileSize": 256,
       "OverwriteBBox": [
-        20.64574710749001,
-        53.471232709477654,
-        28.48069513887384,
-        59.86996389760478
+        20.347956765879132,
+        53.648407105421455,
+        28.52505380423799,
+        59.63927180494598
       ],
-      "DateTimeInterval": {
-        "Start": "2024-06-01T00:00:00Z",
-        "End": "2025-06-01T00:00:00Z",
-        "Timedelta": {
-          "days": 1
-        }
-      },
-      "Version": "1.1.1"
+      "Version": "1.1.1",
+      "DataProjection": {
+        "name": "EPSG:3857"
+      }
     }
   ],
   "Image": "thumbnails/forest_lt.png",
