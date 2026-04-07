@@ -23,7 +23,7 @@
       ],
       "wms:tilesize": 256,
       "wms:version": "1.1.1",
-      "key": "7bc6784d-cddd-4197-b2c1-6895ccaf7442",
+      "key": "8a4e29b4-07aa-4163-adb8-55bc79631de1",
       "eodash:proj4_def": {
         "name": "EPSG:3857"
       }
@@ -39,13 +39,13 @@
   "eox:colorlegend": {
     "title": "Size of Clear-cuts (ha)",
     "domain": [
-      "0,11-0,5",
-      "0,5-1",
-      "1-2",
-      "2-3",
-      "3-4",
-      "4-5",
-      "5-100"
+      "0,11",
+      "0,5",
+      "1",
+      "2",
+      "3",
+      "4",
+      "> 5"
     ],
     "range": [
       "#ffffb2",
@@ -57,7 +57,7 @@
       "#800026"
     ],
     "scaleType": "categorical",
-    "markType": "rect"
+    "markType": "circle"
   },
   "eodash:proj4_def": {
     "name": "EPSG:3857"
