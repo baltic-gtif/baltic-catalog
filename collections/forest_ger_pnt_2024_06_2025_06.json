@@ -1,7 +1,7 @@
 {
   "Name": "Forest Loss Clear-cuts Points",
   "Title": "Forest Loss Clear-cuts Points",
-  "Description": "",
+  "Description": "indicators/forest_lt/description.md",
   "Resources": [
     {
       "Name": "WMS",
