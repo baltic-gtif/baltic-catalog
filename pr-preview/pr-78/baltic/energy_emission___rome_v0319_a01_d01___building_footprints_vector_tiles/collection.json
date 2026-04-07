@@ -1,0 +1,101 @@
+{
+  "type": "Collection",
+  "id": "energy_emission___rome_v0319_a01_d01___building_footprints_vector_tiles",
+  "stac_version": "1.1.0",
+  "description": "Vector tile layer for Berlin dataset served via TiPg ",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Baltic GTIF Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./energy_emission___rome_v0319_a01_d01___building_footprints_vector_tiles/collection.json",
+      "type": "application/json",
+      "title": "building_footprints",
+      "endpointtype": "VectorTile source",
+      "id": "energy_emission___rome_v0319_a01_d01___building_footprints_vector_tiles"
+    },
+    {
+      "rel": "service",
+      "href": "https://baltic-gtif.ohb-ds.de/gateway/api/eodash/datasets/rome_v0319_a01_d01/buildings/timeseries?namespace=public&use_case=energy_emission&building_id={{feature_id}}&start_date=2018-06-01T00:00:00Z&end_date=2026-03-30T23:59:59Z&drop_building_id=true&f=json",
+      "type": "application/json",
+      "id": "building_timeseries",
+      "method": "GET"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "EOxCloudless 2024",
+      "roles": [
+        "baselayer",
+        "visible"
+      ],
+      "id": "cloudless-2024",
+      "attribution": "{ EOxCloudless 2024: <a xmlns:dct=\"http://purl.org/dc/terms/\" href=\"https://s2maps.eu\" target=\"_blank\" property=\"dct:title\">Sentinel-2 cloudless - s2maps.eu</a> by <a xmlns:cc=\"http://creativecommons.org/ns#\" href=\"https://eox.at\" target=\"_blank\" property=\"cc:attributionName\" rel=\"cc:attributionURL\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2024) }"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "OSM Baselayer",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "OSM",
+      "attribution": "{ OSM: Data &copy; <a href=\\\"http://www.openstreetmap.org/copyright\\\" target=\\\"_blank\\\">OpenStreetMap</a> contributors and <a href=\\\"https://maps.eox.at/#data\\\" target=\\\"_blank\\\">others</a>, Rendering &copy; <a href=\\\"http://eox.at\\\" target=\\\"_blank\\\">EOX</a> }"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "image/png",
+      "title": "Overlay labels",
+      "roles": [
+        "overlay",
+        "visible"
+      ],
+      "id": "overlay_bright",
+      "attribution": "{ Overlay: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors, Made with Natural Earth, Rendering &copy; <a href=\"https://eox.at\" target=\"_blank\">EOX</a> }"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Baltic GTIF Catalog"
+    }
+  ],
+  "eodash:jsonform": "https://baltic-gtif.ohb-ds.de/gateway/api/eodash/datasets/rome_v0319_a01_d01/buildings/timeseries/form",
+  "eodash:vegadefinition": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/UEPM/timeseries_vega_chart.json",
+  "title": "building_footprints",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          12.366440286186082,
+          41.80022225782056,
+          12.622185237944667,
+          41.99042910986296
+        ],
+        [
+          12.366440286186082,
+          41.80022225782056,
+          12.622185237944667,
+          41.99042910986296
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2023-01-01T00:00:00Z",
+          "2023-01-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}
