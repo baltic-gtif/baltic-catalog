@@ -72,10 +72,10 @@
     },
     {
       "rel": "child",
-      "href": "./forest_lit_lat_est_2025_winter_pnt/collection.json",
+      "href": "./Forest Loss Clear-cuts Points/collection.json",
       "type": "application/json",
       "title": "Forest Loss Clear-cuts Points In 2025 Winter",
-      "id": "forest_lit_lat_est_2025_winter_pnt",
+      "id": "Forest Loss Clear-cuts Points",
       "thumbnail": [
         "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/forest_lt.png"
       ]
