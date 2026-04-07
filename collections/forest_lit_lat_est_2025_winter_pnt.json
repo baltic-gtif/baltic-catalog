@@ -1,7 +1,7 @@
 {
-  "Name": "forest_lit_lat_est_2025_winter_pnt",
+  "Name": "Forest Loss Clear-cuts Points",
   "Title": "Forest Loss Clear-cuts Points In 2025 Winter",
-  "Description": "",
+  "Description": "indicators/forest_lt/description.md",
   "Resources": [
     {
       "Name": "WMS",
