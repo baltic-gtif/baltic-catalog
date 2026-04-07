@@ -23,7 +23,10 @@
       ],
       "wms:tilesize": 256,
       "wms:version": "1.1.1",
-      "key": "f8422acd-1b95-498d-bbdb-8a933fddfebc"
+      "key": "bf12a5c5-a761-46a9-a2b1-7fe1e8d1a8e0",
+      "eodash:proj4_def": {
+        "name": "EPSG:3857"
+      }
     },
     {
       "rel": "parent",
@@ -56,38 +59,33 @@
     "scaleType": "categorical",
     "markType": "circle"
   },
+  "eodash:proj4_def": {
+    "name": "EPSG:3857"
+  },
   "endpointtype": "WMS_OverwriteTimes",
   "title": "Forest Loss Clear-cuts Points In 2025 Winter",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          20.64574710749001,
-          53.471232709477654,
-          28.48069513887384,
-          59.86996389760478
+          20.347956765879132,
+          53.648407105421455,
+          28.52505380423799,
+          59.63927180494598
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2024-06-01T00:00:00Z",
-          "2025-06-01T00:00:00Z"
+          "1970-01-01T00:00:00Z",
+          "2026-04-07T14:18:06.760933Z"
         ]
       ]
     }
   },
   "license": "other",
   "assets": {
-    "geoparquet": {
-      "href": "./items.parquet",
-      "type": "application/vnd.apache.parquet",
-      "title": "GeoParquet Items",
-      "roles": [
-        "collection-mirror"
-      ]
-    },
     "thumbnail": {
       "href": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/forest_lt.png",
       "type": "image/png",
