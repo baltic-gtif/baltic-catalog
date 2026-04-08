@@ -23,7 +23,10 @@
       ],
       "wms:tilesize": 256,
       "wms:version": "1.1.1",
-      "key": "50a56a68-4572-4afd-91cc-d896dac92d8b"
+      "key": "c9d6f18b-2f25-44bb-aaf5-b2e9b95855fe",
+      "eodash:proj4_def": {
+        "name": "EPSG:3857"
+      }
     },
     {
       "rel": "parent",
@@ -33,16 +36,19 @@
     }
   ],
   "thumbnail": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/forest_lt.png",
+  "eodash:proj4_def": {
+    "name": "EPSG:3857"
+  },
   "endpointtype": "WMS_OverwriteTimes",
   "title": "Forest Loss in 2024 05",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          20.492971917794915,
-          53.62690788372607,
-          28.708229075813072,
-          59.98695728143812
+          20.495138524831514,
+          53.744190422983436,
+          27.064126021474443,
+          56.45263449852237
         ]
       ]
     },
