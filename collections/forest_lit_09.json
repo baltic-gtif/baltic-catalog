@@ -21,7 +21,8 @@
       ],
       "DataProjection": {
         "name": "EPSG:3857"
-      }
+      },
+      "Version": "1.1.1"
     }
   ],
   "Image": "thumbnails/forest_lt.png"
