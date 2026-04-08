@@ -12,7 +12,7 @@
     },
     {
       "rel": "wms",
-      "href": "https://server1.landimage.info/geoserver/gwc/service/wms",
+      "href": "https://server1.landimage.info/geoserver/wms",
       "type": "image/jpeg",
       "title": "Forest Loss Clear-cuts Points In 2025 Winter",
       "wms:layers": [
@@ -23,7 +23,7 @@
       ],
       "wms:tilesize": 256,
       "wms:version": "1.1.1",
-      "key": "1910275b-6476-48f3-ac63-a66d482fc3b1",
+      "key": "3c5ff0d7-4c60-4d9b-979c-648d3b0e1d83",
       "eodash:proj4_def": {
         "name": "EPSG:3857"
       }
@@ -79,7 +79,7 @@
       "interval": [
         [
           "1970-01-01T00:00:00Z",
-          "2026-04-08T09:16:41.759801Z"
+          "2026-04-08T09:18:17.748578Z"
         ]
       ]
     }
