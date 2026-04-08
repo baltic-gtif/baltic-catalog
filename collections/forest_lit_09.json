@@ -18,7 +18,10 @@
         53.22912104704421,
         26.972872036876954,
         56.486537231157904
-      ]
+      ],
+      "DataProjection": {
+        "name": "EPSG:3857"
+      }
     }
   ],
   "Image": "thumbnails/forest_lt.png"
