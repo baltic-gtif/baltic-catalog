@@ -12,19 +12,19 @@
     },
     {
       "rel": "child",
-      "href": "./Forest Loss Clear-cuts Points/collection.json",
-      "type": "application/json",
-      "title": "Forest Loss Clear-cuts Points In 2025 Winter",
-      "endpointtype": "WMS_OverwriteTimes",
-      "id": "Forest Loss Clear-cuts Points"
-    },
-    {
-      "rel": "child",
       "href": "./forest_lit_lat_est_2025_winter_pix/collection.json",
       "type": "application/json",
       "title": "Forest Loss Coeficient Values",
       "endpointtype": "WMS_OverwriteTimes",
       "id": "forest_lit_lat_est_2025_winter_pix"
+    },
+    {
+      "rel": "child",
+      "href": "./Forest Loss Clear-cuts Points/collection.json",
+      "type": "application/json",
+      "title": "Forest Loss Clear-cuts Points In 2025 Winter",
+      "endpointtype": "WMS_OverwriteTimes",
+      "id": "Forest Loss Clear-cuts Points"
     },
     {
       "rel": "service",
@@ -78,14 +78,7 @@
   ],
   "thumbnail": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/forest_lt.png",
   "eodash:mapProjection": {
-    "name": "",
-    "def": "",
-    "extent": [
-      "",
-      "",
-      "",
-      ""
-    ]
+    "name": "EPSG:3857"
   },
   "eox:colorlegend": {
     "title": "",
@@ -107,16 +100,16 @@
           59.63927180494598
         ],
         [
-          20.347956765879132,
-          53.648407105421455,
-          28.52505380423799,
-          59.63927180494598
-        ],
-        [
           20.302190093810054,
           53.661553341139886,
           27.019004847222682,
           56.64680434265661
+        ],
+        [
+          20.347956765879132,
+          53.648407105421455,
+          28.52505380423799,
+          59.63927180494598
         ]
       ]
     },
