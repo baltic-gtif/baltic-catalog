@@ -16,14 +16,17 @@
       "type": "image/jpeg",
       "title": "Forest Loss in 2024 07",
       "wms:layers": [
-        " \tGTIFBaltic:LIT_2024_forest_cuts_m07 "
+        "GTIFBaltic:LIT_2024_forest_cuts_m07 "
       ],
       "role": [
         "data"
       ],
       "wms:tilesize": 256,
       "wms:version": "1.1.1",
-      "key": "d477662f-a1cb-4aa4-8a2d-265961d749e5"
+      "key": "e09c2ddc-023c-4be7-9ed3-c3a6d0b2bc68",
+      "eodash:proj4_def": {
+        "name": "EPSG:3857"
+      }
     },
     {
       "rel": "parent",
@@ -33,16 +36,19 @@
     }
   ],
   "thumbnail": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/forest_lt.png",
+  "eodash:proj4_def": {
+    "name": "EPSG:3857"
+  },
   "endpointtype": "WMS_OverwriteTimes",
   "title": "Forest Loss in 2024 07",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          20.043240348324588,
-          53.17874595320396,
-          27.291968871431305,
-          56.628752225036216
+          20.14588152687387,
+          53.698297003069065,
+          27.009781956270746,
+          56.52682739979855
         ]
       ]
     },
