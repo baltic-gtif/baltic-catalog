@@ -22,9 +22,7 @@
       "DateTimeInterval": {
         "Start": "2024-06-01T00:00:00Z",
         "End": "2025-06-01T00:00:00Z",
-        "Timedelta": {
-          "days": 20
-        }
+        "Timedelta": {}
       }
     }
   ],
