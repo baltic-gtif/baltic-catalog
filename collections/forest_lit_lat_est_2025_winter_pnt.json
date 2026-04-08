@@ -5,7 +5,7 @@
   "Resources": [
     {
       "Name": "WMS",
-      "EndPoint": "https://server1.landimage.info/geoserver/gwc/service/wms",
+      "EndPoint": "https://server1.landimage.info/geoserver/wms",
       "LayerId": "GTIFBaltic:LIT_LAT_EST_2025_forest_cuts_winter_pnt",
       "Type": "OverwriteTimes",
       "TileSize": 256,
