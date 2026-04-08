@@ -16,7 +16,13 @@
       "Version": "1.1.1",
       "DataProjection": {
         "name": "EPSG:3857"
-      }
+      },
+      "OverwriteBBox": [
+        20.472096636583256,
+        53.75031430472456,
+        27.00276399161151,
+        56.59079044055469
+      ]
     }
   ],
   "Image": "thumbnails/forest_lt.png"
