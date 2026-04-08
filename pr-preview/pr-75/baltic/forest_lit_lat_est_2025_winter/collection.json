@@ -19,6 +19,14 @@
       "id": "Forest Loss Clear-cuts Points"
     },
     {
+      "rel": "child",
+      "href": "./forest_lit_lat_est_2025_winter_pix/collection.json",
+      "type": "application/json",
+      "title": "Forest Loss Coeficient Values",
+      "endpointtype": "WMS_OverwriteTimes",
+      "id": "forest_lit_lat_est_2025_winter_pix"
+    },
+    {
       "rel": "service",
       "href": "",
       "type": "application/geo+json",
@@ -93,18 +101,30 @@
     "spatial": {
       "bbox": [
         [
+          20.302190093810054,
+          53.648407105421455,
+          28.52505380423799,
+          59.63927180494598
+        ],
+        [
           20.347956765879132,
           53.648407105421455,
           28.52505380423799,
           59.63927180494598
+        ],
+        [
+          20.302190093810054,
+          53.661553341139886,
+          27.019004847222682,
+          56.64680434265661
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "1970-01-01T00:00:00Z",
-          "2026-04-08T09:18:17.951660Z"
+          "2024-10-01T00:00:00Z",
+          "2025-04-30T00:00:00Z"
         ]
       ]
     }
