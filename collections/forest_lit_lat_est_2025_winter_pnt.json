@@ -5,7 +5,7 @@
   "Resources": [
     {
       "Name": "WMS",
-      "EndPoint": "https://server1.landimage.info/geoserver/wms",
+      "EndPoint": "https://server1.landimage.info/geoserver/gwc/service/wms",
       "LayerId": "GTIFBaltic:LIT_LAT_EST_2025_forest_cuts_winter_pnt",
       "Type": "OverwriteTimes",
       "TileSize": 256,
@@ -18,6 +18,10 @@
       "Version": "1.1.1",
       "DataProjection": {
         "name": "EPSG:3857"
+      },
+      "DateTimeInterval": {
+        "Start": "2024-10-01T00:00:00Z",
+        "End": "2025-04-30T00:00:00Z"
       }
     }
   ],
