@@ -16,13 +16,14 @@
       "type": "image/jpeg",
       "title": "Forest Loss in 2024 07",
       "wms:layers": [
-        "GTIFBaltic:LIT_2024_forest_cuts_m07 "
+        "GTIFBaltic:LIT_2024_forest_cuts_m07"
       ],
       "role": [
         "data"
       ],
       "wms:tilesize": 256,
-      "key": "ed4201fb-ea3d-4fe5-b558-ba35d42ce560",
+      "wms:version": "1.1.1",
+      "key": "4fbaf79f-cccc-4b81-95af-ded04d737a2f",
       "eodash:proj4_def": {
         "name": "EPSG:3857"
       }
