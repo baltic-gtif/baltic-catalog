@@ -1,7 +1,7 @@
 {
   "Name": "CORINE 2018 Forest Boundaries",
   "Title": "CORINE 2018 Forest Boundaries",
-  "Description": "indicators/forest_lt/description.md",
+  "Description": "indicators/forest_pol/description.md",
   "Resources": [
     {
       "Name": "WMS",
