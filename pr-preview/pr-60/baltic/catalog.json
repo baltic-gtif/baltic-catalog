@@ -48,17 +48,7 @@
       "id": "Forest Loss in Germany (2024-06 - 2025-06) ",
       "thumbnail": [
         "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/forest_lt.png"
-      ],
-      "eodash:mapProjection": {
-        "name": "",
-        "def": "",
-        "extent": [
-          5.979707336988206,
-          46.483752002498846,
-          15.208715624134541,
-          55.65423392583931
-        ]
-      }
+      ]
     },
     {
       "rel": "self",

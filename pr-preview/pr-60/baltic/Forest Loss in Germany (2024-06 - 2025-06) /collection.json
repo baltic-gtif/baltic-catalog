@@ -35,13 +35,6 @@
       "id": "Forest Loss Coeficient Values"
     },
     {
-      "rel": "service",
-      "href": "",
-      "type": "application/geo+json",
-      "id": "",
-      "method": "GET"
-    },
-    {
       "rel": "xyz",
       "href": "https://tiles.maps.eox.at/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "image/jpeg",
@@ -70,16 +63,6 @@
     }
   ],
   "thumbnail": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/forest_lt.png",
-  "eodash:mapProjection": {
-    "name": "",
-    "def": "",
-    "extent": [
-      5.979707336988206,
-      46.483752002498846,
-      15.208715624134541,
-      55.65423392583931
-    ]
-  },
   "title": "Forest Loss in Germany (2024-06 - 2025-06) ",
   "extent": {
     "spatial": {
