@@ -25,5 +25,26 @@
       }
     }
   ],
-  "Image": "thumbnails/forest_lt.png"
+  "Image": "thumbnails/forest_lt.png",
+  "Colorlegend": {
+    "title": "Tree Loss (%)",
+    "range": [
+      "#56b636",
+      "#a5da9f",
+      "#a5da9f",
+      "#ffd6bf",
+      "#fdae61",
+      "#d7191c"
+    ],
+    "domain": [
+      "0",
+      "1-5",
+      "6-10",
+      "11-20",
+      "21-50",
+      "> 50"
+    ],
+    "markType": "rect",
+    "scaleType": "categorical"
+  }
 }
