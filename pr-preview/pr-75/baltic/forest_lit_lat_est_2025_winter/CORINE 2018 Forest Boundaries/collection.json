@@ -16,14 +16,14 @@
       "type": "image/jpeg",
       "title": "CORINE 2018 Forest Boundaries",
       "wms:layers": [
-        "FROMSAT:GER_forest_p50_2024_06_minus_2025_06"
+        "GTIFBaltic:CORINE_LIT_LAT_EST_2018_forests"
       ],
       "role": [
         "data"
       ],
       "wms:tilesize": 256,
       "wms:version": "1.1.1",
-      "key": "140eb4eb-f003-4890-83fd-79b991295464",
+      "key": "7f10ee1c-960e-4a3c-a236-a1efee0e4ca5",
       "eodash:proj4_def": {
         "name": "EPSG:3857"
       }
