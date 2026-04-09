@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "Forest Loss Coeficient Values",
   "stac_version": "1.1.0",
-  "description": "## Tree cover loss\n\nTree cover loss estimates, derived from Sentinel-1 polarimetry\nSAR data pre-processed with SAGRIS production system\n(https://www.sagris.eu), cover all scenarios of natural and man-made \ncauses of the loss of trees, including natural tree fall due to aging,\nsevere storms, forestry maintenance activities, as well as legal or\nillegal timber production. This service has high sensitivity (minimum\nmapping unit - 100 sq.m) and assessment of the whole winter season 2024/25 (October-April) in Baltic states (Lithuania, Latvia, Estonia). \n\n### Tree cover loss coeficient values legend\nVector map of SAGRIS tree loss coeficient shows coeficient values of area in hectares indicating tree loss.\n\n### Tree cover loss points layer legend\nPoints layer of forest clear-cuts (incl. natural forest loss) shows the center-point locations and relative sizes of the clear-cuts.\n",
+  "description": "## Tree cover loss\n\nTree cover loss maps is a forest loss monitoring tool built on Sentinel-1 SAR (Synthetic Aperture Radar) satellite data, processed through the SAGRIS production system (https://www.sagris.eu).\n<br>\nThe tool detects and maps tree cover loss across Poland. It captures all causes of forest loss, including natural tree death from old age, storm damage, forestry maintenance, and — most importantly — both legal and illegal timber harvesting.\n<br>\nThe algorithm uses SAR data. Unlike optical satellites (which are blocked by clouds), Sentinel-1 uses radar, meaning it can penetrate cloud cover and collect data year-round.\n<br>\nThe colored patches on the Forest Loss Coefficient map represent the Forest Loss Coefficient — coefficient values indicating tree loss per pixel, expressed as a percentage. Values are calculated for every pixel separately, ranging from 50% to 100% tree loss within that pixel.\n<br>\nThe colored circles on the Forest Loss Clear-cuts Points map represent the size of each clear-cut in hectares.<br>\nFor Poland specifically, forest loss is calculated only within areas classified as forest in the CORINE 2018 land cover dataset — meaning the analysis is bounded to officially mapped forest zones rather than any tree-covered area. The detection resolution is 100 m², making it far more sensitive than CORINE — however, CORINE forest boundaries are used as a coarse mask to define the analysis area.\nIn short, this is a near-real-time deforestation and forest disturbance early warning tool, capable of detecting small-scale changes across an entire region through all weather conditions.\n",
   "links": [
     {
       "rel": "root",
@@ -23,7 +23,7 @@
       ],
       "wms:tilesize": 256,
       "wms:version": "1.1.1",
-      "key": "0ec7194a-6dc4-496e-be55-5c484fa0d310",
+      "key": "aded3436-560c-4bc5-8e4a-9e56314be09f",
       "eodash:proj4_def": {
         "name": "EPSG:3857"
       }
