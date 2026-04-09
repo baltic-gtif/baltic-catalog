@@ -12,7 +12,7 @@
     },
     {
       "rel": "wms",
-      "href": "https://server1.landimage.info/geoserver/wms",
+      "href": "https://server1.landimage.info/geoserver/gwc/service/wms",
       "type": "image/jpeg",
       "title": "Forest Loss Coeficient Values",
       "wms:layers": [
@@ -23,7 +23,7 @@
       ],
       "wms:tilesize": 256,
       "wms:version": "1.1.1",
-      "key": "f971b915-1e37-4014-8e5c-a05b48c02cae",
+      "key": "5f462658-9903-467a-94f6-e0857da43cd5",
       "eodash:proj4_def": {
         "name": "EPSG:3857"
       }
@@ -74,10 +74,10 @@
     "spatial": {
       "bbox": [
         [
-          6.0947827058352,
-          47.05370274272273,
-          14.699746685509075,
-          55.45255980072777
+          6.225113689454379,
+          46.899292198713795,
+          15.2062290680878,
+          55.66028220041992
         ]
       ]
     },
