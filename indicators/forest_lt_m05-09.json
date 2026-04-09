@@ -26,16 +26,15 @@
   "References": [],
   "CollectionGroup": "",
   "Process": {
-    "Name": "",
-    "JsonForm": "",
-    "VegaDefinition": "",
+    "Name": "WMS GetFeatureInfo",
+    "JsonForm": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main/jsonforms/single_point.json",
+    "VegaDefinition": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main/chartdefs/vegachart_lodging.json",
     "EndPoints": [
       {
         "Identifier": "",
-        "Url": "",
-        "Type": "application/geo+json",
+        "Url": "https://corsproxy.io/?url=https://server1.landimage.info/geoserver/wms?version=1.1.0&SERVICE=WFS&request=GetFeature&typeName=GTIFBaltic:LIT_2024_crops_lodging_07&srsName=EPSG:3857&outputFormat=application/json&bbox={{point.0}},{{point.1}},{{point.0}},{{point.1}},EPSG:3857",
+        "Type": "application/json",
         "EndPoint": "",
-        "Method": "GET",
         "Body": "",
         "Flatstyle": ""
       }
