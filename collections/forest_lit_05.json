@@ -43,6 +43,9 @@
       "11-20",
       "21-50",
       "> 50"
-    ]
+    ],
+    "markType": "rect",
+    "tickValues": [],
+    "scaleType": "categorical"
   }
 }
