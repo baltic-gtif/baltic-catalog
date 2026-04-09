@@ -5,7 +5,7 @@
   "Resources": [
     {
       "Name": "WMS",
-      "EndPoint": "https://server1.landimage.info/geoserver/wms",
+      "EndPoint": "https://server1.landimage.info/geoserver/gwc/service/wms",
       "LayerId": "FROMSAT:GER_forest_taskai_cut50_2024_06_2025_06",
       "Type": "OverwriteTimes",
       "TileSize": 256,
