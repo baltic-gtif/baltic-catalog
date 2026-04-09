@@ -52,8 +52,8 @@
     },
     {
       "rel": "service",
-      "href": "",
-      "type": "application/geo+json",
+      "href": "https://corsproxy.io/?url=https://server1.landimage.info/geoserver/wms?version=1.1.0&SERVICE=WFS&request=GetFeature&typeName=GTIFBaltic:LIT_2024_crops_lodging_07&srsName=EPSG:3857&outputFormat=application/json&bbox={{point.0}},{{point.1}},{{point.0}},{{point.1}},EPSG:3857",
+      "type": "application/json",
       "id": "",
       "method": "GET"
     },
@@ -134,6 +134,8 @@
     "scaleType": "categorical",
     "markType": "rect"
   },
+  "eodash:jsonform": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main/jsonforms/single_point.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main/chartdefs/vegachart_lodging.json",
   "title": "Forest Loss in Lithuania 2024 05-09",
   "extent": {
     "spatial": {
