@@ -11,10 +11,6 @@
       "DataProjection": {
         "name": "EPSG:3857"
       },
-      "DateTimeInterval": {
-        "Start": "2024-10-01T00:00:00Z",
-        "End": "2025-03-31T00:00:00Z"
-      },
       "Version": "1.1.1",
       "OverwriteBBox": [
         20.205495937021727,
