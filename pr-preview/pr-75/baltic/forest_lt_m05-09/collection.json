@@ -12,27 +12,11 @@
     },
     {
       "rel": "child",
-      "href": "./forest_lit_05/collection.json",
+      "href": "./forest_lt_09/collection.json",
       "type": "application/json",
-      "title": "Forest Loss in 2024 05",
+      "title": "Forest Loss in 2024 09",
       "endpointtype": "WMS_OverwriteTimes",
-      "id": "forest_lit_05"
-    },
-    {
-      "rel": "child",
-      "href": "./forest_lit_06/collection.json",
-      "type": "application/json",
-      "title": "Forest Loss in 2024 06",
-      "endpointtype": "WMS_OverwriteTimes",
-      "id": "forest_lit_06"
-    },
-    {
-      "rel": "child",
-      "href": "./forest_lt_07/collection.json",
-      "type": "application/json",
-      "title": "Forest Loss in 2024 07",
-      "endpointtype": "WMS_OverwriteTimes",
-      "id": "forest_lt_07"
+      "id": "forest_lt_09"
     },
     {
       "rel": "child",
@@ -44,11 +28,27 @@
     },
     {
       "rel": "child",
-      "href": "./forest_lt_09/collection.json",
+      "href": "./forest_lt_07/collection.json",
       "type": "application/json",
-      "title": "Forest Loss in 2024 09",
+      "title": "Forest Loss in 2024 07",
       "endpointtype": "WMS_OverwriteTimes",
-      "id": "forest_lt_09"
+      "id": "forest_lt_07"
+    },
+    {
+      "rel": "child",
+      "href": "./forest_lit_06/collection.json",
+      "type": "application/json",
+      "title": "Forest Loss in 2024 06",
+      "endpointtype": "WMS_OverwriteTimes",
+      "id": "forest_lit_06"
+    },
+    {
+      "rel": "child",
+      "href": "./forest_lit_05/collection.json",
+      "type": "application/json",
+      "title": "Forest Loss in 2024 05",
+      "endpointtype": "WMS_OverwriteTimes",
+      "id": "forest_lit_05"
     },
     {
       "rel": "service",
@@ -145,22 +145,10 @@
           56.52979027999971
         ],
         [
-          20.495138524831514,
-          53.744190422983436,
-          27.064126021474443,
-          56.45263449852237
-        ],
-        [
-          20.09171674276329,
-          53.816986658276875,
-          27.298036107134724,
-          56.52979027999971
-        ],
-        [
-          20.346044679125463,
-          53.589205685662414,
-          27.228504818093356,
-          56.3666970177088
+          20.138839924416168,
+          53.22912104704421,
+          26.972872036876954,
+          56.486537231157904
         ],
         [
           20.34842916628969,
@@ -169,10 +157,22 @@
           56.44450252935107
         ],
         [
-          20.138839924416168,
-          53.22912104704421,
-          26.972872036876954,
-          56.486537231157904
+          20.346044679125463,
+          53.589205685662414,
+          27.228504818093356,
+          56.3666970177088
+        ],
+        [
+          20.09171674276329,
+          53.816986658276875,
+          27.298036107134724,
+          56.52979027999971
+        ],
+        [
+          20.495138524831514,
+          53.744190422983436,
+          27.064126021474443,
+          56.45263449852237
         ]
       ]
     },
