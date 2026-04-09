@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "Forest Loss Clear-cuts Points",
   "stac_version": "1.1.0",
-  "description": "indicators/forest_lt/description.md ",
+  "description": "indicators/forest_ger/description.md ",
   "links": [
     {
       "rel": "root",
@@ -23,7 +23,7 @@
       ],
       "wms:tilesize": 256,
       "wms:version": "1.1.1",
-      "key": "ad56a57c-6315-4d91-99d8-09fbd0e79c21",
+      "key": "87dba367-2e56-4182-8b16-7f63f72fea07",
       "eodash:proj4_def": {
         "name": "EPSG:3857"
       }
