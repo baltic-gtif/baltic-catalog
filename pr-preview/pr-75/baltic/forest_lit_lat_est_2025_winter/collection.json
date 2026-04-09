@@ -27,6 +27,14 @@
       "id": "Forest Loss Clear-cuts Points"
     },
     {
+      "rel": "child",
+      "href": "./CORINE 2018 Forest Boundaries/collection.json",
+      "type": "application/json",
+      "title": "CORINE 2018 Forest Boundaries",
+      "endpointtype": "WMS_OverwriteTimes",
+      "id": "CORINE 2018 Forest Boundaries"
+    },
+    {
       "rel": "service",
       "href": "",
       "type": "application/geo+json",
@@ -95,8 +103,8 @@
       "bbox": [
         [
           20.347956765879132,
-          53.19456538497864,
-          28.52505380423799,
+          53.12261804761748,
+          28.743479238252885,
           60.278394521281584
         ],
         [
@@ -110,6 +118,12 @@
           53.648407105421455,
           28.52505380423799,
           59.63927180494598
+        ],
+        [
+          20.82877877559398,
+          53.12261804761748,
+          28.743479238252885,
+          59.68051271667771
         ]
       ]
     },
