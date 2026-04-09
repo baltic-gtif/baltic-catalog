@@ -23,7 +23,7 @@
       ],
       "wms:tilesize": 256,
       "wms:version": "1.1.1",
-      "key": "bb92f40a-3aff-4132-b64e-aa5217ac3291",
+      "key": "5650daeb-1c65-4665-bd51-76c1cba3fdc2",
       "eodash:proj4_def": {
         "name": "EPSG:3857"
       }
@@ -36,6 +36,27 @@
     }
   ],
   "thumbnail": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/forest_lt.png",
+  "eox:colorlegend": {
+    "title": "Tree Loss (%)",
+    "range": [
+      "#56b636",
+      "#a5da9f",
+      "#a5da9f",
+      "#ffd6bf",
+      "#fdae61",
+      "#d7191c"
+    ],
+    "domain": [
+      "0",
+      "1-5",
+      "6-10",
+      "11-20",
+      "21-50",
+      "> 50"
+    ],
+    "markType": "rect",
+    "scaleType": "categorical"
+  },
   "eodash:proj4_def": {
     "name": "EPSG:3857"
   },
