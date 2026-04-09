@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "forest_lit_lat_est_2025_winter_pix",
+  "id": "Forest Loss Coeficient Values",
   "stac_version": "1.1.0",
   "description": "",
   "links": [
@@ -12,7 +12,7 @@
     },
     {
       "rel": "wms",
-      "href": "https://server1.landimage.info/geoserver/wms",
+      "href": "https://server1.landimage.info/geoserver/gwc/service/wms",
       "type": "image/jpeg",
       "title": "Forest Loss Coeficient Values",
       "wms:layers": [
@@ -23,7 +23,7 @@
       ],
       "wms:tilesize": 256,
       "wms:version": "1.1.1",
-      "key": "5760e1ff-0d35-4119-aa5e-9675bc2d6f77",
+      "key": "b8a23c48-5961-46a1-9700-ea9b1482e9c3",
       "eodash:proj4_def": {
         "name": "EPSG:3857"
       }
@@ -84,8 +84,8 @@
     "temporal": {
       "interval": [
         [
-          "2024-06-01T00:00:00Z",
-          "2024-06-01T00:00:00Z"
+          "2024-10-01T00:00:00Z",
+          "2025-04-30T00:00:00Z"
         ]
       ]
     }

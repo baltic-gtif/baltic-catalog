@@ -12,11 +12,11 @@
     },
     {
       "rel": "child",
-      "href": "./forest_lit_lat_est_2025_winter_pix/collection.json",
+      "href": "./Forest Loss Coeficient Values/collection.json",
       "type": "application/json",
       "title": "Forest Loss Coeficient Values",
       "endpointtype": "WMS_OverwriteTimes",
-      "id": "forest_lit_lat_est_2025_winter_pix"
+      "id": "Forest Loss Coeficient Values"
     },
     {
       "rel": "child",

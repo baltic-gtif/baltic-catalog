@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "forest_lit_lat_est_2025_winter_pix",
+  "id": "Forest Loss Coeficient Values",
   "stac_version": "1.1.0",
   "description": "",
   "links": [
@@ -12,11 +12,11 @@
     },
     {
       "rel": "child",
-      "href": "./forest_lit_lat_est_2025_winter_pix/collection.json",
+      "href": "./Forest Loss Coeficient Values/collection.json",
       "type": "application/json",
       "title": "Forest Loss Coeficient Values",
       "endpointtype": "WMS_OverwriteTimes",
-      "id": "forest_lit_lat_est_2025_winter_pix"
+      "id": "Forest Loss Coeficient Values"
     },
     {
       "rel": "xyz",
@@ -106,8 +106,8 @@
     "temporal": {
       "interval": [
         [
-          "2024-06-01T00:00:00Z",
-          "2024-06-01T00:00:00Z"
+          "2024-10-01T00:00:00Z",
+          "2025-04-30T00:00:00Z"
         ]
       ]
     }
