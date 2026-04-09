@@ -23,7 +23,7 @@
       ],
       "wms:tilesize": 256,
       "wms:version": "1.1.1",
-      "key": "d8cc2d0a-5324-4d4a-86a4-43f33cda1ed0",
+      "key": "664a45ce-6228-4498-a86e-d4c434a8f42e",
       "eodash:proj4_def": {
         "name": "EPSG:3857"
       }
@@ -84,14 +84,22 @@
     "temporal": {
       "interval": [
         [
-          "1970-01-01T00:00:00Z",
-          "2026-04-09T08:15:14.637151Z"
+          "2024-06-01T00:00:00Z",
+          "2024-06-01T00:00:00Z"
         ]
       ]
     }
   },
   "license": "other",
   "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    },
     "thumbnail": {
       "href": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/forest_lt.png",
       "type": "image/png",
