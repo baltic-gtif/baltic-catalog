@@ -79,7 +79,10 @@
       "11-20",
       "21-50",
       "> 50"
-    ]
+    ],
+    "markType": "rect",
+    "tickValues": [],
+    "scaleType": "categorical"
   },
   "title": "Forest Loss in 2024 05",
   "extent": {
