@@ -1,11 +1,11 @@
 {
-  "Name": "forest_lit_lat_est_2025_winter_pix",
+  "Name": "Forest Loss Coeficient Values",
   "Title": "Forest Loss Coeficient Values",
   "Description": "",
   "Resources": [
     {
       "Name": "WMS",
-      "EndPoint": "https://server1.landimage.info/geoserver/wms",
+      "EndPoint": "https://server1.landimage.info/geoserver/gwc/service/wms",
       "LayerId": "GTIFBaltic:LIT_LAT_EST_2025_forest_cuts_winter_pix",
       "Type": "OverwriteTimes",
       "DataProjection": {
@@ -20,8 +20,8 @@
       ],
       "TileSize": 256,
       "DateTimeInterval": {
-        "Start": "2024-06-01T00:00:00Z",
-        "End": "2024-06-01T00:00:00Z"
+        "Start": "2024-10-01T00:00:00Z",
+        "End": "2025-04-30T00:00:00Z"
       }
     }
   ],
