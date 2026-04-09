@@ -23,7 +23,7 @@
       ],
       "wms:tilesize": 256,
       "wms:version": "1.1.1",
-      "key": "28d667c7-9c41-46d6-8026-7237193f2074",
+      "key": "7acd7a77-af0a-4e21-b5db-779f3f6fa94a",
       "eodash:proj4_def": {
         "name": "EPSG:3857"
       }
@@ -32,7 +32,7 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Forest Loss in Poland (2024-06 - 2025-06) "
+      "title": "Forest Loss in Poland (2024-06 - 2025-06)"
     }
   ],
   "thumbnail": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/forest_lt.png",
@@ -42,12 +42,12 @@
       "50",
       "52",
       "55",
-      "66",
-      "69",
-      "75",
       "57",
       "60",
       "63",
+      "66",
+      "69",
+      "75",
       "96"
     ],
     "range": [
@@ -56,11 +56,11 @@
       "#9dd3a6",
       "#c7e8ad",
       "#ecf7b9",
+      "#ffedaa",
+      "#fec980",
       "#f99d59",
       "#e85b3b",
-      "#fec980",
-      "#ffedaa",
-      "#d7191c "
+      "#d7191c"
     ],
     "scaleType": "categorical",
     "markType": "rect"

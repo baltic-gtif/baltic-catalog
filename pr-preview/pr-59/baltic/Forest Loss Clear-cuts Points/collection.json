@@ -68,7 +68,7 @@
       "#800026"
     ],
     "scaleType": "categorical",
-    "markType": "rect"
+    "markType": "circle"
   },
   "title": "Forest Loss Clear-cuts Points",
   "extent": {
