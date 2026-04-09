@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "Forest Loss Coeficient Values",
   "stac_version": "1.1.0",
-  "description": "",
+  "description": "## Tree cover loss\n\nTree cover loss estimates, derived from Sentinel-1 polarimetry\nSAR data pre-processed with SAGRIS production system\n(https://www.sagris.eu), cover all scenarios of natural and man-made \ncauses of the loss of trees, including natural tree fall due to aging,\nsevere storms, forestry maintenance activities, as well as legal or\nillegal timber production. This service has high sensitivity (minimum\nmapping unit - 100 sq.m) and assessment of the whole winter season 2024/25 (October-April) in Baltic states (Lithuania, Latvia, Estonia). \n\n### Tree cover loss coeficient values legend\nVector map of SAGRIS tree loss coeficient shows coeficient values of area in hectares indicating tree loss.\n\n### Tree cover loss points layer legend\nPoints layer of forest clear-cuts (incl. natural forest loss) shows the center-point locations and relative sizes of the clear-cuts.\n",
   "links": [
     {
       "rel": "root",
@@ -21,9 +21,8 @@
       "role": [
         "data"
       ],
-      "wms:tilesize": 256,
       "wms:version": "1.1.1",
-      "key": "1b041f1c-8a94-432f-9ce9-31c0bce1c07d",
+      "key": "b58cdc32-47cf-49d4-a40b-b37dd482650f",
       "eodash:proj4_def": {
         "name": "EPSG:3857"
       }
@@ -74,32 +73,24 @@
     "spatial": {
       "bbox": [
         [
-          5.979707336988206,
-          46.483752002498846,
-          15.208715624134541,
-          55.65423392583931
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2024-06-01T00:00:00Z",
-          "2025-05-27T00:00:00Z"
+          "1970-01-01T00:00:00Z",
+          "2026-04-09T09:36:12.298209Z"
         ]
       ]
     }
   },
   "license": "other",
   "assets": {
-    "geoparquet": {
-      "href": "./items.parquet",
-      "type": "application/vnd.apache.parquet",
-      "title": "GeoParquet Items",
-      "roles": [
-        "collection-mirror"
-      ]
-    },
     "thumbnail": {
       "href": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/forest_lt.png",
       "type": "image/png",
