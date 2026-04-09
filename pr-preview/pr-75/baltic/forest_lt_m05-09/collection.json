@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "forest_lt_m05-09",
   "stac_version": "1.1.0",
-  "description": "## Tree cover loss\n\nTree cover loss estimates, derived from Sentinel-1 polarimetry\nSAR data pre-processed with SAGRIS production system\n(https://www.sagris.eu), cover all scenarios of natural and man-made \ncauses of the loss of trees, including natural tree fall due to aging,\nsevere storms, forestry maintenance activities, as well as legal or\nillegal timber production. This service has high sensitivity (minimum\nmapping unit - 100 sq.m) and assessment of the whole winter season 2024/25 (October-April) in Baltic states (Lithuania, Latvia, Estonia). \n\n### Tree cover loss coeficient values legend\nVector map of SAGRIS tree loss coeficient shows coeficient values of area in hectares indicating tree loss.\n\n### Tree cover loss points layer legend\nPoints layer of forest clear-cuts (incl. natural forest loss) shows the center-point locations and relative sizes of the clear-cuts.\n",
+  "description": "## Tree cover loss\n\nTree cover loss maps is a forest loss monitoring tool built on Sentinel-1 SAR (Synthetic Aperture Radar) satellite data, processed through the SAGRIS production system (https://www.sagris.eu). <br>\nThe tool detects and maps tree cover loss across Lithuania. It captures all causes of forest loss, including natural tree death from old age, storm damage, forestry maintenance, and — most importantly — both legal and illegal timber harvesting. <br>\nThe algorithm uses SAR data. Unlike optical satellites (which are blocked by clouds), Sentinel-1 uses radar, meaning it can penetrate cloud cover and collect data year-round. This is particularly valuable in Lithuania, where persistent cloud cover would otherwise limit the effectiveness of conventional optical satellites. <>\nThe tool provides monthly updates during the summer season, with an additional assessment covering the full summer period (May–September 2024). The datetime control lets users scrub through time to see how forest loss events developed across the 2024 season, making it easy to track the progression of tree loss month by month. <br>\nForest loss is displayed at the level of forestry taxation units — each unit shows the percentage of its area affected by tree loss. The minimum mapping unit is 100 m², meaning even small patches of forest loss are detectable, making this far more sensitive than many traditional monitoring systems. <br>\n\nIn short, this is a near-real-time deforestation and forest disturbance early warning tool, capable of detecting small-scale changes across an entire region through all weather conditions.\n",
   "links": [
     {
       "rel": "root",
@@ -52,7 +52,7 @@
     },
     {
       "rel": "service",
-      "href": "https://corsproxy.io/?url=https://server1.landimage.info/geoserver/wms?version=1.1.0&SERVICE=WFS&request=GetFeature&typeName=GTIFBaltic:LIT_2024_crops_lodging_07&srsName=EPSG:3857&outputFormat=application/json&bbox={{point.0}},{{point.1}},{{point.0}},{{point.1}},EPSG:3857",
+      "href": "",
       "type": "application/json",
       "id": "",
       "method": "GET"
@@ -134,8 +134,6 @@
     "scaleType": "categorical",
     "markType": "rect"
   },
-  "eodash:jsonform": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main/jsonforms/single_point.json",
-  "eodash:vegadefinition": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main/chartdefs/vegachart_lodging.json",
   "title": "Forest Loss in Lithuania 2024 05-09",
   "extent": {
     "spatial": {
