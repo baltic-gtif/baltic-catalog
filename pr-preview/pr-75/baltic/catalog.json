@@ -62,6 +62,16 @@
     },
     {
       "rel": "child",
+      "href": "./CORINE 2018 Forest Boundaries/collection.json",
+      "type": "application/json",
+      "title": "CORINE 2018 Forest Boundaries",
+      "id": "CORINE 2018 Forest Boundaries",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/forest_lt.png"
+      ]
+    },
+    {
+      "rel": "child",
       "href": "./Forest Loss Coeficient Values/collection.json",
       "type": "application/json",
       "title": "Forest Loss Coeficient Values",
