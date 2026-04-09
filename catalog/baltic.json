@@ -1,0 +1,24 @@
+{
+  "id": "baltic",
+  "title": "Baltic GTIF Catalog",
+  "description": "This catalog definition is done for the Baltic GTIF project.",
+  "endpoint": "https://baltic-gtif.github.io/baltic-gtif/baltic-catalog/",
+  "default_base_layers": "layers/baselayers",
+  "default_overlay_layers": "layers/overlays",
+  "assets_endpoint": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main/",
+  "collections": [
+    "sm_lt_04_high_medium_low",
+    "ld_lt_07",
+    "sm_at_09_high_medium_low",
+    "sm_lit_lat_est_2025_05_high_medium_low",
+    "group25_pg_arable",
+    "habitat_pgtype_lithuania",
+    "geomconversionpg",
+    "poland-watterlogging-index",
+    "germany-waterlogging",
+    "vilnius_heat_map",
+    "forest_lit_lat_est_2025_winter",
+    "forest_lt_m05-09",
+    "forest_ger_2024_06_2025_06_wms_high_medium_low"
+  ]
+}
