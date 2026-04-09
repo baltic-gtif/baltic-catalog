@@ -1,0 +1,28 @@
+{
+  "Name": "habitat",
+  "Title": "Permanent Grassland LT - Habitat",
+  "Image": "thumbnails/grassland_lt.png",
+  "Description": "indicators/habitat_and_pgtype/description.md",
+  "Resources": [
+    {
+      "Name": "VectorTile source",
+      "Style": "collections/habitats_lithuania/style_habitat_PG_geotile.json",
+      "TimeEntries": [
+        {
+          "Time": "2025-12-31",
+          "Url": "https://eoapi.workspace.baltic-gtif.hub-otc.eox.at/vector/collections/public.lt_2025_habitat_pg/tiles/WebMercatorQuad/{z}/{x}/{y}"
+        },
+        {
+          "Time": "2024-12-31",
+          "Url": "https://eoapi.workspace.baltic-gtif.hub-otc.eox.at/vector/collections/public.lt_2024_habitat_pg/tiles/WebMercatorQuad/{z}/{x}/{y}"
+        }
+      ],
+      "Bbox": [
+        21.228707166566753,
+        55.25151888701188,
+        21.457688260815036,
+        55.35223641266015
+      ]
+    }
+  ]
+}

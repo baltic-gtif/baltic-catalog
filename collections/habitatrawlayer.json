@@ -1,0 +1,23 @@
+{
+  "Name": "habitat_rawlayer",
+  "Title": "Habitat type",
+  "Description": "indicators/habitat_and_pgtype/description.md",
+  "Resources": [
+    {
+      "Name": "VectorTile source",
+      "Style": "collections/habitats_lithuania/style_habitat_raw_geotile.json",
+      "TimeEntries": [
+	       {
+          "Time": "2025-12-31",
+          "Url": "https://eoapi.workspace.baltic-gtif.hub-otc.eox.at/vector/collections/public.lt_raw_habitat/tiles/WebMercatorQuad/{z}/{x}/{y}"
+        }
+      ],
+      "Bbox": [
+        20.37351690406548,
+        53.71729184024658,
+        26.9521701367242,
+        56.31700190178251
+      ]
+    }
+  ]
+}

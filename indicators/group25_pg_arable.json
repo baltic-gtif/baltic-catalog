@@ -1,0 +1,9 @@
+{
+  "Name": "Group25PGarable",
+  "Title": "SOC of Permanent Grassland and Arable",
+  "Description": "indicators/group25_pg_arable/description.md",
+  "Collections": [
+    "soc_pg",
+    "soc_arable"
+  ]
+}
