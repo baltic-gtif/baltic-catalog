@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "Crops_Lodging_parcels",
+  "id": "Crops_Lodging",
   "stac_version": "1.1.0",
   "description": "",
   "links": [
@@ -11,32 +11,28 @@
       "title": "Baltic GTIF Catalog"
     },
     {
-      "rel": "wms",
-      "href": "https://server1.landimage.info/geoserver/wms",
-      "type": "image/png",
-      "title": "Crops Lodging - parcels",
-      "wms:layers": [
-        "GTIFBaltic:LIT_2024_crops_lodging_07"
-      ],
-      "role": [
-        "data"
-      ],
-      "wms:tilesize": 256,
-      "wms:version": "1.1.1",
-      "key": "1666a8a7-7520-461d-b306-0c0fb0a923e6",
-      "proj:epsg": 3857
+      "rel": "style",
+      "href": "https://api.npoint.io/94d6c5c498a0ac16563f",
+      "type": "text/cog-styles",
+      "asset:keys": [
+        "01"
+      ]
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Crops Lodging - parcels"
+      "title": "Lodging Lithuania"
     }
   ],
-  "thumbnail": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/ld_lt.png",
   "themes": [
     "Crops Lodging"
   ],
+  "collection_group": "Crops",
+  "eodash:mapProjection": {
+    "name": "EPSG:3035",
+    "def": "+proj=laea +lat_0=52 +lon_0=10 +x_0=4321000 +y_0=3210000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs +type=crs"
+  },
   "eox:colorlegend": {
     "title": "Lodging legend",
     "range": [
@@ -64,11 +60,12 @@
       "80 - 100",
       "NA"
     ],
-    "scaleType": "categorical"
+    "scaleType": "categorical",
+    "markType": "circle"
   },
-  "proj:epsg": 3857,
-  "endpointtype": "WMS_OverwriteTimes",
-  "title": "Crops Lodging - parcels",
+  "proj:epsg": 3035,
+  "endpointtype": "COG source",
+  "title": "Crops Lodging",
   "extent": {
     "spatial": {
       "bbox": [
@@ -84,7 +81,7 @@
       "interval": [
         [
           "2024-06-25T00:00:00Z",
-          "2024-07-15T00:00:00Z"
+          "2024-06-25T00:00:00Z"
         ]
       ]
     }
@@ -97,13 +94,6 @@
       "title": "GeoParquet Items",
       "roles": [
         "collection-mirror"
-      ]
-    },
-    "thumbnail": {
-      "href": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/ld_lt.png",
-      "type": "image/png",
-      "roles": [
-        "thumbnail"
       ]
     }
   }
