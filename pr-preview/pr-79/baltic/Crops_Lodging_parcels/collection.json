@@ -1,0 +1,139 @@
+{
+  "type": "Collection",
+  "id": "Crops_Lodging_parcels",
+  "stac_version": "1.1.0",
+  "description": "",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Baltic GTIF Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./Crops_Lodging_parcels/collection.json",
+      "type": "application/json",
+      "title": "Crops Lodging - parcels",
+      "endpointtype": "WMS_OverwriteTimes",
+      "id": "Crops_Lodging_parcels",
+      "themes": [
+        "Crops Lodging"
+      ]
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "EOxCloudless 2024",
+      "roles": [
+        "baselayer",
+        "visible"
+      ],
+      "id": "cloudless-2024",
+      "attribution": "{ EOxCloudless 2024: <a xmlns:dct=\"http://purl.org/dc/terms/\" href=\"https://s2maps.eu\" target=\"_blank\" property=\"dct:title\">Sentinel-2 cloudless - s2maps.eu</a> by <a xmlns:cc=\"http://creativecommons.org/ns#\" href=\"https://eox.at\" target=\"_blank\" property=\"cc:attributionName\" rel=\"cc:attributionURL\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2024) }"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "OSM Baselayer",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "OSM",
+      "attribution": "{ OSM: Data &copy; <a href=\\\"http://www.openstreetmap.org/copyright\\\" target=\\\"_blank\\\">OpenStreetMap</a> contributors and <a href=\\\"https://maps.eox.at/#data\\\" target=\\\"_blank\\\">others</a>, Rendering &copy; <a href=\\\"http://eox.at\\\" target=\\\"_blank\\\">EOX</a> }"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "image/png",
+      "title": "Overlay labels",
+      "roles": [
+        "overlay",
+        "visible"
+      ],
+      "id": "overlay_bright",
+      "attribution": "{ Overlay: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors, Made with Natural Earth, Rendering &copy; <a href=\"https://eox.at\" target=\"_blank\">EOX</a> }"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Baltic GTIF Catalog"
+    }
+  ],
+  "thumbnail": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/ld_lt.png",
+  "themes": [
+    "Crops Lodging"
+  ],
+  "eox:colorlegend": {
+    "title": "Lodging legend",
+    "range": [
+      "#3c8bc0",
+      "#6aa3d8",
+      "#69c0d8",
+      "#1be5b5",
+      "#74fe5d",
+      "#c9ef34",
+      "#fbb938",
+      "#c92903",
+      "#7a0403",
+      "#020101"
+    ],
+    "domain": [
+      "0 - 5",
+      "5 - 10",
+      "10 - 15",
+      "15 - 20",
+      "20 - 25",
+      "25 - 30",
+      "30 - 40",
+      "40 - 60",
+      "60 - 80",
+      "80 - 100",
+      "NA"
+    ],
+    "scaleType": "categorical"
+  },
+  "title": "Crops Lodging - parcels",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          22.64524,
+          54.94676,
+          23.02416,
+          55.30585
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-06-25T00:00:00Z",
+          "2024-07-15T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "summaries": {
+    "themes": [
+      "Crops Lodging"
+    ],
+    "thumbnail": [
+      "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/ld_lt.png"
+    ]
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/ld_lt.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}
