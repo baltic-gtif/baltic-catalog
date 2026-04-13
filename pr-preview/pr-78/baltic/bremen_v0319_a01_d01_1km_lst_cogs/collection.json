@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "energy_emission___berlin_v0319_a01_d01",
+  "id": "bremen_v0319_a01_d01_1km_lst_cogs",
   "stac_version": "1.1.0",
-  "description": "...",
+  "description": "....",
   "links": [
     {
       "rel": "root",
@@ -12,34 +12,11 @@
     },
     {
       "rel": "child",
-      "href": "./berlin_v0319_a01_d01_1km_lst_cogs/collection.json",
+      "href": "./bremen_v0319_a01_d01_1km_lst_cogs/collection.json",
       "type": "application/json",
-      "title": "berlin_v0319_a01_d01_1km_lst_cogs",
+      "title": "bremen_v0319_a01_d01_1km_lst_cogs",
       "endpointtype": "COG source",
-      "id": "berlin_v0319_a01_d01_1km_lst_cogs"
-    },
-    {
-      "rel": "child",
-      "href": "./berlin_v0319_a01_d01_30m_lst_cogs/collection.json",
-      "type": "application/json",
-      "title": "berlin_v0319_a01_d01_30m_lst_cogs",
-      "endpointtype": "COG source",
-      "id": "berlin_v0319_a01_d01_30m_lst_cogs"
-    },
-    {
-      "rel": "child",
-      "href": "./energy_emission___berlin_v0319_a01_d01___building_footprints_vector_tiles/collection.json",
-      "type": "application/json",
-      "title": "building_footprints",
-      "endpointtype": "VectorTile source",
-      "id": "energy_emission___berlin_v0319_a01_d01___building_footprints_vector_tiles"
-    },
-    {
-      "rel": "service",
-      "href": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/UEPM/datasets/berlin_v0319_a01_d01/buildings_timeseries/{{building_id}}.json",
-      "type": "application/json",
-      "id": "building_timeseries",
-      "method": "GET"
+      "id": "bremen_v0319_a01_d01_1km_lst_cogs"
     },
     {
       "rel": "xyz",
@@ -84,43 +61,29 @@
       "title": "Baltic GTIF Catalog"
     }
   ],
-  "eodash:jsonform": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/UEPM/datasets/berlin_v0319_a01_d01/timeseries_form.json",
-  "eodash:vegadefinition": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/UEPM/timeseries_vega_chart.json",
-  "title": "energy_emission___berlin_v0319_a01_d01",
+  "title": "bremen_v0319_a01_d01_1km_lst_cogs",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          13.250362765112287,
-          52.41995503815249,
-          13.559195545057818,
-          52.60758767568098
+          8.669957108772422,
+          52.984065217642865,
+          8.971124564742,
+          53.164628905971284
         ],
         [
-          13.250362765112287,
-          52.41995503815249,
-          13.559195545057818,
-          52.60758767568098
-        ],
-        [
-          13.250362765112287,
-          52.41995503815249,
-          13.559195545057818,
-          52.60758767568098
-        ],
-        [
-          13.250362765112287,
-          52.41995503815249,
-          13.559195545057818,
-          52.60758767568098
+          8.669957108772422,
+          52.984065217642865,
+          8.971124564742,
+          53.164628905971284
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2018-06-07T09:21:24.383356Z",
-          "2026-03-27T09:32:56.754295Z"
+          "2018-06-14T09:40:06.819557Z",
+          "2026-02-27T09:59:06.805720Z"
         ]
       ]
     }

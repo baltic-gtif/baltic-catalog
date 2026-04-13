@@ -12,6 +12,13 @@
     },
     {
       "rel": "child",
+      "href": "./berlin_v0319_a01_d01_1km_lst_cogs/collection.json",
+      "type": "application/json",
+      "title": "berlin_v0319_a01_d01_1km_lst_cogs",
+      "id": "berlin_v0319_a01_d01_1km_lst_cogs"
+    },
+    {
+      "rel": "child",
       "href": "./berlin_v0319_a01_d01_30m_lst_cogs/collection.json",
       "type": "application/json",
       "title": "berlin_v0319_a01_d01_30m_lst_cogs",
@@ -23,6 +30,27 @@
       "type": "application/json",
       "title": "building_footprints",
       "id": "energy_emission___berlin_v0319_a01_d01___building_footprints_vector_tiles"
+    },
+    {
+      "rel": "child",
+      "href": "./bremen_v0319_a01_d01_1km_lst_cogs/collection.json",
+      "type": "application/json",
+      "title": "bremen_v0319_a01_d01_1km_lst_cogs",
+      "id": "bremen_v0319_a01_d01_1km_lst_cogs"
+    },
+    {
+      "rel": "child",
+      "href": "./bremen_v0319_a01_d01_30m_lst_cogs/collection.json",
+      "type": "application/json",
+      "title": "bremen_v0319_a01_d01_30m_lst_cogs",
+      "id": "bremen_v0319_a01_d01_30m_lst_cogs"
+    },
+    {
+      "rel": "child",
+      "href": "./energy_emission___bremen_v0319_a01_d01___building_footprints_vector_tiles/collection.json",
+      "type": "application/json",
+      "title": "building_footprints",
+      "id": "energy_emission___bremen_v0319_a01_d01___building_footprints_vector_tiles"
     },
     {
       "rel": "child",
@@ -100,6 +128,13 @@
       "type": "application/json",
       "title": "energy_emission___berlin_v0319_a01_d01",
       "id": "energy_emission___berlin_v0319_a01_d01"
+    },
+    {
+      "rel": "child",
+      "href": "./energy_emission___bremen_v0319_a01_d01/collection.json",
+      "type": "application/json",
+      "title": "energy_emission___bremen_v0319_a01_d01",
+      "id": "energy_emission___bremen_v0319_a01_d01"
     },
     {
       "rel": "child",

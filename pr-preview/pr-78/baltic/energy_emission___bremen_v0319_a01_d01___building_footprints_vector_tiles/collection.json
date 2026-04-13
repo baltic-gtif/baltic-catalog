@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "energy_emission___berlin_v0319_a01_d01",
+  "id": "energy_emission___bremen_v0319_a01_d01___building_footprints_vector_tiles",
   "stac_version": "1.1.0",
-  "description": "...",
+  "description": "Vector tile layer for Berlin dataset served via TiPg ",
   "links": [
     {
       "rel": "root",
@@ -12,31 +12,15 @@
     },
     {
       "rel": "child",
-      "href": "./berlin_v0319_a01_d01_1km_lst_cogs/collection.json",
-      "type": "application/json",
-      "title": "berlin_v0319_a01_d01_1km_lst_cogs",
-      "endpointtype": "COG source",
-      "id": "berlin_v0319_a01_d01_1km_lst_cogs"
-    },
-    {
-      "rel": "child",
-      "href": "./berlin_v0319_a01_d01_30m_lst_cogs/collection.json",
-      "type": "application/json",
-      "title": "berlin_v0319_a01_d01_30m_lst_cogs",
-      "endpointtype": "COG source",
-      "id": "berlin_v0319_a01_d01_30m_lst_cogs"
-    },
-    {
-      "rel": "child",
-      "href": "./energy_emission___berlin_v0319_a01_d01___building_footprints_vector_tiles/collection.json",
+      "href": "./energy_emission___bremen_v0319_a01_d01___building_footprints_vector_tiles/collection.json",
       "type": "application/json",
       "title": "building_footprints",
       "endpointtype": "VectorTile source",
-      "id": "energy_emission___berlin_v0319_a01_d01___building_footprints_vector_tiles"
+      "id": "energy_emission___bremen_v0319_a01_d01___building_footprints_vector_tiles"
     },
     {
       "rel": "service",
-      "href": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/UEPM/datasets/berlin_v0319_a01_d01/buildings_timeseries/{{building_id}}.json",
+      "href": "https://baltic-gtif.ohb-ds.de/gateway/api/eodash/datasets/bremen_v0319_a01_d01/buildings/timeseries?namespace=public&use_case=energy_emission&building_id={{feature_id}}&start_date=2018-06-01T00:00:00Z&end_date=2026-03-30T23:59:59Z&drop_building_id=true&f=json",
       "type": "application/json",
       "id": "building_timeseries",
       "method": "GET"
@@ -84,43 +68,31 @@
       "title": "Baltic GTIF Catalog"
     }
   ],
-  "eodash:jsonform": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/UEPM/datasets/berlin_v0319_a01_d01/timeseries_form.json",
+  "eodash:jsonform": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/UEPM/datasets/bremen_v0319_a01_d01/timeseries_form.json",
   "eodash:vegadefinition": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/UEPM/timeseries_vega_chart.json",
-  "title": "energy_emission___berlin_v0319_a01_d01",
+  "title": "building_footprints",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          13.250362765112287,
-          52.41995503815249,
-          13.559195545057818,
-          52.60758767568098
+          8.669957108772422,
+          52.984065217642865,
+          8.971124564742,
+          53.164628905971284
         ],
         [
-          13.250362765112287,
-          52.41995503815249,
-          13.559195545057818,
-          52.60758767568098
-        ],
-        [
-          13.250362765112287,
-          52.41995503815249,
-          13.559195545057818,
-          52.60758767568098
-        ],
-        [
-          13.250362765112287,
-          52.41995503815249,
-          13.559195545057818,
-          52.60758767568098
+          8.669957108772422,
+          52.984065217642865,
+          8.971124564742,
+          53.164628905971284
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2018-06-07T09:21:24.383356Z",
-          "2026-03-27T09:32:56.754295Z"
+          "2023-01-01T00:00:00Z",
+          "2023-01-01T00:00:00Z"
         ]
       ]
     }

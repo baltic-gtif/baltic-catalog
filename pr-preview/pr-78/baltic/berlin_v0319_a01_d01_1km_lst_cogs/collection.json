@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "energy_emission___berlin_v0319_a01_d01",
+  "id": "berlin_v0319_a01_d01_1km_lst_cogs",
   "stac_version": "1.1.0",
-  "description": "...",
+  "description": "....",
   "links": [
     {
       "rel": "root",
@@ -17,29 +17,6 @@
       "title": "berlin_v0319_a01_d01_1km_lst_cogs",
       "endpointtype": "COG source",
       "id": "berlin_v0319_a01_d01_1km_lst_cogs"
-    },
-    {
-      "rel": "child",
-      "href": "./berlin_v0319_a01_d01_30m_lst_cogs/collection.json",
-      "type": "application/json",
-      "title": "berlin_v0319_a01_d01_30m_lst_cogs",
-      "endpointtype": "COG source",
-      "id": "berlin_v0319_a01_d01_30m_lst_cogs"
-    },
-    {
-      "rel": "child",
-      "href": "./energy_emission___berlin_v0319_a01_d01___building_footprints_vector_tiles/collection.json",
-      "type": "application/json",
-      "title": "building_footprints",
-      "endpointtype": "VectorTile source",
-      "id": "energy_emission___berlin_v0319_a01_d01___building_footprints_vector_tiles"
-    },
-    {
-      "rel": "service",
-      "href": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/UEPM/datasets/berlin_v0319_a01_d01/buildings_timeseries/{{building_id}}.json",
-      "type": "application/json",
-      "id": "building_timeseries",
-      "method": "GET"
     },
     {
       "rel": "xyz",
@@ -84,24 +61,10 @@
       "title": "Baltic GTIF Catalog"
     }
   ],
-  "eodash:jsonform": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/UEPM/datasets/berlin_v0319_a01_d01/timeseries_form.json",
-  "eodash:vegadefinition": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/UEPM/timeseries_vega_chart.json",
-  "title": "energy_emission___berlin_v0319_a01_d01",
+  "title": "berlin_v0319_a01_d01_1km_lst_cogs",
   "extent": {
     "spatial": {
       "bbox": [
-        [
-          13.250362765112287,
-          52.41995503815249,
-          13.559195545057818,
-          52.60758767568098
-        ],
-        [
-          13.250362765112287,
-          52.41995503815249,
-          13.559195545057818,
-          52.60758767568098
-        ],
         [
           13.250362765112287,
           52.41995503815249,
