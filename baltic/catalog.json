@@ -148,6 +148,16 @@
       ]
     },
     {
+      "rel": "child",
+      "href": "./Forest Loss in Germany (2024-06 - 2025-06) /collection.json",
+      "type": "application/json",
+      "title": "Forest Loss in Germany (2024-06 - 2025-06) ",
+      "id": "Forest Loss in Germany (2024-06 - 2025-06) ",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/forest_lt.png"
+      ]
+    },
+    {
       "rel": "self",
       "href": "https://baltic-gtif.github.io/baltic-gtif/baltic-catalog/catalog.json",
       "type": "application/json"
