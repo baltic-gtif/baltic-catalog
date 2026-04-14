@@ -12,19 +12,19 @@
     },
     {
       "rel": "child",
-      "href": "./Forest Loss Clear-cuts Points/collection.json",
-      "type": "application/json",
-      "title": "Forest Loss Clear-cuts Points",
-      "endpointtype": "WMS_OverwriteTimes",
-      "id": "Forest Loss Clear-cuts Points"
-    },
-    {
-      "rel": "child",
       "href": "./Forest Loss Coeficient Values/collection.json",
       "type": "application/json",
       "title": "Forest Loss Coeficient Values",
       "endpointtype": "WMS_OverwriteTimes",
       "id": "Forest Loss Coeficient Values"
+    },
+    {
+      "rel": "child",
+      "href": "./Forest Loss Clear-cuts Points/collection.json",
+      "type": "application/json",
+      "title": "Forest Loss Clear-cuts Points",
+      "endpointtype": "WMS_OverwriteTimes",
+      "id": "Forest Loss Clear-cuts Points"
     },
     {
       "rel": "child",

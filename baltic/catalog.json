@@ -136,6 +136,40 @@
     },
     {
       "rel": "child",
+      "href": "./Vilnius_heat_map/collection.json",
+      "type": "application/json",
+      "title": "Vilnius Heat Trend",
+      "id": "Vilnius_heat_map",
+      "themes": [
+        "Sustainable cities"
+      ],
+      "thumbnail": [
+        "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/UHTM/iStock-1159485884.jpg"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./forest_lit_lat_est_2025_winter/collection.json",
+      "type": "application/json",
+      "title": "Forest Loss In Baltic States 2025 winter",
+      "id": "forest_lit_lat_est_2025_winter",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/forest_lt.png"
+      ],
+      "eodash:mapProjection": "EPSG:3857"
+    },
+    {
+      "rel": "child",
+      "href": "./forest_lt_m05-09/collection.json",
+      "type": "application/json",
+      "title": "Forest Loss in Lithuania 2024 05-09",
+      "id": "forest_lt_m05-09",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/forest_lt.png"
+      ]
+    },
+    {
+      "rel": "child",
       "href": "./Forest Loss in Poland (2024-06 - 2025-06) /collection.json",
       "type": "application/json",
       "title": "Forest Loss in Poland (2024-06 - 2025-06)",
@@ -153,19 +187,6 @@
           55.149564275700854
         ]
       }
-    },
-    {
-      "rel": "child",
-      "href": "./Vilnius_heat_map/collection.json",
-      "type": "application/json",
-      "title": "Vilnius Heat Trend",
-      "id": "Vilnius_heat_map",
-      "themes": [
-        "Sustainable cities"
-      ],
-      "thumbnail": [
-        "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/UHTM/iStock-1159485884.jpg"
-      ]
     },
     {
       "rel": "child",
