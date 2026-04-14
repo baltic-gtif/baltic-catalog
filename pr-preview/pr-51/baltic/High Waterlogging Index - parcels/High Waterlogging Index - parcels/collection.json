@@ -11,18 +11,6 @@
       "title": "Baltic GTIF Catalog"
     },
     {
-      "rel": "item",
-      "href": "./High Waterlogging Index - parcels/2025/2025-05-21T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2025-05-21T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./High Waterlogging Index - parcels/2025/2025-05-31T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2025-05-31T00:00:00Z"
-    },
-    {
       "rel": "wms",
       "href": "https://server1.landimage.info/geoserver/wms",
       "type": "image/jpeg",
@@ -35,6 +23,7 @@
       ],
       "wms:tilesize": 256,
       "wms:version": "1.1.1",
+      "key": "51177405-419c-47c1-8bc3-4b7b5a81c39f",
       "eodash:proj4_def": {
         "name": "EPSG:3857"
       }
@@ -80,10 +69,10 @@
     "spatial": {
       "bbox": [
         [
-          20.79640061915206,
-          53.6278815019253,
-          28.47277242498653,
-          59.70810027545356
+          20.919954396970475,
+          53.369341492349776,
+          28.24636982819126,
+          60.01093586739407
         ]
       ]
     },
@@ -98,6 +87,14 @@
   },
   "license": "other",
   "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    },
     "thumbnail": {
       "href": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/sm_lt.png",
       "type": "image/png",
