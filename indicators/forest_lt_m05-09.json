@@ -2,58 +2,7 @@
   "Name": "forest_lt_m05-09",
   "Title": "Forest Loss in Lithuania 2024 05-09",
   "Description": "indicators/forest_lt/description.md",
-  "Themes": [],
-  "Tags": [],
-  "DataSource": {
-    "Spaceborne": {
-      "Satellite": [],
-      "Sensor": []
-    },
-    "InSitu": [],
-    "Other": []
-  },
-  "Agency": [],
-  "License": "",
-  "Provider": [],
-  "Stories": [],
-  "Citation": {
-    "DOI": "",
-    "Citation": "",
-    "Publication": []
-  },
   "Image": "thumbnails/forest_lt.png",
-  "Services": [],
-  "References": [],
-  "CollectionGroup": "",
-  "Process": {
-    "Name": "",
-    "JsonForm": "",
-    "VegaDefinition": "",
-    "EndPoints": [
-      {
-        "Identifier": "",
-        "Url": "",
-        "Type": "application/json",
-        "EndPoint": "",
-        "Body": "",
-        "Flatstyle": ""
-      }
-    ]
-  },
-  "Subtitle": "",
-  "ShortDescription": "",
-  "BaseLayers": [],
-  "OverlayLayers": [],
-  "MapProjection": {
-    "name": "",
-    "def": "",
-    "extent": [
-      "",
-      "",
-      "",
-      ""
-    ]
-  },
   "Colorlegend": {
     "title": "Forest Loss",
     "range": [
@@ -72,14 +21,9 @@
       "21-49",
       "> 50"
     ],
-    "tickFormat": "",
-    "tickValues": [],
     "scaleType": "categorical",
     "markType": "rect"
   },
-  "Legend": "",
-  "Disable": [],
-  "Hidden": [],
   "Collections": [
     "forest_lit_09",
     "forest_lit_08",
