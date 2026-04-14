@@ -5,11 +5,28 @@
   "Image": "thumbnails/sm_lt.png",
   "Resources": [
     {
-      "Name": "Sentinel Hub",
+      "Name": "WMS",
       "EndPoint": "https://server1.landimage.info/geoserver/wms",
       "LayerId": "GTIFBaltic:LIT_LAT_EST_SM_2025_05_21_Q1",
-      "Type": "byoc",
-      "CollectionId": ""
+      "Type": "OverwriteTimes",
+      "TileSize": 256,
+      "DateTimeInterval": {
+        "Start": "2025-05-21T00:00:00Z",
+        "End": "2025-06-01:00:00Z",
+        "Timedelta": {
+          "days": 10
+        }
+      },
+      "OverwriteBBox": [
+        20.919954396970475,
+        53.369341492349776,
+        28.24636982819126,
+        60.01093586739407
+      ],
+      "Version": "1.1.1",
+      "DataProjection": {
+        "name": "EPSG:3857"
+      }
     }
   ],
   "Themes": [
