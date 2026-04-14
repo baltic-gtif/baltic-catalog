@@ -1,0 +1,50 @@
+{
+  "Name": "forest_lt_09",
+  "Title": "Forest Loss in 2024 09",
+  "Description": "",
+  "Resources": [
+    {
+      "Name": "WMS",
+      "EndPoint": "https://server1.landimage.info/geoserver/gwc/service/wms",
+      "LayerId": "GTIFBaltic:LIT_2024_forest_cuts_m09",
+      "Type": "OverwriteTimes",
+      "TileSize": 256,
+      "DateTimeInterval": {
+        "Start": "2024-09-01T00:00:00Z",
+        "End": "2024-09-30T00:00:00Z"
+      },
+      "OverwriteBBox": [
+        20.138839924416168,
+        53.22912104704421,
+        26.972872036876954,
+        56.486537231157904
+      ],
+      "DataProjection": {
+        "name": "EPSG:3857"
+      },
+      "Version": "1.1.1"
+    }
+  ],
+  "Image": "thumbnails/forest_lt.png",
+  "Colorlegend": {
+    "title": "Tree Loss (%)",
+    "range": [
+      "#56b636",
+      "#a5da9f",
+      "#a5da9f",
+      "#ffd6bf",
+      "#fdae61",
+      "#d7191c"
+    ],
+    "domain": [
+      "0",
+      "1-5",
+      "6-10",
+      "11-20",
+      "21-50",
+      "> 50"
+    ],
+    "markType": "rect",
+    "scaleType": "categorical"
+  }
+}

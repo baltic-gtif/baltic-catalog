@@ -1,0 +1,52 @@
+{
+  "Name": "Forest Loss Clear-cuts Points",
+  "Title": "Forest Loss Clear-cuts Points In 2025 Winter",
+  "Description": "indicators/forest_lt/description.md",
+  "Resources": [
+    {
+      "Name": "WMS",
+      "EndPoint": "https://server1.landimage.info/geoserver/gwc/service/wms",
+      "LayerId": "GTIFBaltic:LIT_LAT_EST_2025_forest_cuts_winter_pnt",
+      "Type": "OverwriteTimes",
+      "TileSize": 256,
+      "OverwriteBBox": [
+        20.347956765879132,
+        53.648407105421455,
+        28.52505380423799,
+        59.63927180494598
+      ],
+      "Version": "1.1.1",
+      "DataProjection": {
+        "name": "EPSG:3857"
+      },
+      "DateTimeInterval": {
+        "Start": "2024-10-01T00:00:00Z",
+        "End": "2025-04-30T00:00:00Z"
+      }
+    }
+  ],
+  "Image": "thumbnails/forest_lt.png",
+  "Colorlegend": {
+    "title": "Size of Clear-cuts (ha)",
+    "range": [
+      "#ffffb2",
+      "#fecc5c",
+      "#fd8d3c",
+      "#f03b20",
+      "#e31a1c",
+      "#bd0026",
+      "#800026"
+    ],
+    "domain": [
+      "0,1",
+      "0,5",
+      "1",
+      "2",
+      "3",
+      "4",
+      ">5"
+    ],
+    "scaleType": "categorical",
+    "markType": "circle"
+  }
+}
