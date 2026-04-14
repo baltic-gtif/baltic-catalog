@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "forest_lt_09",
+  "id": "CORINE 2018 Forest Boundaries",
   "stac_version": "1.1.0",
   "description": "",
   "links": [
@@ -14,16 +14,16 @@
       "rel": "wms",
       "href": "https://server1.landimage.info/geoserver/gwc/service/wms",
       "type": "image/jpeg",
-      "title": "Forest Loss in 2024 09",
+      "title": "CORINE 2018 Forest Boundaries",
       "wms:layers": [
-        "GTIFBaltic:LIT_2024_forest_cuts_m09"
+        "FROMSAT:GER_forest_p50_2024_06_minus_2025_06"
       ],
       "role": [
         "data"
       ],
       "wms:tilesize": 256,
       "wms:version": "1.1.1",
-      "key": "d712585b-ed8b-4809-9ea4-2a565e8a5b4e",
+      "key": "89a4396a-3e4b-4bc5-8828-be8fd2a7a0e1",
       "eodash:proj4_def": {
         "name": "EPSG:3857"
       }
@@ -32,52 +32,41 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Forest Loss in 2024 09"
+      "title": "Forest Loss in Germany (2024-06 - 2025-06) "
     }
   ],
   "thumbnail": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/forest_lt.png",
   "eox:colorlegend": {
-    "title": "Tree Loss (%)",
     "range": [
-      "#56b636",
-      "#a5da9f",
-      "#a5da9f",
-      "#ffd6bf",
-      "#fdae61",
-      "#d7191c"
+      "#20d210"
     ],
     "domain": [
-      "0",
-      "1-5",
-      "6-10",
-      "11-20",
-      "21-50",
-      "> 50"
+      "Forest Boundary"
     ],
-    "markType": "rect",
-    "scaleType": "categorical"
+    "scaleType": "categorical",
+    "markType": "rect"
   },
   "eodash:proj4_def": {
     "name": "EPSG:3857"
   },
   "endpointtype": "WMS_OverwriteTimes",
-  "title": "Forest Loss in 2024 09",
+  "title": "CORINE 2018 Forest Boundaries",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          20.138839924416168,
-          53.22912104704421,
-          26.972872036876954,
-          56.486537231157904
+          5.749641954092274,
+          46.68361171136859,
+          15.04345938018484,
+          55.12141963768948
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2024-09-01T00:00:00Z",
-          "2024-09-30T00:00:00Z"
+          "2024-06-01T00:00:00Z",
+          "2025-06-01T00:00:00Z"
         ]
       ]
     }

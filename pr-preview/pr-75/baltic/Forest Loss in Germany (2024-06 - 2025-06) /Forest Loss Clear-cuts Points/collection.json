@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "forest_lt_09",
+  "id": "Forest Loss Clear-cuts Points",
   "stac_version": "1.1.0",
-  "description": "",
+  "description": "indicators/forest_ger/description.md ",
   "links": [
     {
       "rel": "root",
@@ -14,16 +14,16 @@
       "rel": "wms",
       "href": "https://server1.landimage.info/geoserver/gwc/service/wms",
       "type": "image/jpeg",
-      "title": "Forest Loss in 2024 09",
+      "title": "Forest Loss Clear-cuts Points",
       "wms:layers": [
-        "GTIFBaltic:LIT_2024_forest_cuts_m09"
+        "FROMSAT:GER_forest_taskai_cut50_2024_06_2025_06"
       ],
       "role": [
         "data"
       ],
       "wms:tilesize": 256,
       "wms:version": "1.1.1",
-      "key": "d712585b-ed8b-4809-9ea4-2a565e8a5b4e",
+      "key": "abe2771d-8c8d-44cd-8fac-54bed205f88a",
       "eodash:proj4_def": {
         "name": "EPSG:3857"
       }
@@ -32,52 +32,54 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Forest Loss in 2024 09"
+      "title": "Forest Loss in Germany (2024-06 - 2025-06) "
     }
   ],
   "thumbnail": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/forest_lt.png",
   "eox:colorlegend": {
-    "title": "Tree Loss (%)",
-    "range": [
-      "#56b636",
-      "#a5da9f",
-      "#a5da9f",
-      "#ffd6bf",
-      "#fdae61",
-      "#d7191c"
-    ],
+    "title": "Size of Clear-cuts (ha)",
     "domain": [
-      "0",
-      "1-5",
-      "6-10",
-      "11-20",
-      "21-50",
-      "> 50"
+      "0,1",
+      "0,5",
+      "1",
+      "2",
+      "3",
+      "4",
+      "> 5"
     ],
-    "markType": "rect",
-    "scaleType": "categorical"
+    "range": [
+      "#ffffb2",
+      "#fecc5c",
+      "#fd8d3c",
+      "#f03b20",
+      "#e31a1c",
+      "#bd0026",
+      "#800026"
+    ],
+    "scaleType": "categorical",
+    "markType": "circle"
   },
   "eodash:proj4_def": {
     "name": "EPSG:3857"
   },
   "endpointtype": "WMS_OverwriteTimes",
-  "title": "Forest Loss in 2024 09",
+  "title": "Forest Loss Clear-cuts Points",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          20.138839924416168,
-          53.22912104704421,
-          26.972872036876954,
-          56.486537231157904
+          5.581798146656512,
+          46.49490996021642,
+          16.554005146137555,
+          55.85706484564318
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2024-09-01T00:00:00Z",
-          "2024-09-30T00:00:00Z"
+          "2024-06-01T00:00:00Z",
+          "2025-06-01T00:00:00Z"
         ]
       ]
     }

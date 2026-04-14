@@ -112,6 +112,36 @@
       ]
     },
     {
+      "rel": "child",
+      "href": "./Forest Loss in Germany (2024-06 - 2025-06) /collection.json",
+      "type": "application/json",
+      "title": "Forest Loss in Germany (2024-06 - 2025-06) ",
+      "id": "Forest Loss in Germany (2024-06 - 2025-06) ",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/forest_lt.png"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./Forest Loss in Poland (2024-06 - 2025-06) /collection.json",
+      "type": "application/json",
+      "title": "Forest Loss in Poland (2024-06 - 2025-06)",
+      "id": "Forest Loss in Poland (2024-06 - 2025-06) ",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/forest_lt.png"
+      ],
+      "eodash:mapProjection": {
+        "name": "",
+        "def": "",
+        "extent": [
+          13.323205271117939,
+          48.08372833456975,
+          25.18572551492741,
+          55.149564275700854
+        ]
+      }
+    },
+    {
       "rel": "self",
       "href": "https://baltic-gtif.github.io/baltic-gtif/baltic-catalog/catalog.json",
       "type": "application/json"

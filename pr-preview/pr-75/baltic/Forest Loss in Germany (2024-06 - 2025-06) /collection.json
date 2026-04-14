@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "forest_lit_lat_est_2025_winter",
+  "id": "Forest Loss in Germany (2024-06 - 2025-06) ",
   "stac_version": "1.1.0",
-  "description": "Tree cover loss maps is a forest loss monitoring tool built on Sentinel-1 SAR (Synthetic Aperture Radar) satellite data, processed through the SAGRIS production system (https://www.sagris.eu).\n<br>\nThe tool detects and maps tree cover loss across the Baltic States (Lithuania, Latvia, Estonia). It captures all causes of forest loss, including natural tree death from old age, storm damage, forestry maintenance, and — most importantly — both legal and illegal timber harvesting.\n<br>\nThe algorithm uses SAR data. Unlike optical satellites (which are blocked by clouds), Sentinel-1 uses radar, meaning it can penetrate cloud cover and collect data year-round.\n<br>\nThe colored patches on the Forest Loss Coefficient map represent the Forest Loss Coefficient — coefficient values indicating tree loss per pixel, expressed as a percentage. Values are calculated for every pixel separately, ranging from 50% to 100% tree loss within that pixel.\n<br>\nThe colored circles on the Forest Loss Clear-cuts Points map represent the size of each clear-cut in hectares. <>\nFor the Baltic States, forest loss is calculated only within areas classified as forest in the CORINE 2018 land cover dataset — meaning the analysis is bounded to officially mapped forest zones rather than any tree-covered area. The detection resolution is 100 m², making it far more sensitive than CORINE — however, CORINE forest boundaries are used as a coarse mask to define the analysis area.\nIn short, this is a near-real-time deforestation and forest disturbance early warning tool, capable of detecting small-scale changes across an entire region through all weather conditions.\n\n",
+  "description": "## Tree cover loss\n\nTree cover loss maps is a forest loss monitoring tool built on Sentinel-1 SAR (Synthetic Aperture Radar) satellite data, processed through the SAGRIS production system (https://www.sagris.eu). <br>\n\nThe tool detects and maps tree cover loss across Germany. It captures all causes of forest loss, including natural tree death from old age, storm damage, forestry maintenance, and — most importantly — both legal and illegal timber harvesting. <br>\n\nThe maps uses SAR data. Unlike optical satellites (which are blocked by clouds), Sentinel-1 uses radar, meaning it can penetrate cloud cover and collect data year-round. <br>\n<br>\nThe colored patches on the Forest Loss Coefficient map represent the Forest Loss Coefficient — coefficient values indicating tree loss per pixel, expressed as a percentage. Values are calculated for every pixel separately, ranging from 50% to 100% tree loss within that pixel.\n<br>\nFor Germany specifically, forest loss is calculated only within areas classified as forest in the CORINE 2018 land cover dataset — meaning the analysis is bounded to officially mapped forest zones rather than any tree-covered area. The detection resolution is 100 m², making it far more sensitive than CORINE — however, CORINE forest boundaries are used as a coarse mask to define the analysis area.\nIn short, this is a near-real-time deforestation and forest disturbance early warning tool, capable of detecting small-scale changes across an entire region through all weather conditions.\n",
   "links": [
     {
       "rel": "root",
@@ -22,7 +22,7 @@
       "rel": "child",
       "href": "./Forest Loss Clear-cuts Points/collection.json",
       "type": "application/json",
-      "title": "Forest Loss Clear-cuts Points In 2025 Winter",
+      "title": "Forest Loss Clear-cuts Points",
       "endpointtype": "WMS_OverwriteTimes",
       "id": "Forest Loss Clear-cuts Points"
     },
@@ -78,42 +78,35 @@
     }
   ],
   "thumbnail": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/forest_lt.png",
-  "eodash:mapProjection": "EPSG:3857",
-  "title": "Forest Loss In Baltic States 2025 winter",
+  "title": "Forest Loss in Germany (2024-06 - 2025-06) ",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          20.347956765879132,
-          53.12261804761748,
-          28.743479238252885,
-          60.278394521281584
+          5.581798146656512,
+          46.49490996021642,
+          16.554005146137555,
+          55.85706484564318
         ],
         [
-          20.70602005209022,
-          53.19456538497864,
-          28.40140278289414,
-          60.278394521281584
+          6.225113689454379,
+          46.899292198713795,
+          15.2062290680878,
+          55.66028220041992
         ],
         [
-          20.347956765879132,
-          53.648407105421455,
-          28.52505380423799,
-          59.63927180494598
-        ],
-        [
-          20.82877877559398,
-          53.12261804761748,
-          28.743479238252885,
-          59.68051271667771
+          5.749641954092274,
+          46.68361171136859,
+          15.04345938018484,
+          55.12141963768948
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2024-10-01T00:00:00Z",
-          "2025-04-30T00:00:00Z"
+          "2024-06-01T00:00:00Z",
+          "2025-06-01T00:00:00Z"
         ]
       ]
     }
