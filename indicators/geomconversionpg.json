@@ -1,0 +1,58 @@
+{
+  "Name": "GeomConversionPG",
+  "Title": "Conversion of Permanent Grassland (Area of Loss and Gain)",
+  "Description": "indicators/conversion_PG_LT/description.md",
+  "Collections": [
+    "lt_gsa_pg", 
+    "soc_pg_loss",
+    "geompgpositiveconversion2024to2025",
+    "geompgconversion2024to2025"
+  ],
+  "Disable": [
+    "lt_gsa_pg",
+    "soc_pg_loss"
+  ],
+  "Process": {
+        "Name": "timeseries",
+        "JsonForm": "jsonforms/conversion.json",
+        "VegaDefinition": "chartdefs/vega_chart_conversion.json",
+        "EndPoints": [
+            {
+                "Identifier": "lt_2024_soc_pg_loss",
+                "Url": "https://eoapi.workspace.baltic-gtif.hub-otc.eox.at/vector/collections/public.lt_2024_soc_pg_loss/items?limit=10000&filter-lang=cql2-text&filter=S_INTERSECTS(geometry,POLYGON(({{bbox.0}}%20{{bbox.1}},{{bbox.2}}%20{{bbox.1}},{{bbox.2}}%20{{bbox.3}},{{bbox.0}}%20{{bbox.3}},{{bbox.0}}%20{{bbox.1}})))",
+		"Type": "application/json",
+                "Method": "GET"
+            },
+	   {
+                "Identifier": "lt_2025_soc_pg_loss",
+                "Url": "https://eoapi.workspace.baltic-gtif.hub-otc.eox.at/vector/collections/public.lt_2025_soc_pg_loss/items?limit=10000&filter-lang=cql2-text&filter=S_INTERSECTS(geometry,POLYGON(({{bbox.0}}%20{{bbox.1}},{{bbox.2}}%20{{bbox.1}},{{bbox.2}}%20{{bbox.3}},{{bbox.0}}%20{{bbox.3}},{{bbox.0}}%20{{bbox.1}})))",
+		"Type": "application/json",
+                "Method": "GET"
+            },
+	    {
+                "Identifier": "lt_2025_2024_conversion_pg",
+                "Url": "https://eoapi.workspace.baltic-gtif.hub-otc.eox.at/vector/collections/public.lt_2025_2024_conversion_pg/items?limit=10000&filter-lang=cql2-text&filter=S_INTERSECTS(geometry,POLYGON(({{bbox.0}}%20{{bbox.1}},{{bbox.2}}%20{{bbox.1}},{{bbox.2}}%20{{bbox.3}},{{bbox.0}}%20{{bbox.3}},{{bbox.0}}%20{{bbox.1}})))",
+		"Type": "application/json",
+                "Method": "GET"
+            },
+            {
+                "Identifier": "lt_2024_2025_conversion_pg",
+                "Url": "https://eoapi.workspace.baltic-gtif.hub-otc.eox.at/vector/collections/public.lt_2024_2025_conversion_pg/items?limit=10000&filter-lang=cql2-text&filter=S_INTERSECTS(geometry,POLYGON(({{bbox.0}}%20{{bbox.1}},{{bbox.2}}%20{{bbox.1}},{{bbox.2}}%20{{bbox.3}},{{bbox.0}}%20{{bbox.3}},{{bbox.0}}%20{{bbox.1}})))",
+		"Type": "application/json",
+                "Method": "GET"
+            },
+          {
+                "Identifier": "lt_2024_gsa_pg02ha",
+                "Url": "https://eoapi.workspace.baltic-gtif.hub-otc.eox.at/vector/collections/public.lt_2024_gsa_pg02ha/items?limit=10000&filter-lang=cql2-text&filter=S_INTERSECTS(geometry,POLYGON(({{bbox.0}}%20{{bbox.1}},{{bbox.2}}%20{{bbox.1}},{{bbox.2}}%20{{bbox.3}},{{bbox.0}}%20{{bbox.3}},{{bbox.0}}%20{{bbox.1}})))",
+		"Type": "application/json",
+                "Method": "GET"
+            },
+            {
+                "Identifier": "lt_2025_gsa_pg02ha",
+                "Url": "https://eoapi.workspace.baltic-gtif.hub-otc.eox.at/vector/collections/public.lt_2025_gsa_pg02ha/items?limit=10000&filter-lang=cql2-text&filter=S_INTERSECTS(geometry,POLYGON(({{bbox.0}}%20{{bbox.1}},{{bbox.2}}%20{{bbox.1}},{{bbox.2}}%20{{bbox.3}},{{bbox.0}}%20{{bbox.3}},{{bbox.0}}%20{{bbox.1}})))",
+		"Type": "application/json",
+                "Method": "GET"
+            }
+        ]
+    }
+}

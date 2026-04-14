@@ -1,0 +1,65 @@
+{
+  "Name": "SOC_FAO_index",
+  "Title": "SoC index ",
+  "Description": "",
+  "Themes": [
+      "Flooding"
+    ],
+  "Tags": [
+    "example tag"
+  ],
+  "DataSource": {
+    "Spaceborne": {
+      "Satellite": [
+        "Satellitename"
+      ],
+      "Sensor": [
+        "Sensorname"
+      ]
+    },
+    "InSitu": [
+      "Other insitu data"
+    ]
+  },
+  "Agency": [
+    "Example agency"
+  ],
+  "Colorlegend":{
+      "title":"TITLE SoC index - SMM",
+      "scaleType": "categorical",
+      "domain": [
+         "Low SMM (0–0.1)",
+         "Medium SMM (0.1-0.25)",
+         "High SMM (>0.25)"
+      ],
+      "range": [
+         "#3e9655",
+         "#367a4a",
+         "#1b4d2a"
+      ],
+      "markType":"circle"
+   },
+  "Resources": [
+    {
+      "Name": "GeoJSON source",
+      "Style": "http://0.0.0.0:8000/style.json",
+      "TimeEntries": [
+        {
+          "Time": "20240101",
+          "Assets": [
+            {
+              "Identifier": "GSOCseq_anSSM3_parc",
+              "File": "http://0.0.0.0:8000/test_proj.geojson"
+            }
+          ]
+        }
+      ],
+      "Bbox": [
+        20.477039241572896,
+        53.85657954510756,
+        26.90500803036645,
+        56.62822850154908
+      ]
+    }
+  ]
+}
