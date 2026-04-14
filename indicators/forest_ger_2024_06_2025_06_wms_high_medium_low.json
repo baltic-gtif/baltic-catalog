@@ -3,9 +3,9 @@
   "Title": "Forest Loss in Germany (2024-06 - 2025-06) ",
   "Description": "indicators/forest_ger/description.md",
   "Collections": [
-    "forest_ger_bnd_2024_06_2025_06",
     "forest_ger_pnt_2024_06_2025_06",
-    "forest_ger_pix_2024_06_2025_06"
+    "forest_ger_pix_2024_06_2025_06",
+    "forest_ger_bnd_2024_06_2025_06"
   ],
   "Disable": [],
   "BaseLayers": [],
