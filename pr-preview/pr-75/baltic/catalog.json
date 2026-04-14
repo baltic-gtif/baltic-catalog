@@ -99,9 +99,7 @@
       "thumbnail": [
         "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/forest_lt.png"
       ],
-      "eodash:mapProjection": {
-        "name": "EPSG:3857"
-      }
+      "eodash:mapProjection": "EPSG:3857"
     },
     {
       "rel": "child",
@@ -111,17 +109,7 @@
       "id": "forest_lt_m05-09",
       "thumbnail": [
         "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/forest_lt.png"
-      ],
-      "eodash:mapProjection": {
-        "name": "",
-        "def": "",
-        "extent": [
-          "",
-          "",
-          "",
-          ""
-        ]
-      }
+      ]
     },
     {
       "rel": "self",

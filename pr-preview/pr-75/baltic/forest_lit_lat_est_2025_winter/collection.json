@@ -35,13 +35,6 @@
       "id": "Forest Loss Coeficient Values"
     },
     {
-      "rel": "service",
-      "href": "",
-      "type": "application/geo+json",
-      "id": "",
-      "method": "GET"
-    },
-    {
       "rel": "xyz",
       "href": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "image/jpeg",
@@ -85,18 +78,7 @@
     }
   ],
   "thumbnail": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/forest_lt.png",
-  "eodash:mapProjection": {
-    "name": "EPSG:3857"
-  },
-  "eox:colorlegend": {
-    "title": "",
-    "range": [],
-    "domain": [],
-    "tickFormat": "",
-    "tickValues": [],
-    "scaleType": "continuous",
-    "markType": "rect"
-  },
+  "eodash:mapProjection": "EPSG:3857",
   "title": "Forest Loss In Baltic States 2025 winter",
   "extent": {
     "spatial": {
