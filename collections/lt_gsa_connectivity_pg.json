@@ -13,7 +13,7 @@
         },
 	 {
           "Time": "2025-12-31",
-          "Url": "https://eoapi.workspace.baltic-gtif.hub-otc.eox.at/vector/collections/public.lt_2025_gsa_pg02ha/tiles/WebMercatorQuad/{z}/{x}/{y}"
+          "Url": "https://eoapi.workspace.baltic-gtif.hub-otc.eox.at/vector/collections/public.lt_2025_gsa_connectivity_pg/tiles/WebMercatorQuad/{z}/{x}/{y}"
         }
       ],
       "Bbox": [
