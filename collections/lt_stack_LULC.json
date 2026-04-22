@@ -18,7 +18,16 @@
           "Assets": [
             {
               "Identifier": "LULC",
-              "File": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/stack_vulnerability/LULC/stacked_datasets_LULC.cog"
+              "File": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/stack_vulnerability/LULC/2024/stacked_datasets_LULC.cog"
+            }
+          ]
+        },
+        {
+          "Time": "2025-12-31",
+          "Assets": [
+            {
+              "Identifier": "LULC",
+              "File": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/stack_vulnerability/LULC/2025/stacked_datasets_LULC.cog"
             }
           ]
         }
