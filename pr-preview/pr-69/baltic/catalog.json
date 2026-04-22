@@ -12,6 +12,13 @@
     },
     {
       "rel": "child",
+      "href": "./LTGSAONECTPG/collection.json",
+      "type": "application/json",
+      "title": "Ecosystem Connectivity of Permanent Grassland Parcels",
+      "id": "LTGSAONECTPG"
+    },
+    {
+      "rel": "child",
       "href": "./lt_stackLULC/collection.json",
       "type": "application/json",
       "title": "Land Cover Land Use - Stack ",
@@ -26,10 +33,13 @@
     },
     {
       "rel": "child",
-      "href": "./Ecosystem Connectivity/collection.json",
+      "href": "./habitat_pg_indicator/collection.json",
       "type": "application/json",
-      "title": "Ecosystem Connectivity",
-      "id": "Ecosystem Connectivity"
+      "title": "Habitat and Permanent Grassland ",
+      "id": "habitat_pg_indicator",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/grassland_lt.png"
+      ]
     },
     {
       "rel": "self",

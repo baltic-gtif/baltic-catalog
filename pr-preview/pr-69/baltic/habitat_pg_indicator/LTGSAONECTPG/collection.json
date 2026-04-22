@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "lt_stackLULC",
+  "id": "LTGSAONECTPG",
   "stac_version": "1.1.0",
   "description": "",
   "links": [
@@ -11,22 +11,14 @@
       "title": "Baltic GTIF Catalog"
     },
     {
-      "rel": "style",
-      "href": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/stack_vulnerability/LULC/style_syntheticID_stacked_datasets_LULC.json",
-      "type": "text/cog-styles",
-      "asset:keys": [
-        "LULC"
-      ]
-    },
-    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Ecosystem Connectivity"
+      "title": "Habitat and Permanent Grassland "
     }
   ],
-  "endpointtype": "COG source",
-  "title": "Land Cover Land Use - Stack ",
+  "endpointtype": "VectorTile source",
+  "title": "Ecosystem Connectivity of Permanent Grassland Parcels",
   "extent": {
     "spatial": {
       "bbox": [

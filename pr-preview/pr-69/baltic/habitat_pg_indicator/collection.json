@@ -1,14 +1,41 @@
 {
   "type": "Collection",
-  "id": "Ecosystem Connectivity",
+  "id": "habitat_pg_indicator",
   "stac_version": "1.1.0",
-  "description": "LULC map created based on the availability of the following sorted datasets:\n- Habitat (from [Inspire LT](https://www.inspire-geoportal.lt/) )\n- Natura2000 sites (from [Inspire LT](https://www.inspire-geoportal.lt/) )\n- [Small Woody Features](https://land.copernicus.eu/en/products/high-resolution-layer-small-landscape-features/small-woody-features-2021)\n- [CLC+ BackBone ](https://land.copernicus.eu/en/products/clc-backbone/clcplus-backbone-2023-raster-10-m-europe-2-yearly)\n\n[Description of the stack dataset value](https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/stack_vulnerability/LULC/category_for_style.pdf)\"\n",
+  "description": "# Lithuanian Permanent Grasslands and Their Habitats\n\nThis dataset combines Natural Permanent Grasslands (PGs) parcels  and habitats information\nThe combined data supports identification of areas with rich habitat types, with dominant parcel types helping to assess land-use pressures, ecological value, and opportunities for sustainable management.\n\n**Natural PG** are ecosystems in which well-adapted, context-appropriate **management practices** can create and maintain high biodiversity value within a relatively short time. \nThe way PGs are managed, whether through mowing or livestock grazing, has a major impact on overall ecosystem health. The timing of these activities is critical: operations must be adjusted to current climate and soil conditions (e.g., wet or dry periods) to avoid damaging vulnerable fauna and herbaceous plant communities.\n\n## Data Sources\n- **PG parcels** from the open governmental IACS GSA data, managed by the National Paying Agency of Lithuania (NMA).\n- **Habitat** data from publicly available Lithuanian datasets published in accordance with the INSPIRE Directive.\n\n## Legend description:\n[Code description PDF](https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/Code_description_Lithuania.pdf)\n",
   "links": [
     {
       "rel": "root",
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Baltic GTIF Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./LTGSAONECTPG/collection.json",
+      "type": "application/json",
+      "title": "Ecosystem Connectivity of Permanent Grassland Parcels",
+      "endpointtype": "VectorTile source",
+      "id": "LTGSAONECTPG"
+    },
+    {
+      "rel": "child",
+      "href": "./habitat2025/collection.json",
+      "type": "application/json",
+      "title": "Permanent Grassland LT 2025 - Habitat",
+      "endpointtype": "VectorTile source",
+      "id": "habitat2025"
+    },
+    {
+      "rel": "child",
+      "href": "./habitat_rawlayer/collection.json",
+      "type": "application/json",
+      "title": "Habitat type",
+      "endpointtype": "VectorTile source",
+      "id": "habitat_rawlayer",
+      "roles": [
+        "disable"
+      ]
     },
     {
       "rel": "child",
@@ -64,15 +91,33 @@
       "title": "Baltic GTIF Catalog"
     }
   ],
-  "title": "Ecosystem Connectivity",
+  "title": "Habitat and Permanent Grassland ",
   "extent": {
     "spatial": {
       "bbox": [
+        [
+          20.37351690406548,
+          53.71729184024658,
+          26.9521701367242,
+          56.34132054833751
+        ],
         [
           20.489850779605074,
           53.873106437403216,
           26.903171787403263,
           56.34132054833751
+        ],
+        [
+          21.228707166566753,
+          55.25151888701188,
+          21.457688260815036,
+          55.35223641266015
+        ],
+        [
+          20.37351690406548,
+          53.71729184024658,
+          26.9521701367242,
+          56.31700190178251
         ],
         [
           20.489850779605074,
@@ -91,5 +136,10 @@
       ]
     }
   },
-  "license": "other"
+  "license": "other",
+  "summaries": {
+    "thumbnail": [
+      "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/grassland_lt.png"
+    ]
+  }
 }
