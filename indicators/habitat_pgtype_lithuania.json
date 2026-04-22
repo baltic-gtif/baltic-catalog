@@ -3,10 +3,13 @@
   "Title": "Habitat and Permanent Grassland ",
   "Description": "indicators/habitat_and_pgtype/description.md",
   "Collections": [
+    "lt_gsa_connectivity_pg",
     "habitat_typePG_lithuania",
-    "habitatrawlayer"
+    "habitatrawlayer",
+    "lt_stack_LULC"
   ],
   "Disable": [
-    "habitatrawlayer"
+    "habitatrawlayer",
+    "lt_stack_LULC"
   ]
 }
