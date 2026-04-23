@@ -1,0 +1,39 @@
+{
+  "Name": "CORINE 2018 Forest Boundaries",
+  "Title": "CORINE 2018 Forest Boundaries",
+  "Description": "",
+  "Resources": [
+    {
+      "Name": "WMS",
+      "EndPoint": "https://server1.landimage.info/geoserver/gwc/service/wms",
+      "LayerId": "GTIFBaltic:CORINE_LIT_LAT_EST_2018_forests",
+      "Type": "OverwriteTimes",
+      "TileSize": 256,
+      "OverwriteBBox": [
+        20.82877877559398,
+        53.12261804761748,
+        28.743479238252885,
+        59.68051271667771
+      ],
+      "DateTimeInterval": {
+        "Start": "2024-10-01T00:00:00Z",
+        "End": "2025-04-30T00:00:00Z"
+      },
+      "Version": "1.1.1",
+      "DataProjection": {
+        "name": "EPSG:3857"
+      }
+    }
+  ],
+  "Image": "thumbnails/forest_lt.png",
+  "Colorlegend": {
+    "range": [
+      "#20d210"
+    ],
+    "domain": [
+      "Forest Boundary"
+    ],
+    "scaleType": "categorical",
+    "markType": "rect"
+  }
+}

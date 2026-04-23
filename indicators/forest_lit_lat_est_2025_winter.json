@@ -1,0 +1,12 @@
+{
+  "Name": "forest_lit_lat_est_2025_winter",
+  "Title": "Forest Loss In Baltic States 2025 winter",
+  "Description": "indicators/forest_lit_lat_est/description.md",
+  "Image": "thumbnails/forest_lt.png",
+  "MapProjection": "EPSG:3857",
+  "Collections": [
+    "forest_lit_lat_est_2025_winter_pix",
+    "forest_lit_lat_est_2025_winter_pnt",
+    "forest_lit_lat_est_2025_winter_bnd"
+  ]
+}

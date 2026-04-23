@@ -1,0 +1,52 @@
+{
+  "Name": "Forest Loss Clear-cuts Points",
+  "Title": "Forest Loss Clear-cuts Points",
+  "Description": "indicators/forest_ger/description.md ",
+  "Resources": [
+    {
+      "Name": "WMS",
+      "EndPoint": "https://server1.landimage.info/geoserver/gwc/service/wms",
+      "LayerId": "FROMSAT:GER_forest_taskai_cut50_2024_06_2025_06",
+      "Type": "OverwriteTimes",
+      "TileSize": 256,
+      "OverwriteBBox": [
+        5.581798146656512,
+        46.49490996021642,
+        16.554005146137555,
+        55.85706484564318
+      ],
+      "DateTimeInterval": {
+        "Start": "2024-06-01T00:00:00Z",
+        "End": "2025-06-01T00:00:00Z"
+      },
+      "Version": "1.1.1",
+      "DataProjection": {
+        "name": "EPSG:3857"
+      }
+    }
+  ],
+  "Image": "thumbnails/forest_lt.png",
+  "Colorlegend": {
+    "title": "Size of Clear-cuts (ha)",
+    "domain": [
+      "0,1",
+      "0,5",
+      "1",
+      "2",
+      "3",
+      "4",
+      "> 5"
+    ],
+    "range": [
+      "#ffffb2",
+      "#fecc5c",
+      "#fd8d3c",
+      "#f03b20",
+      "#e31a1c",
+      "#bd0026",
+      "#800026"
+    ],
+    "scaleType": "categorical",
+    "markType": "circle"
+  }
+}

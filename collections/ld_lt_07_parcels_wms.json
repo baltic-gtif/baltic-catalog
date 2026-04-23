@@ -1,35 +1,64 @@
 {
-    "Name": "Crops_Lodging_parcels",
-    "Title": "Crops Lodging - parcels",
-    "Description": "",
-    "Themes": [
-      "Crops Lodging"
-    ],
-    "Image": "thumbnails/ld_lt.png",
-    "Resources": [
-      {
-        "EndPoint": "https://server1.landimage.info/geoserver/wms",
-        "DataProjection": 3857,
-        "Name": "WMS",
-        "Type": "OverwriteTimes",
-        "MediaType": "image/png",
-        "Styles": [],
-        "LayerId": "GTIFBaltic:LIT_2024_crops_lodging_07",
-        "OverwriteBBox": [
-          22.64524,
-          54.94676,
-          23.02416,
-          55.30585
-        ],
-        "TileSize": 256,
-        "Version": "1.1.1",
-        "DateTimeInterval": {
-          "Start": "2024-06-25T00:00:00Z",
-          "End": "2024-07-15:00:00Z",
-          "Timedelta": {
-            "days": 20
-          }
+  "Name": "Crops_Lodging_parcels",
+  "Title": "Crops Lodging - parcels",
+  "Description": "",
+  "Themes": [
+    "Crops Lodging"
+  ],
+  "Image": "thumbnails/ld_lt.png",
+  "Resources": [
+    {
+      "EndPoint": "https://server1.landimage.info/geoserver/wms",
+      "DataProjection": 3857,
+      "Name": "WMS",
+      "Type": "OverwriteTimes",
+      "MediaType": "image/png",
+      "Styles": [],
+      "LayerId": "GTIFBaltic:LIT_2024_crops_lodging_07",
+      "OverwriteBBox": [
+        22.64524,
+        54.94676,
+        23.02416,
+        55.30585
+      ],
+      "TileSize": 256,
+      "Version": "1.1.1",
+      "DateTimeInterval": {
+        "Start": "2024-06-25T00:00:00Z",
+        "End": "2024-07-15:00:00Z",
+        "Timedelta": {
+          "days": 20
         }
       }
-    ]
+    }
+  ],
+  "Colorlegend": {
+    "title": "Lodging legend",
+    "range": [
+      "#3c8bc0",
+      "#6aa3d8",
+      "#69c0d8",
+      "#1be5b5",
+      "#74fe5d",
+      "#c9ef34",
+      "#fbb938",
+      "#c92903",
+      "#7a0403",
+      "#020101"
+    ],
+    "domain": [
+      "0 - 5",
+      "5 - 10",
+      "10 - 15",
+      "15 - 20",
+      "20 - 25",
+      "25 - 30",
+      "30 - 40",
+      "40 - 60",
+      "60 - 80",
+      "80 - 100",
+      "NA"
+    ],
+    "scaleType": "categorical"
   }
+}

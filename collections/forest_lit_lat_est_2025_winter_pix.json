@@ -1,0 +1,58 @@
+{
+  "Name": "Forest Loss Coeficient Values",
+  "Title": "Forest Loss Coeficient Values",
+  "Description": "indicators/forest_lit_lat_est/description.md",
+  "Resources": [
+    {
+      "Name": "WMS",
+      "EndPoint": "https://server1.landimage.info/geoserver/gwc/service/wms",
+      "LayerId": "GTIFBaltic:LIT_LAT_EST_2025_forest_cuts_winter_pix",
+      "Type": "OverwriteTimes",
+      "DataProjection": {
+        "name": "EPSG:3857"
+      },
+      "Version": "1.1.1",
+      "DateTimeInterval": {
+        "Start": "2024-10-01T00:00:00Z",
+        "End": "2025-04-30T00:00:00Z"
+      },
+      "OverwriteBBox": [
+        20.70602005209022,
+        53.19456538497864,
+        28.40140278289414,
+        60.278394521281584
+      ],
+      "TileSize": 256
+    }
+  ],
+  "Colorlegend": {
+    "title": "Forest Loss",
+    "range": [
+      "#2b83ba",
+      "#64abb0",
+      "#9dd3a6",
+      "#c7e8ad",
+      "#ecf7b9",
+      "#ffedaa",
+      "#fec980",
+      "#f99d59",
+      "#e85b3b",
+      "#d7191c"
+    ],
+    "domain": [
+      "50-51",
+      "52-54",
+      "55-56",
+      "57-59",
+      "60-62",
+      "63-65",
+      "66-68",
+      "69-74",
+      "75-95",
+      "96-100"
+    ],
+    "scaleType": "categorical",
+    "markType": "rect"
+  },
+  "Image": "thumbnails/forest_lt.png"
+}
