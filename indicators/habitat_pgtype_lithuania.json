@@ -5,11 +5,9 @@
   "Collections": [
     "lt_gsa_connectivity_pg",
     "habitat_typePG_lithuania",
-    "habitatrawlayer",
-    "lt_stack_LULC"
+    "habitatrawlayer"
   ],
   "Disable": [
-    "habitatrawlayer",
-    "lt_stack_LULC"
+    "habitatrawlayer"
   ]
 }
