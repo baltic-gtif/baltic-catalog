@@ -38,6 +38,14 @@
       "id": "habitat"
     },
     {
+      "rel": "child",
+      "href": "./LTGSAONECTPG/collection.json",
+      "type": "application/json",
+      "title": "Permanent Grassland LT - Ecosystem Connectivity",
+      "endpointtype": "VectorTile source",
+      "id": "LTGSAONECTPG"
+    },
+    {
       "rel": "service",
       "href": "https://eoapi.workspace.baltic-gtif.hub-otc.eox.at/vector/collections/public.lt_{{year}}_habitat_pg/items?limit=10000&filter-lang=cql2-text&filter=S_INTERSECTS(geometry,POLYGON(({{bbox.0}}%20{{bbox.1}},{{bbox.2}}%20{{bbox.1}},{{bbox.2}}%20{{bbox.3}},{{bbox.0}}%20{{bbox.3}},{{bbox.0}}%20{{bbox.1}})))",
       "type": "application/json",
@@ -97,7 +105,7 @@
           20.37351690406548,
           53.71729184024658,
           26.9521701367242,
-          56.31700190178251
+          56.34132054833751
         ],
         [
           20.37351690406548,
@@ -116,6 +124,12 @@
           55.25151888701188,
           21.457688260815036,
           55.35223641266015
+        ],
+        [
+          20.489850779605074,
+          53.873106437403216,
+          26.903171787403263,
+          56.34132054833751
         ]
       ]
     },
