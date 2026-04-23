@@ -18,7 +18,7 @@
     }
   ],
   "endpointtype": "VectorTile source",
-  "title": "Ecosystem Connectivity of Permanent Grassland Parcels",
+  "title": "Permanent Grassland LT - Ecosystem Connectivity",
   "extent": {
     "spatial": {
       "bbox": [

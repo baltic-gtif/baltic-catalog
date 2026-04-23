@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./LTGSAONECTPG/collection.json",
       "type": "application/json",
-      "title": "Ecosystem Connectivity of Permanent Grassland Parcels",
+      "title": "Permanent Grassland LT - Ecosystem Connectivity",
       "endpointtype": "VectorTile source",
       "id": "LTGSAONECTPG"
     },
@@ -61,7 +61,7 @@
       "title": "Baltic GTIF Catalog"
     }
   ],
-  "title": "Ecosystem Connectivity of Permanent Grassland Parcels",
+  "title": "Permanent Grassland LT - Ecosystem Connectivity",
   "extent": {
     "spatial": {
       "bbox": [
