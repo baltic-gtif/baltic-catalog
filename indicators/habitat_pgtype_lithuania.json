@@ -5,7 +5,8 @@
   "Collections": [
     "lt_admin_amd1",
     "habitatrawlayer",
-    "habitat_typePG_lithuania"
+    "habitat_typePG_lithuania",    
+    "lt_gsa_connectivity_pg"
   ],
   "Disable": [
     "habitatrawlayer"
