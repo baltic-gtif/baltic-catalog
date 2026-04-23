@@ -12,19 +12,11 @@
     },
     {
       "rel": "child",
-      "href": "./LTGSAONECTPG/collection.json",
+      "href": "./LT_boundary_amd1/collection.json",
       "type": "application/json",
-      "title": "Ecosystem Connectivity of Permanent Grassland Parcels",
-      "endpointtype": "VectorTile source",
-      "id": "LTGSAONECTPG"
-    },
-    {
-      "rel": "child",
-      "href": "./habitat2025/collection.json",
-      "type": "application/json",
-      "title": "Permanent Grassland LT 2025 - Habitat",
-      "endpointtype": "VectorTile source",
-      "id": "habitat2025"
+      "title": "Lithuania - Apskritys",
+      "endpointtype": "FlatGeobuf source",
+      "id": "LT_boundary_amd1"
     },
     {
       "rel": "child",
@@ -36,6 +28,29 @@
       "roles": [
         "disable"
       ]
+    },
+    {
+      "rel": "child",
+      "href": "./habitat/collection.json",
+      "type": "application/json",
+      "title": "Permanent Grassland LT - Habitat",
+      "endpointtype": "VectorTile source",
+      "id": "habitat"
+    },
+    {
+      "rel": "child",
+      "href": "./LTGSAONECTPG/collection.json",
+      "type": "application/json",
+      "title": "Ecosystem Connectivity of Permanent Grassland Parcels",
+      "endpointtype": "VectorTile source",
+      "id": "LTGSAONECTPG"
+    },
+    {
+      "rel": "service",
+      "href": "https://eoapi.workspace.baltic-gtif.hub-otc.eox.at/vector/collections/public.lt_{{year}}_habitat_pg/items?limit=10000&filter-lang=cql2-text&filter=S_INTERSECTS(geometry,POLYGON(({{bbox.0}}%20{{bbox.1}},{{bbox.2}}%20{{bbox.1}},{{bbox.2}}%20{{bbox.3}},{{bbox.0}}%20{{bbox.3}},{{bbox.0}}%20{{bbox.1}})))",
+      "type": "application/json",
+      "id": "timeseries",
+      "method": "GET"
     },
     {
       "rel": "xyz",
@@ -80,6 +95,8 @@
       "title": "Baltic GTIF Catalog"
     }
   ],
+  "eodash:jsonform": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main/jsonforms/habitat.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main/chartdefs/vega_chart_habitat.json",
   "title": "Habitat and Permanent Grassland ",
   "extent": {
     "spatial": {
@@ -91,10 +108,16 @@
           56.34132054833751
         ],
         [
-          20.489850779605074,
-          53.873106437403216,
-          26.903171787403263,
-          56.34132054833751
+          20.37351690406548,
+          53.71729184024658,
+          26.9521701367242,
+          56.31700190178251
+        ],
+        [
+          20.37351690406548,
+          53.71729184024658,
+          26.9521701367242,
+          56.31700190178251
         ],
         [
           21.228707166566753,
@@ -103,10 +126,10 @@
           55.35223641266015
         ],
         [
-          20.37351690406548,
-          53.71729184024658,
-          26.9521701367242,
-          56.31700190178251
+          20.489850779605074,
+          53.873106437403216,
+          26.903171787403263,
+          56.34132054833751
         ]
       ]
     },
