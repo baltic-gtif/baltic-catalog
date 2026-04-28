@@ -12,6 +12,13 @@
     },
     {
       "rel": "child",
+      "href": "./lt_stackLULC_gsa/collection.json",
+      "type": "application/json",
+      "title": "Land Cover Land Use - Parcels",
+      "id": "lt_stackLULC_gsa"
+    },
+    {
+      "rel": "child",
       "href": "./habitat_pg_indicator/collection.json",
       "type": "application/json",
       "title": "Biodiversity of Permanent Grassland",
