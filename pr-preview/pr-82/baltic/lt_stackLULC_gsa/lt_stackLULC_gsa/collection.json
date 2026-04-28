@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "LTGSAONECTPG",
+  "id": "lt_stackLULC_gsa",
   "stac_version": "1.1.0",
-  "description": "",
+  "description": "Stack created based on the following datasets: GSA (from NPA), Habitat (from Inspire LT), Natura2000 sites, Small Woody Features and CLC+ BackBone",
   "links": [
     {
       "rel": "root",
@@ -11,14 +11,22 @@
       "title": "Baltic GTIF Catalog"
     },
     {
+      "rel": "style",
+      "href": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/stack_vulnerability/2024/style_stacked_masked_datasets_2024.json",
+      "type": "text/cog-styles",
+      "asset:keys": [
+        "Land Cover Land Use"
+      ]
+    },
+    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Biodiversity of Permanent Grassland"
+      "title": "Land Cover Land Use - Parcels"
     }
   ],
-  "endpointtype": "VectorTile source",
-  "title": "Permanent Grassland LT - Ecosystem Connectivity",
+  "endpointtype": "COG source",
+  "title": "Land Cover Land Use - Parcels",
   "extent": {
     "spatial": {
       "bbox": [
