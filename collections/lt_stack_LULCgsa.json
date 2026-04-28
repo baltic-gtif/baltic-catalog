@@ -17,7 +17,7 @@
           "Time": "2024-12-31",
           "Assets": [
             {
-              "Identifier": "Land Cover Land Use",
+              "Identifier": "Land Cover Land Use  with Parcels",
               "File": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/stack_vulnerability/LULC/2024/stacked_datasets_2024.cog"
             }
           ]
@@ -26,7 +26,7 @@
           "Time": "2025-12-31",
           "Assets": [
             {
-              "Identifier": "Land Cover Land Use",
+              "Identifier": "Land Cover Land Use with Parcels",
               "File": "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/stack_vulnerability/LULC/2025/stacked_datasets_2025.cog"
             }
           ]
