@@ -4,14 +4,14 @@
   "Description": "indicators/habitat_and_pgtype/description.md",
   "Collections": [
     "lt_admin_amd1",
-    "lt_stackLULC_gsa",
+    "lt_stack_LULCgsa",
     "lt_stack_LULC",
     "habitatrawlayer",
     "habitat_typePG_lithuania",    
     "lt_gsa_connectivity_pg"
   ],
   "Disable": [
-    "lt_stackLULC_gsa",
+    "lt_stack_LULCgsa",
     "lt_stack_LULC",
     "habitatrawlayer"
   ],
