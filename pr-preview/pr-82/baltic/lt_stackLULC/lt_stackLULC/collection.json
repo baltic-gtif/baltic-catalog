@@ -22,7 +22,7 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Biodiversity of Permanent Grassland"
+      "title": "Land Cover Land Use Map"
     }
   ],
   "endpointtype": "COG source",

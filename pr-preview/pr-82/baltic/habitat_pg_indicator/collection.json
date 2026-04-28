@@ -22,7 +22,7 @@
       "rel": "child",
       "href": "./lt_stackLULC/collection.json",
       "type": "application/json",
-      "title": "Land Cover Land Use - Stack ",
+      "title": "Land Cover Land Use Map",
       "endpointtype": "COG source",
       "id": "lt_stackLULC",
       "roles": [
