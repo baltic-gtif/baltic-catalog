@@ -18,7 +18,7 @@
     }
   ],
   "endpointtype": "VectorTile source",
-  "title": "Permanent Grassland LT - Ecosystem Connectivity",
+  "title": "PG LT - Ecosystem Connectivity",
   "extent": {
     "spatial": {
       "bbox": [
