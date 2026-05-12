@@ -119,7 +119,7 @@
   ],
   "eodash:jsonform": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main/jsonforms/habitat.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main/chartdefs/vega_chart_habitat.json",
-  "title": "Biodiversity of Permanent Grassland",
+  "title": "Biodiversity of Permanent Grassland [PG]",
   "extent": {
     "spatial": {
       "bbox": [

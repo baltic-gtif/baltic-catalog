@@ -95,7 +95,7 @@
       "rel": "child",
       "href": "./habitat_pg_indicator/collection.json",
       "type": "application/json",
-      "title": "Biodiversity of Permanent Grassland",
+      "title": "Biodiversity of Permanent Grassland [PG]",
       "id": "habitat_pg_indicator",
       "thumbnail": [
         "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/grassland_lt.png"
