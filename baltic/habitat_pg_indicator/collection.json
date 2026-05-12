@@ -55,7 +55,7 @@
       "rel": "child",
       "href": "./habitat/collection.json",
       "type": "application/json",
-      "title": "Permanent Grassland LT - Habitat",
+      "title": "PG LT - Habitat",
       "endpointtype": "VectorTile source",
       "id": "habitat"
     },
