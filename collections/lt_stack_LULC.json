@@ -1,6 +1,7 @@
 {
   "Name": "lt_stackLULC",
   "Title": "Land Cover Land Use Map",
+  "Subtitle": "[Code of the LULC categories (PDF)](https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/NCS/stack_vulnerability/LULC/Code_StackLULC.pdf)"
   "Description": "",
   "Resources": [
     {
