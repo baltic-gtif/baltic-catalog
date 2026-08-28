@@ -1,6 +1,6 @@
 {
   "Name": "forest_lt_07",
-  "Title": "Forest Loss in 2024 07",
+  "Title": "Forest Loss in 2024 08 ",
   "Description": "",
   "Resources": [
     {
@@ -17,7 +17,7 @@
         "name": "EPSG:3857"
       },
       "OverwriteBBox": [
-        20.346044679125463,
+        20.34,
         53.589205685662414,
         27.228504818093356,
         56.3666970177088
